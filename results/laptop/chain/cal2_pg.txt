@@ -1,0 +1,11 @@
+== pg2-7 n=114
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=3183769314 closure=0/114 (10.0s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4749147774 closure=1/114 (10.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=6 groupWork=1472210562 closure=3/114 (10.0s)
+   depth 3: roots=[0, 1, 7] refinedClasses=14 ours=EXACT |Aut(H)|=36.0 maxT=720 maxBase=5 groupWork=55159142 closure=6/114 (3.8s)
+   orbit of r2=7: 49 of 49 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 56 of 56 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 114 of 114 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 9; two-sided queries in total: 5
+   |Aut| = 1.12614e+07  ours 33.997s

@@ -1,0 +1,150 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-2 colour=none classes=1 colour_ms=0 |Aut|=128.0 traces_ms=28
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-4 colour=none classes=1 colour_ms=0 |Aut|=2048.0 traces_ms=24
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-6 colour=none classes=1 colour_ms=1 |Aut|=32768.0 traces_ms=30
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-8 colour=none classes=1 colour_ms=0 |Aut|=524288.0 traces_ms=25
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-10 colour=none classes=1 colour_ms=0 |Aut|=8388608.0 traces_ms=32
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-12 colour=none classes=1 colour_ms=1 |Aut|=1.34217728E8 traces_ms=34
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-14 colour=none classes=1 colour_ms=0 |Aut|=2.147483648E9 traces_ms=40
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-16 colour=none classes=1 colour_ms=0 |Aut|=3.4359738368E10 traces_ms=38
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-18 colour=none classes=1 colour_ms=0 |Aut|=5.49755813888E11 traces_ms=37
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-20 colour=none classes=1 colour_ms=0 |Aut|=8.796093022208E12 traces_ms=44
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-22 colour=none classes=1 colour_ms=0 |Aut|=1.40737488355328E14 traces_ms=35
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-24 colour=none classes=1 colour_ms=0 |Aut|=2.251799813685248E15 traces_ms=38
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-26 colour=none classes=1 colour_ms=0 |Aut|=3.602879701896397E16 traces_ms=40
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-28 colour=none classes=1 colour_ms=0 |Aut|=5.764607523034235E17 traces_ms=37
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-30 colour=none classes=1 colour_ms=0 |Aut|=9.223372036854776E18 traces_ms=32
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-32 colour=none classes=1 colour_ms=0 |Aut|=1.4757395258967641E20 traces_ms=31
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-34 colour=none classes=1 colour_ms=1 |Aut|=2.3611832414348226E21 traces_ms=31
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-36 colour=none classes=1 colour_ms=0 |Aut|=3.777893186295716E22 traces_ms=33
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-38 colour=none classes=1 colour_ms=1 |Aut|=6.044629098073146E23 traces_ms=30
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-40 colour=none classes=1 colour_ms=0 |Aut|=9.671406556917033E24 traces_ms=31
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-42 colour=none classes=1 colour_ms=0 |Aut|=1.5474250491067253E26 traces_ms=32
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-44 colour=none classes=1 colour_ms=0 |Aut|=2.4758800785707605E27 traces_ms=36
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-46 colour=none classes=1 colour_ms=0 |Aut|=3.961408125713217E28 traces_ms=40
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-48 colour=none classes=1 colour_ms=0 |Aut|=6.338253001141147E29 traces_ms=42
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACES mz-aug-50 colour=none classes=1 colour_ms=0 |Aut|=1.0141204801825835E31 traces_ms=41

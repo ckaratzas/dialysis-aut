@@ -1,0 +1,40 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN quartic-hog graph_32519: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.13s
+CAMPAIGN quartic-hog graph_21065: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.012s
+CAMPAIGN quartic-hog graph_1340: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.031s
+CAMPAIGN quartic-hog graph_53095: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.01s
+CAMPAIGN quartic-hog graph_51924: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.011s
+CAMPAIGN quartic-hog graph_51927: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.02s
+CAMPAIGN quartic-hog graph_51932: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.017s
+CAMPAIGN quartic-hog graph_51938: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.013s
+CAMPAIGN quartic-hog graph_55123: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.01s
+CAMPAIGN quartic-hog graph_51953: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.014s
+CAMPAIGN quartic-hog graph_50932: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.015s
+CAMPAIGN quartic-hog graph_50935: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.023s
+CAMPAIGN quartic-hog graph_52029: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.012s
+CAMPAIGN quartic-hog graph_52054: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.041s
+CAMPAIGN quartic-hog graph_52055: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.044s
+CAMPAIGN quartic-hog graph_50941: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.167s
+CAMPAIGN quartic-hog graph_52083: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.031s
+CAMPAIGN quartic-hog graph_52092: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.049s
+CAMPAIGN quartic-hog graph_52096: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.05s
+CAMPAIGN quartic-hog graph_52400: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.012s
+CAMPAIGN quartic-hog graph_52105: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.482s
+CAMPAIGN quartic-hog graph_52108: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.039s
+CAMPAIGN quartic-hog graph_52110: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.056s
+CAMPAIGN quartic-hog graph_52119: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.04s
+CAMPAIGN quartic-hog graph_52123: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.319s
+CAMPAIGN quartic-hog graph_50946: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.169s
+CAMPAIGN quartic-hog graph_52148: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.042s
+CAMPAIGN quartic-hog graph_52160: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.006s
+CAMPAIGN quartic-hog graph_50960: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.583s
+CAMPAIGN quartic-hog graph_50964: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.154s
+CAMPAIGN quartic-hog graph_50965: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.135s
+CAMPAIGN quartic-hog graph_50969: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.734s
+CAMPAIGN quartic-hog graph_50970: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.734s
+CAMPAIGN quartic-hog graph_50972: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.199s
+CAMPAIGN quartic-hog graph_50974: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.274s

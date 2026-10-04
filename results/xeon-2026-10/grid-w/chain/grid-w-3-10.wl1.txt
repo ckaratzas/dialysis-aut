@@ -1,0 +1,7 @@
+== grid-w-3-10 n=1000 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3247398000 (9.8s)
+   depth 1: roots=[0] refinedClasses=56 ours=EXACT |Aut(H)|=48.0 maxT=48 maxBase=3 groupWork=413059196 (1.4s)
+   orbit of r0=0: 1000 of 1000 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 6; two-sided queries in total: 1
+   |Aut| = 48000.0  ours 11.345s

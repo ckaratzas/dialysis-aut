@@ -1,0 +1,11 @@
+had had-16 rc=0
+triang triang-12 rc=0
+lattice lattice-8 rc=0
+ag ag2-7 rc=0
+grid-w grid-w-3-8 rc=0
+pg pg2-7 rc=0
+cmz cmz-16 rc=0
+pp pp-9-4 rc=0
+pp pp-16-6 rc=0
+quartic-at graph_0358_001 rc=0
+pp pp-16-20 rc=0

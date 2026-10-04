@@ -1,0 +1,13 @@
+== hypercube-8 n=256 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=601178112 (1.9s)
+   depth 1: roots=[0] refinedClasses=9 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=554529024 (0.7s)
+   depth 2: roots=[0, 1] refinedClasses=16 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=6 groupWork=4504596742 (18.3s)
+   depth 3: roots=[0, 1, 2] refinedClasses=28 ours=STOP_TIME |Aut(H)|=null maxT=720 maxBase=5 groupWork=4502822279 (12.0s)
+   depth 4: roots=[0, 1, 2, 4] refinedClasses=48 ours=EXACT |Aut(H)|=120.0 maxT=120 maxBase=4 groupWork=2389657867 (5.0s)
+   orbit of r3=4: 6 of 6 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=2: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 8 of 8 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 256 of 256 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 8; two-sided queries in total: 4
+   |Aut| = 1.03219e+07  ours 37.961s  formula 1.03219e+07 agree=true

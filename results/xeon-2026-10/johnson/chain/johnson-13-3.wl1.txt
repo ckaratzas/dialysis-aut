@@ -1,0 +1,11 @@
+== johnson-13-3 n=286 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=917099040 (1.8s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=747049160 (0.8s)
+   depth 2: roots=[0, 3] refinedClasses=10 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=722171164 (0.5s)
+   depth 3: roots=[0, 3, 6] refinedClasses=20 ours=EXACT |Aut(H)|=5184.0 maxT=864 maxBase=4 groupWork=1010542374 (4.7s)
+   orbit of r2=6: 35 of 35 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=3: 120 of 120 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 286 of 286 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 13; two-sided queries in total: 3
+   |Aut| = 6.22702e+09  ours 7.948s  formula 6.22702e+09 agree=true

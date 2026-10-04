@@ -1,0 +1,6 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/christos/IdeaProjects/graph-dialysis/build/paper3/dialysis-paper3-layer.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN rnd-3-reg rnd-3-reg-10000-9: EXACT aut=2^null traces= agree= query=  146.08s

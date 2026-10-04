@@ -1,0 +1,6 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,paley-5,5,5,1,,1,,,,5,,84,SKIPPED,,,,,
+single,paley-89,89,1958,1,,1,,,,0,,107,SKIPPED,,,,,
+single,paley-193,193,9264,1,,1,,,,0,,644,SKIPPED,,,,,
+single,paley-337,337,28308,1,,1,,,,4,,2027,SKIPPED,,,,,
+single,paley-461,461,53015,1,,1,,,,0,,546,SKIPPED,,,,,

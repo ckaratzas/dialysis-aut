@@ -1,0 +1,901 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0088-01-1: EXACT aut=2^null traces= agree= query=2->85 NOT_ORBIT_MATES 0.29s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0088-01-2: EXACT aut=2^null traces= agree= query=2->54 ORBIT_MATES 0.088s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0088-02-1: EXACT aut=2^null traces= agree= query=0->74 NOT_ORBIT_MATES 0.066s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0088-02-2: EXACT aut=2^null traces= agree= query=0->33 NOT_ORBIT_MATES 0.059s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0088-03-1: EXACT aut=2^null traces= agree= query=0->34 ORBIT_MATES 0.059s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0088-03-2: EXACT aut=2^null traces= agree= query=1->4 NOT_ORBIT_MATES 0.047s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0088-04-1: EXACT aut=2^null traces= agree= query=0->38 NOT_ORBIT_MATES 0.064s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0088-04-2: EXACT aut=2^null traces= agree= query=0->85 NOT_ORBIT_MATES 0.052s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0176-01-1: EXACT aut=2^null traces= agree= query=1->133 NOT_ORBIT_MATES 0.154s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0176-01-2: EXACT aut=2^null traces= agree= query=2->129 NOT_ORBIT_MATES 0.158s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0176-02-1: EXACT aut=2^null traces= agree= query=4->22 NOT_ORBIT_MATES 0.146s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0176-02-2: EXACT aut=2^null traces= agree= query=6->64 NOT_ORBIT_MATES 0.139s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0176-03-1: EXACT aut=2^null traces= agree= query=7->21 NOT_ORBIT_MATES 0.137s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0176-03-2: EXACT aut=2^null traces= agree= query=0->92 NOT_ORBIT_MATES 0.138s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0176-04-1: EXACT aut=2^null traces= agree= query=0->41 NOT_ORBIT_MATES 0.118s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0176-04-2: EXACT aut=2^null traces= agree= query=9->24 NOT_ORBIT_MATES 0.123s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0264-01-1: EXACT aut=2^null traces= agree= query=2->155 NOT_ORBIT_MATES 0.277s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0264-01-2: EXACT aut=2^null traces= agree= query=8->193 NOT_ORBIT_MATES 0.276s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0264-02-1: EXACT aut=2^null traces= agree= query=1->154 NOT_ORBIT_MATES 0.26s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0264-02-2: EXACT aut=2^null traces= agree= query=0->262 NOT_ORBIT_MATES 0.267s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0264-03-1: EXACT aut=2^null traces= agree= query=0->132 NOT_ORBIT_MATES 0.272s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0264-03-2: EXACT aut=2^null traces= agree= query=4->210 NOT_ORBIT_MATES 0.261s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0264-04-1: EXACT aut=2^null traces= agree= query=2->169 NOT_ORBIT_MATES 0.279s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0264-04-2: EXACT aut=2^null traces= agree= query=1->194 NOT_ORBIT_MATES 0.279s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0352-01-1: EXACT aut=2^null traces= agree= query=2->83 NOT_ORBIT_MATES 0.453s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0352-01-2: EXACT aut=2^null traces= agree= query=4->183 NOT_ORBIT_MATES 0.438s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0352-02-1: EXACT aut=2^null traces= agree= query=11->29 NOT_ORBIT_MATES 0.38s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0352-02-2: EXACT aut=2^null traces= agree= query=11->116 NOT_ORBIT_MATES 0.296s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0352-03-1: EXACT aut=2^null traces= agree= query=0->319 NOT_ORBIT_MATES 0.317s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0352-03-2: EXACT aut=2^null traces= agree= query=1->95 NOT_ORBIT_MATES 0.281s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0352-04-1: EXACT aut=2^null traces= agree= query=3->74 NOT_ORBIT_MATES 0.247s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0352-04-2: EXACT aut=2^null traces= agree= query=0->152 NOT_ORBIT_MATES 0.294s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0440-01-1: EXACT aut=2^null traces= agree= query=4->92 NOT_ORBIT_MATES 0.606s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0440-01-2: EXACT aut=2^null traces= agree= query=1->186 NOT_ORBIT_MATES 0.375s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0440-02-1: EXACT aut=2^null traces= agree= query=1->191 NOT_ORBIT_MATES 0.317s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0440-02-2: EXACT aut=2^null traces= agree= query=1->177 NOT_ORBIT_MATES 0.161s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0440-03-1: EXACT aut=2^null traces= agree= query=3->424 NOT_ORBIT_MATES 0.167s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0440-03-2: EXACT aut=2^null traces= agree= query=3->50 NOT_ORBIT_MATES 0.167s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0440-04-1: EXACT aut=2^null traces= agree= query=0->222 NOT_ORBIT_MATES 0.16s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0440-04-2: EXACT aut=2^null traces= agree= query=4->413 NOT_ORBIT_MATES 0.159s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0528-01-1: EXACT aut=2^null traces= agree= query=1->189 NOT_ORBIT_MATES 0.245s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0528-01-2: EXACT aut=2^null traces= agree= query=1->217 NOT_ORBIT_MATES 0.219s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0528-02-1: EXACT aut=2^null traces= agree= query=1->215 NOT_ORBIT_MATES 0.231s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0528-02-2: EXACT aut=2^null traces= agree= query=0->306 NOT_ORBIT_MATES 0.223s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0528-03-1: EXACT aut=2^null traces= agree= query=1->490 NOT_ORBIT_MATES 0.215s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0528-03-2: EXACT aut=2^null traces= agree= query=2->424 NOT_ORBIT_MATES 0.245s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0528-04-1: EXACT aut=2^null traces= agree= query=0->76 NOT_ORBIT_MATES 0.22s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0528-04-2: EXACT aut=2^null traces= agree= query=1->249 NOT_ORBIT_MATES 0.197s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0616-01-1: EXACT aut=2^null traces= agree= query=1->486 NOT_ORBIT_MATES 0.325s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0616-01-2: EXACT aut=2^null traces= agree= query=3->304 NOT_ORBIT_MATES 0.193s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0616-02-1: EXACT aut=2^null traces= agree= query=3->567 NOT_ORBIT_MATES 0.228s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0616-02-2: EXACT aut=2^null traces= agree= query=4->448 NOT_ORBIT_MATES 0.216s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0616-03-1: EXACT aut=2^null traces= agree= query=2->33 NOT_ORBIT_MATES 0.245s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0616-03-2: EXACT aut=2^null traces= agree= query=4->592 NOT_ORBIT_MATES 0.216s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0616-04-1: EXACT aut=2^null traces= agree= query=5->167 NOT_ORBIT_MATES 0.224s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0616-04-2: EXACT aut=2^null traces= agree= query=0->374 NOT_ORBIT_MATES 0.205s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0704-01-1: EXACT aut=2^null traces= agree= query=3->304 NOT_ORBIT_MATES 0.3s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0704-01-2: EXACT aut=2^null traces= agree= query=1->213 NOT_ORBIT_MATES 0.255s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0704-02-1: EXACT aut=2^null traces= agree= query=6->689 NOT_ORBIT_MATES 0.271s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0704-02-2: EXACT aut=2^null traces= agree= query=11->684 NOT_ORBIT_MATES 0.255s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0704-03-1: EXACT aut=2^null traces= agree= query=2->296 NOT_ORBIT_MATES 0.267s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0704-03-2: EXACT aut=2^null traces= agree= query=2->55 NOT_ORBIT_MATES 0.256s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0704-04-1: EXACT aut=2^null traces= agree= query=1->222 NOT_ORBIT_MATES 0.252s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0704-04-2: EXACT aut=2^null traces= agree= query=0->316 NOT_ORBIT_MATES 0.261s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0792-01-1: EXACT aut=2^null traces= agree= query=0->35 NOT_ORBIT_MATES 0.335s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0792-01-2: EXACT aut=2^null traces= agree= query=1->541 NOT_ORBIT_MATES 0.331s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0792-02-1: EXACT aut=2^null traces= agree= query=8->684 NOT_ORBIT_MATES 0.347s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0792-02-2: EXACT aut=2^null traces= agree= query=0->474 NOT_ORBIT_MATES 0.348s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0792-03-1: EXACT aut=2^null traces= agree= query=3->218 NOT_ORBIT_MATES 0.316s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0792-03-2: EXACT aut=2^null traces= agree= query=3->772 NOT_ORBIT_MATES 0.333s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0792-04-1: EXACT aut=2^null traces= agree= query=3->23 NOT_ORBIT_MATES 0.341s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0792-04-2: EXACT aut=2^null traces= agree= query=0->241 NOT_ORBIT_MATES 0.32s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0880-01-1: EXACT aut=2^null traces= agree= query=7->352 NOT_ORBIT_MATES 0.405s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0880-01-2: EXACT aut=2^null traces= agree= query=0->508 NOT_ORBIT_MATES 0.432s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0880-02-1: EXACT aut=2^null traces= agree= query=2->78 NOT_ORBIT_MATES 0.438s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0880-02-2: EXACT aut=2^null traces= agree= query=3->174 NOT_ORBIT_MATES 0.399s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0880-03-1: EXACT aut=2^null traces= agree= query=0->79 NOT_ORBIT_MATES 0.423s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0880-03-2: EXACT aut=2^null traces= agree= query=7->858 NOT_ORBIT_MATES 0.453s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0880-04-1: EXACT aut=2^null traces= agree= query=1->770 NOT_ORBIT_MATES 0.436s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0880-04-2: EXACT aut=2^null traces= agree= query=0->352 NOT_ORBIT_MATES 0.433s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0968-01-1: EXACT aut=2^null traces= agree= query=5->244 NOT_ORBIT_MATES 0.601s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0968-01-2: EXACT aut=2^null traces= agree= query=2->908 NOT_ORBIT_MATES 0.621s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0968-02-1: EXACT aut=2^null traces= agree= query=4->313 NOT_ORBIT_MATES 0.636s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0968-02-2: EXACT aut=2^null traces= agree= query=0->242 NOT_ORBIT_MATES 0.596s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0968-03-1: EXACT aut=2^null traces= agree= query=2->278 NOT_ORBIT_MATES 0.614s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0968-03-2: EXACT aut=2^null traces= agree= query=0->449 NOT_ORBIT_MATES 0.605s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0968-04-1: EXACT aut=2^null traces= agree= query=0->55 NOT_ORBIT_MATES 0.669s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-0968-04-2: EXACT aut=2^null traces= agree= query=2->52 NOT_ORBIT_MATES 0.626s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1056-01-1: EXACT aut=2^null traces= agree= query=1->416 NOT_ORBIT_MATES 0.718s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1056-01-2: EXACT aut=2^null traces= agree= query=5->217 NOT_ORBIT_MATES 0.698s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1056-02-1: EXACT aut=2^null traces= agree= query=0->360 NOT_ORBIT_MATES 0.711s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1056-02-2: EXACT aut=2^null traces= agree= query=0->236 NOT_ORBIT_MATES 0.713s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1056-03-1: EXACT aut=2^null traces= agree= query=1->933 NOT_ORBIT_MATES 0.712s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1056-03-2: EXACT aut=2^null traces= agree= query=1->769 NOT_ORBIT_MATES 0.68s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1056-04-1: EXACT aut=2^null traces= agree= query=0->564 NOT_ORBIT_MATES 0.558s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1056-04-2: EXACT aut=2^null traces= agree= query=0->901 NOT_ORBIT_MATES 0.541s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1144-01-1: EXACT aut=2^null traces= agree= query=2->526 NOT_ORBIT_MATES 0.665s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1144-01-2: EXACT aut=2^null traces= agree= query=4->491 NOT_ORBIT_MATES 0.776s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1144-02-1: EXACT aut=2^null traces= agree= query=0->512 NOT_ORBIT_MATES 0.837s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1144-02-2: EXACT aut=2^null traces= agree= query=0->224 NOT_ORBIT_MATES 0.826s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1144-03-1: EXACT aut=2^null traces= agree= query=4->176 NOT_ORBIT_MATES 0.818s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1144-03-2: EXACT aut=2^null traces= agree= query=2->915 NOT_ORBIT_MATES 0.813s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1144-04-1: EXACT aut=2^null traces= agree= query=2->657 NOT_ORBIT_MATES 0.795s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1144-04-2: EXACT aut=2^null traces= agree= query=2->635 NOT_ORBIT_MATES 0.809s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1232-01-1: EXACT aut=2^null traces= agree= query=6->1025 NOT_ORBIT_MATES 0.912s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1232-01-2: EXACT aut=2^null traces= agree= query=2->880 NOT_ORBIT_MATES 0.918s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1232-02-1: EXACT aut=2^null traces= agree= query=3->150 NOT_ORBIT_MATES 0.917s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1232-02-2: EXACT aut=2^null traces= agree= query=2->699 NOT_ORBIT_MATES 0.916s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1232-03-1: EXACT aut=2^null traces= agree= query=8->1014 NOT_ORBIT_MATES 0.916s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1232-03-2: EXACT aut=2^null traces= agree= query=2->877 NOT_ORBIT_MATES 0.956s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1232-04-1: EXACT aut=2^null traces= agree= query=6->530 NOT_ORBIT_MATES 0.955s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1232-04-2: EXACT aut=2^null traces= agree= query=2->1162 NOT_ORBIT_MATES 0.951s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1320-01-1: EXACT aut=2^null traces= agree= query=7->788 NOT_ORBIT_MATES 1.111s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1320-01-2: EXACT aut=2^null traces= agree= query=4->409 NOT_ORBIT_MATES 1.117s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1320-02-1: EXACT aut=2^null traces= agree= query=3->393 NOT_ORBIT_MATES 1.092s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1320-02-2: EXACT aut=2^null traces= agree= query=3->876 NOT_ORBIT_MATES 1.105s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1320-03-1: EXACT aut=2^null traces= agree= query=5->938 NOT_ORBIT_MATES 1.098s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1320-03-2: EXACT aut=2^null traces= agree= query=4->775 NOT_ORBIT_MATES 1.089s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1320-04-1: EXACT aut=2^null traces= agree= query=3->1047 NOT_ORBIT_MATES 1.092s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1320-04-2: EXACT aut=2^null traces= agree= query=8->823 NOT_ORBIT_MATES 1.087s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1408-01-1: EXACT aut=2^null traces= agree= query=4->210 NOT_ORBIT_MATES 1.231s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1408-01-2: EXACT aut=2^null traces= agree= query=0->11 NOT_ORBIT_MATES 1.214s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1408-02-1: EXACT aut=2^null traces= agree= query=2->611 NOT_ORBIT_MATES 1.283s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1408-02-2: EXACT aut=2^null traces= agree= query=3->1241 NOT_ORBIT_MATES 1.228s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1408-03-1: EXACT aut=2^null traces= agree= query=2->1103 NOT_ORBIT_MATES 1.248s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1408-03-2: EXACT aut=2^null traces= agree= query=5->505 NOT_ORBIT_MATES 1.174s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1408-04-1: EXACT aut=2^null traces= agree= query=0->677 NOT_ORBIT_MATES 1.209s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1408-04-2: EXACT aut=2^null traces= agree= query=9->203 NOT_ORBIT_MATES 1.267s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1496-01-1: EXACT aut=2^null traces= agree= query=2->715 NOT_ORBIT_MATES 1.36s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1496-01-2: EXACT aut=2^null traces= agree= query=2->1433 NOT_ORBIT_MATES 1.38s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1496-02-1: EXACT aut=2^null traces= agree= query=2->1409 NOT_ORBIT_MATES 1.375s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1496-02-2: EXACT aut=2^null traces= agree= query=0->845 NOT_ORBIT_MATES 1.378s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1496-03-1: EXACT aut=2^null traces= agree= query=1->298 NOT_ORBIT_MATES 1.365s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1496-03-2: EXACT aut=2^null traces= agree= query=3->1303 NOT_ORBIT_MATES 1.441s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1496-04-1: EXACT aut=2^null traces= agree= query=8->1191 NOT_ORBIT_MATES 1.365s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1496-04-2: EXACT aut=2^null traces= agree= query=0->722 NOT_ORBIT_MATES 1.402s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1584-01-1: EXACT aut=2^null traces= agree= query=0->471 NOT_ORBIT_MATES 1.556s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1584-01-2: EXACT aut=2^null traces= agree= query=0->878 NOT_ORBIT_MATES 1.581s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1584-02-1: EXACT aut=2^null traces= agree= query=0->1445 NOT_ORBIT_MATES 1.566s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1584-02-2: EXACT aut=2^null traces= agree= query=0->922 NOT_ORBIT_MATES 1.61s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1584-03-1: EXACT aut=2^null traces= agree= query=0->586 NOT_ORBIT_MATES 1.569s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1584-03-2: EXACT aut=2^null traces= agree= query=3->1536 NOT_ORBIT_MATES 1.495s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1584-04-1: EXACT aut=2^null traces= agree= query=0->643 NOT_ORBIT_MATES 1.568s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1584-04-2: EXACT aut=2^null traces= agree= query=4->408 NOT_ORBIT_MATES 1.582s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1672-01-1: EXACT aut=2^null traces= agree= query=0->1566 NOT_ORBIT_MATES 1.727s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1672-01-2: EXACT aut=2^null traces= agree= query=0->188 NOT_ORBIT_MATES 1.744s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1672-02-1: EXACT aut=2^null traces= agree= query=7->598 NOT_ORBIT_MATES 1.726s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1672-02-2: EXACT aut=2^null traces= agree= query=3->748 NOT_ORBIT_MATES 1.708s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1672-03-1: EXACT aut=2^null traces= agree= query=7->559 NOT_ORBIT_MATES 1.712s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1672-03-2: EXACT aut=2^null traces= agree= query=3->786 NOT_ORBIT_MATES 1.678s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1672-04-1: EXACT aut=2^null traces= agree= query=0->1248 NOT_ORBIT_MATES 1.719s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1672-04-2: EXACT aut=2^null traces= agree= query=2->174 NOT_ORBIT_MATES 1.626s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1760-01-1: EXACT aut=2^null traces= agree= query=1->1540 NOT_ORBIT_MATES 1.736s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1760-01-2: EXACT aut=2^null traces= agree= query=0->197 NOT_ORBIT_MATES 1.351s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1760-02-1: EXACT aut=2^null traces= agree= query=0->1518 NOT_ORBIT_MATES 1.511s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1760-02-2: EXACT aut=2^null traces= agree= query=3->637 NOT_ORBIT_MATES 1.632s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1760-03-1: EXACT aut=2^null traces= agree= query=8->1406 NOT_ORBIT_MATES 1.841s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1760-03-2: EXACT aut=2^null traces= agree= query=2->108 NOT_ORBIT_MATES 1.755s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1760-04-1: EXACT aut=2^null traces= agree= query=4->976 NOT_ORBIT_MATES 1.647s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1760-04-2: EXACT aut=2^null traces= agree= query=1->1317 NOT_ORBIT_MATES 1.701s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1848-01-1: EXACT aut=2^null traces= agree= query=1->305 NOT_ORBIT_MATES 1.75s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1848-01-2: EXACT aut=2^null traces= agree= query=2->1198 NOT_ORBIT_MATES 1.587s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1848-02-1: EXACT aut=2^null traces= agree= query=1->827 NOT_ORBIT_MATES 1.911s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1848-02-2: EXACT aut=2^null traces= agree= query=0->370 NOT_ORBIT_MATES 1.989s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1848-03-1: EXACT aut=2^null traces= agree= query=0->723 NOT_ORBIT_MATES 1.73s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1848-03-2: EXACT aut=2^null traces= agree= query=0->300 NOT_ORBIT_MATES 1.976s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1848-04-1: EXACT aut=2^null traces= agree= query=0->1461 NOT_ORBIT_MATES 1.882s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1848-04-2: EXACT aut=2^null traces= agree= query=1->470 NOT_ORBIT_MATES 1.855s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1936-01-1: EXACT aut=2^null traces= agree= query=0->979 NOT_ORBIT_MATES 2.041s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1936-01-2: EXACT aut=2^null traces= agree= query=6->1662 NOT_ORBIT_MATES 1.969s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1936-02-1: EXACT aut=2^null traces= agree= query=0->1017 NOT_ORBIT_MATES 1.968s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1936-02-2: EXACT aut=2^null traces= agree= query=0->979 NOT_ORBIT_MATES 2.028s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1936-03-1: EXACT aut=2^null traces= agree= query=2->1153 NOT_ORBIT_MATES 2.104s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1936-03-2: EXACT aut=2^null traces= agree= query=1->396 NOT_ORBIT_MATES 2.232s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1936-04-1: EXACT aut=2^null traces= agree= query=3->1836 NOT_ORBIT_MATES 1.781s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-1936-04-2: EXACT aut=2^null traces= agree= query=5->791 NOT_ORBIT_MATES 1.773s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2024-01-1: EXACT aut=2^null traces= agree= query=0->315 NOT_ORBIT_MATES 1.939s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2024-01-2: EXACT aut=2^null traces= agree= query=3->1924 NOT_ORBIT_MATES 1.923s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2024-02-1: EXACT aut=2^null traces= agree= query=0->375 NOT_ORBIT_MATES 1.98s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2024-02-2: EXACT aut=2^null traces= agree= query=1->604 NOT_ORBIT_MATES 1.959s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2024-03-1: EXACT aut=2^null traces= agree= query=2->624 NOT_ORBIT_MATES 2.07s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2024-03-2: EXACT aut=2^null traces= agree= query=2->302 NOT_ORBIT_MATES 2.359s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2024-04-1: EXACT aut=2^null traces= agree= query=1->820 NOT_ORBIT_MATES 2.297s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2024-04-2: EXACT aut=2^null traces= agree= query=1->1146 NOT_ORBIT_MATES 2.004s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2112-01-1: EXACT aut=2^null traces= agree= query=7->21 NOT_ORBIT_MATES 2.416s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2112-01-2: EXACT aut=2^null traces= agree= query=1->390 NOT_ORBIT_MATES 2.149s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2112-02-1: EXACT aut=2^null traces= agree= query=4->397 NOT_ORBIT_MATES 2.15s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2112-02-2: EXACT aut=2^null traces= agree= query=2->340 NOT_ORBIT_MATES 2.403s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2112-03-1: EXACT aut=2^null traces= agree= query=0->630 NOT_ORBIT_MATES 2.134s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2112-03-2: EXACT aut=2^null traces= agree= query=2->1701 NOT_ORBIT_MATES 2.49s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2112-04-1: EXACT aut=2^null traces= agree= query=0->2078 NOT_ORBIT_MATES 2.679s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2112-04-2: EXACT aut=2^null traces= agree= query=5->598 NOT_ORBIT_MATES 2.639s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2200-01-1: EXACT aut=2^null traces= agree= query=1->263 NOT_ORBIT_MATES 2.776s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2200-01-2: EXACT aut=2^null traces= agree= query=2->779 NOT_ORBIT_MATES 2.599s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2200-02-1: EXACT aut=2^null traces= agree= query=1->790 NOT_ORBIT_MATES 2.341s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2200-02-2: EXACT aut=2^null traces= agree= query=3->2025 NOT_ORBIT_MATES 2.446s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2200-03-1: EXACT aut=2^null traces= agree= query=4->1411 NOT_ORBIT_MATES 3.025s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2200-03-2: EXACT aut=2^null traces= agree= query=1->1898 NOT_ORBIT_MATES 2.947s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2200-04-1: EXACT aut=2^null traces= agree= query=2->1982 NOT_ORBIT_MATES 2.99s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2200-04-2: EXACT aut=2^null traces= agree= query=5->514 NOT_ORBIT_MATES 2.921s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2288-01-1: EXACT aut=2^null traces= agree= query=0->720 NOT_ORBIT_MATES 3.153s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2288-01-2: EXACT aut=2^null traces= agree= query=1->977 NOT_ORBIT_MATES 3.195s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2288-02-1: EXACT aut=2^null traces= agree= query=3->2196 NOT_ORBIT_MATES 3.151s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2288-02-2: EXACT aut=2^null traces= agree= query=1->2077 NOT_ORBIT_MATES 3.185s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2288-03-1: EXACT aut=2^null traces= agree= query=1->1121 NOT_ORBIT_MATES 3.132s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2288-03-2: EXACT aut=2^null traces= agree= query=3->1974 NOT_ORBIT_MATES 3.152s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2288-04-1: EXACT aut=2^null traces= agree= query=1->1345 NOT_ORBIT_MATES 3.004s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2288-04-2: EXACT aut=2^null traces= agree= query=1->1457 NOT_ORBIT_MATES 3.167s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2376-01-1: EXACT aut=2^null traces= agree= query=4->1915 NOT_ORBIT_MATES 3.405s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2376-01-2: EXACT aut=2^null traces= agree= query=5->1465 NOT_ORBIT_MATES 2.487s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2376-02-1: EXACT aut=2^null traces= agree= query=1->2018 NOT_ORBIT_MATES 2.763s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2376-02-2: EXACT aut=2^null traces= agree= query=2->1178 NOT_ORBIT_MATES 3.407s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2376-03-1: EXACT aut=2^null traces= agree= query=1->877 NOT_ORBIT_MATES 3.33s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2376-03-2: EXACT aut=2^null traces= agree= query=2->1170 NOT_ORBIT_MATES 3.332s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2376-04-1: EXACT aut=2^null traces= agree= query=4->1534 NOT_ORBIT_MATES 3.4s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2376-04-2: EXACT aut=2^null traces= agree= query=0->2130 NOT_ORBIT_MATES 3.378s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2464-01-1: EXACT aut=2^null traces= agree= query=0->2205 NOT_ORBIT_MATES 3.637s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2464-01-2: EXACT aut=2^null traces= agree= query=2->176 NOT_ORBIT_MATES 3.566s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2464-02-1: EXACT aut=2^null traces= agree= query=5->605 NOT_ORBIT_MATES 3.45s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2464-02-2: EXACT aut=2^null traces= agree= query=1->1759 NOT_ORBIT_MATES 3.343s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2464-03-1: EXACT aut=2^null traces= agree= query=3->508 NOT_ORBIT_MATES 3.348s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2464-03-2: EXACT aut=2^null traces= agree= query=2->2193 NOT_ORBIT_MATES 3.63s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2464-04-1: EXACT aut=2^null traces= agree= query=1->539 NOT_ORBIT_MATES 3.648s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2464-04-2: EXACT aut=2^null traces= agree= query=5->581 NOT_ORBIT_MATES 3.607s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2552-01-1: EXACT aut=2^null traces= agree= query=3->1426 NOT_ORBIT_MATES 3.888s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2552-01-2: EXACT aut=2^null traces= agree= query=4->961 NOT_ORBIT_MATES 3.869s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2552-02-1: EXACT aut=2^null traces= agree= query=0->2481 NOT_ORBIT_MATES 3.61s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2552-02-2: EXACT aut=2^null traces= agree= query=15->2220 NOT_ORBIT_MATES 3.891s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2552-03-1: EXACT aut=2^null traces= agree= query=3->1363 NOT_ORBIT_MATES 3.704s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2552-03-2: EXACT aut=2^null traces= agree= query=4->2545 NOT_ORBIT_MATES 3.781s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2552-04-1: EXACT aut=2^null traces= agree= query=1->965 NOT_ORBIT_MATES 3.859s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2552-04-2: EXACT aut=2^null traces= agree= query=0->1182 NOT_ORBIT_MATES 3.877s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2640-01-1: EXACT aut=2^null traces= agree= query=6->608 NOT_ORBIT_MATES 4.118s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2640-01-2: EXACT aut=2^null traces= agree= query=4->1504 NOT_ORBIT_MATES 4.117s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2640-02-1: EXACT aut=2^null traces= agree= query=4->1048 NOT_ORBIT_MATES 4.052s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2640-02-2: EXACT aut=2^null traces= agree= query=2->1501 NOT_ORBIT_MATES 4.108s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2640-03-1: EXACT aut=2^null traces= agree= query=7->698 NOT_ORBIT_MATES 4.066s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2640-03-2: EXACT aut=2^null traces= agree= query=2->1146 NOT_ORBIT_MATES 4.096s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2640-04-1: EXACT aut=2^null traces= agree= query=5->1324 NOT_ORBIT_MATES 3.526s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2640-04-2: EXACT aut=2^null traces= agree= query=0->80 NOT_ORBIT_MATES 3.41s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2728-01-1: EXACT aut=2^null traces= agree= query=3->2516 NOT_ORBIT_MATES 3.563s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2728-01-2: EXACT aut=2^null traces= agree= query=0->72 NOT_ORBIT_MATES 3.573s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2728-02-1: EXACT aut=2^null traces= agree= query=3->2406 NOT_ORBIT_MATES 3.582s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2728-02-2: EXACT aut=2^null traces= agree= query=2->2446 NOT_ORBIT_MATES 3.596s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2728-03-1: EXACT aut=2^null traces= agree= query=0->1504 NOT_ORBIT_MATES 3.627s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2728-03-2: EXACT aut=2^null traces= agree= query=1->2512 NOT_ORBIT_MATES 3.586s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2728-04-1: EXACT aut=2^null traces= agree= query=0->1870 NOT_ORBIT_MATES 3.589s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2728-04-2: EXACT aut=2^null traces= agree= query=6->444 NOT_ORBIT_MATES 3.46s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2816-01-1: EXACT aut=2^null traces= agree= query=0->295 NOT_ORBIT_MATES 3.868s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2816-01-2: EXACT aut=2^null traces= agree= query=3->765 NOT_ORBIT_MATES 4.279s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2816-02-1: EXACT aut=2^null traces= agree= query=5->2390 NOT_ORBIT_MATES 4.239s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2816-02-2: EXACT aut=2^null traces= agree= query=4->2161 NOT_ORBIT_MATES 4.463s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2816-03-1: EXACT aut=2^null traces= agree= query=1->2192 NOT_ORBIT_MATES 3.933s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2816-03-2: EXACT aut=2^null traces= agree= query=2->1025 NOT_ORBIT_MATES 3.872s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2816-04-1: EXACT aut=2^null traces= agree= query=5->1546 NOT_ORBIT_MATES 4.017s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2816-04-2: EXACT aut=2^null traces= agree= query=0->2297 NOT_ORBIT_MATES 3.486s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2904-01-1: EXACT aut=2^null traces= agree= query=0->2446 NOT_ORBIT_MATES 3.701s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2904-01-2: EXACT aut=2^null traces= agree= query=1->1557 NOT_ORBIT_MATES 3.911s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2904-02-1: EXACT aut=2^null traces= agree= query=2->1934 NOT_ORBIT_MATES 4.123s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2904-02-2: EXACT aut=2^null traces= agree= query=13->1961 NOT_ORBIT_MATES 4.095s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2904-03-1: EXACT aut=2^null traces= agree= query=1->2418 NOT_ORBIT_MATES 4.167s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2904-03-2: EXACT aut=2^null traces= agree= query=3->2119 NOT_ORBIT_MATES 4.126s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2904-04-1: EXACT aut=2^null traces= agree= query=0->2496 NOT_ORBIT_MATES 4.154s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2904-04-2: EXACT aut=2^null traces= agree= query=4->2644 NOT_ORBIT_MATES 4.145s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2992-01-1: EXACT aut=2^null traces= agree= query=3->1406 NOT_ORBIT_MATES 4.353s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2992-01-2: EXACT aut=2^null traces= agree= query=2->2865 NOT_ORBIT_MATES 4.278s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2992-02-1: EXACT aut=2^null traces= agree= query=1->1956 NOT_ORBIT_MATES 4.266s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2992-02-2: EXACT aut=2^null traces= agree= query=0->933 NOT_ORBIT_MATES 4.24s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2992-03-1: EXACT aut=2^null traces= agree= query=2->650 NOT_ORBIT_MATES 4.011s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2992-03-2: EXACT aut=2^null traces= agree= query=0->2784 NOT_ORBIT_MATES 4.213s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2992-04-1: EXACT aut=2^null traces= agree= query=8->231 NOT_ORBIT_MATES 4.263s
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-2992-04-2: EXACT aut=2^null traces= agree= query=1->2143 NOT_ORBIT_MATES 4.236s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3080-01-1: EXACT aut=2^null traces= agree= query=5->1134 NOT_ORBIT_MATES 7.256s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3080-01-2: EXACT aut=2^null traces= agree= query=4->2629 NOT_ORBIT_MATES 7.898s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3080-02-1: EXACT aut=2^null traces= agree= query=5->1951 NOT_ORBIT_MATES 8.102s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3080-02-2: EXACT aut=2^null traces= agree= query=0->1939 NOT_ORBIT_MATES 9.629s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3080-03-1: EXACT aut=2^null traces= agree= query=3->594 NOT_ORBIT_MATES 8.758s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3080-03-2: EXACT aut=2^null traces= agree= query=2->2999 NOT_ORBIT_MATES 11.207s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3080-04-1: EXACT aut=2^null traces= agree= query=1->759 NOT_ORBIT_MATES 10.898s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3080-04-2: EXACT aut=2^null traces= agree= query=7->2871 NOT_ORBIT_MATES 10.772s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3168-01-1: EXACT aut=2^null traces= agree= query=0->184 NOT_ORBIT_MATES 9.201s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3168-01-2: EXACT aut=2^null traces= agree= query=2->243 NOT_ORBIT_MATES 7.638s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3168-02-1: EXACT aut=2^null traces= agree= query=2->745 NOT_ORBIT_MATES 8.887s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3168-02-2: EXACT aut=2^null traces= agree= query=0->2200 NOT_ORBIT_MATES 9.576s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3168-03-1: EXACT aut=2^null traces= agree= query=0->1831 NOT_ORBIT_MATES 8.458s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3168-03-2: EXACT aut=2^null traces= agree= query=5->1789 NOT_ORBIT_MATES 10.825s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3168-04-1: EXACT aut=2^null traces= agree= query=0->2775 NOT_ORBIT_MATES 8.11s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3168-04-2: EXACT aut=2^null traces= agree= query=1->1757 NOT_ORBIT_MATES 10.695s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3256-01-1: EXACT aut=2^null traces= agree= query=0->207 NOT_ORBIT_MATES 9.618s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3256-01-2: EXACT aut=2^null traces= agree= query=1->2471 NOT_ORBIT_MATES 11.182s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3256-02-1: EXACT aut=2^null traces= agree= query=1->936 NOT_ORBIT_MATES 10.725s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3256-02-2: EXACT aut=2^null traces= agree= query=4->2777 NOT_ORBIT_MATES 8.911s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3256-03-1: EXACT aut=2^null traces= agree= query=2->2678 NOT_ORBIT_MATES 9.724s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3256-03-2: EXACT aut=2^null traces= agree= query=1->1149 NOT_ORBIT_MATES 10.81s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3256-04-1: EXACT aut=2^null traces= agree= query=0->178 NOT_ORBIT_MATES 11.048s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3256-04-2: EXACT aut=2^null traces= agree= query=0->961 NOT_ORBIT_MATES 9.583s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3344-01-1: EXACT aut=2^null traces= agree= query=4->2602 NOT_ORBIT_MATES 7.887s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3344-01-2: EXACT aut=2^null traces= agree= query=1->692 NOT_ORBIT_MATES 9.964s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3344-02-1: EXACT aut=2^null traces= agree= query=4->638 NOT_ORBIT_MATES 9.437s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3344-02-2: EXACT aut=2^null traces= agree= query=1->156 NOT_ORBIT_MATES 11.167s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3344-03-1: EXACT aut=2^null traces= agree= query=4->715 NOT_ORBIT_MATES 10.197s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3344-03-2: EXACT aut=2^null traces= agree= query=0->1846 NOT_ORBIT_MATES 11.161s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3344-04-1: EXACT aut=2^null traces= agree= query=0->829 NOT_ORBIT_MATES 8.584s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3344-04-2: EXACT aut=2^null traces= agree= query=2->2081 NOT_ORBIT_MATES 9.565s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3432-01-1: EXACT aut=2^null traces= agree= query=0->902 NOT_ORBIT_MATES 8.761s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3432-01-2: EXACT aut=2^null traces= agree= query=0->2165 NOT_ORBIT_MATES 12.277s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3432-02-1: EXACT aut=2^null traces= agree= query=0->1873 NOT_ORBIT_MATES 11.179s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3432-02-2: EXACT aut=2^null traces= agree= query=2->1186 NOT_ORBIT_MATES 12.721s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3432-03-1: EXACT aut=2^null traces= agree= query=3->2487 NOT_ORBIT_MATES 10.339s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3432-03-2: EXACT aut=2^null traces= agree= query=1->3198 NOT_ORBIT_MATES 10.296s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3432-04-1: EXACT aut=2^null traces= agree= query=1->412 NOT_ORBIT_MATES 9.67s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3432-04-2: EXACT aut=2^null traces= agree= query=0->2085 NOT_ORBIT_MATES 10.681s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3520-01-1: EXACT aut=2^null traces= agree= query=2->2706 NOT_ORBIT_MATES 10.874s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3520-01-2: EXACT aut=2^null traces= agree= query=0->125 NOT_ORBIT_MATES 10.736s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3520-02-1: EXACT aut=2^null traces= agree= query=0->3376 NOT_ORBIT_MATES 11.611s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3520-02-2: EXACT aut=2^null traces= agree= query=1->3364 NOT_ORBIT_MATES 11.702s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3520-03-1: EXACT aut=2^null traces= agree= query=3->3257 NOT_ORBIT_MATES 11.194s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3520-03-2: EXACT aut=2^null traces= agree= query=2->2951 NOT_ORBIT_MATES 9.77s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3520-04-1: EXACT aut=2^null traces= agree= query=1->363 NOT_ORBIT_MATES 11.313s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3520-04-2: EXACT aut=2^null traces= agree= query=6->3406 NOT_ORBIT_MATES 10.516s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3608-01-1: EXACT aut=2^null traces= agree= query=6->2699 NOT_ORBIT_MATES 12.121s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3608-01-2: EXACT aut=2^null traces= agree= query=0->2684 NOT_ORBIT_MATES 11.432s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3608-02-1: EXACT aut=2^null traces= agree= query=2->2412 NOT_ORBIT_MATES 9.467s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3608-02-2: EXACT aut=2^null traces= agree= query=1->1554 NOT_ORBIT_MATES 11.23s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3608-03-1: EXACT aut=2^null traces= agree= query=0->2445 NOT_ORBIT_MATES 10.749s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3608-03-2: EXACT aut=2^null traces= agree= query=3->1158 NOT_ORBIT_MATES 10.605s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3608-04-1: EXACT aut=2^null traces= agree= query=0->3158 NOT_ORBIT_MATES 10.019s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3608-04-2: EXACT aut=2^null traces= agree= query=6->80 NOT_ORBIT_MATES 10.629s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3696-01-1: EXACT aut=2^null traces= agree= query=2->2613 NOT_ORBIT_MATES 11.479s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3696-01-2: EXACT aut=2^null traces= agree= query=3->3225 NOT_ORBIT_MATES 13.198s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3696-02-1: EXACT aut=2^null traces= agree= query=3->3494 NOT_ORBIT_MATES 12.925s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3696-02-2: EXACT aut=2^null traces= agree= query=0->971 NOT_ORBIT_MATES 12.748s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3696-03-1: EXACT aut=2^null traces= agree= query=0->3443 NOT_ORBIT_MATES 10.713s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3696-03-2: EXACT aut=2^null traces= agree= query=1->1684 NOT_ORBIT_MATES 11.326s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3696-04-1: EXACT aut=2^null traces= agree= query=0->1722 NOT_ORBIT_MATES 10.734s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3696-04-2: EXACT aut=2^null traces= agree= query=1->2742 NOT_ORBIT_MATES 11.389s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3784-01-1: EXACT aut=2^null traces= agree= query=8->1006 NOT_ORBIT_MATES 12.997s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3784-01-2: EXACT aut=2^null traces= agree= query=1->1505 NOT_ORBIT_MATES 10.934s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3784-02-1: EXACT aut=2^null traces= agree= query=2->1282 NOT_ORBIT_MATES 11.287s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3784-02-2: EXACT aut=2^null traces= agree= query=3->2010 NOT_ORBIT_MATES 11.199s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3784-03-1: EXACT aut=2^null traces= agree= query=2->580 NOT_ORBIT_MATES 11.621s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3784-03-2: EXACT aut=2^null traces= agree= query=3->3166 NOT_ORBIT_MATES 9.344s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3784-04-1: EXACT aut=2^null traces= agree= query=1->2810 NOT_ORBIT_MATES 12.758s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3784-04-2: EXACT aut=2^null traces= agree= query=8->1086 NOT_ORBIT_MATES 10.218s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3872-01-1: EXACT aut=2^null traces= agree= query=3->348 NOT_ORBIT_MATES 10.746s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3872-01-2: EXACT aut=2^null traces= agree= query=0->2398 NOT_ORBIT_MATES 11.82s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3872-02-1: EXACT aut=2^null traces= agree= query=9->2813 NOT_ORBIT_MATES 11.416s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3872-02-2: EXACT aut=2^null traces= agree= query=2->1016 NOT_ORBIT_MATES 13.647s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3872-03-1: EXACT aut=2^null traces= agree= query=4->840 NOT_ORBIT_MATES 13.538s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3872-03-2: EXACT aut=2^null traces= agree= query=3->2635 NOT_ORBIT_MATES 14.208s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3872-04-1: EXACT aut=2^null traces= agree= query=2->229 NOT_ORBIT_MATES 13.945s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3872-04-2: EXACT aut=2^null traces= agree= query=3->1497 NOT_ORBIT_MATES 12.674s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3960-01-1: EXACT aut=2^null traces= agree= query=9->733 NOT_ORBIT_MATES 12.319s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3960-01-2: EXACT aut=2^null traces= agree= query=1->2898 NOT_ORBIT_MATES 12.442s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3960-02-1: EXACT aut=2^null traces= agree= query=0->492 NOT_ORBIT_MATES 10.738s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3960-02-2: EXACT aut=2^null traces= agree= query=1->1400 NOT_ORBIT_MATES 12.643s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3960-03-1: EXACT aut=2^null traces= agree= query=0->23 NOT_ORBIT_MATES 13.233s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3960-03-2: EXACT aut=2^null traces= agree= query=0->2634 NOT_ORBIT_MATES 12.039s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3960-04-1: EXACT aut=2^null traces= agree= query=2->2498 NOT_ORBIT_MATES 13.809s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-3960-04-2: EXACT aut=2^null traces= agree= query=0->1882 NOT_ORBIT_MATES 13.352s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4048-01-1: EXACT aut=2^null traces= agree= query=6->3866 NOT_ORBIT_MATES 11.092s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4048-01-2: EXACT aut=2^null traces= agree= query=0->930 NOT_ORBIT_MATES 13.093s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4048-02-1: EXACT aut=2^null traces= agree= query=4->3229 NOT_ORBIT_MATES 13.43s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4048-02-2: EXACT aut=2^null traces= agree= query=2->1281 NOT_ORBIT_MATES 10.638s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4048-03-1: EXACT aut=2^null traces= agree= query=6->989 NOT_ORBIT_MATES 13.806s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4048-03-2: EXACT aut=2^null traces= agree= query=0->1885 NOT_ORBIT_MATES 10.756s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4048-04-1: EXACT aut=2^null traces= agree= query=0->3564 NOT_ORBIT_MATES 13.128s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4048-04-2: EXACT aut=2^null traces= agree= query=2->2278 NOT_ORBIT_MATES 13.329s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4136-01-1: EXACT aut=2^null traces= agree= query=6->1422 NOT_ORBIT_MATES 13.655s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4136-01-2: EXACT aut=2^null traces= agree= query=0->895 NOT_ORBIT_MATES 12.658s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4136-02-1: EXACT aut=2^null traces= agree= query=0->2359 NOT_ORBIT_MATES 12.95s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4136-02-2: EXACT aut=2^null traces= agree= query=0->2951 NOT_ORBIT_MATES 14.619s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4136-03-1: EXACT aut=2^null traces= agree= query=4->215 NOT_ORBIT_MATES 14.158s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4136-03-2: EXACT aut=2^null traces= agree= query=6->1923 NOT_ORBIT_MATES 13.936s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4136-04-1: EXACT aut=2^null traces= agree= query=7->731 NOT_ORBIT_MATES 12.813s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-z2 cfi-rigid-z2-4136-04-2: EXACT aut=2^null traces= agree= query=3->2970 NOT_ORBIT_MATES 13.93s

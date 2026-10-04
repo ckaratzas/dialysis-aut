@@ -1,0 +1,30 @@
+== triang-12 n=66
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=95338782 (0.4s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=95330466 (0.2s)
+   depth 2: roots=[0, 21] refinedClasses=6 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=95342940 (0.1s)
+   depth 3: roots=[0, 21, 38] refinedClasses=10 ours=EXACT |Aut(H)|=5760.0 maxT=1440 maxBase=5 groupWork=370748802 (9.1s)
+   orbit of r2=38: 28 of 28 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=21: 45 of 45 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 66 of 66 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 11; two-sided queries in total: 3
+   |Aut| = 4.79002e+08  ours 10.875s  Traces 4.79002e+08  agree=true  traces 0.003s
+== triang-20 n=190
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1096680 (0.0s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1054500 (0.0s)
+   depth 2: roots=[0, 37] refinedClasses=6 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=1181040 (0.0s)
+   depth 3: roots=[0, 37, 70] refinedClasses=10 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=1307580 (0.0s)
+   depth 4: roots=[0, 37, 70, 99] refinedClasses=15 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=483994410 (0.4s)
+   depth 5: roots=[0, 37, 70, 99, 124] refinedClasses=21 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=484036590 (0.3s)
+   depth 6: roots=[0, 37, 70, 99, 124, 145] refinedClasses=28 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=484099860 (0.3s)
+   depth 7: roots=[0, 37, 70, 99, 124, 145, 162] refinedClasses=36 ours=EXACT |Aut(H)|=92160.0 maxT=1440 maxBase=5 groupWork=1804258002 (94.2s)
+   orbit of r6=162: 28 of 28 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=145: 45 of 45 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=124: 66 of 66 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=99: 91 of 91 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=70: 120 of 120 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=37: 153 of 153 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 190 of 190 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 19; two-sided queries in total: 7
+   |Aut| = 2.43290e+18  ours 100.983s  Traces 2.43290e+18  agree=true  traces 0.001s

@@ -1,0 +1,15 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+ag,ag2-2,10,12,10,12,2,2,"{4=1, 6=1}",0,0,0,0,0,8,0,24.0,,,0->1,ORBIT_MATES,true,EXACT,0.091,2,4,true,2,"",3,24,576,6
+ag,ag2-3,21,36,21,36,2,2,"{9=1, 12=1}",0,0,0,0,0,14,0,432.0,,,0->1,ORBIT_MATES,true,EXACT,0.136,2,7,true,2,"",4,432,186624,24
+ag,ag2-4,36,80,36,80,2,2,"{16=1, 20=1}",0,0,0,0,0,6,0,5760.0,,,0->1,ORBIT_MATES,true,EXACT,1.966,2,6,true,2,"non-abelian stage: |L|=960.0 (960/960 1/960)",5,5760,33177600,1952
+ag,ag2-5,55,150,55,150,2,2,"{25=1, 30=1}",0,120000,0,0,0,6,0,12000.0,,,0->1,ORBIT_MATES,true,EXACT,9.471,2,5,true,2,"non-abelian stage: |L|=3000.0 (3000/3000 1/3000)",6,12000,144000000,6028
+ag,ag2-7,105,392,105,392,2,2,"{49=1, 56=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,14.48,,0,,,"class of size 49: more than 20000 candidate restrictions (base length 7)",0,0,0,0
+ag,ag2-8,136,576,136,576,2,2,"{64=1, 72=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,37.772,,0,,,"class of size 64: more than 20000 candidate restrictions (base length 8)",0,0,0,0
+ag,ag2-9,171,810,171,810,2,2,"{81=1, 90=1}",0,0,0,0,0,0,0,,,,,,,STOP_TIME,300.002,,0,,,"time budget exceeded while building candidates for a class of size 81 (base length 9)",0,0,0,0
+ag,ag2-11,253,1452,253,1452,2,2,"{121=1, 132=1}",0,0,0,0,0,0,0,,,,,,,STOP_TIME,300.003,,0,,,"time budget exceeded while building candidates for a class of size 121 (base length 11)",0,0,0,0
+ag,ag2-13,351,2366,351,2366,2,2,"{169=1, 182=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.967,,0,,,"class of size 169: more than 20000 candidate restrictions (base length 3)",0,0,0,0
+ag,ag2-16,528,4352,528,4352,2,2,"{256=1, 272=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,44.539,,0,,,"class of size 256: more than 20000 candidate restrictions (base length 4)",0,0,0,0
+ag,ag2-17,595,5202,595,5202,2,2,"{289=1, 306=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,1.739,,0,,,"class of size 289: more than 20000 candidate restrictions (base length 3)",0,0,0,0
+ag,ag2-19,741,7220,741,7220,2,2,"{361=1, 380=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,2.355,,0,,,"class of size 361: more than 20000 candidate restrictions (base length 3)",0,0,0,0
+ag,ag2-23,1081,12696,1081,12696,2,2,"{529=1, 552=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,4.077,,0,,,"class of size 529: more than 20000 candidate restrictions (base length 3)",0,0,0,0
+ag,ag2-25,1275,16250,1275,16250,2,2,"{625=1, 650=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,36.859,,0,,,"class of size 625: more than 20000 candidate restrictions (base length 4)",0,0,0,0

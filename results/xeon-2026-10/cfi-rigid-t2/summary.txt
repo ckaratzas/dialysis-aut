@@ -1,0 +1,22 @@
+family: cfi-rigid-t2
+instances: 524
+solved: 524
+by_series: 524
+by_chain: 0
+from_1wl: 0
+traces_run: 0
+traces_agree: 0
+disagree: 0
+traces_fail_we_solve: 0
+largest_n: 3648
+largest_aut: 8.0
+ours_max_s: 2.732
+ours_total_s: 374.403
+traces_total_s: 0
+median_ratio: 0
+max_ratio: 0
+pi_traces_run: 0
+pi_traces_fail_we_solve: 0
+pi_median_ratio: 0
+pi_max_ratio: 0
+open: 

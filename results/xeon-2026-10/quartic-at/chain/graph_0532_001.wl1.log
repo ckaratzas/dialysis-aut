@@ -1,0 +1,12 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== graph_0532_001 n=532 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=7719320 (0.1s)
+   depth 1: roots=[0] refinedClasses=70 ours=EXACT |Aut(H)|=5.444517870735016E39 maxT=32 maxBase=2 groupWork=667482112 (1.7s)
+   orbit of r0=0: 532 of 532 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 133; two-sided queries in total: 1
+   |Aut| = 2.89648e+42  ours 2.054s

@@ -1,0 +1,21 @@
+== CHH_cc(5-4)_440-2 n=440
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=16 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1000800 (0.1s)
+   depth 1: roots=[346] refinedClasses=20 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1000800 (0.0s)
+   depth 2: roots=[346, 368] refinedClasses=24 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1000800 (0.0s)
+   depth 3: roots=[346, 368, 412] refinedClasses=28 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1000800 (0.0s)
+   depth 4: roots=[346, 368, 412, 375] refinedClasses=32 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1000800 (0.0s)
+   depth 5: roots=[346, 368, 412, 375, 380] refinedClasses=46 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1000800 (0.0s)
+   depth 6: roots=[346, 368, 412, 375, 380, 2] refinedClasses=76 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=288 maxBase=4 groupWork=480525780 (0.7s)
+   depth 7: roots=[346, 368, 412, 375, 380, 2, 112] refinedClasses=106 ours=STOP_TIME |Aut(H)|=4.259733324941639E20 maxT=10368 maxBase=6 groupWork=4507769668 (31.2s)
+   depth 8: roots=[346, 368, 412, 375, 380, 2, 112, 222] refinedClasses=128 ours=EXACT |Aut(H)|=1.183259256928233E19 maxT=288 maxBase=4 groupWork=763213172 (3.4s)
+   orbit of r7=222: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r6=112: 72 of 72 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=2: 108 of 108 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=380: 4 of 4 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=375: 3 of 3 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=412: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=368: 3 of 3 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=346: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 71; two-sided queries in total: 17
+   |Aut| = 4.76981e+26  ours 39.093s

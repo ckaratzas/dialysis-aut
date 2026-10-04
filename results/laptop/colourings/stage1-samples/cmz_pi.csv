@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+cmz,cmz-5,120,190,120,190,8,8,"{10=4, 20=4}",0,1680,0,0,0,72,0,10240.0,,,0->1,ORBIT_MATES,true,EXACT,3.495,8,12,true,8,"",10,10240,104857600,10
+cmz,cmz-16,384,608,384,608,8,8,"{32=4, 64=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.233,,0,,,"class of size 32: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-27,648,1026,648,1026,8,8,"{54=4, 108=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.522,,0,,,"class of size 54: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-38,912,1444,912,1444,8,8,"{76=4, 152=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.994,,0,,,"class of size 76: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-50,1200,1900,1200,1900,8,8,"{100=4, 200=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),1.377,,0,,,"class of size 100: individualising 12 base vertices does not split it into singletons",0,0,0,0

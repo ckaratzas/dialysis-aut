@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+mz-aug2,mz-aug2-4,96,152,96,152,32,32,"{2=16, 4=16}",0,4,0,0,0,60,0,1024.0,,,0->1,NOT_ORBIT_MATES,,EXACT,0.099,56,10,true,56,"auto: 1-WL exact (probe 0.1s)",2,8,64,14
+mz-aug2,mz-aug2-14,336,532,336,532,112,112,"{2=56, 4=56}",0,4,0,0,0,220,0,1.073741824E9,,,0->1,NOT_ORBIT_MATES,,EXACT,0.12,196,30,true,196,"auto: 1-WL exact (probe 0.12s)",2,8,64,34
+mz-aug2,mz-aug2-26,624,988,624,988,208,208,"{2=104, 4=104}",0,4,0,0,0,412,0,1.8014398509481984E16,,,0->1,NOT_ORBIT_MATES,,EXACT,0.266,364,54,true,364,"auto: 1-WL exact (probe 0.266s)",2,8,64,58
+mz-aug2,mz-aug2-38,912,1444,912,1444,304,304,"{2=152, 4=152}",0,4,0,0,0,604,0,3.022314549036573E23,,,0->1,NOT_ORBIT_MATES,,EXACT,0.389,532,78,true,532,"auto: 1-WL exact (probe 0.389s)",2,8,64,82
+mz-aug2,mz-aug2-50,1200,1900,1200,1900,400,400,"{2=200, 4=200}",0,4,0,0,0,796,0,5.070602400912918E30,,,0->1,NOT_ORBIT_MATES,,EXACT,0.527,700,102,true,700,"auto: 1-WL exact (probe 0.527s)",2,8,64,106

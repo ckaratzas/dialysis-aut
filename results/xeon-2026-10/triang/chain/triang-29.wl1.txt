@@ -1,0 +1,31 @@
+== triang-29 n=406 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=3304840 (0.1s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=3349500 (0.0s)
+   depth 2: roots=[0, 55] refinedClasses=6 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=3751440 (0.0s)
+   depth 3: roots=[0, 55, 106] refinedClasses=10 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=4153380 (0.0s)
+   depth 4: roots=[0, 55, 106, 153] refinedClasses=15 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=4555320 (0.0s)
+   depth 5: roots=[0, 55, 106, 153, 196] refinedClasses=21 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=4957260 (0.0s)
+   depth 6: roots=[0, 55, 106, 153, 196, 235] refinedClasses=28 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=5359200 (0.0s)
+   depth 7: roots=[0, 55, 106, 153, 196, 235, 270] refinedClasses=36 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=5761140 (0.0s)
+   depth 8: roots=[0, 55, 106, 153, 196, 235, 270, 301] refinedClasses=45 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=1539095250 (1.0s)
+   depth 9: roots=[0, 55, 106, 153, 196, 235, 270, 301, 328] refinedClasses=55 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=1539229230 (0.9s)
+   depth 10: roots=[0, 55, 106, 153, 196, 235, 270, 301, 328, 351] refinedClasses=66 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=1539363210 (0.9s)
+   depth 11: roots=[0, 55, 106, 153, 196, 235, 270, 301, 328, 351, 370] refinedClasses=78 ours=STOP_TIME |Aut(H)|=null maxT=10080 maxBase=6 groupWork=4500030920 (2.4s)
+   depth 12: roots=[0, 55, 106, 153, 196, 235, 270, 301, 328, 351, 370, 385] refinedClasses=91 ours=STOP_TIME |Aut(H)|=null maxT=240 maxBase=4 groupWork=4508642036 (2.9s)
+   depth 13: roots=[0, 55, 106, 153, 196, 235, 270, 301, 328, 351, 370, 385, 396] refinedClasses=105 ours=EXACT |Aut(H)|=49152.0 maxT=12 maxBase=2 groupWork=97473384 (1.1s)
+   orbit of r12=396: 10 of 10 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r11=385: 21 of 21 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r10=370: 36 of 36 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r9=351: 55 of 55 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r8=328: 78 of 78 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r7=301: 105 of 105 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r6=270: 136 of 136 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=235: 171 of 171 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=196: 210 of 210 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=153: 253 of 253 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=106: 300 of 300 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=55: 351 of 351 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 406 of 406 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 28; two-sided queries in total: 13
+   |Aut| = 8.84176e+30  ours 9.456s

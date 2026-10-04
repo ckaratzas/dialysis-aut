@@ -1,0 +1,22 @@
+family: quartic-hog
+instances: 35
+solved: 35
+by_series: 31
+by_chain: 4
+from_1wl: 4
+traces_run: 35
+traces_agree: 32
+disagree: 3
+traces_fail_we_solve: 0
+largest_n: 243
+largest_aut: 1168230000000.0
+ours_max_s: 0.869
+ours_total_s: 6.112
+traces_total_s: 1.032
+median_ratio: 0.7161585365853658
+max_ratio: 3.1
+pi_traces_run: 0
+pi_traces_fail_we_solve: 0
+pi_median_ratio: 0
+pi_max_ratio: 0
+open: 

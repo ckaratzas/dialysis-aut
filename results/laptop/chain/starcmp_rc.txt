@@ -1,0 +1,4 @@
+triang triang-12 rc=0
+triang triang-20 rc=0
+lattice lattice-8 rc=0
+lattice lattice-16 rc=0

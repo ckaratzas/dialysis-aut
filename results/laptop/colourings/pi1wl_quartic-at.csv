@@ -1,0 +1,6 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,graph_0005_001,5,10,1,,1,,,,5,,84,SKIPPED,,,,,
+single,graph_0256_004,256,512,1,,1,,,,0,,218,SKIPPED,,,,,
+single,graph_0396_005,396,792,1,,1,,,,1,,301,SKIPPED,,,,,
+single,graph_0524_001,524,1048,1,,1,,,,0,,413,SKIPPED,,,,,
+single,graph_0640_158,640,1280,1,,1,,,,0,,741,SKIPPED,,,,,

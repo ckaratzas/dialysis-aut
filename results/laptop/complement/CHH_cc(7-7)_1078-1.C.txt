@@ -1,0 +1,51 @@
+== CHH_cc(7-7)_1078-1 n=1078
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=2610720 (0.1s)
+   depth 1: roots=[38] refinedClasses=20 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1183055020 (1.2s)
+   depth 2: roots=[38, 192] refinedClasses=32 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1183055020 (1.2s)
+   depth 3: roots=[38, 192, 221] refinedClasses=40 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1183055020 (1.2s)
+   depth 4: roots=[38, 192, 221, 224] refinedClasses=54 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1183055020 (1.2s)
+   depth 5: roots=[38, 192, 221, 224, 310] refinedClasses=84 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1183055020 (1.2s)
+   depth 6: roots=[38, 192, 221, 224, 310, 464] refinedClasses=114 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1183055020 (1.2s)
+   depth 7: roots=[38, 192, 221, 224, 310, 464, 618] refinedClasses=144 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1183055020 (1.2s)
+   depth 8: roots=[38, 192, 221, 224, 310, 464, 618, 772] refinedClasses=174 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1183055020 (1.2s)
+   depth 9: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2] refinedClasses=196 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=10368 maxBase=6 groupWork=2391006156 (2.4s)
+   depth 10: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156] refinedClasses=218 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4500040048 (4.6s)
+   depth 11: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926] refinedClasses=240 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4500040048 (4.6s)
+   depth 12: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46] refinedClasses=262 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4500025544 (4.6s)
+   depth 13: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200] refinedClasses=284 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4500011040 (4.6s)
+   depth 14: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200, 332] refinedClasses=306 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4500040048 (4.7s)
+   depth 15: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200, 332, 354] refinedClasses=328 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4500025544 (4.7s)
+   depth 16: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200, 332, 354, 486] refinedClasses=350 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4500011040 (4.7s)
+   depth 17: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200, 332, 354, 486, 508] refinedClasses=372 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4500040048 (4.7s)
+   depth 18: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200, 332, 354, 486, 508, 640] refinedClasses=394 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4500025544 (4.7s)
+   depth 19: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200, 332, 354, 486, 508, 640, 662] refinedClasses=416 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4500025544 (4.7s)
+   depth 20: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200, 332, 354, 486, 508, 640, 662, 794] refinedClasses=438 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4506561106 (114.2s)
+   depth 21: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200, 332, 354, 486, 508, 640, 662, 794, 816] refinedClasses=460 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4626742044 (82.5s)
+   depth 22: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200, 332, 354, 486, 508, 640, 662, 794, 816, 948] refinedClasses=482 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4518836952 (41.6s)
+   depth 23: roots=[38, 192, 221, 224, 310, 464, 618, 772, 2, 156, 926, 46, 200, 332, 354, 486, 508, 640, 662, 794, 816, 948, 970] refinedClasses=504 ours=EXACT |Aut(H)|=1.6204889688730952E35 maxT=288 maxBase=4 groupWork=3412977484 (56.4s)
+   orbit of r22=970: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r21=948: 36 of 36 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r20=816: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r19=794: 36 of 36 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r18=662: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r17=640: 36 of 36 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r16=508: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r15=486: 36 of 36 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r14=354: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r13=332: 36 of 36 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r12=200: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r11=46: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r10=926: 48 of 48 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r9=156: 48 of 48 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r8=2: 48 of 48 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r7=772: 96 of 96 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r6=618: 144 of 144 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=464: 192 of 192 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=310: 240 of 240 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=224: 4 of 4 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=221: 6 of 6 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=192: 18 of 18 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=38: 21 of 21 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 174; two-sided queries in total: 74
+   |Aut| = 4.90737e+71  ours 358.455s

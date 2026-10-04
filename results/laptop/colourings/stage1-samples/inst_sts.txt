@@ -1,0 +1,5 @@
+sts-7
+sts-25
+sts-43
+sts-61
+sts-79

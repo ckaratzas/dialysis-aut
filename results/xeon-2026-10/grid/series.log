@@ -1,0 +1,124 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-3-2: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.099s
+CAMPAIGN grid grid-2-5: EXACT aut=2^null traces= agree= query=0->4 ORBIT_MATES 0.018s
+CAMPAIGN grid grid-3-3: EXACT aut=2^null traces= agree= query=0->2 ORBIT_MATES 0.025s
+CAMPAIGN grid grid-3-4: EXACT aut=2^null traces= agree= query=0->3 ORBIT_MATES 0.03s
+CAMPAIGN grid grid-2-10: EXACT aut=2^null traces= agree= query=0->9 ORBIT_MATES 0.028s
+CAMPAIGN grid grid-3-5: EXACT aut=2^null traces= agree= query=0->4 ORBIT_MATES 0.046s
+CAMPAIGN grid grid-3-6: EXACT aut=2^null traces= agree= query=0->5 ORBIT_MATES 0.087s
+CAMPAIGN grid grid-2-15: EXACT aut=2^null traces= agree= query=0->14 ORBIT_MATES 0.053s
+CAMPAIGN grid grid-3-7: EXACT aut=2^null traces= agree= query=0->6 ORBIT_MATES 0.121s
+CAMPAIGN grid grid-2-20: EXACT aut=2^null traces= agree= query=0->19 ORBIT_MATES 0.108s
+CAMPAIGN grid grid-3-8: EXACT aut=2^null traces= agree= query=0->7 ORBIT_MATES 0.184s
+CAMPAIGN grid grid-2-25: EXACT aut=2^null traces= agree= query=0->24 ORBIT_MATES 0.274s
+CAMPAIGN grid grid-3-9: EXACT aut=2^null traces= agree= query=0->8 ORBIT_MATES 0.374s
+CAMPAIGN grid grid-2-30: EXACT aut=2^null traces= agree= query=0->29 ORBIT_MATES 0.537s
+CAMPAIGN grid grid-3-10: EXACT aut=2^null traces= agree= query=0->9 ORBIT_MATES 0.554s
+CAMPAIGN grid grid-2-35: EXACT aut=2^null traces= agree= query=0->34 ORBIT_MATES 1.103s
+CAMPAIGN grid grid-3-11: EXACT aut=2^null traces= agree= query=0->10 ORBIT_MATES 0.799s
+CAMPAIGN grid grid-2-40: EXACT aut=2^null traces= agree= query=0->39 ORBIT_MATES 1.427s
+CAMPAIGN grid grid-3-12: EXACT aut=2^null traces= agree= query=0->11 ORBIT_MATES 1.582s
+CAMPAIGN grid grid-2-45: EXACT aut=2^null traces= agree= query=0->44 ORBIT_MATES 3.871s
+CAMPAIGN grid grid-3-13: EXACT aut=2^null traces= agree= query=0->12 ORBIT_MATES 2.588s
+CAMPAIGN grid grid-2-50: EXACT aut=2^null traces= agree= query=0->49 ORBIT_MATES 4.038s
+CAMPAIGN grid grid-3-14: EXACT aut=2^null traces= agree= query=0->13 ORBIT_MATES 2.744s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-2-100: EXACT aut=2^null traces= agree= query=0->99 ORBIT_MATES 141.872s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-2-55: EXACT aut=2^null traces= agree= query=0->54 ORBIT_MATES 10.639s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-2-60: EXACT aut=2^null traces= agree= query=0->59 ORBIT_MATES 12.286s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-2-65: EXACT aut=2^null traces= agree= query=0->64 ORBIT_MATES 18.527s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-2-70: EXACT aut=2^null traces= agree= query=0->69 ORBIT_MATES 26.597s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-2-75: EXACT aut=2^null traces= agree= query=0->74 ORBIT_MATES 34.69s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-2-80: EXACT aut=2^null traces= agree= query=0->79 ORBIT_MATES 45.652s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-2-85: EXACT aut=2^null traces= agree= query=0->84 ORBIT_MATES 67.887s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-2-90: EXACT aut=2^null traces= agree= query=0->89 ORBIT_MATES 82.922s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-2-95: EXACT aut=2^null traces= agree= query=0->94 ORBIT_MATES 110.33s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-3-15: EXACT aut=2^null traces= agree= query=0->14 ORBIT_MATES 5.792s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-3-16: EXACT aut=2^null traces= agree= query=0->15 ORBIT_MATES 9.942s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-3-17: EXACT aut=2^null traces= agree= query=0->16 ORBIT_MATES 15.439s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-3-18: EXACT aut=2^null traces= agree= query=0->17 ORBIT_MATES 17.51s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-3-19: EXACT aut=2^null traces= agree= query=0->18 ORBIT_MATES 26.005s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid grid-3-20: EXACT aut=2^null traces= agree= query=0->19 ORBIT_MATES 31.925s

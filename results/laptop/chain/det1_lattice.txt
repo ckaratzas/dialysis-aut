@@ -1,0 +1,13 @@
+== lattice-8 n=64
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=91862400 (0.6s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=66046080 (0.1s)
+   depth 2: roots=[0, 9] refinedClasses=6 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=99099840 (0.1s)
+   depth 3: roots=[0, 9, 18] refinedClasses=10 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=99302400 (0.2s)
+   depth 4: roots=[0, 9, 18, 27] refinedClasses=15 ours=EXACT |Aut(H)|=1152.0 maxT=1152 maxBase=6 groupWork=276360244 (8.8s)
+   orbit of r3=27: 25 of 25 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=18: 36 of 36 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=9: 49 of 49 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 64 of 64 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 13; two-sided queries in total: 4
+   |Aut| = 3.25140e+09  Traces 3.25140e+09  agree=true  (10.582s)

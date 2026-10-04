@@ -1,0 +1,22 @@
+family: sts-sw
+instances: 231
+solved: 231
+by_series: 231
+by_chain: 0
+from_1wl: 0
+traces_run: 231
+traces_agree: 231
+disagree: 0
+traces_fail_we_solve: 0
+largest_n: 1027
+largest_aut: 1.0
+ours_max_s: 36.928
+ours_total_s: 1805.116
+traces_total_s: 17.266000000000002
+median_ratio: 0.01683899556868538
+max_ratio: 1.8235294117647058
+pi_traces_run: 0
+pi_traces_fail_we_solve: 0
+pi_median_ratio: 0
+pi_max_ratio: 0
+open: 

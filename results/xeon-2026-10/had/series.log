@@ -1,0 +1,76 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-1: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.079s
+CAMPAIGN had had-2: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.016s
+CAMPAIGN had had-4: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.258s
+CAMPAIGN had had-8: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.203s
+CAMPAIGN had had-12: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.281s
+CAMPAIGN had had-16: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.256s
+CAMPAIGN had had-20: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 8.443s
+CAMPAIGN had had-24: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  2.979s
+CAMPAIGN had had-28: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 7.324s
+CAMPAIGN had had-32: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  68.922s
+CAMPAIGN had had-36: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  8.728s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-40: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  25.612s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-44: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  7.027s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-48: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  7.443s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-52: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 91.125s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-56: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  59.038s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-60: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  9.206s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-64: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  1.544s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-68: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  11.764s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-72: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  12.939s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN had had-76: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  28.154s

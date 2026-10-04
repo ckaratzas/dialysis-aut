@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+sts,sts-7,7,21,7,21,1,1,"{7=1}",0,0,0,0,0,2,0,5040.0,,,0->1,ORBIT_MATES,true,EXACT,0.436,1,6,true,1,"auto: 1-WL exact (probe 0.438s)",6,5040,5040,21
+sts,sts-25,100,1650,100,1650,1,1,"{100=1}",0,3297,0,0,0,1,0,3.0,,,0->1,ORBIT_MATES,true,EXACT,0.112,36,1,true,36,"auto: 1-WL exact (probe 0.112s)",2,3,3,0
+sts,sts-43,301,9030,301,9030,1,1,"{301=1}",0,18057,0,0,0,1,0,3.0,,,0->1,ORBIT_MATES,true,EXACT,1.376,105,1,true,105,"auto: 1-WL exact (probe 1.376s)",2,3,3,0
+sts,sts-61,610,26535,610,26535,1,1,"{610=1}",0,53067,0,0,0,1,0,3.0,,,0->1,ORBIT_MATES,true,EXACT,12.852,210,1,true,210,"auto: 1-WL exact (probe 12.852s)",2,3,3,0
+sts,sts-79,1027,58539,1027,58539,1,1,"{1027=1}",0,117075,0,0,0,1,0,3.0,,,0->1,ORBIT_MATES,true,EXACT,56.949,351,1,true,351,"auto: 1-WL exact (probe 56.949s)",2,3,3,0

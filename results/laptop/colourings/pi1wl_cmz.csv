@@ -1,0 +1,6 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,cmz-5,120,190,8,,8,,,,4,,135,SKIPPED,,,,,
+single,cmz-16,384,608,8,,8,,,,0,,227,SKIPPED,,,,,
+single,cmz-27,648,1026,8,,8,,,,1,,440,SKIPPED,,,,,
+single,cmz-38,912,1444,8,,8,,,,2,,803,SKIPPED,,,,,
+single,cmz-50,1200,1900,8,,8,,,,2,,1514,SKIPPED,,,,,

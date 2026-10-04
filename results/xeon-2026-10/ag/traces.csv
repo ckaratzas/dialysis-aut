@@ -1,0 +1,15 @@
+family,instance,n,m,colour,colour_classes,colour_ms,traces_order,traces_orbits,traces_ms,outcome
+ag,ag2-2,10,12,none,1,0,24.0,2,29,OK
+ag,ag2-3,21,36,none,1,1,432.0,2,29,OK
+ag,ag2-4,36,80,none,1,0,5760.0,2,31,OK
+ag,ag2-5,55,150,none,1,0,12000.0,2,30,OK
+ag,ag2-7,105,392,none,1,0,98784.0,2,30,OK
+ag,ag2-8,136,576,none,1,0,677376.0,2,29,OK
+ag,ag2-9,171,810,none,1,0,933120.0,2,23,OK
+ag,ag2-11,253,1452,none,1,0,1597200.0,2,31,OK
+ag,ag2-13,351,2366,none,1,0,4429152.0,2,25,OK
+ag,ag2-16,528,4352,none,1,1,6.26688E7,2,36,OK
+ag,ag2-17,595,5202,none,1,0,2.2639104E7,2,36,OK
+ag,ag2-19,741,7220,none,1,0,4.444632E7,2,37,OK
+ag,ag2-23,1081,12696,none,1,1,1.41331872E8,2,37,OK
+ag,ag2-25,1275,16250,none,1,0,4.68E8,2,41,OK

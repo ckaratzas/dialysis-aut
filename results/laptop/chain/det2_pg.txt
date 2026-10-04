@@ -1,0 +1,9 @@
+== pg2-7 n=114
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500004194 (13.5s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500000090 (8.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=EXACT |Aut(H)|=1764.0 maxT=5040 maxBase=6 groupWork=1441778130 (33.7s)
+   orbit of r1=1: 56 of 56 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 114 of 114 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 10; two-sided queries in total: 4
+   |Aut| = 1.12614e+07  Traces 1.12614e+07  agree=true  (55.423s)

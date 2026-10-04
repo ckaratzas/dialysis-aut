@@ -1,0 +1,5 @@
+latin-sw-10-1
+latin-sw-15-11
+latin-sw-20-4
+latin-sw-25-6
+latin-sw-30-9

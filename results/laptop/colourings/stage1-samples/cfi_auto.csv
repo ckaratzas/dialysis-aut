@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+cfi,cfi-20,200,300,200,300,1,1,"{200=1}",0,198,0,0,0,11,0,2048.0,,,0->1,ORBIT_MATES,true,EXACT,19.63,80,11,true,80,"auto: 1-WL exact (probe 19.632s)",11,2048,2048,0
+cfi,cfi-64,640,960,640,960,256,256,"{2=192, 4=64}",0,0,0,0,0,320,0,8.589934592E9,,,0->1,ORBIT_MATES,true,EXACT,0.8370000000000001,256,33,true,256,"auto: escalated to PI after 1-WL STOP_BASE_TOO_LONG(>12) in 0.034s",1,4,8,0
+cfi,cfi-110,1100,1650,1100,1650,440,440,"{2=330, 4=110}",0,0,0,0,0,550,0,7.205759403792794E16,,,0->1,ORBIT_MATES,true,EXACT,1.52,440,56,true,440,"auto: escalated to PI after 1-WL STOP_BASE_TOO_LONG(>12) in 0.035s",1,4,8,0
+cfi,cfi-154,1540,2310,1540,2310,616,616,"{2=462, 4=154}",0,0,0,0,0,770,0,3.022314549036573E23,,,0->1,ORBIT_MATES,true,EXACT,1.493,616,78,true,616,"auto: escalated to PI after 1-WL STOP_BASE_TOO_LONG(>12) in 0.056s",1,4,8,0
+cfi,cfi-200,2000,3000,2000,3000,800,800,"{2=600, 4=200}",0,0,0,0,0,1000,0,2.535301200456459E30,,,0->1,ORBIT_MATES,true,EXACT,2.105,800,101,true,800,"auto: escalated to PI after 1-WL STOP_BASE_TOO_LONG(>12) in 0.053s",1,4,8,0

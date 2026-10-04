@@ -1,0 +1,7 @@
+== paley-373 n=373 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500264769 (3.3s)
+   depth 1: roots=[0] refinedClasses=3 ours=EXACT |Aut(H)|=186.0 maxT=186 maxBase=1 groupWork=733294822 (1.9s)
+   orbit of r0=0: 373 of 373 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 4; two-sided queries in total: 1
+   |Aut| = 69378.0  ours 5.555s

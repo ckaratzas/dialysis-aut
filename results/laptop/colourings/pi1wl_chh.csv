@@ -1,0 +1,6 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,CHH_cc(1-1)_22-1,22,33,1,,4,,,,3,,76,SKIPPED,,,,,
+single,CHH_cc(3-2)_132-1,132,261,4,,8,,,,0,,61,SKIPPED,,,,,
+single,CHH_cc(4-4)_352-1,352,840,4,,8,,,,0,,184,SKIPPED,,,,,
+single,CHH_cc(6-5)_660-1,660,2025,4,,8,,,,1,,658,SKIPPED,,,,,
+single,CHH_cc(7-7)_1078-2,1078,3969,4,,16,,,,1,,1469,SKIPPED,,,,,

@@ -1,0 +1,7 @@
+== cfi-rigid-z2-0088-01-1 n=88
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=28 ours=EXACT |Aut(H)|=2.0 maxT=4 maxBase=1 (0.1s)
+   depth 1: roots=[2] refinedClasses=33 ours=EXACT |Aut(H)|=2.0 maxT=4 maxBase=1 (0.1s)
+   orbit of r0=2: 1 of 2 candidates, 1 two-sided queries, 1 ruled out by fingerprint
+   generators known at the end: 1; two-sided queries in total: 1
+   |Aut| = 2.00000  Traces 2.00000  agree=true  (0.328s)

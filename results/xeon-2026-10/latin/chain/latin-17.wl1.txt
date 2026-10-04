@@ -1,0 +1,7 @@
+== latin-17 n=289 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=2697118221 (2.4s)
+   depth 1: roots=[0] refinedClasses=3 ours=EXACT |Aut(H)|=96.0 maxT=96 maxBase=2 groupWork=56145904 (0.4s)
+   orbit of r0=0: 289 of 289 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 7; two-sided queries in total: 1
+   |Aut| = 27744.0  ours 2.986s

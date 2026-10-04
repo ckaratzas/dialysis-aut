@@ -1,0 +1,4 @@
+triang triang-12
+triang triang-20
+lattice lattice-8
+lattice lattice-16

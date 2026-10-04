@@ -1,0 +1,6 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,mz-aug2-4,96,152,32,,56,,,,7,,156,SKIPPED,,,,,
+single,mz-aug2-14,336,532,112,,196,,,,8,,310,SKIPPED,,,,,
+single,mz-aug2-26,624,988,208,,364,,,,8,,531,SKIPPED,,,,,
+single,mz-aug2-38,912,1444,304,,532,,,,8,,1077,SKIPPED,,,,,
+single,mz-aug2-50,1200,1900,400,,700,,,,5,,1407,SKIPPED,,,,,

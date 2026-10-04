@@ -1,0 +1,10 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/christos/IdeaProjects/graph-dialysis/build/paper3/dialysis-paper3-layer.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN quartic-at graph_0005_001: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.161s
+CAMPAIGN quartic-at graph_0256_004: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.233s
+CAMPAIGN quartic-at graph_0396_005: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 1.464s
+CAMPAIGN quartic-at graph_0524_001: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.317s
+CAMPAIGN quartic-at graph_0640_158: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  6.513s

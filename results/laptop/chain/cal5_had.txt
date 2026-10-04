@@ -1,0 +1,13 @@
+== had-16 n=64 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=73678464 (0.3s)
+   depth 1: roots=[0] refinedClasses=5 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=73660032 (0.1s)
+   depth 2: roots=[0, 33] refinedClasses=8 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=78549120 (0.1s)
+   depth 3: roots=[0, 33, 2] refinedClasses=12 ours=STOP_TIME |Aut(H)|=null maxT=1344 maxBase=4 groupWork=4501533995 (12.8s)
+   depth 4: roots=[0, 33, 2, 36] refinedClasses=16 ours=EXACT |Aut(H)|=192.0 maxT=192 maxBase=3 groupWork=27192506 (0.9s)
+   orbit of r3=36: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=2: 15 of 15 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=33: 16 of 16 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 64 of 64 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 13; two-sided queries in total: 6
+   |Aut| = 2.06438e+07  ours 14.409s

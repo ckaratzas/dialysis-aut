@@ -1,0 +1,5 @@
+== hypercube-4 n=16 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=EXACT |Aut(H)|=384.0 maxT=384 maxBase=4 groupWork=1616732 (0.1s)
+   generators known at the end: 8; two-sided queries in total: 0
+   |Aut| = 384.000  ours 0.266s  formula 384.000 agree=true

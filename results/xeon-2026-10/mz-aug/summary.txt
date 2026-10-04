@@ -1,0 +1,22 @@
+family: mz-aug
+instances: 25
+solved: 25
+by_series: 25
+by_chain: 0
+from_1wl: 0
+traces_run: 25
+traces_agree: 25
+disagree: 0
+traces_fail_we_solve: 0
+largest_n: 1000
+largest_aut: 1.0141204801825835e+31
+ours_max_s: 14.419
+ours_total_s: 83.502
+traces_total_s: 0.865
+median_ratio: 0.019692307692307693
+max_ratio: 0.09022556390977443
+pi_traces_run: 0
+pi_traces_fail_we_solve: 0
+pi_median_ratio: 0
+pi_max_ratio: 0
+open: 

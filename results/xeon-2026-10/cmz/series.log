@@ -1,0 +1,51 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cmz cmz-5: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 3.857s
+CAMPAIGN cmz cmz-6: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.359s
+CAMPAIGN cmz cmz-7: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.505s
+CAMPAIGN cmz cmz-8: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.688s
+CAMPAIGN cmz cmz-9: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.89s
+CAMPAIGN cmz cmz-10: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  1.17s
+CAMPAIGN cmz cmz-11: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.348s
+CAMPAIGN cmz cmz-12: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.376s
+CAMPAIGN cmz cmz-13: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.009s
+CAMPAIGN cmz cmz-14: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.009s
+CAMPAIGN cmz cmz-15: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.01s
+CAMPAIGN cmz cmz-16: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.012s
+CAMPAIGN cmz cmz-17: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.023s
+CAMPAIGN cmz cmz-18: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.016s
+CAMPAIGN cmz cmz-19: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.018s
+CAMPAIGN cmz cmz-20: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.02s
+CAMPAIGN cmz cmz-21: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.021s
+CAMPAIGN cmz cmz-22: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.024s
+CAMPAIGN cmz cmz-23: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.026s
+CAMPAIGN cmz cmz-24: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.029s
+CAMPAIGN cmz cmz-25: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.03s
+CAMPAIGN cmz cmz-26: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.032s
+CAMPAIGN cmz cmz-27: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.047s
+CAMPAIGN cmz cmz-28: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.038s
+CAMPAIGN cmz cmz-29: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.042s
+CAMPAIGN cmz cmz-30: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.046s
+CAMPAIGN cmz cmz-31: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.05s
+CAMPAIGN cmz cmz-32: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.055s
+CAMPAIGN cmz cmz-33: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.055s
+CAMPAIGN cmz cmz-34: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.057s
+CAMPAIGN cmz cmz-35: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.06s
+CAMPAIGN cmz cmz-36: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.067s
+CAMPAIGN cmz cmz-37: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.068s
+CAMPAIGN cmz cmz-38: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.072s
+CAMPAIGN cmz cmz-39: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.077s
+CAMPAIGN cmz cmz-40: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.08s
+CAMPAIGN cmz cmz-41: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.084s
+CAMPAIGN cmz cmz-42: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.089s
+CAMPAIGN cmz cmz-43: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.094s
+CAMPAIGN cmz cmz-44: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.1s
+CAMPAIGN cmz cmz-45: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.102s
+CAMPAIGN cmz cmz-46: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.111s
+CAMPAIGN cmz cmz-47: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.11s
+CAMPAIGN cmz cmz-48: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.118s
+CAMPAIGN cmz cmz-49: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.121s
+CAMPAIGN cmz cmz-50: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.128s

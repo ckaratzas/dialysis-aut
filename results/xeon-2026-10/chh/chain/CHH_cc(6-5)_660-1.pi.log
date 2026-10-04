@@ -1,0 +1,38 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== CHH_cc(6-5)_660-1 n=660
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1695600 (0.1s)
+   depth 1: roots=[16] refinedClasses=20 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=10368 maxBase=6 groupWork=786230880 (0.7s)
+   depth 2: roots=[16, 60] refinedClasses=24 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=10368 maxBase=6 groupWork=765808320 (0.7s)
+   depth 3: roots=[16, 60, 38] refinedClasses=28 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=288 maxBase=4 groupWork=29070120 (0.0s)
+   depth 4: roots=[16, 60, 38, 82] refinedClasses=32 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=12 maxBase=2 groupWork=8647560 (0.0s)
+   depth 5: roots=[16, 60, 38, 82, 89] refinedClasses=36 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=12 maxBase=2 groupWork=8091780 (0.0s)
+   depth 6: roots=[16, 60, 38, 82, 89, 92] refinedClasses=50 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=12 maxBase=2 groupWork=7488900 (0.0s)
+   depth 7: roots=[16, 60, 38, 82, 89, 92, 134] refinedClasses=80 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=10368 maxBase=6 groupWork=790865520 (0.8s)
+   depth 8: roots=[16, 60, 38, 82, 89, 92, 134, 266] refinedClasses=110 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=10368 maxBase=6 groupWork=2341194990 (2.6s)
+   depth 9: roots=[16, 60, 38, 82, 89, 92, 134, 266, 398] refinedClasses=140 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4564706452 (141.1s)
+   depth 10: roots=[16, 60, 38, 82, 89, 92, 134, 266, 398, 156] refinedClasses=162 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4755777162 (115.5s)
+   depth 11: roots=[16, 60, 38, 82, 89, 92, 134, 266, 398, 156, 288] refinedClasses=184 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4837544408 (87.5s)
+   depth 12: roots=[16, 60, 38, 82, 89, 92, 134, 266, 398, 156, 288, 420] refinedClasses=206 ours=STOP_TIME |Aut(H)|=null maxT=10368 maxBase=6 groupWork=4810029766 (58.7s)
+   depth 13: roots=[16, 60, 38, 82, 89, 92, 134, 266, 398, 156, 288, 420, 530] refinedClasses=228 ours=STOP_TIME |Aut(H)|=4.239831850847512E26 maxT=10368 maxBase=6 groupWork=4518047887 (29.2s)
+   depth 14: roots=[16, 60, 38, 82, 89, 92, 134, 266, 398, 156, 288, 420, 530, 552] refinedClasses=250 ours=EXACT |Aut(H)|=1.1777310696798644E25 maxT=288 maxBase=4 groupWork=1408319122 (12.3s)
+   orbit of r13=552: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r12=530: 36 of 36 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r11=420: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r10=288: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r9=156: 36 of 36 candidates, 3 two-sided queries, 0 ruled out by fingerprint
+   orbit of r8=398: 72 of 72 candidates, 5 two-sided queries, 0 ruled out by fingerprint
+   orbit of r7=266: 108 of 108 candidates, 5 two-sided queries, 0 ruled out by fingerprint
+   orbit of r6=134: 144 of 144 candidates, 5 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=92: 4 of 4 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=89: 3 of 3 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=82: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=38: 3 of 3 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=60: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=16: 15 of 15 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 110; two-sided queries in total: 39
+   |Aut| = 1.72239e+42  ours 453.37s

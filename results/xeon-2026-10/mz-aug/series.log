@@ -1,0 +1,45 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN mz-aug mz-aug-2: EXACT aut=2^null traces= agree= query=0->30 ORBIT_MATES 0.353s
+CAMPAIGN mz-aug mz-aug-4: EXACT aut=2^null traces= agree= query=0->70 ORBIT_MATES 0.266s
+CAMPAIGN mz-aug mz-aug-6: EXACT aut=2^null traces= agree= query=0->110 ORBIT_MATES 0.43s
+CAMPAIGN mz-aug mz-aug-8: EXACT aut=2^null traces= agree= query=0->150 ORBIT_MATES 0.816s
+CAMPAIGN mz-aug mz-aug-10: EXACT aut=2^null traces= agree= query=0->190 ORBIT_MATES 1.625s
+CAMPAIGN mz-aug mz-aug-12: EXACT aut=2^null traces= agree= query=0->230 ORBIT_MATES 2.082s
+CAMPAIGN mz-aug mz-aug-14: EXACT aut=2^null traces= agree= query=0->270 ORBIT_MATES 0.564s
+CAMPAIGN mz-aug mz-aug-16: EXACT aut=2^null traces= agree= query=0->310 ORBIT_MATES 0.652s
+CAMPAIGN mz-aug mz-aug-18: EXACT aut=2^null traces= agree= query=0->350 ORBIT_MATES 0.787s
+CAMPAIGN mz-aug mz-aug-20: EXACT aut=2^null traces= agree= query=0->390 ORBIT_MATES 0.948s
+CAMPAIGN mz-aug mz-aug-22: EXACT aut=2^null traces= agree= query=0->430 ORBIT_MATES 1.129s
+CAMPAIGN mz-aug mz-aug-24: EXACT aut=2^null traces= agree= query=0->470 ORBIT_MATES 1.288s
+CAMPAIGN mz-aug mz-aug-26: EXACT aut=2^null traces= agree= query=0->510 ORBIT_MATES 1.376s
+CAMPAIGN mz-aug mz-aug-28: EXACT aut=2^null traces= agree= query=0->550 ORBIT_MATES 1.813s
+CAMPAIGN mz-aug mz-aug-30: EXACT aut=2^null traces= agree= query=0->590 ORBIT_MATES 2.14s
+CAMPAIGN mz-aug mz-aug-32: EXACT aut=2^null traces= agree= query=0->630 ORBIT_MATES 2.423s
+CAMPAIGN mz-aug mz-aug-34: EXACT aut=2^null traces= agree= query=0->670 ORBIT_MATES 2.778s
+CAMPAIGN mz-aug mz-aug-36: EXACT aut=2^null traces= agree= query=0->710 ORBIT_MATES 2.75s
+CAMPAIGN mz-aug mz-aug-38: EXACT aut=2^null traces= agree= query=0->750 ORBIT_MATES 3.91s
+CAMPAIGN mz-aug mz-aug-40: EXACT aut=2^null traces= agree= query=0->790 ORBIT_MATES 4.344s
+CAMPAIGN mz-aug mz-aug-42: EXACT aut=2^null traces= agree= query=0->830 ORBIT_MATES 5.098s
+CAMPAIGN mz-aug mz-aug-44: EXACT aut=2^null traces= agree= query=0->870 ORBIT_MATES 5.278s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN mz-aug mz-aug-46: EXACT aut=2^null traces= agree= query=0->910 ORBIT_MATES 13.816s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN mz-aug mz-aug-48: EXACT aut=2^null traces= agree= query=0->950 ORBIT_MATES 14.419s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN mz-aug mz-aug-50: EXACT aut=2^null traces= agree= query=0->990 ORBIT_MATES 12.417s

@@ -1,0 +1,6 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,cfi-rigid-s2-0064-01-1,64,640,15,,15,,,,5,,154,SKIPPED,,,,,
+single,cfi-rigid-s2-0640-03-2,640,6700,160,,160,,,,5,,1313,SKIPPED,,,,,
+single,cfi-rigid-s2-1280-02-2,1280,13388,320,,320,,,,2,,2017,SKIPPED,,,,,
+single,cfi-rigid-s2-1920-01-2,1920,20144,480,,480,,,,2,,1835,SKIPPED,,,,,
+single,cfi-rigid-s2-2496-04-2,2496,26168,624,,624,,,,3,,2981,SKIPPED,,,,,

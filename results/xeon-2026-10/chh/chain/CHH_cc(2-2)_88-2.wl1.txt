@@ -1,0 +1,7 @@
+== CHH_cc(2-2)_88-2 n=88 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=4 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=64613340 (0.2s)
+   depth 1: roots=[16] refinedClasses=12 ours=EXACT |Aut(H)|=41472.0 maxT=288 maxBase=4 groupWork=14421632 (0.2s)
+   orbit of r0=16: 1 of 4 candidates, 2 two-sided queries, 2 ruled out by fingerprint
+   generators known at the end: 13; two-sided queries in total: 2
+   |Aut| = 41472.0  ours 0.586s

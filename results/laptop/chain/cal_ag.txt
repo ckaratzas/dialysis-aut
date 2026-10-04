@@ -1,0 +1,9 @@
+== ag2-7 n=105
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=2 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4797090228 (10.0s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2016 maxBase=6 groupWork=1417308697 (3.3s)
+   depth 2: roots=[0, 1] refinedClasses=9 ours=EXACT |Aut(H)|=42.0 maxT=720 maxBase=5 groupWork=7176074 (0.5s)
+   orbit of r1=1: 48 of 48 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 49 of 49 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 6; two-sided queries in total: 3
+   |Aut| = 98784.0  Traces 98784.0  agree=true  (14.003s)

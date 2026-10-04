@@ -1,0 +1,8 @@
+had had-16
+ag ag2-7
+pg pg2-7
+pp pp-9-4
+pp pp-16-6
+hypercube hypercube-8
+lattice lattice-8
+triang triang-12

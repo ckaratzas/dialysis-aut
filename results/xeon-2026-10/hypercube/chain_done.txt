@@ -1,0 +1,11 @@
+hypercube-3 wl1
+hypercube-4 wl1
+hypercube-5 wl1
+hypercube-6 wl1
+hypercube-7 wl1
+hypercube-8 wl1
+hypercube-9 wl1
+hypercube-10 wl1
+hypercube-11 wl1
+hypercube-12 wl1
+hypercube-13 wl1

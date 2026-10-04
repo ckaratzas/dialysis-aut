@@ -1,0 +1,13 @@
+cfi-rigid-r2 cfi-rigid-r2-0072-01-1
+cfi-rigid-r2 cfi-rigid-r2-0072-02-1
+cfi-rigid-z2 cfi-rigid-z2-0088-01-1
+cfi-rigid-d3 cfi-rigid-d3-0180-01-1
+triang triang-8
+lattice lattice-6
+had had-12
+pg pg2-4
+ag ag2-7
+pp pp-9-4
+quartic-at graph_0358_001
+grid-w grid-w-3-16
+grid-w grid-w-2-70

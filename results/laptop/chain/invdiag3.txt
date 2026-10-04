@@ -1,0 +1,8 @@
+== pp-9-2 n=182
+   prefix []: 3 non-trivial orbits | global: defined on 182/182, splits 0 orbits | relative: defined on 182/182, splits 0 orbits | fingerprint: defined on 182/182, splits 0 orbits
+   prefix [0]: 6 non-trivial orbits | global: defined on 181/181, splits 0 orbits | relative: defined on 181/181, splits 0 orbits | fingerprint: defined on 181/181, splits 0 orbits
+   prefix [0, 1]: 12 non-trivial orbits | global: defined on 179/179, splits 0 orbits | relative: defined on 179/179, splits 0 orbits | fingerprint: defined on 179/179, splits 0 orbits
+== pp-9-4 n=182
+   prefix []: 2 non-trivial orbits | global: defined on 182/182, splits 0 orbits | relative: defined on 182/182, splits 0 orbits | fingerprint: defined on 182/182, splits 0 orbits
+   prefix [0]: 10 non-trivial orbits | global: defined on 181/181, splits 0 orbits | relative: defined on 181/181, splits 0 orbits | fingerprint: defined on 181/181, splits 0 orbits
+   prefix [0, 1]: 16 non-trivial orbits | global: defined on 179/179, splits 0 orbits | relative: defined on 179/179, splits 0 orbits | fingerprint: defined on 179/179, splits 0 orbits

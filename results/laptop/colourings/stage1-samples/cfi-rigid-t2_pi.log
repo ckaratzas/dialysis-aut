@@ -1,0 +1,10 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/christos/IdeaProjects/graph-dialysis/build/paper3/dialysis-paper3-layer.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN cfi-rigid-t2 cfi-rigid-t2-0016-04-1: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.098s
+CAMPAIGN cfi-rigid-t2 cfi-rigid-t2-0312-04-1: EXACT aut=2^null traces= agree= query=0->95 NOT_ORBIT_MATES 0.459s
+CAMPAIGN cfi-rigid-t2 cfi-rigid-t2-0768-01-2: EXACT aut=2^null traces= agree= query=0->103 NOT_ORBIT_MATES 1.207s
+CAMPAIGN cfi-rigid-t2 cfi-rigid-t2-1392-03-1: EXACT aut=2^null traces= agree= query=0->434 NOT_ORBIT_MATES 2.266s
+CAMPAIGN cfi-rigid-t2 cfi-rigid-t2-2496-04-2: EXACT aut=2^null traces= agree= query=0->206 NOT_ORBIT_MATES 3.452s

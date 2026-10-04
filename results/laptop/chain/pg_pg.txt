@@ -1,0 +1,144 @@
+== pg2-4 n=42
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (0.3s)
+   depth 1: roots=[0] refinedClasses=4 ours=EXACT |Aut(H)|=5760.0 maxT=5760 maxBase=5 (5.2s)
+   orbit of r0=0: 42 of 42 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 11; two-sided queries in total: 2
+   |Aut| = 241920  Traces 241920  agree=true  (5.622s)
+== pg2-5 n=62
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (1.8s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=12000 maxBase=6 (10.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=EXACT |Aut(H)|=400.0 maxT=400 maxBase=4 (0.8s)
+   orbit of r1=1: 30 of 30 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 62 of 62 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 10; two-sided queries in total: 4
+   |Aut| = 744000  Traces 744000  agree=true  (12.789s)
+== pg2-7 n=114
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=6 (10.0s)
+   depth 3: roots=[0, 1, 7] refinedClasses=14 ours=EXACT |Aut(H)|=36.0 maxT=720 maxBase=5 (4.9s)
+   orbit of r2=7: 49 of 49 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 56 of 56 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 114 of 114 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 9; two-sided queries in total: 5
+   |Aut| = 1.12614e+07  Traces 1.12614e+07  agree=true  (35.125s)
+== pg2-8 n=146
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_TIME |Aut(H)|=null maxT=9408 maxBase=6 (10.0s)
+   depth 3: roots=[0, 1, 8] refinedClasses=14 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=6 (10.0s)
+   depth 4: roots=[0, 1, 8, 9] refinedClasses=30 ours=EXACT |Aut(H)|=3.0 maxT=3 maxBase=1 (0.4s)
+   orbit of r3=9: 49 of 49 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=8: 64 of 64 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 72 of 72 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 146 of 146 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 8; two-sided queries in total: 7
+   |Aut| = 9.88969e+07  Traces 9.88969e+07  agree=true  (40.741s)
+== pg2-9 n=182
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (0.2s)
+   depth 3: roots=[0, 1, 9] refinedClasses=14 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (0.2s)
+   depth 4: roots=[0, 1, 9, 10] refinedClasses=52 ours=EXACT |Aut(H)|=2.0 maxT=2 maxBase=1 (0.5s)
+   orbit of r3=10: 64 of 64 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=9: 81 of 81 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 90 of 90 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 182 of 182 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 10; two-sided queries in total: 9
+   |Aut| = 1.69828e+08  Traces 1.69828e+08  agree=true  (21.201s)
+== pg2-11 n=266
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (1.5s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (0.3s)
+   depth 3: roots=[0, 1, 11] refinedClasses=14 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (0.3s)
+   depth 4: roots=[0, 1, 11, 12] refinedClasses=266 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 (0.6s)
+   orbit of r3=12: 100 of 100 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=11: 121 of 121 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 132 of 132 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 266 of 266 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 7; two-sided queries in total: 7
+   |Aut| = 4.24855e+08  Traces 4.24855e+08  agree=true  (13.102s)
+== pg2-13 n=366
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (2.4s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (1.7s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (0.5s)
+   depth 3: roots=[0, 1, 13] refinedClasses=14 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (0.7s)
+   depth 4: roots=[0, 1, 13, 14] refinedClasses=366 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 (1.9s)
+   orbit of r3=14: 144 of 144 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=13: 169 of 169 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 182 of 182 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 366 of 366 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 7; two-sided queries in total: 7
+   |Aut| = 1.62107e+09  Traces 1.62107e+09  agree=true  (7.933s)
+== pg2-16 n=546
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 (0.0s)
+   depth 3: roots=[0, 1, 16] refinedClasses=14 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 (0.0s)
+   depth 4: roots=[0, 1, 16, 17] refinedClasses=30 ours=EXACT |Aut(H)|=4.0 maxT=4 maxBase=2 (6.0s)
+   orbit of r3=17: 225 of 225 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=16: 256 of 256 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 272 of 272 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 546 of 546 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 11; two-sided queries in total: 9
+   |Aut| = 3.42172e+10  Traces 3.42172e+10  agree=true  (27.325s)
+== pg2-17 n=614
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (3.4s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (3.2s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 (0.0s)
+   depth 3: roots=[0, 1, 17] refinedClasses=14 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 (0.0s)
+   depth 4: roots=[0, 1, 17, 18] refinedClasses=614 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 (5.1s)
+   orbit of r3=18: 256 of 256 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=17: 289 of 289 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 306 of 306 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 614 of 614 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 7; two-sided queries in total: 7
+   |Aut| = 1.39004e+10  Traces 1.39004e+10  agree=true  (13.149s)
+== pg2-19 n=762
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (4.4s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (4.1s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 (0.0s)
+   depth 3: roots=[0, 1, 19] refinedClasses=14 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 (0.0s)
+   depth 4: roots=[0, 1, 19, 20] refinedClasses=762 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 (10.4s)
+   orbit of r3=20: 324 of 324 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=19: 361 of 361 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 380 of 380 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 762 of 762 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 7; two-sided queries in total: 7
+   |Aut| = 3.38681e+10  Traces 3.38681e+10  agree=true  (20.638s)
+== pg2-23 n=1106
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (8.5s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 (7.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 (0.0s)
+   depth 3: roots=[0, 1, 23] refinedClasses=14 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 (0.0s)
+   depth 4: roots=[0, 1, 23, 24] refinedClasses=1106 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 (26.9s)
+   orbit of r3=24: 484 of 484 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=23: 529 of 529 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 552 of 552 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 1106 of 1106 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 7; two-sided queries in total: 7
+   |Aut| = 1.56313e+11  Traces 1.56313e+11  agree=true  (44.522s)
+== pg2-25 n=1302
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 (10.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 (0.0s)
+   depth 3: roots=[0, 1, 25] refinedClasses=14 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 (0.0s)
+   depth 4: roots=[0, 1, 25, 26] refinedClasses=124 ours=EXACT |Aut(H)|=2.0 maxT=2 maxBase=1 (77.4s)
+   orbit of r3=26: 576 of 576 candidates, 5 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=25: 625 of 625 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 650 of 650 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 1302 of 1302 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 11; two-sided queries in total: 10
+   |Aut| = 6.09336e+11  Traces 6.09336e+11  agree=true  (100.111s)

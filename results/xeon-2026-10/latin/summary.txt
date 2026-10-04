@@ -1,0 +1,22 @@
+family: latin
+instances: 19
+solved: 19
+by_series: 17
+by_chain: 2
+from_1wl: 2
+traces_run: 19
+traces_agree: 19
+disagree: 0
+traces_fail_we_solve: 0
+largest_n: 400
+largest_aut: 38988.0
+ours_max_s: 19.524
+ours_total_s: 63.854
+traces_total_s: 0.608
+median_ratio: 0.041561712846347604
+max_ratio: 0.857142857142857
+pi_traces_run: 0
+pi_traces_fail_we_solve: 0
+pi_median_ratio: 0
+pi_max_ratio: 0
+open: 

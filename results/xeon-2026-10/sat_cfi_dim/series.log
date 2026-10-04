@@ -1,0 +1,795 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_base_0100_a.dmc: EXACT aut=2^null traces= agree= query=  0.049s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0100_b.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0200_a.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0200_b.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0300_a.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0300_b.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0100_a.dmc: EXACT aut=2^null traces= agree= query=80->90 NOT_ORBIT_MATES 0.054s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0100_b.dmc: EXACT aut=2^null traces= agree= query=80->90 NOT_ORBIT_MATES 0.02s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0400_a.dmc: EXACT aut=2^null traces= agree= query=  0.002s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0400_b.dmc: EXACT aut=2^null traces= agree= query=  0.001s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0500_a.dmc: EXACT aut=2^null traces= agree= query=  0.002s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0500_b.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0600_a.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0600_b.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0200_a.dmc: EXACT aut=2^null traces= agree= query=160->180 NOT_ORBIT_MATES 0.03s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0200_b.dmc: EXACT aut=2^null traces= agree= query=160->180 NOT_ORBIT_MATES 0.021s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0700_a.dmc: EXACT aut=2^null traces= agree= query=  0.002s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0700_b.dmc: EXACT aut=2^null traces= agree= query=  0.002s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0800_a.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0800_b.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0900_a.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_0900_b.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_1000_a.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_base_1000_b.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0300_a.dmc: EXACT aut=2^null traces= agree= query=240->270 NOT_ORBIT_MATES 0.034s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0300_b.dmc: EXACT aut=2^null traces= agree= query=240->270 NOT_ORBIT_MATES 0.03s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0400_a.dmc: EXACT aut=2^null traces= agree= query=320->360 NOT_ORBIT_MATES 0.042s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0400_b.dmc: EXACT aut=2^null traces= agree= query=320->360 NOT_ORBIT_MATES 0.046s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0500_a.dmc: EXACT aut=2^null traces= agree= query=400->450 NOT_ORBIT_MATES 0.047s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0500_b.dmc: EXACT aut=2^null traces= agree= query=400->450 NOT_ORBIT_MATES 0.053s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2000_a.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2000_b.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2000_c.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2000_d.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2000_e.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0600_a.dmc: EXACT aut=2^null traces= agree= query=480->540 NOT_ORBIT_MATES 0.071s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0600_b.dmc: EXACT aut=2^null traces= agree= query=480->540 NOT_ORBIT_MATES 0.068s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2250_a.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2250_b.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2250_c.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2250_d.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2250_e.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0700_a.dmc: EXACT aut=2^null traces= agree= query=560->630 NOT_ORBIT_MATES 0.073s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0700_b.dmc: EXACT aut=2^null traces= agree= query=560->630 NOT_ORBIT_MATES 0.068s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2500_a.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2500_b.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2500_c.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2500_d.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2500_e.dmc: EXACT aut=2^null traces= agree= query=  0.012s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0800_a.dmc: EXACT aut=2^null traces= agree= query=640->720 NOT_ORBIT_MATES 0.098s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0800_b.dmc: EXACT aut=2^null traces= agree= query=640->720 NOT_ORBIT_MATES 0.077s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2750_a.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2750_b.dmc: EXACT aut=2^null traces= agree= query=  0.003s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2750_c.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2750_d.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_2750_e.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3000_a.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3000_b.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3000_c.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3000_d.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3000_e.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0900_a.dmc: EXACT aut=2^null traces= agree= query=720->810 NOT_ORBIT_MATES 0.089s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_0900_b.dmc: EXACT aut=2^null traces= agree= query=720->810 NOT_ORBIT_MATES 0.095s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3250_a.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3250_b.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3250_c.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3250_d.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3250_e.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_1000_a.dmc: EXACT aut=2^null traces= agree= query=800->900 NOT_ORBIT_MATES 0.098s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_1000_b.dmc: EXACT aut=2^null traces= agree= query=800->900 NOT_ORBIT_MATES 0.113s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3500_a.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3500_b.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3500_c.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3500_d.dmc: EXACT aut=2^null traces= agree= query=  0.004s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3500_e.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3750_a.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3750_b.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3750_c.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3750_d.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_3750_e.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4000_a.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4000_b.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4000_c.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4000_d.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4000_e.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4250_a.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4250_b.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4250_c.dmc: EXACT aut=2^null traces= agree= query=  0.005s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4250_d.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4250_e.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4500_a.dmc: EXACT aut=2^null traces= agree= query=  0.016s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4500_b.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4500_c.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4500_d.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4500_e.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4750_a.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4750_b.dmc: EXACT aut=2^null traces= agree= query=  0.01s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4750_c.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4750_d.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_4750_e.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5000_a.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5000_b.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5000_c.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5000_d.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5000_e.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5250_a.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5250_b.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5250_c.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5250_d.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5250_e.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5500_a.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5500_b.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5500_c.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5500_d.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5500_e.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5750_a.dmc: EXACT aut=2^null traces= agree= query=  0.014s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5750_b.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5750_c.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5750_d.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_5750_e.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6000_a.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6000_b.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6000_c.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6000_d.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6000_e.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6250_a.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6250_b.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6250_c.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6250_d.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6250_e.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6500_a.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6500_b.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6500_c.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6500_d.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6500_e.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2000_a.dmc: EXACT aut=2^null traces= agree= query=1600->1800 NOT_ORBIT_MATES 0.331s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2000_b.dmc: EXACT aut=2^null traces= agree= query=1600->1800 NOT_ORBIT_MATES 0.358s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2000_c.dmc: EXACT aut=2^null traces= agree= query=1600->1800 NOT_ORBIT_MATES 0.328s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2000_d.dmc: EXACT aut=2^null traces= agree= query=1600->1800 NOT_ORBIT_MATES 0.339s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2000_e.dmc: EXACT aut=2^null traces= agree= query=1600->1800 NOT_ORBIT_MATES 0.344s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6750_a.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6750_b.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6750_c.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6750_d.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_6750_e.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7000_a.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7000_b.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7000_c.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7000_d.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7000_e.dmc: EXACT aut=2^null traces= agree= query=  0.009s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7250_a.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7250_b.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7250_c.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7250_d.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7250_e.dmc: EXACT aut=2^null traces= agree= query=  0.008s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7500_a.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7500_b.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7500_c.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7500_d.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7500_e.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2250_a.dmc: EXACT aut=2^null traces= agree= query=1800->2025 NOT_ORBIT_MATES 0.269s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2250_b.dmc: EXACT aut=2^null traces= agree= query=1800->2025 NOT_ORBIT_MATES 0.287s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2250_c.dmc: EXACT aut=2^null traces= agree= query=1800->2025 NOT_ORBIT_MATES 0.281s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2250_d.dmc: EXACT aut=2^null traces= agree= query=1800->2025 NOT_ORBIT_MATES 0.269s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2250_e.dmc: EXACT aut=2^null traces= agree= query=1800->2025 NOT_ORBIT_MATES 0.259s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7750_a.dmc: EXACT aut=2^null traces= agree= query=  0.006s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7750_b.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7750_c.dmc: EXACT aut=2^null traces= agree= query=  0.01s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7750_d.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_7750_e.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_8000_a.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_8000_b.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_8000_c.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_8000_d.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_base_8000_e.dmc: EXACT aut=2^null traces= agree= query=  0.007s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2500_a.dmc: EXACT aut=2^null traces= agree= query=2000->2250 NOT_ORBIT_MATES 0.325s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2500_b.dmc: EXACT aut=2^null traces= agree= query=2000->2250 NOT_ORBIT_MATES 0.324s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2500_c.dmc: EXACT aut=2^null traces= agree= query=2000->2250 NOT_ORBIT_MATES 0.321s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2500_d.dmc: EXACT aut=2^null traces= agree= query=2000->2250 NOT_ORBIT_MATES 0.322s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2500_e.dmc: EXACT aut=2^null traces= agree= query=2000->2250 NOT_ORBIT_MATES 0.318s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2750_a.dmc: EXACT aut=2^null traces= agree= query=2200->2475 NOT_ORBIT_MATES 0.385s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2750_b.dmc: EXACT aut=2^null traces= agree= query=2200->2475 NOT_ORBIT_MATES 0.388s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2750_c.dmc: EXACT aut=2^null traces= agree= query=2200->2475 NOT_ORBIT_MATES 0.384s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2750_d.dmc: EXACT aut=2^null traces= agree= query=2200->2475 NOT_ORBIT_MATES 0.399s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_2750_e.dmc: EXACT aut=2^null traces= agree= query=2200->2475 NOT_ORBIT_MATES 0.417s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3000_a.dmc: EXACT aut=2^null traces= agree= query=2400->2700 NOT_ORBIT_MATES 0.456s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3000_b.dmc: EXACT aut=2^null traces= agree= query=2400->2700 NOT_ORBIT_MATES 0.459s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3000_c.dmc: EXACT aut=2^null traces= agree= query=2400->2700 NOT_ORBIT_MATES 0.464s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3000_d.dmc: EXACT aut=2^null traces= agree= query=2400->2700 NOT_ORBIT_MATES 0.469s
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3000_e.dmc: EXACT aut=2^null traces= agree= query=2400->2700 NOT_ORBIT_MATES 0.458s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3250_a.dmc: EXACT aut=2^null traces= agree= query=2600->2925 NOT_ORBIT_MATES 1.463s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3250_b.dmc: EXACT aut=2^null traces= agree= query=2600->2925 NOT_ORBIT_MATES 1.466s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3250_c.dmc: EXACT aut=2^null traces= agree= query=2600->2925 NOT_ORBIT_MATES 1.354s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3250_d.dmc: EXACT aut=2^null traces= agree= query=2600->2925 NOT_ORBIT_MATES 1.486s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3250_e.dmc: EXACT aut=2^null traces= agree= query=2600->2925 NOT_ORBIT_MATES 1.398s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3500_a.dmc: EXACT aut=2^null traces= agree= query=2800->3150 NOT_ORBIT_MATES 1.422s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3500_b.dmc: EXACT aut=2^null traces= agree= query=2800->3150 NOT_ORBIT_MATES 1.517s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3500_c.dmc: EXACT aut=2^null traces= agree= query=2800->3150 NOT_ORBIT_MATES 1.517s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3500_d.dmc: EXACT aut=2^null traces= agree= query=2800->3150 NOT_ORBIT_MATES 1.538s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3500_e.dmc: EXACT aut=2^null traces= agree= query=2800->3150 NOT_ORBIT_MATES 1.581s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3750_a.dmc: EXACT aut=2^null traces= agree= query=3000->3375 NOT_ORBIT_MATES 1.573s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3750_b.dmc: EXACT aut=2^null traces= agree= query=3000->3375 NOT_ORBIT_MATES 1.771s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3750_c.dmc: EXACT aut=2^null traces= agree= query=3000->3375 NOT_ORBIT_MATES 1.702s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3750_d.dmc: EXACT aut=2^null traces= agree= query=3000->3375 NOT_ORBIT_MATES 1.626s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_3750_e.dmc: EXACT aut=2^null traces= agree= query=3000->3375 NOT_ORBIT_MATES 1.6s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4000_a.dmc: EXACT aut=2^null traces= agree= query=3200->3600 NOT_ORBIT_MATES 1.791s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4000_b.dmc: EXACT aut=2^null traces= agree= query=3200->3600 NOT_ORBIT_MATES 1.987s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4000_c.dmc: EXACT aut=2^null traces= agree= query=3200->3600 NOT_ORBIT_MATES 1.888s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4000_d.dmc: EXACT aut=2^null traces= agree= query=3200->3600 NOT_ORBIT_MATES 1.947s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4000_e.dmc: EXACT aut=2^null traces= agree= query=3200->3600 NOT_ORBIT_MATES 1.846s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4250_a.dmc: EXACT aut=2^null traces= agree= query=3400->3825 NOT_ORBIT_MATES 2.07s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4250_b.dmc: EXACT aut=2^null traces= agree= query=3400->3825 NOT_ORBIT_MATES 2.174s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4250_c.dmc: EXACT aut=2^null traces= agree= query=3400->3825 NOT_ORBIT_MATES 2.12s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4250_d.dmc: EXACT aut=2^null traces= agree= query=3400->3825 NOT_ORBIT_MATES 2.131s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4250_e.dmc: EXACT aut=2^null traces= agree= query=3400->3825 NOT_ORBIT_MATES 2.067s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4500_a.dmc: EXACT aut=2^null traces= agree= query=3600->4050 NOT_ORBIT_MATES 2.319s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4500_b.dmc: EXACT aut=2^null traces= agree= query=3600->4050 NOT_ORBIT_MATES 2.409s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4500_c.dmc: EXACT aut=2^null traces= agree= query=3600->4050 NOT_ORBIT_MATES 2.331s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4500_d.dmc: EXACT aut=2^null traces= agree= query=3600->4050 NOT_ORBIT_MATES 2.186s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4500_e.dmc: EXACT aut=2^null traces= agree= query=3600->4050 NOT_ORBIT_MATES 2.258s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4750_a.dmc: EXACT aut=2^null traces= agree= query=3800->4275 NOT_ORBIT_MATES 2.456s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4750_b.dmc: EXACT aut=2^null traces= agree= query=3800->4275 NOT_ORBIT_MATES 2.537s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4750_c.dmc: EXACT aut=2^null traces= agree= query=3800->4275 NOT_ORBIT_MATES 2.411s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4750_d.dmc: EXACT aut=2^null traces= agree= query=3800->4275 NOT_ORBIT_MATES 2.529s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_4750_e.dmc: EXACT aut=2^null traces= agree= query=3800->4275 NOT_ORBIT_MATES 2.555s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5000_a.dmc: EXACT aut=2^null traces= agree= query=4000->4500 NOT_ORBIT_MATES 2.658s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5000_b.dmc: EXACT aut=2^null traces= agree= query=4000->4500 NOT_ORBIT_MATES 2.542s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5000_c.dmc: EXACT aut=2^null traces= agree= query=4000->4500 NOT_ORBIT_MATES 2.747s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5000_d.dmc: EXACT aut=2^null traces= agree= query=4000->4500 NOT_ORBIT_MATES 2.683s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5000_e.dmc: EXACT aut=2^null traces= agree= query=4000->4500 NOT_ORBIT_MATES 2.611s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5250_a.dmc: EXACT aut=2^null traces= agree= query=4200->4725 NOT_ORBIT_MATES 2.828s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5250_b.dmc: EXACT aut=2^null traces= agree= query=4200->4725 NOT_ORBIT_MATES 2.825s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5250_c.dmc: EXACT aut=2^null traces= agree= query=4200->4725 NOT_ORBIT_MATES 2.905s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5250_d.dmc: EXACT aut=2^null traces= agree= query=4200->4725 NOT_ORBIT_MATES 3.041s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5250_e.dmc: EXACT aut=2^null traces= agree= query=4200->4725 NOT_ORBIT_MATES 2.953s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5500_a.dmc: EXACT aut=2^null traces= agree= query=4400->4950 NOT_ORBIT_MATES 3.061s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5500_b.dmc: EXACT aut=2^null traces= agree= query=4400->4950 NOT_ORBIT_MATES 3.541s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5500_c.dmc: EXACT aut=2^null traces= agree= query=4400->4950 NOT_ORBIT_MATES 3.196s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5500_d.dmc: EXACT aut=2^null traces= agree= query=4400->4950 NOT_ORBIT_MATES 3.072s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5500_e.dmc: EXACT aut=2^null traces= agree= query=4400->4950 NOT_ORBIT_MATES 3.196s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5750_a.dmc: EXACT aut=2^null traces= agree= query=4600->5175 NOT_ORBIT_MATES 3.382s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5750_b.dmc: EXACT aut=2^null traces= agree= query=4600->5175 NOT_ORBIT_MATES 3.513s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5750_c.dmc: EXACT aut=2^null traces= agree= query=4600->5175 NOT_ORBIT_MATES 3.374s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5750_d.dmc: EXACT aut=2^null traces= agree= query=4600->5175 NOT_ORBIT_MATES 3.194s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_5750_e.dmc: EXACT aut=2^null traces= agree= query=4600->5175 NOT_ORBIT_MATES 3.246s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6000_a.dmc: EXACT aut=2^null traces= agree= query=4800->5400 NOT_ORBIT_MATES 3.55s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6000_b.dmc: EXACT aut=2^null traces= agree= query=4800->5400 NOT_ORBIT_MATES 3.815s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6000_c.dmc: EXACT aut=2^null traces= agree= query=4800->5400 NOT_ORBIT_MATES 3.607s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6000_d.dmc: EXACT aut=2^null traces= agree= query=4800->5400 NOT_ORBIT_MATES 3.663s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6000_e.dmc: EXACT aut=2^null traces= agree= query=4800->5400 NOT_ORBIT_MATES 3.64s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6250_a.dmc: EXACT aut=2^null traces= agree= query=5000->5625 NOT_ORBIT_MATES 4.073s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6250_b.dmc: EXACT aut=2^null traces= agree= query=5000->5625 NOT_ORBIT_MATES 3.889s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6250_c.dmc: EXACT aut=2^null traces= agree= query=5000->5625 NOT_ORBIT_MATES 3.774s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6250_d.dmc: EXACT aut=2^null traces= agree= query=5000->5625 NOT_ORBIT_MATES 3.593s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6250_e.dmc: EXACT aut=2^null traces= agree= query=5000->5625 NOT_ORBIT_MATES 3.938s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6500_a.dmc: EXACT aut=2^null traces= agree= query=5200->5850 NOT_ORBIT_MATES 3.85s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6500_b.dmc: EXACT aut=2^null traces= agree= query=5200->5850 NOT_ORBIT_MATES 4.054s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6500_c.dmc: EXACT aut=2^null traces= agree= query=5200->5850 NOT_ORBIT_MATES 4.098s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6500_d.dmc: EXACT aut=2^null traces= agree= query=5200->5850 NOT_ORBIT_MATES 4.137s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6500_e.dmc: EXACT aut=2^null traces= agree= query=5200->5850 NOT_ORBIT_MATES 4.345s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6750_a.dmc: EXACT aut=2^null traces= agree= query=5400->6075 NOT_ORBIT_MATES 4.425s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6750_b.dmc: EXACT aut=2^null traces= agree= query=5400->6075 NOT_ORBIT_MATES 4.137s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6750_c.dmc: EXACT aut=2^null traces= agree= query=5400->6075 NOT_ORBIT_MATES 4.412s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6750_d.dmc: EXACT aut=2^null traces= agree= query=5400->6075 NOT_ORBIT_MATES 4.388s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_6750_e.dmc: EXACT aut=2^null traces= agree= query=5400->6075 NOT_ORBIT_MATES 4.52s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7000_a.dmc: EXACT aut=2^null traces= agree= query=5600->6300 NOT_ORBIT_MATES 4.796s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7000_b.dmc: EXACT aut=2^null traces= agree= query=5600->6300 NOT_ORBIT_MATES 4.988s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7000_c.dmc: EXACT aut=2^null traces= agree= query=5600->6300 NOT_ORBIT_MATES 4.65s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7000_d.dmc: EXACT aut=2^null traces= agree= query=5600->6300 NOT_ORBIT_MATES 5.21s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7000_e.dmc: EXACT aut=2^null traces= agree= query=5600->6300 NOT_ORBIT_MATES 5.136s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7250_a.dmc: EXACT aut=2^null traces= agree= query=5800->6525 NOT_ORBIT_MATES 5.015s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7250_b.dmc: EXACT aut=2^null traces= agree= query=5800->6525 NOT_ORBIT_MATES 3.979s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7250_c.dmc: EXACT aut=2^null traces= agree= query=5800->6525 NOT_ORBIT_MATES 5.003s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7250_d.dmc: EXACT aut=2^null traces= agree= query=5800->6525 NOT_ORBIT_MATES 4.734s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7250_e.dmc: EXACT aut=2^null traces= agree= query=5800->6525 NOT_ORBIT_MATES 3.6s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7500_a.dmc: EXACT aut=2^null traces= agree= query=6000->6750 NOT_ORBIT_MATES 5.551s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7500_b.dmc: EXACT aut=2^null traces= agree= query=6000->6750 NOT_ORBIT_MATES 3.595s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7500_c.dmc: EXACT aut=2^null traces= agree= query=6000->6750 NOT_ORBIT_MATES 4.863s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7500_d.dmc: EXACT aut=2^null traces= agree= query=6000->6750 NOT_ORBIT_MATES 5.656s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7500_e.dmc: EXACT aut=2^null traces= agree= query=6000->6750 NOT_ORBIT_MATES 5.024s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7750_a.dmc: EXACT aut=2^null traces= agree= query=6200->6975 NOT_ORBIT_MATES 4.915s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7750_b.dmc: EXACT aut=2^null traces= agree= query=6200->6975 NOT_ORBIT_MATES 5.543s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7750_c.dmc: EXACT aut=2^null traces= agree= query=6200->6975 NOT_ORBIT_MATES 5.244s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7750_d.dmc: EXACT aut=2^null traces= agree= query=6200->6975 NOT_ORBIT_MATES 5.6s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_7750_e.dmc: EXACT aut=2^null traces= agree= query=6200->6975 NOT_ORBIT_MATES 5.632s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_8000_a.dmc: EXACT aut=2^null traces= agree= query=6400->7200 NOT_ORBIT_MATES 5.973s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_8000_b.dmc: EXACT aut=2^null traces= agree= query=6400->7200 NOT_ORBIT_MATES 5.487s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_8000_c.dmc: EXACT aut=2^null traces= agree= query=6400->7200 NOT_ORBIT_MATES 5.425s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_8000_d.dmc: EXACT aut=2^null traces= agree= query=6400->7200 NOT_ORBIT_MATES 4.928s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN sat_cfi_dim sat_cfi_mult_8000_e.dmc: EXACT aut=2^null traces= agree= query=6400->7200 NOT_ORBIT_MATES 5.487s

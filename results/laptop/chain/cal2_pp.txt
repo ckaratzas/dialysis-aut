@@ -1,0 +1,26 @@
+== pp-9-4 n=182
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=3199676480 closure=0/182 (10.0s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=5436086656 closure=1/182 (10.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=5705411712 closure=3/182 (10.0s)
+   depth 3: roots=[0, 1, 2] refinedClasses=14 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=206504298 closure=6/182 (0.3s)
+   depth 4: roots=[0, 1, 2, 27] refinedClasses=52 ours=EXACT |Aut(H)|=1.0 maxT=1 maxBase=1 groupWork=2083081 closure=26/182 (1.1s)
+   orbit of r3=27: 3 of 64 candidates, 1 two-sided queries, 30 ruled out by fingerprint
+   orbit of r2=2: 16 of 81 candidates, 2 two-sided queries, 7 ruled out by fingerprint
+   orbit of r1=1: 9 of 90 candidates, 1 two-sided queries, 6 ruled out by fingerprint
+   orbit of r0=0: 156 of 182 candidates, 2 two-sided queries, 3 ruled out by fingerprint
+   generators known at the end: 6; two-sided queries in total: 6
+   |Aut| = 67392.0  ours 31.67s
+== pp-16-6 n=546
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=5898225060 closure=0/546 (10.0s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=8382851568 closure=1/546 (10.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1415232 closure=3/546 (0.0s)
+   depth 3: roots=[0, 1, 16] refinedClasses=14 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=2122848 closure=6/546 (0.0s)
+   depth 4: roots=[0, 1, 16, 17] refinedClasses=30 ours=EXACT |Aut(H)|=168.0 maxT=168 maxBase=2 groupWork=323467186 closure=14/546 (17.0s)
+   orbit of r3=17: 1 of 225 candidates, 0 two-sided queries, 5 ruled out by fingerprint
+   orbit of r2=16: 2 of 256 candidates, 1 two-sided queries, 6 ruled out by fingerprint
+   orbit of r1=1: 3 of 272 candidates, 1 two-sided queries, 6 ruled out by fingerprint
+   orbit of r0=0: 256 of 546 candidates, 2 two-sided queries, 5 ruled out by fingerprint
+   generators known at the end: 7; two-sided queries in total: 4
+   |Aut| = 258048  ours 38.035s

@@ -1,0 +1,15 @@
+triang triang-30
+lattice lattice-23
+lattice lattice-24
+lattice lattice-25
+lattice lattice-26
+lattice lattice-27
+lattice lattice-28
+lattice lattice-29
+lattice lattice-30
+grid-w grid-w-3-15
+grid-w grid-w-2-75
+grid-w grid-w-2-85
+grid-w grid-w-3-17
+grid-w grid-w-2-95
+grid-w grid-w-3-19

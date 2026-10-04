@@ -1,0 +1,42 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== lattice-19 n=361 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1923408 (0.1s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=1923408 (0.0s)
+   depth 2: roots=[0, 20] refinedClasses=6 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=2991968 (0.0s)
+   depth 3: roots=[0, 20, 40] refinedClasses=10 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=3205680 (0.0s)
+   depth 4: roots=[0, 20, 40, 60] refinedClasses=15 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=3365964 (0.0s)
+   depth 5: roots=[0, 20, 40, 60, 80] refinedClasses=21 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=3526248 (0.0s)
+   depth 6: roots=[0, 20, 40, 60, 80, 100] refinedClasses=28 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=3686532 (0.0s)
+   depth 7: roots=[0, 20, 40, 60, 80, 100, 120] refinedClasses=36 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=3846816 (0.0s)
+   depth 8: roots=[0, 20, 40, 60, 80, 100, 120, 140] refinedClasses=45 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=4007100 (0.0s)
+   depth 9: roots=[0, 20, 40, 60, 80, 100, 120, 140, 160] refinedClasses=55 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=4167384 (0.0s)
+   depth 10: roots=[0, 20, 40, 60, 80, 100, 120, 140, 160, 180] refinedClasses=66 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=4327668 (0.0s)
+   depth 11: roots=[0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200] refinedClasses=78 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=4487952 (0.0s)
+   depth 12: roots=[0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220] refinedClasses=91 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=1380165453 (0.9s)
+   depth 13: roots=[0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240] refinedClasses=105 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=1380646305 (0.9s)
+   depth 14: roots=[0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260] refinedClasses=120 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=1383411204 (0.9s)
+   depth 15: roots=[0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280] refinedClasses=136 ours=STOP_TIME |Aut(H)|=1152.0 maxT=1152 maxBase=6 groupWork=4566151722 (18.0s)
+   depth 16: roots=[0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300] refinedClasses=153 ours=EXACT |Aut(H)|=72.0 maxT=72 maxBase=4 groupWork=168980094 (2.5s)
+   orbit of r15=300: 16 of 16 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r14=280: 25 of 25 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r13=260: 36 of 36 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r12=240: 49 of 49 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r11=220: 64 of 64 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r10=200: 81 of 81 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r9=180: 100 of 100 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r8=160: 121 of 121 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r7=140: 144 of 144 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r6=120: 169 of 169 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=100: 196 of 196 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=80: 225 of 225 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=60: 256 of 256 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=40: 289 of 289 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=20: 324 of 324 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 361 of 361 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 21; two-sided queries in total: 16
+   |Aut| = 2.95951e+34  ours 23.504s

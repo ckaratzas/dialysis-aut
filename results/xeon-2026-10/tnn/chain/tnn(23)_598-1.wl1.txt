@@ -1,0 +1,6 @@
+== tnn(23)_598-1 n=598 colour=1-WL
+   component type 0: 13 vertices, |Aut| = 4.00000, 23 copies
+   component type 1: 13 vertices, |Aut| = 32.0000, 23 copies
+   combination: 46 components, 2 types; |Aut| = prod |Aut(C)|^k k! = 1.95352e+93
+   complement mode: 51 of 51 generators verified on the original graph
+   |Aut| = 1.95352e+93  ours 5.13s

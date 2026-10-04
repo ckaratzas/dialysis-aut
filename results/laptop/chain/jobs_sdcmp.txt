@@ -1,0 +1,14 @@
+triang triang-12
+triang triang-20
+lattice lattice-8
+lattice lattice-16
+johnson johnson-12-4
+johnson johnson-10-5
+had had-16
+had had-32
+grid-w grid-w-3-9
+grid-w grid-w-3-13
+cmz cmz-16
+cmz cmz-50
+quartic-at graph_0358_001
+quartic-at graph_0586_001

@@ -1,0 +1,6 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,triang-4,6,12,1,,1,,,,3,,64,SKIPPED,,,,,
+single,triang-10,45,360,1,,1,,,,0,,19,SKIPPED,,,,,
+single,triang-17,136,2040,1,,1,,,,0,,105,SKIPPED,,,,,
+single,triang-23,253,5313,1,,1,,,,1,,306,SKIPPED,,,,,
+single,triang-30,435,12180,1,,1,,,,0,,1162,SKIPPED,,,,,

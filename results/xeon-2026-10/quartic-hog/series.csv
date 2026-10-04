@@ -1,0 +1,36 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+quartic-hog,graph_32519,10,20,10,20,1,1,"{10=1}",0,0,0,0,0,3,0,240.0,,,0->1,ORBIT_MATES,true,EXACT,0.13,1,5,true,1,"non-abelian stage: |L|=60.0 (60/60)",4,240,240,21
+quartic-hog,graph_21065,13,26,13,26,1,1,"{13=1}",0,0,0,0,0,3,0,52.0,,,0->1,ORBIT_MATES,true,EXACT,0.012,1,3,true,1,"",2,52,52,6
+quartic-hog,graph_1340,16,32,16,32,1,1,"{16=1}",0,0,0,0,0,8,0,384.0,,,0->1,ORBIT_MATES,true,EXACT,0.031,1,8,true,1,"",4,384,384,24
+quartic-hog,graph_53095,20,40,20,40,1,1,"{20=1}",0,0,0,0,0,5,0,80.0,,,0->1,ORBIT_MATES,true,EXACT,0.01,1,5,true,1,"",3,80,80,14
+quartic-hog,graph_51924,25,50,25,50,1,1,"{25=1}",0,0,0,0,0,4,0,100.0,,,0->1,ORBIT_MATES,true,EXACT,0.011,1,4,true,1,"",2,100,100,12
+quartic-hog,graph_51927,26,52,26,52,1,1,"{26=1}",0,0,0,0,0,4,0,104.0,,,0->1,ORBIT_MATES,true,EXACT,0.02,1,4,true,1,"",2,104,104,10
+quartic-hog,graph_51932,30,60,30,60,1,1,"{30=1}",0,0,0,0,0,2,0,120.0,,,0->1,ORBIT_MATES,true,EXACT,0.017,1,4,true,1,"non-abelian stage: |L|=60.0 (60/60)",2,120,120,15
+quartic-hog,graph_51938,33,66,33,66,1,1,"{33=1}",0,0,0,0,0,4,0,132.0,,,0->1,ORBIT_MATES,true,EXACT,0.013,1,4,true,1,"",2,132,132,10
+quartic-hog,graph_55123,39,78,39,78,1,1,"{39=1}",0,0,0,0,0,3,0,78.0,,,0->1,ORBIT_MATES,true,EXACT,0.01,1,3,true,1,"",2,78,78,6
+quartic-hog,graph_51953,40,80,40,80,1,1,"{40=1}",0,0,0,0,0,6,0,160.0,,,0->1,ORBIT_MATES,true,EXACT,0.014,1,6,true,1,"",2,160,160,24
+quartic-hog,graph_50932,48,96,48,96,1,1,"{48=1}",0,0,0,0,0,7,0,192.0,,,0->1,ORBIT_MATES,true,EXACT,0.015,1,7,true,1,"",2,192,192,26
+quartic-hog,graph_50935,60,120,60,120,1,1,"{60=1}",0,0,0,0,0,3,0,240.0,,,0->1,ORBIT_MATES,true,EXACT,0.023,1,4,true,1,"non-abelian stage: |L|=60.0 (60/60)",2,240,240,18
+quartic-hog,graph_52029,68,136,68,136,1,1,"{68=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.012,,0,,,"class of size 68: individualising 12 base vertices does not split it into singletons",0,0,0,0
+quartic-hog,graph_52054,75,150,75,150,1,1,"{75=1}",0,0,0,0,0,5,0,300.0,,,0->1,ORBIT_MATES,true,EXACT,0.041,1,5,true,1,"",2,300,300,10
+quartic-hog,graph_52055,75,150,75,150,1,1,"{75=1}",0,0,0,0,0,5,0,300.0,,,0->1,ORBIT_MATES,true,EXACT,0.044,1,5,true,1,"",2,300,300,10
+quartic-hog,graph_50941,81,162,81,162,1,1,"{81=1}",0,0,0,0,0,8,0,1296.0,,,0->1,ORBIT_MATES,true,EXACT,0.167,1,8,true,1,"",4,1296,1296,20
+quartic-hog,graph_52083,81,162,81,162,1,1,"{81=1}",0,0,0,0,0,6,0,324.0,,,0->1,ORBIT_MATES,true,EXACT,0.031,1,6,true,1,"",2,324,324,12
+quartic-hog,graph_52092,84,168,84,168,1,1,"{84=1}",0,0,0,0,0,2,0,336.0,,,0->1,ORBIT_MATES,true,EXACT,0.049,1,3,true,1,"non-abelian stage: |L|=168.0 (168/168)",2,336,336,12
+quartic-hog,graph_52096,84,168,84,168,1,1,"{84=1}",0,0,0,0,0,6,0,336.0,,,0->1,ORBIT_MATES,true,EXACT,0.05,1,6,true,1,"",2,336,336,24
+quartic-hog,graph_52400,84,168,84,168,1,1,"{84=1}",0,0,0,0,0,4,0,84.0,,,0->1,ORBIT_MATES,true,EXACT,0.012,1,4,true,1,"",1,84,84,10
+quartic-hog,graph_52105,88,176,88,176,1,1,"{88=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.482,,0,,,"class of size 88: more than 20000 candidate restrictions (base length 7)",0,0,0,0
+quartic-hog,graph_52108,88,176,88,176,1,1,"{88=1}",0,0,0,0,0,6,0,352.0,,,0->1,ORBIT_MATES,true,EXACT,0.039,1,6,true,1,"",2,352,352,24
+quartic-hog,graph_52110,89,178,89,178,1,1,"{89=1}",0,0,0,0,0,3,0,356.0,,,0->1,ORBIT_MATES,true,EXACT,0.056,1,3,true,1,"",2,356,356,6
+quartic-hog,graph_52119,90,180,90,180,1,1,"{90=1}",0,0,0,0,0,3,0,360.0,,,0->1,ORBIT_MATES,true,EXACT,0.04,1,4,true,1,"non-abelian stage: |L|=60.0 (60/60)",2,360,360,20
+quartic-hog,graph_52123,92,184,92,184,1,1,"{92=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.319,,0,,,"class of size 92: more than 20000 candidate restrictions (base length 12)",0,0,0,0
+quartic-hog,graph_50946,96,192,96,192,1,1,"{96=1}",0,0,0,0,0,10,0,1536.0,,,0->1,ORBIT_MATES,true,EXACT,0.169,1,10,true,1,"",4,1536,1536,32
+quartic-hog,graph_52148,96,192,96,192,1,1,"{96=1}",0,0,0,0,0,8,0,384.0,,,0->1,ORBIT_MATES,true,EXACT,0.042,1,8,true,1,"",2,384,384,40
+quartic-hog,graph_52160,100,200,100,200,1,1,"{100=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.006,,0,,,"class of size 100: individualising 12 base vertices does not split it into singletons",0,0,0,0
+quartic-hog,graph_50960,160,320,160,320,1,1,"{160=1}",0,0,0,0,0,10,0,2560.0,,,0->1,ORBIT_MATES,true,EXACT,0.583,1,10,true,1,"",4,2560,2560,32
+quartic-hog,graph_50964,192,384,192,384,1,1,"{192=1}",0,0,0,0,0,9,0,768.0,,,0->1,ORBIT_MATES,true,EXACT,0.154,1,9,true,1,"",2,768,768,24
+quartic-hog,graph_50965,192,384,192,384,1,1,"{192=1}",0,0,0,0,0,9,0,768.0,,,0->1,ORBIT_MATES,true,EXACT,0.135,1,9,true,1,"",2,768,768,28
+quartic-hog,graph_50969,224,448,224,448,1,1,"{224=1}",0,0,0,0,0,10,0,3584.0,,,0->1,ORBIT_MATES,true,EXACT,0.734,1,10,true,1,"",4,3584,3584,28
+quartic-hog,graph_50970,224,448,224,448,1,1,"{224=1}",0,0,0,0,0,10,0,3584.0,,,0->1,ORBIT_MATES,true,EXACT,0.734,1,10,true,1,"",4,3584,3584,28
+quartic-hog,graph_50972,240,480,240,480,1,1,"{240=1}",0,0,0,0,0,8,0,960.0,,,0->1,ORBIT_MATES,true,EXACT,0.199,1,8,true,1,"",2,960,960,18
+quartic-hog,graph_50974,243,486,243,486,1,1,"{243=1}",0,0,0,0,0,7,0,972.0,,,0->1,ORBIT_MATES,true,EXACT,0.274,1,7,true,1,"",2,972,972,14

@@ -1,0 +1,15 @@
+family,instance,n,m,colour,colour_classes,colour_ms,traces_order,traces_orbits,traces_ms,outcome
+pg,pg2-2,14,21,none,1,0,336.0,1,31,OK
+pg,pg2-3,26,52,none,1,0,11232.0,1,31,OK
+pg,pg2-4,42,105,none,1,0,241920.0,1,30,OK
+pg,pg2-5,62,186,none,1,0,744000.0,1,29,OK
+pg,pg2-7,114,456,none,1,0,1.1261376E7,1,30,OK
+pg,pg2-8,146,657,none,1,1,9.8896896E7,1,31,OK
+pg,pg2-9,182,910,none,1,0,1.6982784E8,1,31,OK
+pg,pg2-11,266,1596,none,1,1,4.248552E8,1,30,OK
+pg,pg2-13,366,2562,none,1,0,1.621069632E9,1,37,OK
+pg,pg2-16,546,4641,none,1,1,3.42171648E10,1,39,OK
+pg,pg2-17,614,5526,none,1,0,1.3900409856E10,1,38,OK
+pg,pg2-19,762,7620,none,1,0,3.386809584E10,1,40,OK
+pg,pg2-23,1106,13272,none,1,0,1.56313050432E11,1,40,OK
+pg,pg2-25,1302,16926,none,1,0,6.09336E11,1,48,OK

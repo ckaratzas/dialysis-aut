@@ -1,0 +1,28 @@
+== tnn(7)_182-1 n=182
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=12 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=5040 maxBase=6 groupWork=188006910 (0.5s)
+   depth 1: roots=[0] refinedClasses=19 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=157051440 (0.3s)
+   depth 2: roots=[0, 1] refinedClasses=28 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=720 maxBase=5 groupWork=144684960 (0.3s)
+   depth 3: roots=[0, 1, 36] refinedClasses=29 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=720 maxBase=5 groupWork=144684960 (0.3s)
+   depth 4: roots=[0, 1, 36, 146] refinedClasses=30 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=720 maxBase=5 groupWork=144684960 (0.3s)
+   depth 5: roots=[0, 1, 36, 146, 4] refinedClasses=40 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=720 maxBase=5 groupWork=96190080 (0.2s)
+   depth 6: roots=[0, 1, 36, 146, 4, 5] refinedClasses=53 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=120 maxBase=4 groupWork=140472360 (0.2s)
+   depth 7: roots=[0, 1, 36, 146, 4, 5, 6] refinedClasses=63 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=3840 maxBase=5 groupWork=115130120 (0.2s)
+   depth 8: roots=[0, 1, 36, 146, 4, 5, 6, 9] refinedClasses=76 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=384 maxBase=4 groupWork=139909490 (0.3s)
+   depth 9: roots=[0, 1, 36, 146, 4, 5, 6, 9, 11] refinedClasses=86 ours=STOP_TIME |Aut(H)|=null maxT=6144 maxBase=6 groupWork=4556235389 (7.2s)
+   depth 10: roots=[0, 1, 36, 146, 4, 5, 6, 9, 11, 20] refinedClasses=99 ours=STOP_TIME |Aut(H)|=null maxT=3072 maxBase=6 groupWork=4514551431 (5.2s)
+   depth 11: roots=[0, 1, 36, 146, 4, 5, 6, 9, 11, 20, 16] refinedClasses=109 ours=EXACT |Aut(H)|=5.1539607552E10 maxT=384 maxBase=4 groupWork=199408426 (0.9s)
+   orbit of r10=16: 12 of 12 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r9=20: 16 of 16 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r8=11: 16 of 16 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r7=9: 20 of 20 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r6=6: 20 of 20 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=5: 24 of 24 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=4: 24 of 24 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=146: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=36: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 14 of 14 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 46; two-sided queries in total: 11
+   complement mode: 46 of 46 generators verified on the original graph
+   |Aut| = 1.42998e+22  ours 16.786s

@@ -1,0 +1,15 @@
+triang triang-30 rc=0
+lattice lattice-23 rc=0
+lattice lattice-24 rc=0
+lattice lattice-25 rc=0
+lattice lattice-26 rc=0
+lattice lattice-27 rc=0
+lattice lattice-28 rc=0
+lattice lattice-29 rc=0
+lattice lattice-30 rc=0
+grid-w grid-w-3-15 rc=0
+grid-w grid-w-2-75 rc=0
+grid-w grid-w-2-85 rc=0
+grid-w grid-w-3-17 rc=0
+grid-w grid-w-2-95 rc=0
+grid-w grid-w-3-19 rc=0

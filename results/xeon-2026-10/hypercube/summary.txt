@@ -1,0 +1,22 @@
+family: hypercube
+instances: 11
+solved: 11
+by_series: 0
+by_chain: 11
+from_1wl: 11
+traces_run: 11
+traces_agree: 5
+disagree: 6
+traces_fail_we_solve: 0
+largest_n: 8192
+largest_aut: 51011800000000.0
+ours_max_s: 76.879
+ours_total_s: 313.443
+traces_total_s: 0.41000000000000003
+median_ratio: 0.04711246200607903
+max_ratio: 0.14832535885167464
+pi_traces_run: 0
+pi_traces_fail_we_solve: 0
+pi_median_ratio: 0
+pi_max_ratio: 0
+open: 

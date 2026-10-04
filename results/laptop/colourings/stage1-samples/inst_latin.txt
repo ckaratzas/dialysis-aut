@@ -1,0 +1,5 @@
+latin-2
+latin-6
+latin-11
+latin-15
+latin-20

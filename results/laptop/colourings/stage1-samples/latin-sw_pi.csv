@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+latin-sw,latin-sw-10-1,100,1350,100,1350,1,1,"{100=1}",0,2699,0,0,0,0,0,1.0,,,0->1,NOT_ORBIT_MATES,,EXACT,0.321,100,0,true,100,"",2,1,1,0
+latin-sw,latin-sw-15-11,225,4725,225,4725,1,1,"{225=1}",0,9449,0,0,0,0,0,1.0,,,0->1,NOT_ORBIT_MATES,,EXACT,0.77,225,0,true,225,"",2,1,1,0
+latin-sw,latin-sw-20-4,400,11400,400,11400,1,1,"{400=1}",0,22799,0,0,0,0,0,1.0,,,0->1,NOT_ORBIT_MATES,,EXACT,3.195,400,0,true,400,"",2,1,1,0
+latin-sw,latin-sw-25-6,625,22500,625,22500,1,1,"{625=1}",0,44999,0,0,0,0,0,1.0,,,0->1,NOT_ORBIT_MATES,,EXACT,12.542,625,0,true,625,"",2,1,1,0
+latin-sw,latin-sw-30-9,900,39150,900,39150,1,1,"{900=1}",0,78299,0,0,0,0,0,1.0,,,0->1,NOT_ORBIT_MATES,,EXACT,33.482,900,0,true,900,"",2,1,1,0

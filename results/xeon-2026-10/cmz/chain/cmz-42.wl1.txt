@@ -1,0 +1,7 @@
+== cmz-42 n=1008 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=32659200 (0.2s)
+   depth 1: roots=[0] refinedClasses=342 ours=EXACT |Aut(H)|=1.9342813113834067E25 maxT=8 maxBase=2 groupWork=310875408 (1.2s)
+   orbit of r0=0: 84 of 84 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 86; two-sided queries in total: 2
+   |Aut| = 1.62480e+27  ours 1.644s

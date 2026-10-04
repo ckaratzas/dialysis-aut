@@ -1,0 +1,12 @@
+family,instance,n,m,colour,colour_classes,colour_ms,traces_order,traces_orbits,traces_ms,outcome
+hypercube,hypercube-3,8,12,none,1,0,48.0,1,29,OK
+hypercube,hypercube-4,16,32,none,1,0,384.0,1,28,OK
+hypercube,hypercube-5,32,80,none,1,0,3840.0,1,27,OK
+hypercube,hypercube-6,64,192,none,1,0,46080.0,1,36,OK
+hypercube,hypercube-7,128,448,none,1,0,645120.0,1,35,OK
+hypercube,hypercube-8,256,1024,none,1,0,1.032192E7,1,38,OK
+hypercube,hypercube-9,512,2304,none,1,0,1.8579456E8,1,38,OK
+hypercube,hypercube-10,1024,5120,none,1,0,3.7158912E9,1,43,OK
+hypercube,hypercube-11,2048,11264,none,1,0,8.17496064E10,1,47,OK
+hypercube,hypercube-12,4096,24576,none,1,0,1.9619905536E12,1,55,OK
+hypercube,hypercube-13,8192,53248,none,1,1,5.10117543936E13,1,72,OK

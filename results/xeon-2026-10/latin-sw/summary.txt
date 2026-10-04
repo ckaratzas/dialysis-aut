@@ -1,0 +1,22 @@
+family: latin-sw
+instances: 231
+solved: 231
+by_series: 231
+by_chain: 0
+from_1wl: 0
+traces_run: 231
+traces_agree: 231
+disagree: 0
+traces_fail_we_solve: 0
+largest_n: 900
+largest_aut: 1.0
+ours_max_s: 24.434
+ours_total_s: 1308.478
+traces_total_s: 16.916
+median_ratio: 0.020480854853072127
+max_ratio: 0.6071428571428572
+pi_traces_run: 0
+pi_traces_fail_we_solve: 0
+pi_median_ratio: 0
+pi_max_ratio: 0
+open: 

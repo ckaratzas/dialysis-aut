@@ -1,0 +1,24 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== lattice-11 n=121 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=243194028 (0.7s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=365904 (0.0s)
+   depth 2: roots=[0, 12] refinedClasses=6 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=569184 (0.0s)
+   depth 3: roots=[0, 12, 24] refinedClasses=10 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=2 maxBase=1 groupWork=609840 (0.0s)
+   depth 4: roots=[0, 12, 24, 36] refinedClasses=15 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=262315053 (0.2s)
+   depth 5: roots=[0, 12, 24, 36, 48] refinedClasses=21 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=262406529 (0.2s)
+   depth 6: roots=[0, 12, 24, 36, 48, 60] refinedClasses=28 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=262932516 (0.2s)
+   depth 7: roots=[0, 12, 24, 36, 48, 60, 72] refinedClasses=36 ours=EXACT |Aut(H)|=1152.0 maxT=1152 maxBase=6 groupWork=1027670058 (26.2s)
+   orbit of r6=72: 25 of 25 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=60: 36 of 36 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=48: 49 of 49 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=36: 64 of 64 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=24: 81 of 81 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=12: 100 of 100 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 121 of 121 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 16; two-sided queries in total: 7
+   |Aut| = 3.18670e+15  ours 27.771s

@@ -1,0 +1,5 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,hypercube-13,8192,53248,1,,1,,,,17,,39822,SKIPPED,,,,,
+single,grid-w-2-100,10000,20000,1,,1,,,,3,,62803,SKIPPED,,,,,
+single,grid-2-100,10000,19800,1275,,1275,,,,83,,35311,SKIPPED,,,,,
+single,rnd-3-reg-10000-9,10000,15000,1,,10000,,,,8,,135018,SKIPPED,,,,,

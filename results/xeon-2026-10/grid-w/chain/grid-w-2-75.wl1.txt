@@ -1,0 +1,9 @@
+== grid-w-2-75 n=5625 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4501743750 (6.6s)
+   depth 1: roots=[0] refinedClasses=741 ours=STOP_TIME |Aut(H)|=null maxT=8 maxBase=2 groupWork=4501237500 (5.9s)
+   depth 2: roots=[0, 106] refinedClasses=5625 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 groupWork=0 (0.4s)
+   orbit of r1=106: 8 of 8 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 5625 of 5625 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 3; two-sided queries in total: 3
+   |Aut| = 45000.0  ours 13.297s

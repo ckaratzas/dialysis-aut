@@ -1,0 +1,6 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,lattice-4,16,48,1,,1,,,,5,,84,SKIPPED,,,,,
+single,lattice-10,100,900,1,,1,,,,0,,72,SKIPPED,,,,,
+single,lattice-17,289,4624,1,,1,,,,1,,466,SKIPPED,,,,,
+single,lattice-23,529,11638,1,,1,,,,2,,1771,SKIPPED,,,,,
+single,lattice-30,900,26100,1,,1,,,,4,,964,SKIPPED,,,,,

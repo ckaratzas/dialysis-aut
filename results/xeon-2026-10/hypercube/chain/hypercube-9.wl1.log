@@ -1,0 +1,22 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== hypercube-9 n=512 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1472158720 (4.4s)
+   depth 1: roots=[0] refinedClasses=10 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1335746560 (1.6s)
+   depth 2: roots=[0, 12] refinedClasses=18 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1443348480 (1.4s)
+   depth 3: roots=[0, 12, 68] refinedClasses=32 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=6 groupWork=4500029440 (4.2s)
+   depth 4: roots=[0, 12, 68, 3] refinedClasses=56 ours=STOP_TIME |Aut(H)|=null maxT=720 maxBase=5 groupWork=4505438466 (10.5s)
+   depth 5: roots=[0, 12, 68, 3, 9] refinedClasses=96 ours=STOP_TIME |Aut(H)|=null maxT=120 maxBase=4 groupWork=4502202183 (6.7s)
+   depth 6: roots=[0, 12, 68, 3, 9, 2] refinedClasses=160 ours=EXACT |Aut(H)|=24.0 maxT=24 maxBase=3 groupWork=270719846 (1.4s)
+   orbit of r5=2: 5 of 5 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=9: 6 of 6 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=3: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=68: 8 of 8 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=12: 9 of 9 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 512 of 512 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 10; two-sided queries in total: 6
+   |Aut| = 1.85795e+08  ours 30.412s  formula 1.85795e+08 agree=true

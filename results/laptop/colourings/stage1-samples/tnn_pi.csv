@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+tnn,tnn(1)_26-1,26,72,26,72,12,8,"{2=5, 4=3}",0,0,0,0,0,13,0,128.0,,,0->9,ORBIT_MATES,true,EXACT,0.556,12,7,true,12,"",2,8,64,10
+tnn,tnn(3)_78-1,78,504,78,504,12,12,"{3=4, 6=5, 12=3}",0,0,0,0,0,63,0,7.5497472E7,,,0->14,ORBIT_MATES,true,EXACT,6.284,12,25,true,12,"",6,3072,9437184,70
+tnn,tnn(7)_182-2,182,2520,182,2520,12,12,"{6=3, 8=1, 12=3, 16=2, 24=1, 32=2}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.565,,0,,,"class of size 8: more than 20000 candidate restrictions (base length 7)",5,720,0,0
+tnn,tnn(23)_598-1,598,25944,598,25944,12,12,"{23=4, 46=5, 92=3}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),2.824,,0,,,"class of size 23: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(39)_1014-2,1014,73944,1014,73944,12,12,"{38=3, 40=1, 76=3, 80=2, 152=1, 160=2}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),1.689,,0,,,"class of size 160: individualising 12 base vertices does not split it into singletons",0,0,0,0

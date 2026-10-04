@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+mz-aug2,mz-aug2-4,96,152,96,152,56,24,"{2=16, 4=8}",0,0,0,0,0,32,0,1024.0,,,2->3,ORBIT_MATES,true,EXACT,0.17,56,10,true,56,"",1,4,16,0
+mz-aug2,mz-aug2-14,336,532,336,532,196,84,"{2=56, 4=28}",0,0,0,0,0,112,0,1.073741824E9,,,2->3,ORBIT_MATES,true,EXACT,0.322,196,30,true,196,"",1,4,16,0
+mz-aug2,mz-aug2-26,624,988,624,988,364,156,"{2=104, 4=52}",0,0,0,0,0,208,0,1.8014398509481984E16,,,2->3,ORBIT_MATES,true,EXACT,0.619,364,54,true,364,"",1,4,16,0
+mz-aug2,mz-aug2-38,912,1444,912,1444,532,228,"{2=152, 4=76}",0,0,0,0,0,304,0,3.022314549036573E23,,,2->3,ORBIT_MATES,true,EXACT,0.828,532,78,true,532,"",1,4,16,0
+mz-aug2,mz-aug2-50,1200,1900,1200,1900,700,300,"{2=200, 4=100}",0,0,0,0,0,400,0,5.070602400912918E30,,,2->3,ORBIT_MATES,true,EXACT,1.484,700,102,true,700,"",1,4,16,0

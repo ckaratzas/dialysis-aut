@@ -1,0 +1,20 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== CHH_cc(3-3)_198-1 n=198
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=8 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=164530800 (0.4s)
+   depth 1: roots=[38] refinedClasses=16 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=288 maxBase=4 groupWork=169584912 (0.3s)
+   depth 2: roots=[38, 16] refinedClasses=20 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=12 maxBase=2 groupWork=165214224 (0.2s)
+   depth 3: roots=[38, 16, 45] refinedClasses=24 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=12 maxBase=2 groupWork=165095280 (0.2s)
+   depth 4: roots=[38, 16, 45, 48] refinedClasses=38 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=12 maxBase=2 groupWork=164966256 (0.3s)
+   depth 5: roots=[38, 16, 45, 48, 68] refinedClasses=68 ours=EXACT |Aut(H)|=7.1663616E7 maxT=288 maxBase=4 groupWork=34794480 (0.6s)
+   orbit of r4=68: 48 of 48 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=48: 4 of 4 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=45: 3 of 3 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=16: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=38: 3 of 3 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 31; two-sided queries in total: 9
+   |Aut| = 2.47669e+11  ours 2.947s

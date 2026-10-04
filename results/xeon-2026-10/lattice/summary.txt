@@ -1,0 +1,22 @@
+family: lattice
+instances: 27
+solved: 27
+by_series: 1
+by_chain: 26
+from_1wl: 26
+traces_run: 27
+traces_agree: 4
+disagree: 23
+traces_fail_we_solve: 0
+largest_n: 900
+largest_aut: 1.40718e+65
+ours_max_s: 177.593
+ours_total_s: 1066.741
+traces_total_s: 0.971
+median_ratio: 0.01778506187073181
+max_ratio: 0.13716814159292035
+pi_traces_run: 0
+pi_traces_fail_we_solve: 0
+pi_median_ratio: 0
+pi_max_ratio: 0
+open: 

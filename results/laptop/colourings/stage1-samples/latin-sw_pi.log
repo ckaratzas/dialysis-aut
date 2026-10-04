@@ -1,0 +1,10 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/christos/IdeaProjects/graph-dialysis/build/paper3/dialysis-paper3-layer.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN latin-sw latin-sw-10-1: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.321s
+CAMPAIGN latin-sw latin-sw-15-11: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.77s
+CAMPAIGN latin-sw latin-sw-20-4: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 3.195s
+CAMPAIGN latin-sw latin-sw-25-6: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 12.542s
+CAMPAIGN latin-sw latin-sw-30-9: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 33.482s

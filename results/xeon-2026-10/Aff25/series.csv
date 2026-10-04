@@ -1,0 +1,2 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+Aff25,Aff25,1275,16250,1275,16250,2,2,"{625=1, 650=1}",0,0,0,0,0,0,0,,,,,,,STOP_TIME,10.03,,0,,,"time budget exceeded while building candidates for a class of size 625 (base length 3)",0,0,0,0

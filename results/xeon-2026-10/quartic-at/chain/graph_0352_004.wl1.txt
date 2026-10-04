@@ -1,0 +1,7 @@
+== graph_0352_004 n=352 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=3727680 (0.1s)
+   depth 1: roots=[0] refinedClasses=48 ours=EXACT |Aut(H)|=1.5474250491067253E26 maxT=32 maxBase=2 groupWork=215220376 (0.7s)
+   orbit of r0=0: 352 of 352 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 88; two-sided queries in total: 1
+   |Aut| = 5.44694e+28  ours 0.979s

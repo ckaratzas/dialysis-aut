@@ -1,0 +1,6 @@
+== tnn(7)_182-1 n=182 colour=1-WL
+   component type 0: 13 vertices, |Aut| = 4.00000, 7 copies
+   component type 1: 13 vertices, |Aut| = 32.0000, 7 copies
+   combination: 14 components, 2 types; |Aut| = prod |Aut(C)|^k k! = 1.42998e+22
+   complement mode: 19 of 19 generators verified on the original graph
+   |Aut| = 1.42998e+22  ours 1.391s

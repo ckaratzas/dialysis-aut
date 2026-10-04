@@ -1,0 +1,14 @@
+== cfi-rigid-r2-0072-01-1 n=72
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=24 ours=EXACT |Aut(H)|=1.0 maxT=4 maxBase=1 (0.1s)
+   depth 1: roots=[7] refinedClasses=28 ours=EXACT |Aut(H)|=1.0 maxT=4 maxBase=1 (0.1s)
+   orbit of r0=7: 1 of 2 candidates, 1 two-sided queries, 1 ruled out by fingerprint
+   generators known at the end: 0; two-sided queries in total: 1
+   |Aut| = 1.00000  Traces 1.00000  agree=true  (0.397s)
+== cfi-rigid-r2-0072-02-1 n=72
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=24 ours=EXACT |Aut(H)|=1.0 maxT=4 maxBase=1 (0.1s)
+   depth 1: roots=[4] refinedClasses=28 ours=EXACT |Aut(H)|=1.0 maxT=4 maxBase=1 (0.1s)
+   orbit of r0=4: 1 of 2 candidates, 1 two-sided queries, 1 ruled out by fingerprint
+   generators known at the end: 0; two-sided queries in total: 1
+   |Aut| = 1.00000  Traces 1.00000  agree=true  (0.286s)

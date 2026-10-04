@@ -1,0 +1,20 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== johnson-12-5 n=792 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500105984 (5.6s)
+   depth 1: roots=[0] refinedClasses=6 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500020448 (2.6s)
+   depth 2: roots=[0, 20] refinedClasses=15 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500048960 (2.2s)
+   depth 3: roots=[0, 20, 30] refinedClasses=32 ours=STOP_TIME |Aut(H)|=null maxT=2880 maxBase=5 groupWork=4500048960 (2.1s)
+   depth 4: roots=[0, 20, 30, 165] refinedClasses=49 ours=STOP_TIME |Aut(H)|=null maxT=960 maxBase=4 groupWork=4501663502 (3.8s)
+   depth 5: roots=[0, 20, 30, 165, 8] refinedClasses=110 ours=EXACT |Aut(H)|=96.0 maxT=96 maxBase=2 groupWork=410713596 (1.9s)
+   orbit of r4=8: 10 of 10 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=165: 3 of 3 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=30: 10 of 10 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=20: 21 of 21 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 792 of 792 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 11; two-sided queries in total: 5
+   |Aut| = 4.79002e+08  ours 18.263s  formula 4.79002e+08 agree=true

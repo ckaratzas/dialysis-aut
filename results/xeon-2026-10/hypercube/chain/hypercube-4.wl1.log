@@ -1,0 +1,10 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== hypercube-4 n=16 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=EXACT |Aut(H)|=384.0 maxT=384 maxBase=4 groupWork=1616732 (0.1s)
+   generators known at the end: 8; two-sided queries in total: 0
+   |Aut| = 384.000  ours 0.266s  formula 384.000 agree=true

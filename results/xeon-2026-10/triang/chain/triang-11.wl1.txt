@@ -1,0 +1,11 @@
+== triang-11 n=55 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=71876145 (0.4s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=71869875 (0.1s)
+   depth 2: roots=[0, 19] refinedClasses=6 ours=STOP_TIME |Aut(H)|=null maxT=10080 maxBase=6 groupWork=4513877122 (30.8s)
+   depth 3: roots=[0, 19, 34] refinedClasses=10 ours=EXACT |Aut(H)|=960.0 maxT=240 maxBase=4 groupWork=164260012 (0.7s)
+   orbit of r2=34: 21 of 21 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=19: 36 of 36 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 55 of 55 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 10; two-sided queries in total: 3
+   |Aut| = 3.99168e+07  ours 32.057s

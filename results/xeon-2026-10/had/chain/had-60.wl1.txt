@@ -1,0 +1,11 @@
+== had-60 n=240 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500024480 (3.1s)
+   depth 1: roots=[0] refinedClasses=5 ours=STOP_TIME |Aut(H)|=null maxT=1711 maxBase=2 groupWork=4500039360 (1.9s)
+   depth 2: roots=[0, 121] refinedClasses=8 ours=STOP_TIME |Aut(H)|=null maxT=1711 maxBase=2 groupWork=6417607532 (2.0s)
+   depth 3: roots=[0, 121, 2] refinedClasses=12 ours=EXACT |Aut(H)|=29.0 maxT=29 maxBase=2 groupWork=321418354 (1.4s)
+   orbit of r2=2: 59 of 59 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=121: 1 of 60 candidates, 59 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 240 of 240 candidates, 62 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 5; two-sided queries in total: 122
+   |Aut| = 410640  ours 8.617s

@@ -1,0 +1,10 @@
+15:55:39 tnn(16)_416-1 C rc=0 wall=22s  |Aut| = 2.27300e+60 ours 21.624s | exact at depth 29 | complement: 1 dense class pairs of 3, m 12672 -> 1152
+15:55:45 CHH_cc(4-4)_352-1 C rc=0 wall=6s  |Aut| = 1.13593e+21 ours 5.97s | exact at depth 5 | complement: 1 dense class pairs of 6, m 840 -> 768
+16:06:14 CHH_cc(6-5)_660-1 G rc=0 wall=629s  |Aut| = 1.72239e+42 ours 629.184s | exact at depth 14 | 
+16:19:49 CHH_cc(6-5)_660-1 C rc=0 wall=815s  |Aut| = 1.72239e+42 ours 814.736s | exact at depth 12 | complement: 1 dense class pairs of 6, m 2025 -> 1740
+16:30:05 CHH_cc(6-6)_792-1 C rc=0 wall=616s  |Aut| = 1.11089e+51 ours 616.015s | exact at depth 14 | complement: 1 dense class pairs of 6, m 2538 -> 2088
+16:36:04 CHH_cc(7-7)_1078-1 C rc=0 wall=359s  |Aut| = 4.90737e+71 ours 358.455s | exact at depth 23 | complement: 1 dense class pairs of 6, m 3969 -> 3087
+16:40:12 CHH_cc(7-7)_1078-1 G rc=0 wall=248s  |Aut| = 4.90737e+71 ours 248.089s | exact at depth 24 | 
+16:40:37 tnn(23)_598-1 C rc=0 wall=25s  |Aut| = 1.95352e+93 ours 25.26s | exact at depth 43 | complement: 1 dense class pairs of 3, m 25944 -> 1656
+16:41:21 tnn(39)_1014-1 C rc=0 wall=44s  |Aut| = 6.31479e+174 ours 43.816s | exact at depth 74 | complement: 1 dense class pairs of 3, m 73944 -> 2808
+DONE

@@ -1,0 +1,18 @@
+build/
+.gradle/
+.kotlin/
+*.class
+src/main/resources/*.so
+src/main/cpp/nauty/libnauty.a
+results/*/summary.md
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/dialysis_chain.tex
+paper/dialysis_chain.pdf
+# not public: the manuscript and internal working notes
+paper/
+CLAUDE.md
+.idea/
+results-run/
+tmp/

@@ -1,0 +1,6 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,latin-2,4,6,1,,1,,,,5,,91,SKIPPED,,,,,
+single,latin-6,36,270,1,,1,,,,0,,21,SKIPPED,,,,,
+single,latin-11,121,1815,1,,1,,,,0,,91,SKIPPED,,,,,
+single,latin-15,225,4725,1,,1,,,,1,,281,SKIPPED,,,,,
+single,latin-20,400,11400,1,,1,,,,0,,866,SKIPPED,,,,,

@@ -1,0 +1,11 @@
+== lattice-7 n=49 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=43838340 (0.4s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=43834518 (0.1s)
+   depth 2: roots=[0, 8] refinedClasses=6 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=65881088 (0.1s)
+   depth 3: roots=[0, 8, 16] refinedClasses=10 ours=EXACT |Aut(H)|=1152.0 maxT=1152 maxBase=6 groupWork=257296590 (4.4s)
+   orbit of r2=16: 25 of 25 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=8: 36 of 36 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 49 of 49 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 12; two-sided queries in total: 3
+   |Aut| = 5.08032e+07  ours 5.146s

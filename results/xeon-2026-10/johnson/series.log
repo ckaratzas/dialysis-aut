@@ -1,0 +1,116 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-6-3: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.276s
+CAMPAIGN johnson johnson-7-3: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.701s
+CAMPAIGN johnson johnson-8-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.332s
+CAMPAIGN johnson johnson-8-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.431s
+CAMPAIGN johnson johnson-9-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.506s
+CAMPAIGN johnson johnson-10-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.707s
+CAMPAIGN johnson johnson-9-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.536s
+CAMPAIGN johnson johnson-11-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.908s
+CAMPAIGN johnson johnson-10-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  1.043s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-10-5: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  2.388s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-11-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  2.241s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-11-5: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  4.247s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-12-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  2.002s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-12-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  4.536s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-12-5: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  8.089s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-12-6: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  9.228s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-13-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  2.406s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-13-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  6.607s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-13-5: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  10.731s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-13-6: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  13.353s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-14-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  2.798s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-14-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  9.125s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-15-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  3.281s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-16-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  3.363s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-17-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  6.528s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-18-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  7.557s

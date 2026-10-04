@@ -1,0 +1,15 @@
+== lattice-9 n=81 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=131773392 (0.5s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=198288 (0.0s)
+   depth 2: roots=[0, 10] refinedClasses=6 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=142113285 (0.1s)
+   depth 3: roots=[0, 10, 20] refinedClasses=10 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=142168365 (0.1s)
+   depth 4: roots=[0, 10, 20, 30] refinedClasses=15 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=2 maxBase=1 groupWork=142453404 (0.1s)
+   depth 5: roots=[0, 10, 20, 30, 40] refinedClasses=21 ours=EXACT |Aut(H)|=1152.0 maxT=1152 maxBase=6 groupWork=573855984 (10.7s)
+   orbit of r4=40: 25 of 25 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=30: 36 of 36 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=20: 49 of 49 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=10: 64 of 64 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 81 of 81 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 14; two-sided queries in total: 5
+   |Aut| = 2.63364e+11  ours 11.559s

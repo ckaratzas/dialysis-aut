@@ -1,0 +1,29 @@
+== pg2-4 n=42
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=30780792 closure=0/42 (0.4s)
+   depth 1: roots=[0] refinedClasses=4 ours=EXACT |Aut(H)|=5760.0 maxT=5760 maxBase=5 groupWork=33510260 closure=1/42 (5.0s)
+   orbit of r0=0: 42 of 42 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 11; two-sided queries in total: 2
+   |Aut| = 241920  ours 5.546s  Traces 241920  agree=true  traces 0.001s
+== pg2-7 n=114
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500004194 closure=0/114 (13.2s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500000090 closure=1/114 (8.0s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=EXACT |Aut(H)|=1764.0 maxT=5040 maxBase=6 groupWork=1441778130 closure=3/114 (35.3s)
+   orbit of r1=1: 56 of 56 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 114 of 114 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 10; two-sided queries in total: 4
+   |Aut| = 1.12614e+07  ours 56.781s  Traces 1.12614e+07  agree=true  traces 0.001s
+== pg2-9 n=182
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500003508 closure=0/182 (10.8s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500005510 closure=1/182 (7.4s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=137669532 closure=3/182 (0.2s)
+   depth 3: roots=[0, 1, 9] refinedClasses=14 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=206504298 closure=6/182 (0.3s)
+   depth 4: roots=[0, 1, 9, 10] refinedClasses=52 ours=EXACT |Aut(H)|=2.0 maxT=2 maxBase=1 groupWork=2085720 closure=26/182 (0.7s)
+   orbit of r3=10: 64 of 64 candidates, 4 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=9: 81 of 81 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 90 of 90 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 182 of 182 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 10; two-sided queries in total: 9
+   |Aut| = 1.69828e+08  ours 19.626s  Traces 1.69828e+08  agree=true  traces 0.003s

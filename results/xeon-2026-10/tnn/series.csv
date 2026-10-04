@@ -1,0 +1,21 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+tnn,tnn(1)_26-1,26,72,26,72,3,3,"{6=1, 8=1, 12=1}",0,32,0,0,0,12,0,128.0,,,12->15,NOT_ORBIT_MATES,,EXACT,0.088,12,7,true,12,"",4,32,1024,10
+tnn,tnn(1)_26-2,26,72,26,72,3,3,"{6=1, 8=1, 12=1}",0,46,0,0,0,17,0,2048.0,,,0->1,NOT_ORBIT_MATES,,EXACT,0.063,5,11,true,5,"",5,128,16384,26
+tnn,tnn(2)_52-1,52,240,52,240,3,3,"{12=1, 16=1, 24=1}",0,1124,0,0,0,30,0,65536.0,,,1->6,NOT_ORBIT_MATES,,EXACT,5.285,12,16,true,12,"",9,4096,16777216,42
+tnn,tnn(2)_52-2,52,240,52,240,3,3,"{12=1, 16=1, 24=1}",0,1826,0,0,0,32,0,786432.0,,,0->1,NOT_ORBIT_MATES,,EXACT,42.762,12,19,true,12,"",9,12288,150994944,52
+tnn,tnn(3)_78-1,78,504,78,504,3,3,"{18=1, 24=1, 36=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.005,,0,,,"class of size 36: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(3)_78-2,78,504,78,504,3,3,"{18=1, 24=1, 36=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.003,,0,,,"class of size 36: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(4)_104-1,104,864,104,864,3,3,"{24=1, 32=1, 48=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.004,,0,,,"class of size 48: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(4)_104-2,104,864,104,864,3,3,"{24=1, 32=1, 48=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.005,,0,,,"class of size 48: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(7)_182-1,182,2520,182,2520,3,3,"{42=1, 56=1, 84=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.007,,0,,,"class of size 84: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(7)_182-2,182,2520,182,2520,3,3,"{42=1, 56=1, 84=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.007,,0,,,"class of size 84: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(11)_286-1,286,6072,286,6072,3,3,"{66=1, 88=1, 132=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.073,,0,,,"class of size 88: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(11)_286-2,286,6072,286,6072,3,3,"{66=1, 88=1, 132=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.063,,0,,,"class of size 66: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(16)_416-1,416,12672,416,12672,3,3,"{96=1, 128=1, 192=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.106,,0,,,"class of size 192: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(16)_416-2,416,12672,416,12672,3,3,"{96=1, 128=1, 192=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.089,,0,,,"class of size 192: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(23)_598-1,598,25944,598,25944,3,3,"{138=1, 184=1, 276=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.128,,0,,,"class of size 138: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(23)_598-2,598,25944,598,25944,3,3,"{138=1, 184=1, 276=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.123,,0,,,"class of size 276: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(31)_806-1,806,46872,806,46872,3,3,"{186=1, 248=1, 372=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.182,,0,,,"class of size 372: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(31)_806-2,806,46872,806,46872,3,3,"{186=1, 248=1, 372=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.165,,0,,,"class of size 186: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(39)_1014-1,1014,73944,1014,73944,3,3,"{234=1, 312=1, 468=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.166,,0,,,"class of size 234: individualising 12 base vertices does not split it into singletons",0,0,0,0
+tnn,tnn(39)_1014-2,1014,73944,1014,73944,3,3,"{234=1, 312=1, 468=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.135,,0,,,"class of size 312: individualising 12 base vertices does not split it into singletons",0,0,0,0

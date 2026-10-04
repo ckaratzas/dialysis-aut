@@ -1,0 +1,11 @@
+== triang-12 n=66
+   group budget 10s per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=95338782 (0.6s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=95330466 (0.2s)
+   depth 2: roots=[0, 21] refinedClasses=6 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=95342940 (0.2s)
+   depth 3: roots=[0, 21, 38] refinedClasses=10 ours=EXACT |Aut(H)|=5760.0 maxT=1440 maxBase=5 groupWork=413940624 (9.7s)
+   orbit of r2=38: 28 of 28 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=21: 45 of 45 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 66 of 66 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 11; two-sided queries in total: 3
+   |Aut| = 4.79002e+08  ours 11.861s

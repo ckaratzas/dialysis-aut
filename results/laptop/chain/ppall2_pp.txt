@@ -1,0 +1,13 @@
+== pp-27-5 n=1514
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500145470 (6.5s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500057658 (4.2s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=6322464 (0.0s)
+   depth 3: roots=[0, 1, 28] refinedClasses=14 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=9483696 (0.0s)
+   depth 4: roots=[0, 1, 28, 56] refinedClasses=54 ours=EXACT |Aut(H)|=1.0 maxT=1 maxBase=1 groupWork=406766498 (2450.7s)
+   orbit of r3=56: 6 of 676 candidates, 2 two-sided queries, 151 ruled out by fingerprint
+   orbit of r2=28: 27 of 729 candidates, 3 two-sided queries, 10 ruled out by fingerprint
+   orbit of r1=1: 756 of 756 candidates, 5 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 1 of 1514 candidates, 0 two-sided queries, 3 ruled out by fingerprint
+   generators known at the end: 10; two-sided queries in total: 10
+   |Aut| = 122472  Traces 122472  agree=true  (2465.489s)

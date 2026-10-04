@@ -1,0 +1,61 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN chh CHH_cc(1-1)_22-1: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.068s
+CAMPAIGN chh CHH_cc(1-1)_22-2: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.01s
+CAMPAIGN chh CHH_cc(2-1)_44-1: EXACT aut=2^null traces= agree= query=16->38 NOT_ORBIT_MATES 0.089s
+CAMPAIGN chh CHH_cc(2-1)_44-2: EXACT aut=2^null traces= agree= query=16->38 ORBIT_MATES 0.111s
+CAMPAIGN chh CHH_cc(2-2)_88-1: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.19s
+CAMPAIGN chh CHH_cc(2-2)_88-2: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.206s
+CAMPAIGN chh CHH_cc(3-2)_132-1: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.294s
+CAMPAIGN chh CHH_cc(3-2)_132-2: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.226s
+CAMPAIGN chh CHH_cc(3-3)_198-1: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  1.162s
+CAMPAIGN chh CHH_cc(3-3)_198-2: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.944s
+CAMPAIGN chh CHH_cc(4-3)_264-1: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  1.629s
+CAMPAIGN chh CHH_cc(4-3)_264-2: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  1.49s
+CAMPAIGN chh CHH_cc(4-4)_352-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.421s
+CAMPAIGN chh CHH_cc(4-4)_352-2: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.893s
+CAMPAIGN chh CHH_cc(5-4)_440-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.646s
+CAMPAIGN chh CHH_cc(5-4)_440-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.643s
+CAMPAIGN chh CHH_cc(5-5)_550-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.987s
+CAMPAIGN chh CHH_cc(5-5)_550-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.998s
+CAMPAIGN chh CHH_cc(6-5)_660-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  1.5299999999999998s
+CAMPAIGN chh CHH_cc(6-5)_660-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  1.446s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN chh CHH_cc(6-6)_792-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  4.590999999999999s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN chh CHH_cc(6-6)_792-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  4.825s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN chh CHH_cc(7-6)_924-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  8.158999999999999s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN chh CHH_cc(7-6)_924-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  6.672000000000001s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN chh CHH_cc(7-7)_1078-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  10.118s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN chh CHH_cc(7-7)_1078-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  7.137s

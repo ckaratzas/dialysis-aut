@@ -1,0 +1,22 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== CHH_cc(4-4)_352-1 n=352
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=731520 (0.1s)
+   depth 1: roots=[16] refinedClasses=20 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=288 maxBase=4 groupWork=342483440 (0.5s)
+   depth 2: roots=[16, 38] refinedClasses=24 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=12 maxBase=2 groupWork=333672688 (0.4s)
+   depth 3: roots=[16, 38, 45] refinedClasses=28 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=12 maxBase=2 groupWork=333432912 (0.4s)
+   depth 4: roots=[16, 38, 45, 48] refinedClasses=42 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=12 maxBase=2 groupWork=333172816 (0.4s)
+   depth 5: roots=[16, 38, 45, 48, 90] refinedClasses=72 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=288 maxBase=4 groupWork=343361264 (0.4s)
+   depth 6: roots=[16, 38, 45, 48, 90, 178] refinedClasses=102 ours=EXACT |Aut(H)|=1.711891286065152E15 maxT=288 maxBase=4 groupWork=317391682 (2.6s)
+   orbit of r5=178: 48 of 48 candidates, 5 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=90: 72 of 72 candidates, 5 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=48: 4 of 4 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=45: 3 of 3 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=38: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=16: 8 of 8 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 59; two-sided queries in total: 16
+   |Aut| = 1.13593e+21  ours 7.403s

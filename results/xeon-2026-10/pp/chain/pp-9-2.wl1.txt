@@ -1,0 +1,13 @@
+== pp-9-2 n=182 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500007512 closure=0/182 (11.0s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500005510 closure=1/182 (5.1s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500007512 closure=3/182 (4.8s)
+   depth 3: roots=[0, 1, 2] refinedClasses=14 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=206504298 closure=6/182 (0.2s)
+   depth 4: roots=[0, 1, 2, 27] refinedClasses=30 ours=EXACT |Aut(H)|=1.0 maxT=1 maxBase=1 groupWork=2403346 closure=14/182 (1.1s)
+   orbit of r3=27: 1 of 64 candidates, 0 two-sided queries, 63 ruled out by fingerprint
+   orbit of r2=2: 48 of 81 candidates, 3 two-sided queries, 8 ruled out by fingerprint
+   orbit of r1=1: 72 of 90 candidates, 1 two-sided queries, 3 ruled out by fingerprint
+   orbit of r0=0: 90 of 182 candidates, 1 two-sided queries, 3 ruled out by fingerprint
+   generators known at the end: 5; two-sided queries in total: 5
+   |Aut| = 311040  ours 22.264s

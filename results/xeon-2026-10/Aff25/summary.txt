@@ -1,0 +1,22 @@
+family: Aff25
+instances: 1
+solved: 1
+by_series: 0
+by_chain: 1
+from_1wl: 1
+traces_run: 1
+traces_agree: 1
+disagree: 0
+traces_fail_we_solve: 0
+largest_n: 1302
+largest_aut: 1.0
+ours_max_s: 273.534
+ours_total_s: 273.534
+traces_total_s: 7.539
+median_ratio: 0.027561473162385663
+max_ratio: 0.027561473162385663
+pi_traces_run: 0
+pi_traces_fail_we_solve: 0
+pi_median_ratio: 0
+pi_max_ratio: 0
+open: 

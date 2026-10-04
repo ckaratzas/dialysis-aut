@@ -1,0 +1,6 @@
+kind,name,n,m,classes_1wl,classes_2wl,classes_pi,orbits,pi_refines_2wl,wl2_refines_pi,ms_1wl,ms_2wl,ms_pi,solver,solver_colour,dist_1wl,dist_2wl,dist_pi,iso
+single,rnd-3-reg-1000-1,1000,1500,1,,1000,,,,5,,1632,SKIPPED,,,,,
+single,rnd-3-reg-1000-4,1000,1500,1,,1000,,,,0,,1236,SKIPPED,,,,,
+single,rnd-3-reg-1000-9,1000,1500,1,,1000,,,,0,,1219,SKIPPED,,,,,
+single,rnd-3-reg-2000-3,2000,3000,1,,2000,,,,1,,2480,SKIPPED,,,,,
+single,rnd-3-reg-2000-9,2000,3000,1,,2000,,,,1,,2545,SKIPPED,,,,,

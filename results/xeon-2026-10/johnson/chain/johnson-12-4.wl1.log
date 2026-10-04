@@ -1,0 +1,16 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== johnson-12-4 n=495 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=2264847750 (4.4s)
+   depth 1: roots=[0] refinedClasses=5 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=2196371430 (1.9s)
+   depth 2: roots=[0, 6] refinedClasses=15 ours=STOP_TIME |Aut(H)|=null maxT=13824 maxBase=5 groupWork=4500080145 (2.6s)
+   depth 3: roots=[0, 6, 2] refinedClasses=39 ours=EXACT |Aut(H)|=864.0 maxT=864 maxBase=4 groupWork=2087123096 (7.9s)
+   orbit of r2=2: 16 of 16 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=6: 70 of 70 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 495 of 495 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 11; two-sided queries in total: 3
+   |Aut| = 4.79002e+08  ours 17.005s  formula 4.79002e+08 agree=true

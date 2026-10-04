@@ -1,0 +1,9 @@
+triang triang-8
+lattice lattice-6
+had had-12
+pg pg2-4
+ag ag2-7
+pp pp-9-4
+quartic-at graph_0358_001
+grid-w grid-w-3-16
+grid-w grid-w-2-70

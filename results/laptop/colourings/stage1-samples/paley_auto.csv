@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+paley,paley-5,5,5,5,5,1,1,"{5=1}",0,0,0,0,0,2,0,10.0,,,0->1,ORBIT_MATES,true,EXACT,0.048,1,2,true,1,"auto: 1-WL exact (probe 0.049s)",2,10,10,2
+paley,paley-89,89,1958,89,1958,1,1,"{89=1}",0,0,0,0,0,4,0,3916.0,,,0->1,ORBIT_MATES,true,EXACT,0.801,1,4,true,1,"auto: 1-WL exact (probe 0.801s)",2,3916,3916,12
+paley,paley-193,193,9264,193,9264,1,1,"{193=1}",0,0,0,0,0,7,0,18528.0,,,0->1,ORBIT_MATES,true,EXACT,14.318,1,7,true,1,"auto: 1-WL exact (probe 14.318s)",2,18528,18528,42
+paley,paley-337,337,28308,337,28308,1,1,"{337=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,4.293,,0,,,"auto: 1-WL STOP_TOO_MANY_CANDIDATES after 4.293s, no escalation | class of size 337: more than 20000 candidate restrictions (base length 2)",0,0,0,0
+paley,paley-461,461,53015,461,53015,1,1,"{461=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,6.585,,0,,,"auto: 1-WL STOP_TOO_MANY_CANDIDATES after 6.585s, no escalation | class of size 461: more than 20000 candidate restrictions (base length 2)",0,0,0,0

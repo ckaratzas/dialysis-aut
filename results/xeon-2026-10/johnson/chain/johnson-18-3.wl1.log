@@ -1,0 +1,32 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== johnson-18-3 n=816 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=4272197376 (7.2s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3873489984 (2.8s)
+   depth 2: roots=[0, 1] refinedClasses=14 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3887378304 (2.8s)
+   depth 3: roots=[0, 1, 5] refinedClasses=42 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3886627584 (2.5s)
+   depth 4: roots=[0, 1, 5, 14] refinedClasses=64 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3673160352 (1.7s)
+   depth 5: roots=[0, 1, 5, 14, 4] refinedClasses=93 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3812456448 (1.7s)
+   depth 6: roots=[0, 1, 5, 14, 4, 25] refinedClasses=130 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3617869824 (1.6s)
+   depth 7: roots=[0, 1, 5, 14, 4, 25, 20] refinedClasses=176 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3871800864 (1.7s)
+   depth 8: roots=[0, 1, 5, 14, 4, 25, 20, 2] refinedClasses=232 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=5 groupWork=4500040896 (1.9s)
+   depth 9: roots=[0, 1, 5, 14, 4, 25, 20, 2, 16] refinedClasses=299 ours=STOP_TIME |Aut(H)|=null maxT=720 maxBase=5 groupWork=4500078432 (1.9s)
+   depth 10: roots=[0, 1, 5, 14, 4, 25, 20, 2, 16, 26] refinedClasses=378 ours=STOP_TIME |Aut(H)|=null maxT=120 maxBase=4 groupWork=4504206266 (7.2s)
+   depth 11: roots=[0, 1, 5, 14, 4, 25, 20, 2, 16, 26, 9] refinedClasses=470 ours=EXACT |Aut(H)|=24.0 maxT=24 maxBase=3 groupWork=1101478586 (6.0s)
+   orbit of r10=9: 5 of 5 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r9=26: 6 of 6 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r8=16: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r7=2: 8 of 8 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r6=20: 9 of 9 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=25: 10 of 10 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=4: 11 of 11 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=14: 12 of 12 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=5: 52 of 52 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 315 of 315 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 816 of 816 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 17; two-sided queries in total: 13
+   |Aut| = 6.40237e+15  ours 39.177s  formula 6.40237e+15 agree=true

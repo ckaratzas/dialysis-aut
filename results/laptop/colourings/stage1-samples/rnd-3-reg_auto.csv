@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+rnd-3-reg,rnd-3-reg-1000-1,1000,1500,1000,1500,1,1,"{1000=1}",0,999,0,0,0,0,0,1.0,,,0->1,NOT_ORBIT_MATES,,EXACT,0.477,1000,0,true,1000,"auto: 1-WL exact (probe 0.479s)",1,1,1,0
+rnd-3-reg,rnd-3-reg-1000-4,1000,1500,1000,1500,1,1,"{1000=1}",0,999,0,0,0,0,0,1.0,,,0->1,NOT_ORBIT_MATES,,EXACT,0.279,1000,0,true,1000,"auto: 1-WL exact (probe 0.279s)",1,1,1,0
+rnd-3-reg,rnd-3-reg-1000-9,1000,1500,1000,1500,1,1,"{1000=1}",0,999,0,0,0,0,0,1.0,,,0->1,NOT_ORBIT_MATES,,EXACT,0.21,1000,0,true,1000,"auto: 1-WL exact (probe 0.21s)",1,1,1,0
+rnd-3-reg,rnd-3-reg-2000-3,2000,3000,2000,3000,1,1,"{2000=1}",0,1999,0,0,0,0,0,1.0,,,0->1,NOT_ORBIT_MATES,,EXACT,0.812,2000,0,true,2000,"auto: 1-WL exact (probe 0.812s)",1,1,1,0
+rnd-3-reg,rnd-3-reg-2000-9,2000,3000,2000,3000,1,1,"{2000=1}",0,1999,0,0,0,0,0,1.0,,,0->1,NOT_ORBIT_MATES,,EXACT,0.79,2000,0,true,2000,"auto: 1-WL exact (probe 0.79s)",1,1,1,0

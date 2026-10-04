@@ -1,0 +1,47 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+cmz,cmz-5,120,190,120,190,8,8,"{10=4, 20=4}",0,1680,0,0,0,72,0,10240.0,,,0->1,ORBIT_MATES,true,EXACT,3.857,8,12,true,8,"",10,10240,104857600,10
+cmz,cmz-6,144,228,144,228,8,8,"{12=4, 24=4}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.359,,0,,,"class of size 24: more than 20000 candidate restrictions (base length 7)",6,384,0,0
+cmz,cmz-7,168,266,168,266,8,8,"{14=4, 28=4}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.505,,0,,,"class of size 28: more than 20000 candidate restrictions (base length 8)",7,896,0,0
+cmz,cmz-8,192,304,192,304,8,8,"{16=4, 32=4}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.688,,0,,,"class of size 32: more than 20000 candidate restrictions (base length 9)",8,2048,0,0
+cmz,cmz-9,216,342,216,342,8,8,"{18=4, 36=4}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.89,,0,,,"class of size 36: more than 20000 candidate restrictions (base length 10)",9,4608,0,0
+cmz,cmz-10,240,380,240,380,8,8,"{20=4, 40=4}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,1.17,,0,,,"class of size 40: more than 20000 candidate restrictions (base length 11)",10,10240,0,0
+cmz,cmz-11,264,418,264,418,8,8,"{22=4, 44=4}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.348,,0,,,"class of size 22: more than 20000 candidate restrictions (base length 11)",0,0,0,0
+cmz,cmz-12,288,456,288,456,8,8,"{24=4, 48=4}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.376,,0,,,"class of size 24: more than 20000 candidate restrictions (base length 12)",0,0,0,0
+cmz,cmz-13,312,494,312,494,8,8,"{26=4, 52=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.009,,0,,,"class of size 26: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-14,336,532,336,532,8,8,"{28=4, 56=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.009,,0,,,"class of size 28: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-15,360,570,360,570,8,8,"{30=4, 60=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.01,,0,,,"class of size 30: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-16,384,608,384,608,8,8,"{32=4, 64=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.012,,0,,,"class of size 32: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-17,408,646,408,646,8,8,"{34=4, 68=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.023,,0,,,"class of size 34: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-18,432,684,432,684,8,8,"{36=4, 72=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.016,,0,,,"class of size 36: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-19,456,722,456,722,8,8,"{38=4, 76=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.018,,0,,,"class of size 38: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-20,480,760,480,760,8,8,"{40=4, 80=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.02,,0,,,"class of size 40: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-21,504,798,504,798,8,8,"{42=4, 84=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.021,,0,,,"class of size 42: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-22,528,836,528,836,8,8,"{44=4, 88=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.024,,0,,,"class of size 44: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-23,552,874,552,874,8,8,"{46=4, 92=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.026,,0,,,"class of size 46: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-24,576,912,576,912,8,8,"{48=4, 96=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.029,,0,,,"class of size 48: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-25,600,950,600,950,8,8,"{50=4, 100=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.03,,0,,,"class of size 50: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-26,624,988,624,988,8,8,"{52=4, 104=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.032,,0,,,"class of size 52: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-27,648,1026,648,1026,8,8,"{54=4, 108=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.047,,0,,,"class of size 54: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-28,672,1064,672,1064,8,8,"{56=4, 112=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.038,,0,,,"class of size 56: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-29,696,1102,696,1102,8,8,"{58=4, 116=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.042,,0,,,"class of size 58: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-30,720,1140,720,1140,8,8,"{60=4, 120=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.046,,0,,,"class of size 60: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-31,744,1178,744,1178,8,8,"{62=4, 124=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.05,,0,,,"class of size 62: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-32,768,1216,768,1216,8,8,"{64=4, 128=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.055,,0,,,"class of size 64: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-33,792,1254,792,1254,8,8,"{66=4, 132=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.055,,0,,,"class of size 66: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-34,816,1292,816,1292,8,8,"{68=4, 136=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.057,,0,,,"class of size 68: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-35,840,1330,840,1330,8,8,"{70=4, 140=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.06,,0,,,"class of size 70: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-36,864,1368,864,1368,8,8,"{72=4, 144=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.067,,0,,,"class of size 72: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-37,888,1406,888,1406,8,8,"{74=4, 148=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.068,,0,,,"class of size 74: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-38,912,1444,912,1444,8,8,"{76=4, 152=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.072,,0,,,"class of size 76: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-39,936,1482,936,1482,8,8,"{78=4, 156=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.077,,0,,,"class of size 78: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-40,960,1520,960,1520,8,8,"{80=4, 160=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.08,,0,,,"class of size 80: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-41,984,1558,984,1558,8,8,"{82=4, 164=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.084,,0,,,"class of size 82: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-42,1008,1596,1008,1596,8,8,"{84=4, 168=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.089,,0,,,"class of size 84: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-43,1032,1634,1032,1634,8,8,"{86=4, 172=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.094,,0,,,"class of size 86: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-44,1056,1672,1056,1672,8,8,"{88=4, 176=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.1,,0,,,"class of size 88: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-45,1080,1710,1080,1710,8,8,"{90=4, 180=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.102,,0,,,"class of size 90: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-46,1104,1748,1104,1748,8,8,"{92=4, 184=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.111,,0,,,"class of size 92: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-47,1128,1786,1128,1786,8,8,"{94=4, 188=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.11,,0,,,"class of size 94: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-48,1152,1824,1152,1824,8,8,"{96=4, 192=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.118,,0,,,"class of size 96: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-49,1176,1862,1176,1862,8,8,"{98=4, 196=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.121,,0,,,"class of size 98: individualising 12 base vertices does not split it into singletons",0,0,0,0
+cmz,cmz-50,1200,1900,1200,1900,8,8,"{100=4, 200=4}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.128,,0,,,"class of size 100: individualising 12 base vertices does not split it into singletons",0,0,0,0

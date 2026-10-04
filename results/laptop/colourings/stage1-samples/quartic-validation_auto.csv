@@ -1,0 +1,2 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+quartic-validation,coxeter,28,42,28,42,1,1,"{28=1}",0,0,0,0,0,2,0,336.0,,,0->1,ORBIT_MATES,true,EXACT,0.134,1,4,true,1,"auto: 1-WL exact (probe 0.135s)",4,336,336,15

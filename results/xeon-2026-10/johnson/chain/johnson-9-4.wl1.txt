@@ -1,0 +1,7 @@
+== johnson-9-4 n=126 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=354497850 (1.0s)
+   depth 1: roots=[0] refinedClasses=5 ours=EXACT |Aut(H)|=2880.0 maxT=2880 maxBase=5 groupWork=925797529 (2.7s)
+   orbit of r0=0: 126 of 126 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 9; two-sided queries in total: 1
+   |Aut| = 362880  ours 3.861s  formula 362880 agree=true

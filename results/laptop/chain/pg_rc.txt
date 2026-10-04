@@ -1,0 +1,12 @@
+pg pg2-4 rc=0
+pg pg2-5 rc=0
+pg pg2-7 rc=0
+pg pg2-8 rc=0
+pg pg2-9 rc=0
+pg pg2-11 rc=0
+pg pg2-13 rc=0
+pg pg2-16 rc=0
+pg pg2-17 rc=0
+pg pg2-19 rc=0
+pg pg2-23 rc=0
+pg pg2-25 rc=0

@@ -1,0 +1,20 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+latin,latin-2,4,6,4,6,1,1,"{4=1}",0,0,0,0,0,4,0,24.0,,,0->1,ORBIT_MATES,true,EXACT,0.105,1,4,true,1,"",3,24,24,6
+latin,latin-3,9,27,9,27,1,1,"{9=1}",0,0,0,0,0,8,0,1296.0,,,0->1,ORBIT_MATES,true,EXACT,0.124,1,8,true,1,"",6,1296,1296,20
+latin,latin-4,16,72,16,72,1,1,"{16=1}",0,48,0,0,0,7,0,192.0,,,0->1,ORBIT_MATES,true,EXACT,0.035,1,7,true,1,"",3,192,192,20
+latin,latin-5,25,150,25,150,1,1,"{25=1}",0,0,0,0,0,6,0,600.0,,,0->1,ORBIT_MATES,true,EXACT,0.058,1,6,true,1,"",3,600,600,18
+latin,latin-6,36,270,36,270,1,1,"{36=1}",0,324,0,0,0,7,0,432.0,,,0->1,ORBIT_MATES,true,EXACT,0.056,1,7,true,1,"",3,432,432,24
+latin,latin-7,49,441,49,441,1,1,"{49=1}",0,0,0,0,0,6,0,1764.0,,,0->1,ORBIT_MATES,true,EXACT,0.22,1,6,true,1,"",3,1764,1764,12
+latin,latin-8,64,672,64,672,1,1,"{64=1}",0,576,0,0,0,10,0,1536.0,,,0->1,ORBIT_MATES,true,EXACT,0.212,1,10,true,1,"",3,1536,1536,42
+latin,latin-9,81,972,81,972,1,1,"{81=1}",0,486,0,0,0,8,0,2916.0,,,0->1,ORBIT_MATES,true,EXACT,0.454,1,8,true,1,"",3,2916,2916,28
+latin,latin-10,100,1350,100,1350,1,1,"{100=1}",0,1500,0,0,0,8,0,2400.0,,,0->1,ORBIT_MATES,true,EXACT,0.418,1,8,true,1,"",3,2400,2400,22
+latin,latin-11,121,1815,121,1815,1,1,"{121=1}",0,0,0,0,0,6,0,7260.0,,,0->1,ORBIT_MATES,true,EXACT,1.219,1,6,true,1,"",3,7260,7260,18
+latin,latin-12,144,2376,144,2376,1,1,"{144=1}",0,3024,0,0,0,10,0,3456.0,,,0->1,ORBIT_MATES,true,EXACT,0.794,1,10,true,1,"",3,3456,3456,46
+latin,latin-13,169,3042,169,3042,1,1,"{169=1}",0,0,0,0,0,7,0,12168.0,,,0->1,ORBIT_MATES,true,EXACT,4.086,1,7,true,1,"",3,12168,12168,22
+latin,latin-14,196,3822,196,3822,1,1,"{196=1}",0,4116,0,0,0,8,0,7056.0,,,0->1,ORBIT_MATES,true,EXACT,3.713,1,8,true,1,"",3,7056,7056,24
+latin,latin-15,225,4725,225,4725,1,1,"{225=1}",0,4050,0,0,0,9,0,10800.0,,,0->1,ORBIT_MATES,true,EXACT,6.335,1,9,true,1,"",3,10800,10800,42
+latin,latin-16,256,5760,256,5760,1,1,"{256=1}",0,5376,0,0,0,13,0,12288.0,,,0->1,ORBIT_MATES,true,EXACT,8.152,1,13,true,1,"",3,12288,12288,68
+latin,latin-17,289,6936,289,6936,1,1,"{289=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,2.464,,0,,,"class of size 289: more than 20000 candidate restrictions (base length 3)",0,0,0,0
+latin,latin-18,324,8262,324,8262,1,1,"{324=1}",0,10692,0,0,0,10,0,11664.0,,,0->1,ORBIT_MATES,true,EXACT,10.618,1,10,true,1,"",3,11664,11664,46
+latin,latin-19,361,9747,361,9747,1,1,"{361=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,4.29,,0,,,"class of size 361: more than 20000 candidate restrictions (base length 3)",0,0,0,0
+latin,latin-20,400,11400,400,11400,1,1,"{400=1}",0,13200,0,0,0,11,0,19200.0,,,0->1,ORBIT_MATES,true,EXACT,19.524,1,11,true,1,"",3,19200,19200,46

@@ -1,0 +1,15 @@
+== CHH_cc(4-4)_352-1 n=352
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=679680 (0.1s)
+   depth 1: roots=[16] refinedClasses=20 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=288 maxBase=4 groupWork=318212960 (0.5s)
+   depth 2: roots=[16, 104] refinedClasses=32 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=288 maxBase=4 groupWork=328143840 (0.5s)
+   depth 3: roots=[16, 104, 133] refinedClasses=36 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=288 maxBase=4 groupWork=327921056 (0.4s)
+   depth 4: roots=[16, 104, 133, 136] refinedClasses=50 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=288 maxBase=4 groupWork=327679392 (0.4s)
+   depth 5: roots=[16, 104, 133, 136, 178] refinedClasses=80 ours=EXACT |Aut(H)|=4.108539086556365E16 maxT=288 maxBase=4 groupWork=384899506 (2.7s)
+   orbit of r4=178: 48 of 48 candidates, 5 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=136: 4 of 4 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=133: 3 of 3 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=104: 6 of 6 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=16: 8 of 8 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 59; two-sided queries in total: 12
+   |Aut| = 1.13593e+21  ours 5.97s

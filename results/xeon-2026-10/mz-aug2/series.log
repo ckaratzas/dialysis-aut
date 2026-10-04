@@ -1,0 +1,29 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN mz-aug2 mz-aug2-4: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.184s
+CAMPAIGN mz-aug2 mz-aug2-6: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.052s
+CAMPAIGN mz-aug2 mz-aug2-8: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.049s
+CAMPAIGN mz-aug2 mz-aug2-10: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.068s
+CAMPAIGN mz-aug2 mz-aug2-12: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.078s
+CAMPAIGN mz-aug2 mz-aug2-14: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.069s
+CAMPAIGN mz-aug2 mz-aug2-16: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.09s
+CAMPAIGN mz-aug2 mz-aug2-18: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.099s
+CAMPAIGN mz-aug2 mz-aug2-20: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.118s
+CAMPAIGN mz-aug2 mz-aug2-22: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.165s
+CAMPAIGN mz-aug2 mz-aug2-24: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.15s
+CAMPAIGN mz-aug2 mz-aug2-26: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.18s
+CAMPAIGN mz-aug2 mz-aug2-28: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.177s
+CAMPAIGN mz-aug2 mz-aug2-30: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.201s
+CAMPAIGN mz-aug2 mz-aug2-32: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.259s
+CAMPAIGN mz-aug2 mz-aug2-34: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.246s
+CAMPAIGN mz-aug2 mz-aug2-36: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.268s
+CAMPAIGN mz-aug2 mz-aug2-38: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.324s
+CAMPAIGN mz-aug2 mz-aug2-40: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.343s
+CAMPAIGN mz-aug2 mz-aug2-42: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.359s
+CAMPAIGN mz-aug2 mz-aug2-44: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.41s
+CAMPAIGN mz-aug2 mz-aug2-46: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.454s
+CAMPAIGN mz-aug2 mz-aug2-48: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.47s
+CAMPAIGN mz-aug2 mz-aug2-50: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.517s

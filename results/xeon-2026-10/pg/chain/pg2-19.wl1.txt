@@ -1,0 +1,13 @@
+== pg2-19 n=762 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=2885304618 closure=0/762 (4.9s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=2885160600 closure=1/762 (3.5s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=2304288 closure=3/762 (0.0s)
+   depth 3: roots=[0, 1, 19] refinedClasses=14 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=3456432 closure=6/762 (0.0s)
+   depth 4: roots=[0, 1, 19, 20] refinedClasses=762 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 groupWork=0 closure=762/762 (3.8s)
+   orbit of r3=20: 324 of 324 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=19: 361 of 361 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 380 of 380 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 762 of 762 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 7; two-sided queries in total: 7
+   |Aut| = 3.38681e+10  ours 12.428s

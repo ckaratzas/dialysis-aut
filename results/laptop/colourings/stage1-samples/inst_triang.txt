@@ -1,0 +1,5 @@
+triang-4
+triang-10
+triang-17
+triang-23
+triang-30

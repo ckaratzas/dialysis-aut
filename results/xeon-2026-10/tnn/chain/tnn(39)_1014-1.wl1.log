@@ -1,0 +1,11 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+== tnn(39)_1014-1 n=1014 colour=1-WL
+   component type 0: 13 vertices, |Aut| = 32.0000, 39 copies
+   component type 1: 13 vertices, |Aut| = 4.00000, 39 copies
+   combination: 78 components, 2 types; |Aut| = prod |Aut(C)|^k k! = 6.31479e+174
+   complement mode: 83 of 83 generators verified on the original graph
+   |Aut| = 6.31479e+174  ours 6.972s

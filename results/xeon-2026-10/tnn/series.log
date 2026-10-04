@@ -1,0 +1,75 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(1)_26-1: EXACT aut=2^null traces= agree= query=12->15 NOT_ORBIT_MATES 0.088s
+CAMPAIGN tnn tnn(1)_26-2: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 0.063s
+CAMPAIGN tnn tnn(2)_52-1: EXACT aut=2^null traces= agree= query=1->6 NOT_ORBIT_MATES 5.285s
+CAMPAIGN tnn tnn(2)_52-2: EXACT aut=2^null traces= agree= query=0->1 NOT_ORBIT_MATES 42.762s
+CAMPAIGN tnn tnn(3)_78-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.005s
+CAMPAIGN tnn tnn(3)_78-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.003s
+CAMPAIGN tnn tnn(4)_104-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.004s
+CAMPAIGN tnn tnn(4)_104-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.005s
+CAMPAIGN tnn tnn(7)_182-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.007s
+CAMPAIGN tnn tnn(7)_182-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.007s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(11)_286-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.073s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(11)_286-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.063s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(16)_416-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.106s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(16)_416-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.089s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(23)_598-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.128s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(23)_598-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.123s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(31)_806-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.182s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(31)_806-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.165s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(39)_1014-1: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.166s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN tnn tnn(39)_1014-2: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.135s

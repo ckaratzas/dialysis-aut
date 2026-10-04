@@ -1,0 +1,27 @@
+== hypercube-12 n=4096 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500307968 (11.0s)
+   depth 1: roots=[0] refinedClasses=13 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500148224 (3.7s)
+   depth 2: roots=[0, 291] refinedClasses=24 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500148224 (3.2s)
+   depth 3: roots=[0, 291, 100] refinedClasses=44 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500148224 (3.0s)
+   depth 4: roots=[0, 291, 100, 383] refinedClasses=80 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500148224 (2.8s)
+   depth 5: roots=[0, 291, 100, 383, 86] refinedClasses=144 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500148224 (2.7s)
+   depth 6: roots=[0, 291, 100, 383, 86, 38] refinedClasses=256 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=3 groupWork=4500148224 (2.7s)
+   depth 7: roots=[0, 291, 100, 383, 86, 38, 11] refinedClasses=448 ours=STOP_TIME |Aut(H)|=null maxT=720 maxBase=5 groupWork=4500148224 (2.7s)
+   depth 8: roots=[0, 291, 100, 383, 86, 38, 11, 14] refinedClasses=768 ours=STOP_TIME |Aut(H)|=null maxT=120 maxBase=4 groupWork=4500148224 (2.9s)
+   depth 9: roots=[0, 291, 100, 383, 86, 38, 11, 14, 12] refinedClasses=1280 ours=STOP_TIME |Aut(H)|=null maxT=24 maxBase=3 groupWork=4500148224 (3.1s)
+   depth 10: roots=[0, 291, 100, 383, 86, 38, 11, 14, 12, 2] refinedClasses=2048 ours=STOP_TIME |Aut(H)|=null maxT=6 maxBase=2 groupWork=4502491136 (4.5s)
+   depth 11: roots=[0, 291, 100, 383, 86, 38, 11, 14, 12, 2, 1] refinedClasses=3072 ours=EXACT |Aut(H)|=2.0 maxT=2 maxBase=1 groupWork=2400073728 (34.3s)
+   orbit of r10=1: 3 of 3 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r9=2: 4 of 4 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r8=12: 5 of 5 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r7=14: 6 of 6 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r6=11: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=38: 8 of 8 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=86: 9 of 9 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=383: 10 of 10 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=100: 11 of 11 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=291: 12 of 12 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 4096 of 4096 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 12; two-sided queries in total: 11
+   |Aut| = 1.96199e+12  ours 76.879s  formula 1.96199e+12 agree=true

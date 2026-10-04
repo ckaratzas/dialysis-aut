@@ -1,0 +1,16 @@
+== ag2-7 n=105
+   prefix []: 2 non-trivial orbits | global: defined on 49/105, splits 1 orbits | relative: defined on 0/105, splits 0 orbits | fingerprint: defined on 105/105, splits 0 orbits
+   prefix [0]: 3 non-trivial orbits | global: defined on 48/104, splits 1 orbits | relative: defined on 0/104, splits 0 orbits | fingerprint: defined on 104/104, splits 0 orbits
+   prefix [0, 1]: 9 non-trivial orbits | global: defined on 47/102, splits 1 orbits | relative: defined on 0/102, splits 0 orbits | fingerprint: defined on 102/102, splits 0 orbits
+== ag2-9 n=171
+   prefix []: 2 non-trivial orbits | global: defined on 81/171, splits 1 orbits | relative: defined on 0/171, splits 0 orbits | fingerprint: defined on 171/171, splits 0 orbits
+   prefix [0]: 3 non-trivial orbits | global: defined on 80/170, splits 1 orbits | relative: defined on 0/170, splits 0 orbits | fingerprint: defined on 170/170, splits 0 orbits
+   prefix [0, 1]: 11 non-trivial orbits | global: defined on 79/168, splits 4 orbits | relative: defined on 0/168, splits 0 orbits | fingerprint: defined on 168/168, splits 0 orbits
+== pg2-5 n=62
+   prefix []: 1 non-trivial orbits | global: defined on 62/62, splits 0 orbits | relative: defined on 62/62, splits 0 orbits | fingerprint: defined on 62/62, splits 0 orbits
+   prefix [0]: 3 non-trivial orbits | global: defined on 61/61, splits 0 orbits | relative: defined on 61/61, splits 0 orbits | fingerprint: defined on 61/61, splits 0 orbits
+   prefix [0, 1]: 5 non-trivial orbits | global: defined on 59/59, splits 0 orbits | relative: defined on 59/59, splits 0 orbits | fingerprint: defined on 59/59, splits 0 orbits
+== pp-9-4 n=182
+   prefix []: 2 non-trivial orbits | global: defined on 182/182, splits 0 orbits | relative: defined on 182/182, splits 0 orbits | fingerprint: defined on 182/182, splits 0 orbits
+   prefix [0]: 10 non-trivial orbits | global: defined on 181/181, splits 0 orbits | relative: defined on 181/181, splits 0 orbits | fingerprint: defined on 181/181, splits 0 orbits
+   prefix [0, 1]: 16 non-trivial orbits | global: defined on 179/179, splits 0 orbits | relative: defined on 179/179, splits 0 orbits | fingerprint: defined on 179/179, splits 0 orbits

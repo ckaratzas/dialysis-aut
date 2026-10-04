@@ -1,0 +1,9 @@
+== ag2-8 n=136 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=2 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500004096 (5.4s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500004096 (5.0s)
+   depth 2: roots=[0, 1] refinedClasses=9 ours=EXACT |Aut(H)|=168.0 maxT=5040 maxBase=6 groupWork=956852680 (3.2s)
+   orbit of r1=1: 63 of 63 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 64 of 64 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 8; two-sided queries in total: 3
+   |Aut| = 677376  ours 13.799s

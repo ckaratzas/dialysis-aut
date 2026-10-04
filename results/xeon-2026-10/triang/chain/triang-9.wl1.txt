@@ -1,0 +1,9 @@
+== triang-9 n=36 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=37147680 (0.4s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_TIME |Aut(H)|=null maxT=10080 maxBase=6 groupWork=4502505602 (6.8s)
+   depth 2: roots=[0, 15] refinedClasses=6 ours=EXACT |Aut(H)|=480.0 maxT=240 maxBase=4 groupWork=50345283 (0.2s)
+   orbit of r1=15: 21 of 21 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 36 of 36 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 8; two-sided queries in total: 2
+   |Aut| = 362880  ours 7.519s

@@ -1,0 +1,82 @@
+== hypercube-3 n=8
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=EXACT |Aut(H)|=48.0 maxT=48 maxBase=3 groupWork=58768 (0.1s)
+   generators known at the end: 5; two-sided queries in total: 0
+   |Aut| = 48.0000  ours 0.224s  formula 48.0000 agree=true
+== hypercube-4 n=16
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=EXACT |Aut(H)|=384.0 maxT=384 maxBase=4 groupWork=1616732 (0.1s)
+   generators known at the end: 8; two-sided queries in total: 0
+   |Aut| = 384.000  ours 0.195s  formula 384.000 agree=true
+== hypercube-5 n=32
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=EXACT |Aut(H)|=3840.0 maxT=3840 maxBase=5 groupWork=8798256 (0.4s)
+   generators known at the end: 6; two-sided queries in total: 0
+   |Aut| = 3840.00  ours 0.544s  formula 3840.00 agree=true
+== hypercube-6 n=64
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=83177920 (0.7s)
+   depth 1: roots=[0] refinedClasses=7 ours=EXACT |Aut(H)|=720.0 maxT=720 maxBase=5 groupWork=823088725 (4.5s)
+   orbit of r0=0: 64 of 64 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 6; two-sided queries in total: 2
+   |Aut| = 46080.0  ours 5.312s  formula 46080.0 agree=true
+== hypercube-7 n=128
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=195520512 (1.0s)
+   depth 1: roots=[0] refinedClasses=8 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=6 groupWork=4500320811 (18.5s)
+   depth 2: roots=[0, 15] refinedClasses=14 ours=STOP_TIME |Aut(H)|=null maxT=720 maxBase=5 groupWork=4500128190 (10.8s)
+   depth 3: roots=[0, 15, 6] refinedClasses=24 ours=EXACT |Aut(H)|=120.0 maxT=120 maxBase=4 groupWork=474032871 (1.7s)
+   orbit of r2=6: 6 of 6 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=15: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 128 of 128 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 8; two-sided queries in total: 4
+   |Aut| = 645120  ours 32.199s  formula 645120 agree=true
+== hypercube-8 n=256
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=601178112 (2.0s)
+   depth 1: roots=[0] refinedClasses=9 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=554529024 (0.6s)
+   depth 2: roots=[0, 1] refinedClasses=16 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=6 groupWork=4504596742 (18.3s)
+   depth 3: roots=[0, 1, 2] refinedClasses=28 ours=STOP_TIME |Aut(H)|=null maxT=720 maxBase=5 groupWork=4502822279 (13.3s)
+   depth 4: roots=[0, 1, 2, 4] refinedClasses=48 ours=EXACT |Aut(H)|=120.0 maxT=120 maxBase=4 groupWork=2389657867 (5.0s)
+   orbit of r3=4: 6 of 6 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=2: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 8 of 8 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 256 of 256 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 8; two-sided queries in total: 4
+   |Aut| = 1.03219e+07  ours 39.557s  formula 1.03219e+07 agree=true
+== hypercube-9 n=512
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1472158720 (4.0s)
+   depth 1: roots=[0] refinedClasses=10 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1335746560 (2.0s)
+   depth 2: roots=[0, 12] refinedClasses=18 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1443348480 (1.8s)
+   depth 3: roots=[0, 12, 68] refinedClasses=32 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=6 groupWork=4500029440 (4.9s)
+   depth 4: roots=[0, 12, 68, 3] refinedClasses=56 ours=STOP_TIME |Aut(H)|=null maxT=720 maxBase=5 groupWork=4505438466 (12.9s)
+   depth 5: roots=[0, 12, 68, 3, 9] refinedClasses=96 ours=STOP_TIME |Aut(H)|=null maxT=120 maxBase=4 groupWork=4502202183 (10.5s)
+   depth 6: roots=[0, 12, 68, 3, 9, 2] refinedClasses=160 ours=EXACT |Aut(H)|=24.0 maxT=24 maxBase=3 groupWork=270719846 (2.1s)
+   orbit of r5=2: 5 of 5 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=9: 6 of 6 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=3: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=68: 8 of 8 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=12: 9 of 9 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 512 of 512 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 10; two-sided queries in total: 6
+   |Aut| = 1.85795e+08  ours 38.937s  formula 1.85795e+08 agree=true
+== hypercube-10 n=1024
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3479866368 (9.9s)
+   depth 1: roots=[0] refinedClasses=11 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=2296267776 (3.1s)
+   depth 2: roots=[0, 85] refinedClasses=20 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3592461312 (3.9s)
+   depth 3: roots=[0, 85, 55] refinedClasses=36 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=3679847424 (3.7s)
+   depth 4: roots=[0, 85, 55, 33] refinedClasses=64 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=6 groupWork=4500080640 (4.3s)
+   depth 5: roots=[0, 85, 55, 33, 16] refinedClasses=112 ours=STOP_TIME |Aut(H)|=null maxT=720 maxBase=5 groupWork=4500080640 (5.1s)
+   depth 6: roots=[0, 85, 55, 33, 16, 20] refinedClasses=192 ours=STOP_TIME |Aut(H)|=null maxT=120 maxBase=4 groupWork=4502686094 (8.6s)
+   depth 7: roots=[0, 85, 55, 33, 16, 20, 6] refinedClasses=320 ours=EXACT |Aut(H)|=24.0 maxT=24 maxBase=3 groupWork=1723582726 (9.0s)
+   orbit of r6=6: 5 of 5 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=20: 6 of 6 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=16: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=33: 8 of 8 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=55: 9 of 9 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=85: 10 of 10 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 1024 of 1024 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 11; two-sided queries in total: 7
+   |Aut| = 3.71589e+09  ours 49.325s  formula 3.71589e+09 agree=true

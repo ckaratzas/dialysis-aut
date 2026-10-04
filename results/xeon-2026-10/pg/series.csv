@@ -1,0 +1,15 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+pg,pg2-2,14,21,14,21,1,1,"{14=1}",0,0,0,0,0,2,0,336.0,,,0->1,ORBIT_MATES,true,EXACT,0.153,1,5,true,1,"non-abelian stage: |L|=168.0 (168/168)",3,336,336,18
+pg,pg2-3,26,52,26,52,1,1,"{26=1}",0,0,0,0,0,2,0,11232.0,,,0->1,ORBIT_MATES,true,EXACT,1.121,1,5,true,1,"non-abelian stage: |L|=5616.0 (5616/5616)",5,11232,11232,18
+pg,pg2-4,42,105,42,105,1,1,"{42=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,0.244,,0,,,"class of size 42: more than 20000 candidate restrictions (base length 6)",0,0,0,0
+pg,pg2-5,62,186,62,186,1,1,"{62=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,1.116,,0,,,"class of size 62: more than 20000 candidate restrictions (base length 7)",0,0,0,0
+pg,pg2-7,114,456,114,456,1,1,"{114=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,29.358,,0,,,"class of size 114: more than 20000 candidate restrictions (base length 9)",0,0,0,0
+pg,pg2-8,146,657,146,657,1,1,"{146=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,71.358,,0,,,"class of size 146: more than 20000 candidate restrictions (base length 10)",0,0,0,0
+pg,pg2-9,182,910,182,910,1,1,"{182=1}",0,0,0,0,0,0,0,,,,,,,STOP_TIME,300.002,,0,,,"time budget exceeded while building candidates for a class of size 182 (base length 11)",0,0,0,0
+pg,pg2-11,266,1596,266,1596,1,1,"{266=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,1.01,,0,,,"class of size 266: more than 20000 candidate restrictions (base length 4)",0,0,0,0
+pg,pg2-13,366,2562,366,2562,1,1,"{366=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,1.436,,0,,,"class of size 366: more than 20000 candidate restrictions (base length 4)",0,0,0,0
+pg,pg2-16,546,4641,546,4641,1,1,"{546=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,63.302,,0,,,"class of size 546: more than 20000 candidate restrictions (base length 5)",0,0,0,0
+pg,pg2-17,614,5526,614,5526,1,1,"{614=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,2.78,,0,,,"class of size 614: more than 20000 candidate restrictions (base length 4)",0,0,0,0
+pg,pg2-19,762,7620,762,7620,1,1,"{762=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,3.591,,0,,,"class of size 762: more than 20000 candidate restrictions (base length 4)",0,0,0,0
+pg,pg2-23,1106,13272,1106,13272,1,1,"{1106=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,6.029,,0,,,"class of size 1106: more than 20000 candidate restrictions (base length 4)",0,0,0,0
+pg,pg2-25,1302,16926,1302,16926,1,1,"{1302=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,52.421,,0,,,"class of size 1302: more than 20000 candidate restrictions (base length 5)",0,0,0,0

@@ -1,0 +1,5 @@
+rnd-3-reg-1000-1
+rnd-3-reg-1000-4
+rnd-3-reg-1000-9
+rnd-3-reg-2000-3
+rnd-3-reg-2000-9

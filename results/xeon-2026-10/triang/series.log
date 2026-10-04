@@ -1,0 +1,92 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-4: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.099s
+CAMPAIGN triang triang-5: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.053s
+CAMPAIGN triang triang-6: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.09s
+CAMPAIGN triang triang-7: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.478s
+CAMPAIGN triang triang-8: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.136s
+CAMPAIGN triang triang-9: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.27s
+CAMPAIGN triang triang-10: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.194s
+CAMPAIGN triang triang-11: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.283s
+CAMPAIGN triang triang-12: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.275s
+CAMPAIGN triang triang-13: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.321s
+CAMPAIGN triang triang-14: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.418s
+CAMPAIGN triang triang-15: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.492s
+CAMPAIGN triang triang-16: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.614s
+CAMPAIGN triang triang-17: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.604s
+CAMPAIGN triang triang-18: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.632s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-19: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.066s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-20: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.068s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-21: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.073s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-22: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.087s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-23: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.082s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-24: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.086s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-25: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.085s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-26: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.093s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-27: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.106s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-28: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.109s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-29: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.115s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN triang triang-30: STOP_BASE_TOO_LONG(>12) aut=2^null traces= agree= query=  0.119s

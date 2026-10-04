@@ -1,0 +1,4 @@
+cfi-rigid-r2 cfi-rigid-r2-0072-01-1 rc=0
+cfi-rigid-r2 cfi-rigid-r2-0072-02-1 rc=0
+cfi-rigid-z2 cfi-rigid-z2-0088-01-1 rc=0
+cfi-rigid-d3 cfi-rigid-d3-0180-01-1 rc=0

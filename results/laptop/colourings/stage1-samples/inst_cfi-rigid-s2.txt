@@ -1,0 +1,5 @@
+cfi-rigid-s2-0064-01-1
+cfi-rigid-s2-0640-03-2
+cfi-rigid-s2-1280-02-2
+cfi-rigid-s2-1920-01-2
+cfi-rigid-s2-2496-04-2

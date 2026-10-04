@@ -1,0 +1,21 @@
+== johnson-15-3 n=455 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1548921010 (3.3s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1737270990 (0.9s)
+   depth 2: roots=[0, 2] refinedClasses=14 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1736816445 (0.8s)
+   depth 3: roots=[0, 2, 13] refinedClasses=42 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1736664930 (0.8s)
+   depth 4: roots=[0, 2, 13, 31] refinedClasses=64 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=1736513415 (0.8s)
+   depth 5: roots=[0, 2, 13, 31, 11] refinedClasses=93 ours=STOP_TIME |Aut(H)|=null maxT=5040 maxBase=6 groupWork=4500046005 (2.1s)
+   depth 6: roots=[0, 2, 13, 31, 11, 3] refinedClasses=130 ours=STOP_TIME |Aut(H)|=null maxT=720 maxBase=5 groupWork=4508789405 (13.1s)
+   depth 7: roots=[0, 2, 13, 31, 11, 3, 4] refinedClasses=176 ours=STOP_TIME |Aut(H)|=null maxT=120 maxBase=4 groupWork=4501867816 (6.5s)
+   depth 8: roots=[0, 2, 13, 31, 11, 3, 4, 7] refinedClasses=232 ours=EXACT |Aut(H)|=24.0 maxT=24 maxBase=3 groupWork=273527330 (1.9s)
+   orbit of r7=7: 5 of 5 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r6=4: 6 of 6 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=3: 7 of 7 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=11: 8 of 8 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=31: 9 of 9 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=13: 40 of 40 candidates, 2 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=2: 198 of 198 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 455 of 455 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 13; two-sided queries in total: 9
+   |Aut| = 1.30767e+12  ours 30.102s  formula 1.30767e+12 agree=true

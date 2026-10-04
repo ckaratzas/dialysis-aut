@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+had-sw,had-sw-20,80,840,80,840,1,1,"{80=1}",0,430080,0,0,0,3,0,7680.0,,,0->1,ORBIT_MATES,true,EXACT,9.869,1,6,true,1,"non-abelian stage: |L|=1920.0 (1920/1920)",4,7680,7680,24
+had-sw,had-sw-36-1,144,2664,144,2664,1,1,"{144=1}",0,685436,0,0,0,2,0,4.0,,,0->1,ORBIT_MATES,true,EXACT,27.23,36,2,true,36,"",3,4,4,2
+had-sw,had-sw-40-10,160,3280,160,3280,1,1,"{160=1}",0,948476,0,0,0,2,0,4.0,,,0->1,ORBIT_MATES,true,EXACT,44.467,60,2,true,60,"",3,4,4,0
+had-sw,had-sw-44-11,176,3960,176,3960,1,1,"{176=1}",0,1271416,0,0,0,3,0,8.0,,,0->1,ORBIT_MATES,true,EXACT,64.661,22,3,true,22,"",3,8,8,4
+had-sw,had-sw-112,448,25312,448,25312,1,1,"{448=1}",0,0,0,0,0,0,0,,,,,,,STOP_TIME,301.233,,0,,,"time budget exceeded while building candidates for a class of size 448 (base length 3)",0,0,0,0

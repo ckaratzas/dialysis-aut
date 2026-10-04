@@ -1,0 +1,52 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:<out>/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+PROGRESS     21.2s level=3 start cand=84 (#28 of 676, inOrb=1, excluded=26, tests=0) recNodes=0
+PROGRESS     21.6s level=3 answer=true cand=84 tests=1 recNodes=0
+PROGRESS    168.1s level=2 start cand=29 (#2 of 729, inOrb=1, excluded=0, tests=0) recNodes=0
+PROGRESS    195.3s level=2 answer=true cand=29 tests=1 recNodes=1
+PROGRESS    196.1s level=2 start cand=31 (#4 of 729, inOrb=3, excluded=0, tests=1) recNodes=1
+PROGRESS    200.7s level=2 answer=true cand=31 tests=2 recNodes=2
+PROGRESS    201.5s level=2 start cand=37 (#10 of 729, inOrb=9, excluded=0, tests=2) recNodes=2
+PROGRESS    206.2s level=2 answer=true cand=37 tests=3 recNodes=3
+PROGRESS    210.9s level=2 start cand=55 (#28 of 729, inOrb=27, excluded=0, tests=3) recNodes=3
+PROGRESS    234.0s level=2 answer=true cand=55 tests=4 recNodes=4
+PROGRESS    239.0s level=2 start cand=109 (#82 of 729, inOrb=81, excluded=0, tests=4) recNodes=4
+PROGRESS    271.9s level=2 answer=true cand=109 tests=5 recNodes=5
+PROGRESS    277.5s level=2 start cand=271 (#244 of 729, inOrb=243, excluded=0, tests=5) recNodes=5
+PROGRESS    455.0s level=2 answer=true cand=271 tests=6 recNodes=6
+PROGRESS    456.8s level=1 start cand=2 (#2 of 756, inOrb=1, excluded=0, tests=0) recNodes=6
+PROGRESS    824.9s level=1 start cand=3 (#3 of 756, inOrb=1, excluded=3, tests=0) recNodes=7
+PROGRESS    827.6s level=1 start cand=4 (#4 of 756, inOrb=1, excluded=6, tests=0) recNodes=8
+PROGRESS    829.9s level=1 start cand=6 (#6 of 756, inOrb=1, excluded=9, tests=0) recNodes=9
+PROGRESS    832.3s level=1 start cand=7 (#7 of 756, inOrb=1, excluded=12, tests=0) recNodes=10
+PROGRESS    834.6s level=1 start cand=8 (#8 of 756, inOrb=1, excluded=15, tests=0) recNodes=11
+PROGRESS    837.0s level=1 start cand=10 (#10 of 756, inOrb=1, excluded=18, tests=0) recNodes=12
+PROGRESS    840.2s level=1 start cand=12 (#12 of 756, inOrb=1, excluded=19, tests=0) recNodes=13
+PROGRESS    842.8s level=1 start cand=17 (#17 of 756, inOrb=1, excluded=22, tests=0) recNodes=14
+PROGRESS    845.7s level=1 start cand=19 (#19 of 756, inOrb=1, excluded=25, tests=0) recNodes=15
+PROGRESS    883.4s level=0 start cand=1 (#2 of 1514, inOrb=1, excluded=0, tests=0) recNodes=17
+PROGRESS    929.6s level=0 cand=1 tupleDepth=2 img=[1, 2] recNodes=21
+PROGRESS    945.4s level=0 answer=true cand=1 tests=1 recNodes=28
+PROGRESS    945.4s level=0 start cand=2 (#3 of 1514, inOrb=4, excluded=0, tests=1) recNodes=28
+PROGRESS   1028.2s level=0 cand=2 tupleDepth=3 img=[2, 4, 29] recNodes=35
+PROGRESS   1198.0s level=0 cand=2 tupleDepth=3 img=[2, 4, 55] recNodes=36
+PROGRESS   1369.7s level=0 cand=2 tupleDepth=3 img=[2, 4, 56] recNodes=37
+PROGRESS   1535.2s level=0 cand=2 tupleDepth=3 img=[2, 4, 57] recNodes=38
+PROGRESS   1718.3s level=0 cand=2 tupleDepth=2 img=[2, 5] recNodes=39
+PROGRESS   1750.2s level=0 answer=true cand=2 tests=2 recNodes=43
+== pp-27-6 n=1514 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500145470 closure=0/1514 (6.7s)
+   depth 1: roots=[0] refinedClasses=4 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4500057658 closure=1/1514 (4.8s)
+   depth 2: roots=[0, 1] refinedClasses=8 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=6322464 closure=3/1514 (0.0s)
+   depth 3: roots=[0, 1, 28] refinedClasses=14 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=9483696 closure=6/1514 (0.0s)
+   depth 4: roots=[0, 1, 28, 56] refinedClasses=54 ours=EXACT |Aut(H)|=3.0 maxT=3 maxBase=1 groupWork=406969230 closure=26/1514 (1751.6s)
+   orbit of r3=56: 2 of 676 candidates, 1 two-sided queries, 122 ruled out by fingerprint
+   orbit of r2=28: 729 of 729 candidates, 6 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=1: 1 of 756 candidates, 0 two-sided queries, 1 ruled out by fingerprint
+   orbit of r0=0: 28 of 1514 candidates, 2 two-sided queries, 3 ruled out by fingerprint
+   generators known at the end: 10; two-sided queries in total: 9
+   |Aut| = 122472  ours 1763.42s

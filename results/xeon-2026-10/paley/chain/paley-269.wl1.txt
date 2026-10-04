@@ -1,0 +1,7 @@
+== paley-269 n=269 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=0 maxBase=0 groupWork=2916675540 (2.7s)
+   depth 1: roots=[0] refinedClasses=3 ours=EXACT |Aut(H)|=134.0 maxT=134 maxBase=1 groupWork=202066670 (0.8s)
+   orbit of r0=0: 269 of 269 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 3; two-sided queries in total: 1
+   |Aut| = 36046.0  ours 3.739s

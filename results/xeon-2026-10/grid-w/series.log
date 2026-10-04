@@ -1,0 +1,144 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-3-2: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.102s
+CAMPAIGN grid-w grid-w-2-5: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.049s
+CAMPAIGN grid-w grid-w-3-3: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.116s
+CAMPAIGN grid-w grid-w-3-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.498s
+CAMPAIGN grid-w grid-w-2-10: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.121s
+CAMPAIGN grid-w grid-w-3-5: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 1.03s
+CAMPAIGN grid-w grid-w-3-6: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 3.063s
+CAMPAIGN grid-w grid-w-2-15: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.623s
+CAMPAIGN grid-w grid-w-3-7: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 6.403s
+CAMPAIGN grid-w grid-w-2-20: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 1.134s
+CAMPAIGN grid-w grid-w-3-8: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  2.875s
+CAMPAIGN grid-w grid-w-2-25: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 3.187s
+CAMPAIGN grid-w grid-w-3-9: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  4.408s
+CAMPAIGN grid-w grid-w-2-30: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 7.621s
+CAMPAIGN grid-w grid-w-3-10: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  6.768s
+CAMPAIGN grid-w grid-w-2-40: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 23.726s
+CAMPAIGN grid-w grid-w-3-12: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  13.489s
+CAMPAIGN grid-w grid-w-2-50: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 65.428s
+CAMPAIGN grid-w grid-w-3-14: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  23.014s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-100: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  207.555s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-35: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 17.23s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-45: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 47.578s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-55: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  41.771s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-60: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  55.002s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-65: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  66.727s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-70: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  80.712s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-75: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  100.72s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-80: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  121.603s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-85: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  138.365s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-90: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  162.734s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-2-95: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  186.516s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-3-11: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  10.556s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-3-13: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  18.534s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-3-15: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  33.584s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-3-16: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  38.73s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-3-17: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  49.332s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-3-18: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  58.233s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-3-19: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  72.898s
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN grid-w grid-w-3-20: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  84.113s

@@ -1,0 +1,27 @@
+== triang-25 n=300 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=2143200 (0.0s)
+   depth 1: roots=[0] refinedClasses=3 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=0 maxBase=0 groupWork=2115000 (0.0s)
+   depth 2: roots=[0, 47] refinedClasses=6 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=2368800 (0.0s)
+   depth 3: roots=[0, 47, 90] refinedClasses=10 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=2622600 (0.0s)
+   depth 4: roots=[0, 47, 90, 129] refinedClasses=15 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=2876400 (0.0s)
+   depth 5: roots=[0, 47, 90, 129, 164] refinedClasses=21 ours=STOP_BASE_TOO_LONG(>12) |Aut(H)|=null maxT=4 maxBase=1 groupWork=3130200 (0.0s)
+   depth 6: roots=[0, 47, 90, 129, 164, 195] refinedClasses=28 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=971334900 (0.5s)
+   depth 7: roots=[0, 47, 90, 129, 164, 195, 222] refinedClasses=36 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=971419500 (0.5s)
+   depth 8: roots=[0, 47, 90, 129, 164, 195, 222, 245] refinedClasses=45 ours=STOP_TOO_MANY_CANDIDATES |Aut(H)|=null maxT=4 maxBase=1 groupWork=971504100 (0.4s)
+   depth 9: roots=[0, 47, 90, 129, 164, 195, 222, 245, 264] refinedClasses=55 ours=STOP_TIME |Aut(H)|=null maxT=10080 maxBase=6 groupWork=4500000900 (2.1s)
+   depth 10: roots=[0, 47, 90, 129, 164, 195, 222, 245, 264, 279] refinedClasses=66 ours=STOP_TIME |Aut(H)|=null maxT=240 maxBase=4 groupWork=4506652957 (2.3s)
+   depth 11: roots=[0, 47, 90, 129, 164, 195, 222, 245, 264, 279, 290] refinedClasses=78 ours=EXACT |Aut(H)|=12288.0 maxT=12 maxBase=2 groupWork=50593560 (0.5s)
+   orbit of r10=290: 10 of 10 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r9=279: 21 of 21 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r8=264: 36 of 36 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r7=245: 55 of 55 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r6=222: 78 of 78 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r5=195: 105 of 105 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r4=164: 136 of 136 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r3=129: 171 of 171 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r2=90: 210 of 210 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=47: 253 of 253 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r0=0: 300 of 300 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   generators known at the end: 24; two-sided queries in total: 11
+   |Aut| = 1.55112e+25  ours 6.596s

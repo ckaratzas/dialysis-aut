@@ -1,0 +1,22 @@
+family: pg
+instances: 14
+solved: 14
+by_series: 2
+by_chain: 12
+from_1wl: 12
+traces_run: 14
+traces_agree: 5
+disagree: 9
+traces_fail_we_solve: 0
+largest_n: 1302
+largest_aut: 609336000000.0
+ours_max_s: 27.505
+ours_total_s: 177.486
+traces_total_s: 0.488
+median_ratio: 0.007455268389662028
+max_ratio: 0.20261437908496732
+pi_traces_run: 0
+pi_traces_fail_we_solve: 0
+pi_median_ratio: 0
+pi_max_ratio: 0
+open: 

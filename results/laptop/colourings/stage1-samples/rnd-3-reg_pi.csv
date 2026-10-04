@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+rnd-3-reg,rnd-3-reg-1000-1,1000,1500,1000,1500,1000,0,"{}",0,0,0,0,0,0,0,1.0,,,,,,EXACT,1.744,1000,0,true,1000,"",0,0,0,0
+rnd-3-reg,rnd-3-reg-1000-4,1000,1500,1000,1500,1000,0,"{}",0,0,0,0,0,0,0,1.0,,,,,,EXACT,1.29,1000,0,true,1000,"",0,0,0,0
+rnd-3-reg,rnd-3-reg-1000-9,1000,1500,1000,1500,1000,0,"{}",0,0,0,0,0,0,0,1.0,,,,,,EXACT,1.266,1000,0,true,1000,"",0,0,0,0
+rnd-3-reg,rnd-3-reg-2000-3,2000,3000,2000,3000,2000,0,"{}",0,0,0,0,0,0,0,1.0,,,,,,EXACT,2.586,2000,0,true,2000,"",0,0,0,0
+rnd-3-reg,rnd-3-reg-2000-9,2000,3000,2000,3000,2000,0,"{}",0,0,0,0,0,0,0,1.0,,,,,,EXACT,3.518,2000,0,true,2000,"",0,0,0,0

@@ -1,0 +1,10 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/christos/IdeaProjects/graph-dialysis/build/paper3/dialysis-paper3-layer.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN johnson johnson-6-3: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.309s
+CAMPAIGN johnson johnson-9-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.995s
+CAMPAIGN johnson johnson-11-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  2.205s
+CAMPAIGN johnson johnson-17-3: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  8.242s
+CAMPAIGN johnson johnson-13-6: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  19.63s

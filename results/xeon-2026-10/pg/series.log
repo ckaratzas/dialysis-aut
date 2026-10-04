@@ -1,0 +1,19 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/paper3run/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+CAMPAIGN pg pg2-2: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 0.153s
+CAMPAIGN pg pg2-3: EXACT aut=2^null traces= agree= query=0->1 ORBIT_MATES 1.121s
+CAMPAIGN pg pg2-4: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  0.244s
+CAMPAIGN pg pg2-5: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  1.116s
+CAMPAIGN pg pg2-7: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  29.358s
+CAMPAIGN pg pg2-8: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  71.358s
+CAMPAIGN pg pg2-9: STOP_TIME aut=2^null traces= agree= query=  300.002s
+CAMPAIGN pg pg2-11: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  1.01s
+CAMPAIGN pg pg2-13: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  1.436s
+CAMPAIGN pg pg2-16: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  63.302s
+CAMPAIGN pg pg2-17: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  2.78s
+CAMPAIGN pg pg2-19: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  3.591s
+CAMPAIGN pg pg2-23: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  6.029s
+CAMPAIGN pg pg2-25: STOP_TOO_MANY_CANDIDATES aut=2^null traces= agree= query=  52.421s

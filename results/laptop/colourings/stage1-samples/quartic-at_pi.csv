@@ -1,0 +1,6 @@
+family,instance,n_orig,m_orig,n,m,pi_classes,nonsingleton,class_sizes,T,excluded,unfaithful,not_group,non_subgroup,vars,eqs,aut_log2,traces_aut,agree,query,query_verdict,explicit_aut_ok,status,seconds,orbits,enumerated_auts,enumerated_all_verified,orbits_original,stop_detail,max_base,max_T,max_pair,dfs_nodes
+quartic-at,graph_0005_001,5,10,5,10,1,1,"{5=1}",0,0,0,0,0,2,0,120.0,,,0->1,ORBIT_MATES,true,EXACT,0.161,1,4,true,1,"non-abelian stage: |L|=60.0 (60/60)",4,120,120,15
+quartic-at,graph_0256_004,256,512,256,512,1,1,"{256=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.233,,0,,,"class of size 256: individualising 12 base vertices does not split it into singletons",0,0,0,0
+quartic-at,graph_0396_005,396,792,396,792,1,1,"{396=1}",0,0,0,0,0,7,0,1584.0,,,0->1,ORBIT_MATES,true,EXACT,1.464,1,7,true,1,"",2,1584,1584,36
+quartic-at,graph_0524_001,524,1048,524,1048,1,1,"{524=1}",0,0,0,0,0,0,0,,,,,,,STOP_BASE_TOO_LONG(>12),0.317,,0,,,"class of size 524: individualising 12 base vertices does not split it into singletons",0,0,0,0
+quartic-at,graph_0640_158,640,1280,640,1280,1,1,"{640=1}",0,0,0,0,0,0,0,,,,,,,STOP_TOO_MANY_CANDIDATES,6.513,,0,,,"class of size 640: more than 20000 candidate restrictions (base length 5)",0,0,0,0
