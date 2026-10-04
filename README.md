@@ -133,5 +133,6 @@ reasons; it is compiled into the jar like the main code.
 
 ## Licence
 
-To be decided by the author before publication. The vendored nauty/Traces sources keep their own licence
-(`src/main/cpp/nauty/COPYRIGHT`, Apache 2.0).
+MIT (see `LICENSE`), for the code, scripts, checks and result files of this repository. Exceptions: the vendored
+nauty/Traces sources keep their own licence (`src/main/cpp/nauty/COPYRIGHT`, Apache 2.0), and the benchmark graphs in
+`graphs/` remain under the terms of the collections they come from (see Graphs above).
