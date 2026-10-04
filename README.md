@@ -2,7 +2,8 @@
 
 Code, benchmark graphs, scripts and results for
 
-> C. I. Karatzas, *Refinement-Derived Algebraic Computation of Graph Automorphism Groups* (manuscript).
+> C. I. Karatzas, *Refinement-Derived Algebraic Computation of Graph Automorphism Groups*, preprint, Zenodo, 2026.
+> [doi:10.5281/zenodo.23146211](https://doi.org/10.5281/zenodo.23146211)
 
 The method computes the automorphism group of a graph exactly, with a verified generating set:
 
@@ -136,3 +137,19 @@ reasons; it is compiled into the jar like the main code.
 MIT (see `LICENSE`), for the code, scripts, checks and result files of this repository. Exceptions: the vendored
 nauty/Traces sources keep their own licence (`src/main/cpp/nauty/COPYRIGHT`, Apache 2.0), and the benchmark graphs in
 `graphs/` remain under the terms of the collections they come from (see Graphs above).
+
+## Citing
+
+If you use this code or the results, please cite the preprint:
+
+```
+@misc{karatzas2026dialysis,
+  author    = {Karatzas, Christos I.},
+  title     = {Refinement-Derived Algebraic Computation of Graph Automorphism Groups},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23146211},
+  url       = {https://doi.org/10.5281/zenodo.23146211},
+  note      = {Preprint}
+}
+```
