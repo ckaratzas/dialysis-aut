@@ -18,8 +18,9 @@ dependencies {
 // Native JNI libraries, built from source into src/main/resources and bundled in the jar:
 //   libcoloredahu.so  colored AHU tree canonisation (used by the structural colouring PI)
 //   libwl1jni.so      colour refinement (Paige-Tarjan style), the 1-WL backend
-//   libtracesjni.so   vendored nauty/Traces 2.9.3 (src/main/cpp/nauty, Apache 2.0) -- ONLY for the separate oracle
-//                     and baseline commands (oracle, traces); the method itself never calls it.
+//   libtracesjni.so   vendored nauty/Traces 2.9.3 (src/main/cpp/nauty, Apache 2.0) -- for the separate oracle
+//                     and baseline commands (oracle, traces); the method calls it only for the optional generator
+//                     shortcut SERIES_GENAUT (group order via nauty's schreier.c, extension of the second paper).
 val buildNativeAhu = tasks.register<Exec>("buildNativeAhu") {
     commandLine("bash", "src/main/cpp/build.sh")
     inputs.file("src/main/cpp/colored_ahu.cpp"); outputs.file("src/main/resources/libcoloredahu.so")

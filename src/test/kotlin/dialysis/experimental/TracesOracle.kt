@@ -33,4 +33,18 @@ class TracesOracle {
         out.appendText("$fam,${File(path).name},${g.n},${g.m},$colour,${cells.size},$piMs,${r.stats.autOrder},${r.stats.numOrbits},$trMs,OK\n")
         println("TRACES ${File(path).name} colour=$colour classes=${cells.size} colour_ms=$piMs |Aut|=${r.stats.autOrder} traces_ms=$trMs")
     }
+
+    /** Diagnostic (CLOSURE_BOUND_SPEC, 2026-10-06): exact orbit partition of Aut(G)_(fixed) by Traces, oracle only.
+     *  Env TR_FILE, TR_FIX (comma list of 0-based vertices, each its own cell, in this order), OUT (orbit vector:
+     *  one line "autOrder orbits" then n integers, the orbit representative of every vertex). */
+    @Test fun tracesOrbits() {
+        val path = System.getenv("TR_FILE") ?: return
+        val fix = System.getenv("TR_FIX")?.split(",")?.filter { it.isNotBlank() }?.map { it.trim().toInt() } ?: emptyList()
+        val g = GraphIO.loadDimacs(File(path).toPath())
+        val fixed = fix.toHashSet()
+        val cells = fix.map { intArrayOf(it) } + listOf((0 until g.n).filter { it !in fixed }.toIntArray())
+        val r = dialysis.cl.TracesJni().certifyAll(g, cells, getcanon = false)
+        File(System.getenv("OUT") ?: "orbits.txt").writeText("${r.stats.autOrder} ${r.stats.numOrbits}\n" + r.orbits.joinToString(" ") + "\n")
+        println("ORBITS ${File(path).name} fix=$fix |Aut|=${r.stats.autOrder} orbits=${r.stats.numOrbits}")
+    }
 }

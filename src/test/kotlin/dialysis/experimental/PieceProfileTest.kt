@@ -53,6 +53,11 @@ class PieceProfileTest {
     private val solver by lazy { DecompositionCanonicalFormsTest() }
     private val sliceTest by lazy { SliceGroupTest() }
     private fun h64(s: String): Long { var h = -0x3c5a2d1e7b9f4c11L; for (ch in s) { h = (h xor ch.code.toLong()) * 0x100000001b3L; h = h xor (h ushr 29) }; return h }
+    // orbit-phase fingerprint (2026-10-05, see OrbitPhase.fingerprint): SC_FP=old = previous code path; SC_FP_THREADS (default 4)
+    private val oldFp = System.getenv("SC_FP") == "old"
+    private val fpPool by lazy { java.util.concurrent.ForkJoinPool(System.getenv("SC_FP_THREADS")?.toIntOrNull()?.coerceAtLeast(1) ?: 4) }
+    private val FP_MARK = h64("fingerprint-mark")
+    private fun mix64(x: Long): Long { var z = x + -0x61c8864680b583ebL; z = (z xor (z ushr 30)) * -0x40a7b892e31b1a47L; z = (z xor (z ushr 27)) * -0x6b2fb644ecceee15L; return z xor (z ushr 31) }
     private fun lg(x: Double?) = if (x == null || x <= 0) Double.NaN else Math.log(x) / Math.log(2.0)
 
     /** Recursive decomposition from a FIXED top root r (canonical given r); deeper levels use the default root rule. */
@@ -189,6 +194,55 @@ class PieceProfileTest {
             members[sd].add(v)
         }
         return inC
+    }
+
+    /** Lowest vertex of the smallest non-singleton class among [vs], or null. */
+    private fun smallestClassMin(c: LongArray, vs: Collection<Int>): Int? {
+        val size = HashMap<Long, Int>(); for (x in c) size.merge(x, 1, Int::plus)
+        return vs.filter { size.getValue(c[it]) > 1 }.groupBy { c[it] }.values.minWithOrNull(compareBy<List<Int>>({ it.size }, { it.min() }))?.min()
+    }
+
+    /** The line (maximum clique) through adjacent u, v in a block graph with 3 lines per vertex: u, v and the common
+     *  neighbours with at least |C| - [slack] neighbours inside C = N(u) n N(v) (Lemma 1: slack 3 for Latin square graphs,
+     *  Lemma 1': slack 5 for STS block graphs; the off-line common neighbours have at most 1 / 4). */
+    private fun lineThrough(g: Graph, u: Int, v: Int, slack: Int): Set<Int> {
+        val cn = g.adj[u].filter { java.util.Arrays.binarySearch(g.adj[v], it) >= 0 }.toHashSet()
+        return cn.filter { w -> g.adj[w].count { it in cn } >= cn.size - slack }.toHashSet().also { it.add(u); it.add(v) }
+    }
+
+    /** SC_ROOT=random (DSS diagnostics): a uniformly random non-singleton vertex, seeded by SC_ROOT_SEED. Correctness of
+     *  the chain does not depend on the root rule (it computes the orbit of whatever root it takes). */
+    private val rootRnd by lazy { java.util.Random(System.getenv("SC_ROOT_SEED")?.toLongOrNull() ?: 1L) }
+    private fun randomRoot(c: LongArray): Int? {
+        val size = HashMap<Long, Int>(); for (x in c) size.merge(x, 1, Int::plus)
+        val ns = c.indices.filter { size.getValue(c[it]) > 1 }
+        return if (ns.isEmpty()) null else ns[rootRnd.nextInt(ns.size)]
+    }
+
+    /** SC_ROOT=lineframe (Theorem (Latin squares), CLOSURE_BOUND_SPEC): r1 a neighbour of r0, r2 a neighbour of r0 off the
+     *  line l = l(r0, r1), then non-singleton cells of l. Null when it does not apply (the default rules take over). */
+    private fun lineFrameRoot(g: Graph, c: LongArray, roots: List<Int>): Int? {
+        if (roots.isEmpty()) return null
+        val x = roots[0]
+        if (roots.size == 1) return smallestClassMin(c, g.adj[x].toList())
+        val l = lineThrough(g, x, roots[1], 3)
+        if (roots.size == 2) return smallestClassMin(c, g.adj[x].filter { it !in l })
+        return smallestClassMin(c, l)
+    }
+
+    /** SC_ROOT=pointframe (Theorem (STS)): r1 a neighbour of r0 (common point p, pencil P), r2 a common neighbour of r0, r1
+     *  off P (pencil A = l(r0, r2)); then alternately t = a non-singleton block of P and t2 = a block of A adjacent to t
+     *  (2 candidates: the blocks through the identified point of A and one of t's other points). */
+    private fun pointFrameRoot(g: Graph, c: LongArray, roots: List<Int>): Int? {
+        if (roots.isEmpty()) return null
+        val x = roots[0]
+        if (roots.size == 1) return smallestClassMin(c, g.adj[x].toList())
+        val pen = lineThrough(g, x, roots[1], 5)
+        if (roots.size == 2) return smallestClassMin(c, g.adj[x].filter { it !in pen && java.util.Arrays.binarySearch(g.adj[roots[1]], it) >= 0 })
+        val a = lineThrough(g, x, roots[2], 5)
+        val t = roots.drop(3).lastOrNull { it in pen }
+        if (t != null) smallestClassMin(c, g.adj[t].filter { it in a && it != x })?.let { return it }
+        return smallestClassMin(c, pen)
     }
 
     /** FRAME root rule for projective planes (2026-10-01, Prop. "start-up" in paper3): the next root is a non-singleton
@@ -338,7 +392,9 @@ class PieceProfileTest {
      *  j = k*-1 .. 0; at level j the candidates s (refined colour of r_j at depth j) outside the current orbit, and per s the
      *  extension tuples (matching refined colours). Orbit closure under the verified generators of H plus every verified
      *  witness (all fix r0..r_{j-1}); a candidate whose tuples all answer "no" excludes its orbit under the known group. */
-    private inner class OrbitPhase(val g: Graph, val col: Array<Content>, val roots: List<Int>, val kStar: Int, val globalInv: ((Int) -> Long?)? = null) {
+    private inner class OrbitPhase(val g: Graph, val col: Array<Content>, val roots: List<Int>, val kStar: Int, val globalInv: ((Int) -> Long?)? = null,
+                                   val seedFor: ((List<Int>) -> List<IntArray>)? = null, val resetAt: Int = -1,
+                                   val adaptiveR: Double = 0.0, val seedCount: Int = 0) {
         val known = mutableListOf<IntArray>(); var stabK = Double.NaN
         val orbitSize = IntArray(kStar); val candCount = IntArray(kStar); val testsAt = IntArray(kStar); val unknownAt = IntArray(kStar)
         val notes = mutableListOf<String>()
@@ -358,6 +414,10 @@ class PieceProfileTest {
         }
         private fun prefix() = roots.subList(0, j)
         private fun initLevel() {
+            // SC_RESET (2026-10-05): pass 1 stops here and hands its verified generators to pass 2
+            if (resetAt >= 0 && j == resetAt && j < kStar - 1) throw ChainReset(known.toList(), roots, j)
+            // pass 2: generators of the known group K that fix this level's prefix pointwise (sound: verified automorphisms)
+            seedFor?.invoke(prefix())?.forEach { h -> if (known.none { it.contentEquals(h) }) known.add(h) }
             val cj = refined(g, col, prefix()); val rj = roots[j]
             cands = (0 until g.n).filter { cj[it] == cj[rj] }; candIt = cands.iterator(); candCount[j] = cands.size; fpR = null; relCache.clear(); relTarget.clear()
             inOrb = closure(rj); excluded = BooleanArray(g.n); curS = -1; curExt = null; curAnyNull = false
@@ -368,8 +428,28 @@ class PieceProfileTest {
          *  (2026-09-29: negative answers otherwise exhaust the whole extension tree -- pp-9-2 needed 1.4M queries). */
         private fun fingerprint(s: Int): LongArray {
             val pre = prefix()
-            return LongArray(g.n) { t -> val c = refined(g, col, pre + s + t); c.sort(); var h = 0x2545F4914F6CDD1DL; for (x in c) h = h * 1000003L xor x; h }.also { it.sort() }
+            if (oldFp) return LongArray(g.n) { t -> val c = refined(g, col, pre + s + t); c.sort(); var h = 0x2545F4914F6CDD1DL; for (x in c) h = h * 1000003L xor x; h }.also { it.sort() }
+            // 2026-10-05 (CLOSURE_BOUND_SPEC Phase 1(b), group Latin square graphs: n string-hashed refinements per candidate
+            // took minutes on n = 6,561). Same invariant, computed faster: refine (prefix, s) ONCE, then per t mark t and refine
+            // from that stable colouring -- the coarsest equitable refinement is the same partition as from scratch, and the
+            // colour names are canonical, so equal/different fingerprints mean the same as before (up to 64-bit collisions,
+            // which can only fail to exclude). Numeric hashing, t in parallel (deterministic: each t is independent).
+            // SC_FP=old restores the previous code path.
+            val base = refined(g, col, pre + s)
+            val out = LongArray(g.n)
+            fpPool.submit { java.util.stream.IntStream.range(0, g.n).parallel().forEach { t -> out[t] = fpOne(base, t) } }.get()
+            return out.also { it.sort() }
         }
+        private fun fpOne(base: LongArray, t: Int): Long {
+            var c = base.copyOf(); c[t] = FP_MARK
+            var k = distinct(c)
+            while (true) {
+                val nx = LongArray(g.n) { v -> var s = 0L; for (u in g.adj[v]) s += mix64(c[u]); mix64(c[v] * -0x61c8864680b583ebL xor s) }
+                val k2 = distinct(nx); c = nx; if (k2 == k) break; k = k2
+            }
+            c.sort(); var h = 0x2545F4914F6CDD1DL; for (x in c) h = h * 1000003L xor x; return h
+        }
+        private fun distinct(c: LongArray): Int { val a = c.copyOf(); a.sort(); var k = if (a.isEmpty()) 0 else 1; for (i in 1 until a.size) if (a[i] != a[i - 1]) k++; return k }
         private var fpR: LongArray? = null
         /** Relative plane invariant cache for the current level (cleared per level: it depends on the prefix). */
         private val relCache = HashMap<Int, Long?>()
@@ -384,9 +464,122 @@ class PieceProfileTest {
         // below image x onto the one below kx (k fixes img, preserves refinement and both invariants), so one image per
         // K-orbit suffices, for "yes" and for "no". Deterministic (generators in order found). Default off: bit-identical.
         private val prune = System.getenv("SC_PRUNE") == "1"
+        // SC_NODE_INV=1 (2026-10-05, CLOSURE_BOUND_SPEC Phase 1(b)): node-invariant pruning at EVERY depth of the tuple search.
+        // At a node the domain refinement cd and the image refinement ci are canonical (E), so an automorphism mapping the
+        // domain prefix onto the image prefix gives equal colour multisets; different multisets prune the whole subtree with
+        // no query. Default off: bit-identical.
+        private val nodeInv = System.getenv("SC_NODE_INV") == "1"
+        // SC_FP_AFTER=k (2026-10-05): the lazy fingerprint runs only after k "no" answers for the same candidate (default 1 =
+        // previous behaviour). On group Latin square graphs a non-orbit candidate is refuted after ~1 query, and the
+        // fingerprint (n refinements) then costs ~50 s per candidate and excludes nothing more.
+        private val fpAfter = System.getenv("SC_FP_AFTER")?.toIntOrNull()?.coerceAtLeast(1) ?: 1
+        private var curNo = 0
+        private val resetDepth = (System.getenv("SC_RESET_DEPTH") ?: "2").toInt()
+        val nodePruned = IntArray(kStar)
+        // per refuted candidate (SC_NODE_INV only): deepest tuple depth reached (1 = the candidate node, kStar-j = a leaf) and
+        // whether a leaf was queried -- the "c" of Condition A_c (CLOSURE_BOUND_SPEC)
+        private var curMaxD = 0; private var curLeaves = 0
+        // cost model (2026-10-05, SC_NODE_INV only): search nodes per tuple depth for the current candidate, aggregated per level
+        // separately for refutations and for witnesses; effective branching = nodes(t+1) / nodes(t) within one candidate
+        private val curNodesAt = IntArray(kStar + 2)
+        inner class SearchStats { var count = 0; var sum = 0L; var max = 0; var maxBeta = 0.0; val atDepth = LongArray(kStar + 2)
+            fun add() { val tot = curNodesAt.sum(); count++; sum += tot; if (tot > max) max = tot
+                for (t in curNodesAt.indices) atDepth[t] += curNodesAt[t].toLong()
+                for (t in 1 until curNodesAt.size - 1) if (curNodesAt[t] > 0) maxBeta = maxOf(maxBeta, curNodesAt[t + 1].toDouble() / curNodesAt[t]) }
+            override fun toString() = if (count == 0) "-" else "n=$count nodes sum=$sum max=$max beta_max=${"%.2f".format(maxBeta)} perDepth=${atDepth.drop(1).dropLastWhile { it == 0L }}" }
+        val refStats = Array(kStar) { SearchStats() }; val witStats = Array(kStar) { SearchStats() }
+        val cutHist = Array(kStar) { sortedMapOf<Int, Int>() }; val leafRefuted = IntArray(kStar)
+        private fun recordRefuted() {
+            if (nodeInv) { cutHist[j].merge(curMaxD, 1, Int::plus); if (curLeaves > 0) leafRefuted[j]++; refStats[j].add() }
+            // SC_RESET=adaptive (v2): reset right after the first COMPLETED refutation that needed search below depth 1 (v1 fired
+            // on any deep search, including positive candidates whose witness search goes deep: a regression everywhere),
+            // on a level whose class is >= R x the known orbit, if this pass found generators beyond its seeds
+            if (adaptiveR > 0 && curMaxD >= resetDepth && known.size > seedCount && cands.size >= adaptiveR * cands.count { inOrb[it] })
+                throw ChainReset(known.toList(), roots, j)
+        }
+        private fun sameMultiset(a: LongArray, b: LongArray): Boolean { val x = a.copyOf(); val y = b.copyOf(); x.sort(); y.sort(); return x.contentEquals(y) }
         private val t0p = System.currentTimeMillis(); private var lastP = 0L; private var recNodes = 0L
         private fun prog(msg: String, force: Boolean = false) { if (!progress) return; val now = System.currentTimeMillis()
             if (force || now - lastP > 30000) { lastP = now; println("PROGRESS %8.1fs level=%d %s recNodes=%d".format((now - t0p) / 1000.0, j, msg, recNodes)); System.out.flush() } }
+        // SC_FASTNODE=1 (2026-10-06, stress test: ~0.3-0.6 s per search node = two string-hashed refinements from scratch).
+        // Node checks only (not the colourings handed to the solver): the domain colouring of roots[0 until l] is cached per
+        // l, and each image node refines its parent's stable colouring plus one mark (numeric hashing). Same partitions; the
+        // names are canonical for the procedure, and domain and image use the same procedure, so an automorphism carries
+        // one onto the other with equal names: every node makes the same pruning decision. Default off: bit-identical.
+        private val fastNode = System.getenv("SC_FASTNODE") == "1"
+        private val domCache = HashMap<Int, LongArray>()
+        private fun fastRefine(c0: LongArray): LongArray {
+            var c = c0; var k = distinct(c)
+            while (true) {
+                val nx = LongArray(g.n) { v -> var s = 0L; for (u in g.adj[v]) s += mix64(c[u]); mix64(c[v] * -0x61c8864680b583ebL xor s) }
+                val k2 = distinct(nx); c = nx; if (k2 == k) return c; k = k2
+            }
+        }
+        private fun extendCol(c: LongArray, v: Int, pos: Int): LongArray { val c0 = c.copyOf(); c0[v] = h64("node-mark$pos"); return fastRefine(c0) }
+        /** Fast colouring of (G, col) with roots[0 until l] individualised, l <= kStar (cached; independent of the level j). */
+        private fun domAt(l: Int): LongArray = domCache[l] ?: (if (l == 0) fastRefine(LongArray(g.n) { h64(col[it].serialize()) })
+            else extendCol(domAt(l - 1), roots[l - 1], l - 1)).also { domCache[l] = it }
+        // SC_FREESEARCH=1 (2026-10-06, stress test): decide each candidate s at level j by an individualisation-refinement search
+        // of our own instead of image tuples of the chain's roots + solver queries. Domain path: r_j, then always the lowest vertex
+        // of the smallest non-singleton cell (ties: smaller colour value), until discrete; cached per level. Image side: s, then
+        // every vertex with the domain choice's colour, pruned by the node invariant and by orbits of known automorphisms that fix
+        // the image prefix. A discrete leaf gives a bijection, checked edge by edge: an automorphism is a witness. Exhaustive, so
+        // "none found" refutes s: any automorphism fixing the prefix with r_j -> s carries the domain path onto an image branch
+        // with equal canonical colours at every node. Needs SC_FASTNODE (canonical incremental colourings). Default off.
+        private val freeSearch = System.getenv("SC_FREESEARCH") == "1" && System.getenv("SC_FASTNODE") == "1"
+        private var freeDomLevel = -1; private val freeDom = ArrayList<LongArray>(); private val freeDomV = ArrayList<Int>()
+        private val sortedAdj by lazy { Array(g.n) { g.adj[it].copyOf().also { a -> a.sort() } } }
+        private fun isAutomorphism(phi: IntArray): Boolean {
+            val seen = BooleanArray(g.n); for (v in phi) { if (v < 0 || v >= g.n || seen[v]) return false; seen[v] = true }
+            for (u in 0 until g.n) { val au = sortedAdj[phi[u]]; if (au.size != g.adj[u].size) return false
+                for (w in g.adj[u]) if (java.util.Arrays.binarySearch(au, phi[w]) < 0) return false }
+            return true
+        }
+        private fun cellChoice(c: LongArray): Int {   // lowest vertex of the smallest non-singleton cell, -1 if discrete
+            val cnt = HashMap<Long, Int>(); for (x in c) cnt.merge(x, 1, Int::plus)
+            var best: Long? = null; var bs = Int.MAX_VALUE
+            for ((x, k) in cnt) if (k > 1 && (k < bs || (k == bs && x < best!!))) { bs = k; best = x }
+            if (best == null) return -1
+            for (v in 0 until g.n) if (c[v] == best) return v
+            return -1
+        }
+        private fun freeDomain(t: Int): LongArray {   // domain colouring after r_j and t further choices
+            if (freeDomLevel != j) { freeDomLevel = j; freeDom.clear(); freeDomV.clear(); freeDom.add(extendCol(domAt(j), roots[j], j)) }
+            while (freeDom.size <= t) { val c = freeDom.last(); val v = cellChoice(c); check(v >= 0) { "freeDomain past discrete" }
+                freeDomV.add(v); freeDom.add(extendCol(c, v, j + freeDom.size)) }
+            return freeDom[t]
+        }
+        /** Witness automorphism (fixes the prefix, r_j -> s) or null (s refuted). */
+        private fun freeDecide(s: Int): IntArray? {
+            fun dfs(ic: LongArray, img: List<Int>, t: Int): IntArray? {
+                val d = t + 1; if (d > curMaxD) curMaxD = d; if (d < curNodesAt.size) curNodesAt[d]++ else curNodesAt[curNodesAt.size - 1]++
+                recNodes++; prog("free cand=$s depth=$d img=${img.drop(j)}")
+                val dc = freeDomain(t)
+                if (!sameMultiset(dc, ic)) { nodePruned[j]++; return null }
+                if (cellChoice(dc) < 0) {   // discrete leaf: read off the bijection and verify it
+                    curLeaves++
+                    val byCol = HashMap<Long, Int>(g.n * 2); for (v in 0 until g.n) byCol[ic[v]] = v
+                    val phi = IntArray(g.n) { v -> byCol[dc[v]] ?: -1 }
+                    return if (isAutomorphism(phi) && phi[roots[j]] == s && (0 until j).all { phi[roots[it]] == roots[it] }) phi else null
+                }
+                freeDomain(t + 1); val dv = freeDomV[t]; val target = dc[dv]
+                var orbRep: IntArray? = null
+                if (prune) { val fix = known.filter { h -> img.all { h[it] == it } }
+                    if (fix.isNotEmpty()) { val par = IntArray(g.n) { it }
+                        fun find(x: Int): Int { var y = x; while (par[y] != y) { par[y] = par[par[y]]; y = par[y] }; return y }
+                        for (h in fix) for (v in 0 until g.n) { val a = find(v); val b = find(h[v]); if (a != b) par[maxOf(a, b)] = minOf(a, b) }
+                        orbRep = IntArray(g.n) { find(it) } } }
+                val seenRep = HashSet<Int>()
+                for (w in 0 until g.n) {
+                    if (ic[w] != target) continue
+                    if (orbRep != null && !seenRep.add(orbRep[w])) continue
+                    val r = dfs(extendCol(ic, w, j + 1 + t), img + w, t + 1)
+                    if (r != null) return r
+                }
+                return null
+            }
+            return dfs(extendCol(domAt(j), s, j), roots.subList(0, j) + s, 0)
+        }
         private fun extTuples(s: Int): Sequence<List<Int>> {
             val pre = prefix(); val rj = roots[j]; val jj = j
             // 2026-09-30: image tuples filtered by the same invariants as the candidates. An automorphism mapping the root
@@ -395,10 +588,17 @@ class PieceProfileTest {
             // null-ness (net or not) is invariant too. Without this, pp-16-6 spent 230,856 queries on POSITIVE candidates:
             // the colour class of r1 under (s) has 272 vertices of which 3 extend.
             return sequence {
-                suspend fun SequenceScope<List<Int>>.rec(img: List<Int>, level: Int) {
-                    if (level == kStar) { yield(img.drop(pre.size + 1)); return }
+                suspend fun SequenceScope<List<Int>>.rec(img: List<Int>, level: Int, par: LongArray?) {
+                    if (level - jj > curMaxD) curMaxD = level - jj
+                    if (level - jj < curNodesAt.size) curNodesAt[level - jj]++
+                    if (level == kStar) {
+                        if (nodeInv && !sameMultiset(if (fastNode) domAt(kStar) else refined(g, col, pre + rj + roots.subList(jj + 1, kStar)),
+                                                     if (fastNode) extendCol(par!!, img.last(), kStar - 1) else refined(g, col, img))) { nodePruned[jj]++; return }
+                        curLeaves++; yield(img.drop(pre.size + 1)); return }
                     recNodes++; prog("cand=$s tupleDepth=${level - jj} img=${img.drop(pre.size)}")
-                    val cd = refined(g, col, pre + rj + roots.subList(jj + 1, level)); val ci = refined(g, col, img)
+                    val cd = if (fastNode) domAt(level) else refined(g, col, pre + rj + roots.subList(jj + 1, level))
+                    val ci = if (fastNode) extendCol(par!!, img.last(), level - 1) else refined(g, col, img)
+                    if (nodeInv && !sameMultiset(cd, ci)) { nodePruned[jj]++; return }
                     val target = roots[level]
                     val gi = globalInv; val giT = gi?.invoke(target)
                     val rrT = if (relInvOn) relTarget.getOrPut(level) { relPlaneInv(g, cd, target) } else null
@@ -418,12 +618,13 @@ class PieceProfileTest {
                             if (o != null && rs != null) { if (rs[o[tt]]) continue; rs[o[tt]] = true }
                             batch.add(tt) } }
                         if (batch.isEmpty()) break
-                        if (!relInvOn) { for (x in batch) rec(img + x, level + 1) }
-                        else { val rel = relPlaneInvAll(g, ci, batch.toIntArray()); for (i in batch.indices) if (rel[i] == rrT) rec(img + batch[i], level + 1) }
+                        val nextPar = if (fastNode) ci else null
+                        if (!relInvOn) { for (x in batch) rec(img + x, level + 1, nextPar) }
+                        else { val rel = relPlaneInvAll(g, ci, batch.toIntArray()); for (i in batch.indices) if (rel[i] == rrT) rec(img + batch[i], level + 1, nextPar) }
                         batch.clear()
                     }
                 }
-                rec(pre + s, jj + 1)
+                rec(pre + s, jj + 1, if (fastNode) domAt(jj) else null)
             }
         }
         fun start(h: DecompositionCanonicalFormsTest.ParityResult) {
@@ -438,14 +639,14 @@ class PieceProfileTest {
                 true -> if (curS >= 0) {
                     val rj = roots[j]
                     if (phi == null || phi[rj] != curS || prefix().any { phi[it] != it }) { unknownAt[j]++; notes.add("witness missing or not fixing the prefix") }
-                    else { known.add(phi); inOrb = closure(rj) }
+                    else { known.add(phi); inOrb = closure(rj); if (nodeInv) witStats[j].add() }
                     curS = -1; curExt = null; curAnyNull = false
                 }
                 null -> if (curS >= 0) curAnyNull = true
-                false -> if (curS >= 0 && curFpPending) {
+                false -> if (curS >= 0 && curFpPending && ++curNo >= fpAfter) {
                     curFpPending = false
                     val fr = fpR ?: fingerprint(roots[j]).also { fpR = it }
-                    if (!fingerprint(curS).contentEquals(fr)) { fpExcluded[j]++; val o = closure(curS); for (v in 0 until g.n) if (o[v]) excluded[v] = true
+                    if (!fingerprint(curS).contentEquals(fr)) { fpExcluded[j]++; recordRefuted(); val o = closure(curS); for (v in 0 until g.n) if (o[v]) excluded[v] = true
                         curS = -1; curExt = null; curAnyNull = false }
                 }
             }
@@ -453,7 +654,7 @@ class PieceProfileTest {
                 val e = curExt
                 if (curS >= 0 && e != null && e.hasNext()) { testsAt[j]++; return asContent(refined(g, col, prefix() + curS + e.next())) }
                 if (curS >= 0) {   // all tuples of curS answered "no" (or stopped)
-                    if (curAnyNull) unknownAt[j]++ else { val o = closure(curS); for (v in 0 until g.n) if (o[v]) excluded[v] = true }
+                    if (curAnyNull) unknownAt[j]++ else { recordRefuted(); val o = closure(curS); for (v in 0 until g.n) if (o[v]) excluded[v] = true }
                     curS = -1; curExt = null; curAnyNull = false
                 }
                 var s0 = -1
@@ -477,7 +678,14 @@ class PieceProfileTest {
                             if (rs != null && rs != rr) { fpExcluded[j]++; val o = closure(s0); for (v in 0 until g.n) if (o[v]) excluded[v] = true; continue } }
                     }
                     prog("start cand=$s0 (#${cands.indexOf(s0) + 1} of ${cands.size}, inOrb=${inOrb.count { it }}, excluded=${excluded.count { it }}, tests=${testsAt[j]})", force = true)
-                    curS = s0; curExt = extTuples(s0).iterator(); curAnyNull = false; curFpPending = true; continue
+                    if (freeSearch) {
+                        curMaxD = 0; curLeaves = 0; curNodesAt.fill(0)
+                        val phi = freeDecide(s0)
+                        if (phi != null) { known.add(phi); inOrb = closure(roots[j]); if (nodeInv) witStats[j].add(); prog("answer=true cand=$s0 (free search)", force = true) }
+                        else { recordRefuted(); val o = closure(s0); for (v in 0 until g.n) if (o[v]) excluded[v] = true; prog("answer=false cand=$s0 (free search)", force = true) }
+                        continue
+                    }
+                    curS = s0; curExt = extTuples(s0).iterator(); curAnyNull = false; curFpPending = true; curNo = 0; curMaxD = 0; curLeaves = 0; curNodesAt.fill(0); continue
                 }
                 finishLevel(); j--
                 if (j < 0) return null
@@ -546,6 +754,7 @@ class PieceProfileTest {
             val sb = StringBuilder("== ${File(path).name} n=${g.n}${if (wl1Colour) " colour=1-WL" else ""}\n")
             // a complemented graph that falls apart is solved by combination: the pipeline itself only sees connected graphs
             val res = if (chiG != null && g !== g0 && componentsOf(g).size > 1) solveByComponents(g, chiG, maxDepth, ::tr)
+                      else if (System.getenv("SC_RESET") == "1" || System.getenv("SC_RESET") == "adaptive") runChainWithReset(g, col, maxDepth, minDepth, naive, planeRemove, ::tr)
                       else runChain(g, col, maxDepth, minDepth, naive, planeRemove, ::tr)
             sb.append(res.log)
             if (chiG != null && g !== g0 && res.total != null) {
@@ -583,6 +792,89 @@ class PieceProfileTest {
     }
 
     class ChainOutcome(val total: Double?, val ok: Boolean, val log: String, val gens: List<IntArray> = emptyList())
+
+    // ───────────── SC_RESET (Christos, 2026-10-05): stop the orbit phase at a level, restart the chain with what is known ─────────────
+    /** Thrown by [OrbitPhase] in pass 1 at level [level]: [gens] are the verified automorphisms found so far. */
+    class ChainReset(val gens: List<IntArray>, val roots: List<Int>, val level: Int) : RuntimeException(null, null, false, false)
+
+    private val stabCache = HashMap<List<Int>, List<IntArray>>()
+    /** Generators of a subgroup of K_(base) (pointwise stabiliser), K = <gens>: per base point a deterministic Schreier sample
+     *  u_x * s * u_{s(x)}^-1 over the first 64 orbit points, at most 40 kept. Every element is a product of verified
+     *  automorphisms fixing the prefix, so it is sound for orbit closure; it may generate a proper subgroup (efficiency only). */
+    private fun stabiliserSample(gens: List<IntArray>, base: List<Int>): List<IntArray> {
+        if (base.isEmpty()) return gens
+        stabCache[base]?.let { return it }
+        val up = stabiliserSample(gens, base.dropLast(1)); val b = base.last(); val n = gens.firstOrNull()?.size ?: return emptyList()
+        val parent = IntArray(n) { -2 }; val via = IntArray(n) { -1 }; parent[b] = -1
+        val order = ArrayList<Int>(); val q = ArrayDeque(listOf(b)); order.add(b)
+        while (q.isNotEmpty()) { val x = q.removeFirst(); for ((i, s) in up.withIndex()) { val y = s[x]; if (parent[y] == -2) { parent[y] = x; via[y] = i; q.add(y); order.add(y) } } }
+        val tr = HashMap<Int, IntArray>()
+        fun u(x: Int): IntArray = tr.getOrPut(x) { if (x == b) IntArray(n) { it } else { val pu = u(parent[x]); val gg = up[via[x]]; IntArray(n) { gg[pu[it]] } } }
+        val out = ArrayList<IntArray>(); val seen = HashSet<Int>()
+        loop@ for (x in order.take(64)) for (s in up) {
+            val ux = u(x); val uy = u(s[x]); val inv = IntArray(n); for (v in 0 until n) inv[uy[v]] = v
+            val h = IntArray(n) { inv[s[ux[it]]] }
+            if ((0 until n).all { h[it] == it }) continue
+            check(base.all { h[it] == it }) { "stabiliserSample: element does not fix the base" }
+            if (seen.add(h.contentHashCode())) out.add(h)
+            if (out.size >= 40) break@loop
+        }
+        stabCache[base] = out; return out
+    }
+    /** Pass-2 root rule: the non-singleton refined class with the FEWEST orbits of the known group K_(roots) (one orbit =
+     *  Condition A certified there), ties to the larger class; inside it the lowest vertex of the largest K-orbit. */
+    private fun knownGroupRoot(g: Graph, c: LongArray, k: List<IntArray>): Int? {
+        val par = IntArray(g.n) { it }
+        fun find(x: Int): Int { var y = x; while (par[y] != y) { par[y] = par[par[y]]; y = par[y] }; return y }
+        for (h in k) for (v in 0 until g.n) { val a = find(v); val bb = find(h[v]); if (a != bb) par[maxOf(a, bb)] = minOf(a, bb) }
+        val cls = (0 until g.n).groupBy { c[it] }.values.filter { it.size > 1 }
+        if (cls.isEmpty()) return null
+        val best = cls.minWith(compareBy<List<Int>>({ cl -> cl.map { find(it) }.toSet().size }, { -it.size }, { it.min() }))
+        val orbs = best.groupBy { find(it) }.values
+        return orbs.maxWith(compareBy<List<Int>>({ it.size }, { -it.min() })).min()
+    }
+    /** SC_RESET=adaptive: every pass may stop at the first level whose candidate class is >= SC_RESET_R (default 4) x the known
+     *  orbit of its root, right after its first deep refutation; the verified generators seed the next pass. At most SC_RESET_MAX (default 1)
+     *  resets; the last pass runs to the end. */
+    private fun runChainAdaptiveReset(g: Graph, col: Array<Content>, maxDepth: Int, minDepth: Int, naive: Boolean, planeRemove: Boolean, tr: (String) -> Unit): ChainOutcome {
+        val r = (System.getenv("SC_RESET_R") ?: "4").toDouble(); val maxResets = (System.getenv("SC_RESET_MAX") ?: "1").toInt()
+        val edges = HashSet<Long>(); for (u in 0 until g.n) for (v in g.adj[u]) edges.add(u.toLong() * g.n + v)
+        fun isAut(p: IntArray) = p.size == g.n && p.toSet().size == g.n && (0 until g.n).all { u -> g.adj[u].all { v -> (p[u].toLong() * g.n + p[v]) in edges } }
+        var seeds = emptyList<IntArray>(); val head = StringBuilder(); var solveFrom = 0
+        val skip = System.getenv("SC_RESET_SKIP") == "1"
+        for (pass in 1..maxResets + 1) {
+            val t = System.currentTimeMillis(); stabCache.clear()
+            try {
+                val res = runChain(g, col, maxDepth, minDepth, naive, planeRemove, tr, seeds = seeds, adaptiveR = if (pass <= maxResets) r else 0.0, solveFrom = solveFrom)
+                head.append("   RESET adaptive: pass $pass ran to the end (${"%.1f".format((System.currentTimeMillis() - t) / 1000.0)}s); log of the last pass below\n")
+                return ChainOutcome(res.total, res.ok, head.toString() + res.log, res.gens)
+            } catch (e: ChainReset) {
+                val good = e.gens.filter(::isAut); val rejected = e.gens.size - good.size
+                head.append("   RESET adaptive: pass $pass roots=${e.roots} stopped at level ${e.level} after ${"%.1f".format((System.currentTimeMillis() - t) / 1000.0)}s, ${good.size} verified generators" + (if (rejected > 0) " ($rejected REJECTED)" else "") + "\n")
+                tr("reset: pass $pass stopped at level ${e.level}, ${good.size} generators")
+                seeds = good
+                if (skip) solveFrom = maxOf(0, e.roots.size - 2)
+            }
+        }
+        error("unreachable")
+    }
+    /** SC_RESET=1: pass 1 stops at level SC_RESET_LEVEL (default 1); its generators are re-verified on G and seed pass 2. */
+    internal fun runChainWithReset(g: Graph, col: Array<Content>, maxDepth: Int, minDepth: Int, naive: Boolean, planeRemove: Boolean, tr: (String) -> Unit): ChainOutcome {
+        if (System.getenv("SC_RESET") == "adaptive") return runChainAdaptiveReset(g, col, maxDepth, minDepth, naive, planeRemove, tr)
+        val level = (System.getenv("SC_RESET_LEVEL") ?: "1").toInt()
+        val t1 = System.currentTimeMillis()
+        val reset = try { return runChain(g, col, maxDepth, minDepth, naive, planeRemove, tr, resetAt = level) } catch (e: ChainReset) { e }
+        val s1 = (System.currentTimeMillis() - t1) / 1000.0
+        val edges = HashSet<Long>(); for (u in 0 until g.n) for (v in g.adj[u]) edges.add(u.toLong() * g.n + v)
+        val good = reset.gens.filter { p -> p.toSet().size == g.n && (0 until g.n).all { u -> g.adj[u].all { v -> (p[u].toLong() * g.n + p[v]) in edges } } }
+        tr("reset: pass 1 stopped at level ${reset.level} (roots ${reset.roots}) after ${s1}s, ${good.size}/${reset.gens.size} generators verified")
+        stabCache.clear()
+        val r2 = runChain(g, col, maxDepth, minDepth, naive, planeRemove, tr, seeds = good,
+                          solveFrom = if (System.getenv("SC_RESET_SKIP") == "1") maxOf(0, reset.roots.size - 2) else 0)
+        val head = "   RESET: pass 1 roots=${reset.roots} stopped at level ${reset.level} after ${"%.1f".format(s1)}s with ${good.size} verified generators" +
+            (if (good.size < reset.gens.size) " (${reset.gens.size - good.size} REJECTED)" else "") + "; pass 2 below\n"
+        return ChainOutcome(r2.total, r2.ok, head + r2.log, r2.gens)
+    }
 
     /** One instance of the chain (see [stabiliserChain]): |Aut| = prod |orbit_j| * |Aut(H)| by our solver only, or total = null
      *  when no depth up to [maxDepth] is exact. [col] = PI colouring. No Traces in here. */
@@ -711,7 +1003,10 @@ class PieceProfileTest {
     }
 
     internal fun runChain(g: Graph, col: Array<Content>, maxDepth: Int = 20, minDepth: Int = 0, naive: Boolean = false,
-                         planeRemove: Boolean = false, tr: (String) -> Unit = {}): ChainOutcome {
+                         planeRemove: Boolean = false, tr: (String) -> Unit = {}, seeds: List<IntArray> = emptyList(), resetAt: Int = -1,
+                         adaptiveR: Double = 0.0, solveFrom: Int = 0): ChainOutcome {
+        val seedStab: ((List<Int>) -> List<IntArray>)? = if (seeds.isEmpty()) null else { pre -> stabiliserSample(seeds, pre) }
+        val solveFromEnv = System.getenv("SC_SOLVE_FROM")?.toIntOrNull() ?: 0
         val sb = StringBuilder()
         // Plane slice invariant (SliceGroupTest.rootInvariant: cycle types of the net's Latin-square permutations, Aut(G)-
         // invariant, exact orbit partition on 47/47 planes) as an extra fingerprint -- bipartite graphs only, cached per
@@ -719,7 +1014,9 @@ class PieceProfileTest {
         val side0 = g.bipartition()?.first
         // projective planes: frame root rule while it applies (closure-based general position), see frameRoot
         val planeMode = System.getenv("SC_FRAME") != "0" && isProjectivePlane(g)
-        // Roots come from the recursive decomposition (peel) of G.
+        // Roots come from peeling G (= dialysis when G is bipartite). 2026-10-02: dialysis of sd(G) also gave no gain on tnn
+        // 416/806 (no exact depth within 32 either way: individualisation itself barely splits tnn). 2026-10-01 ablation: taking them from recursive
+        // dialysis of sd(G) instead gave the same depth on all 29 instances at equal cost, so that variant was removed.
         val giCache = HashMap<Int, Long?>()
         val globalInv: ((Int) -> Long?)? = if (side0 == null) null else { v -> giCache.getOrPut(v) {
             if (!isNet(g, v)) null else try { sliceTest.rootInvariant(g, v, side0, withSide = false) } catch (e: Exception) { null } } }
@@ -733,8 +1030,11 @@ class PieceProfileTest {
         val timeBudget = System.getenv("SC_BUDGET") == "time"
         val work1 = System.getenv("SC_WORK1")?.toLongOrNull() ?: DEFAULT_WORK1
         val work2 = System.getenv("SC_WORK2")?.toLongOrNull() ?: DEFAULT_WORK2
+        // SC_GROUP_ONLY=1 (2026-10-11, diagnostics): stop at the first depth whose group phase is exact (|Aut(H)| known), with
+        // no orbit phase -- measures the exact depth k alone (use with SC_QUERY_MS=1)
+        val groupOnly = System.getenv("SC_GROUP_ONLY") == "1"; var groupDone = false
         for ((budgetMs, workBudget) in listOf(10_000L to work1, 60_000L to work2)) {
-        if (phase != null) break
+        if (phase != null || groupDone) break
         roots.clear(); var part = IntArray(g.n) { it }; var generalPos = false
         // remove mode: sibling pieces of the last decomposition of the rest; the next roots are taken one per piece
         // (pp-9-2 minus a vertex = a 91-piece + 9 identical 10-vertex pieces, the pencil lines: recursing into ONE piece
@@ -745,18 +1045,26 @@ class PieceProfileTest {
             tr("depth $k: refine, roots=$roots")
             val c = refined(g, col, roots)
             tr("depth $k: OrbitPhase")
-            val ph = OrbitPhase(g, col, roots.toList(), k, globalInv)
+            val ph = OrbitPhase(g, col, roots.toList(), k, globalInv, seedStab, resetAt, adaptiveR, seeds.size)
             tr("depth $k: solve (${c.toSet().size} refined classes)")
             val ts = System.currentTimeMillis()
-            val r = if (k < minDepth) solver.parityAutFull(g, asContent(c))
+            // SC_RESET_SKIP (2026-10-05): pass 2 does not attempt level solves below solveFrom (pass 1 showed they stop on the
+            // budget); roots are still chosen at every depth. Sound: any exact depth gives |Aut|.
+            // SC_SOLVE_FROM=k (2026-10-06): attempt level solves only from depth k on (roots are still chosen at every depth);
+            // sound: any exact depth gives |Aut|. Used to test "break the base symmetry with roots, then algebra".
+            val r = if (k < maxOf(solveFrom, solveFromEnv)) DecompositionCanonicalFormsTest.ParityResult().also { it.status = "SKIPPED" }
+                    else if (k < minDepth) solver.parityAutFull(g, asContent(c))
                     else if (timeBudget) solver.parityIsoBatch(g, asContent(c), ph::next, deadlineMs = budgetMs, onGroup = { ph.start(it) })
                     else solver.parityIsoBatch(g, asContent(c), ph::next, deadlineMs = Long.MAX_VALUE, onGroup = { ph.start(it) }, workBudget = workBudget)
-            sb.appendLine("   depth $k: roots=$roots refinedClasses=${c.toSet().size} ours=${r.status} |Aut(H)|=${r.autOrder} maxT=${r.maxT} maxBase=${r.maxBaseLen} groupWork=${solver.groupWork}${if (planeMode) " closure=${planeClosure(g, roots).count { it }}/${g.n}" else ""} (${"%.1f".format((System.currentTimeMillis() - ts) / 1000.0)}s)")
+            sb.appendLine("   depth $k: roots=$roots refinedClasses=${c.toSet().size} mu=${c.toList().groupingBy { it }.eachCount().values.maxOrNull() ?: 0} singletons=${c.toList().groupingBy { it }.eachCount().values.count { it == 1 }} ours=${r.status} |Aut(H)|=${r.autOrder} maxT=${r.maxT} maxBase=${r.maxBaseLen} groupWork=${solver.groupWork}${if (planeMode) " closure=${planeClosure(g, roots).count { it }}/${g.n}" else ""} (${"%.1f".format((System.currentTimeMillis() - ts) / 1000.0)}s)")
             tr("depth $k: ${r.status} |Aut(H)|=${r.autOrder} maxT=${r.maxT}")
+            if (groupOnly && r.autOrder != null) { sb.appendLine("   group-only: exact group phase at depth $k"); groupDone = true; break }
             if (r.status == "EXACT" && r.autOrder != null && k >= minDepth) {
                 phase = ph; ok = ph.unknownAt.all { it == 0 }
                 total = r.autOrder!!; for (jj in 0 until k) total *= ph.orbitSize[jj]
-                for (jj in k - 1 downTo 0) sb.appendLine("   orbit of r$jj=${roots[jj]}: ${ph.orbitSize[jj]} of ${ph.candCount[jj]} candidates, ${ph.testsAt[jj]} two-sided queries, ${ph.fpExcluded[jj]} ruled out by fingerprint${if (ph.unknownAt[jj] > 0) " (${ph.unknownAt[jj]} unresolved)" else ""}")
+                for (jj in k - 1 downTo 0) sb.appendLine("   orbit of r$jj=${roots[jj]}: ${ph.orbitSize[jj]} of ${ph.candCount[jj]} candidates, ${ph.testsAt[jj]} two-sided queries, ${ph.fpExcluded[jj]} ruled out by fingerprint${if (ph.nodePruned[jj] > 0) ", ${ph.nodePruned[jj]} nodes pruned by invariant" else ""}${if (ph.cutHist[jj].isNotEmpty()) "; refuted candidates by cut depth ${ph.cutHist[jj]}, ${ph.leafRefuted[jj]} needed a leaf query" else ""}${if (ph.unknownAt[jj] > 0) " (${ph.unknownAt[jj]} unresolved)" else ""}")
+                if (ph.refStats.any { it.count > 0 } || ph.witStats.any { it.count > 0 })
+                    for (jj in k - 1 downTo 0) sb.appendLine("   search r$jj: refutations ${ph.refStats[jj]}; witnesses ${ph.witStats[jj]}")
                 ph.notes.take(3).forEach { sb.appendLine("      note: $it") }
                 sb.appendLine("   generators known at the end: ${ph.known.size}; two-sided queries in total: ${ph.testsAt.sum()}")
                 break
@@ -764,7 +1072,9 @@ class PieceProfileTest {
             if (planeRemove) { while (siblings.isNotEmpty() && siblings.first().any { it in roots }) siblings.removeFirst()
                 if (siblings.isNotEmpty()) part = siblings.removeFirst() }
             tr("depth $k: next root")
-            val nr = (if (planeMode && generalPos && roots.isNotEmpty()) frameRoot(g, c, roots) else null)
+            val nr = (when (System.getenv("SC_ROOT")) { "lineframe" -> lineFrameRoot(g, c, roots); "pointframe" -> pointFrameRoot(g, c, roots); "random" -> randomRoot(c); else -> null })
+                ?: (if (planeMode && generalPos && roots.isNotEmpty()) frameRoot(g, c, roots) else null)
+                ?: (if (seedStab != null) knownGroupRoot(g, c, seedStab(roots)) else null)
                 ?: nextRoot(g, c, part, generalPos) ?: break
             tr("depth $k: root $nr, decompose part of ${part.size}")
             // decomposition from the new root inside the current part: continue in its largest remainder component

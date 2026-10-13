@@ -6,6 +6,8 @@ import dialysis.content.Content
 import dialysis.content.serialize
 import dialysis.decomposition.dialysisPerSpec
 import dialysis.graph.Graph
+import dialysis.group.PermGroup
+import dialysis.group.Perms
 import dialysis.refinement.colorRefine1WL
 import dialysis.refinement.dispatchColouring
 import dialysis.util.GraphIO
@@ -825,12 +827,14 @@ class DecompositionCanonicalFormsTest {
 
     @Test fun r2_3600_levels_47_63() = checkLevelRange("graphs/cfi-rigid-r2/cfi-rigid-r2-3600-01-1", 4, 371, 47, 63, 8 * 60_000L)
 
+
     private fun loadForTrace(path: String): Graph {
         return GraphIO.loadDimacs(File(path).toPath())
     }
 
     /**
-     * Full anomaly trace for one instance (Christos, 2026-09-26, t2 family): orbit check, auto-picked roots (a = default rule's top root, b = another member of its level-0
+     * Full anomaly trace for one instance (Christos, 2026-09-26, t2 family): bipartite first (sd(G)),
+     * orbit check, auto-picked roots (a = default rule's top root, b = another member of its level-0
      * candidate class), binary-search inconsistency level + culprit + witness, phi-guided
      * decomposition, and windows [j, k*] anchored at the inconsistency level.
      */
@@ -1080,7 +1084,7 @@ class DecompositionCanonicalFormsTest {
         val colourOf = mapOf(0 to "#e05050", 1 to "#f0a030", 2 to "#d8c040", 3 to "#b0d040", 4 to "#80c060", 5 to "#60b080", 6 to "#40a040", 7 to "#a0e0a0", k to "#5080e0")
         val sb = StringBuilder()
         sb.append("graph L${k - 1}_to_L$k {\n  graph [rankdir=TB, fontname=\"Helvetica\", fontsize=12, nodesep=0.25, ranksep=0.6, label=\"")
-        sb.append("$path  --  structure up to L${k - 1}: SAME, up to L$k: DIFFERENT\\nbold blue = the ${critical.size} L$k edges whose removal makes up-to-L$k SAME;  grey = loose ends (not in any piece up to L$k);  dashed = path inside the L$k piece")
+        sb.append("$path (sd(G))  --  structure up to L${k - 1}: SAME, up to L$k: DIFFERENT\\nbold blue = the ${critical.size} L$k edges whose removal makes up-to-L$k SAME;  grey = loose ends (not in any piece up to L$k);  dashed = path inside the L$k piece")
         sb.append("\", labelloc=t];\n  node [shape=circle, style=filled, fontname=\"Helvetica\", fontsize=10, width=0.45, fixedsize=true];\n")
         for ((side, root) in roots.withIndex()) {
             val cs = calls[side]
@@ -1276,7 +1280,7 @@ class DecompositionCanonicalFormsTest {
         var seconds = 0.0
         /** Number of orbits of Aut(G) on vertices, from explicit enumeration of every automorphism (null if not computed). */
         var orbits: Int? = null; var enumeratedAuts = 0; var enumeratedAllVerified: Boolean? = null
-        /** Orbits restricted to the ORIGINAL vertices 0..n0-1. */
+        /** Orbits restricted to the ORIGINAL vertices 0..n0-1 (differs from [orbits] only on sd(G)). */
         var orbitsOriginal: Int? = null
         /** Orbit representative per vertex (union-find root), when orbits were computed. */
         var orbitOf: IntArray? = null
@@ -1468,7 +1472,8 @@ class DecompositionCanonicalFormsTest {
 
     /**
      * Parity-equation campaign over one cfi-rigid family (env FAMILY, e.g. "r2"; CAP = max effective n,
-     * default 5000; OUT = CSV path, appended). Instances sorted by size. Traces cross-check (uncoloured |Aut|) for n <= 2000 on a separate thread with a 60 s
+     * default 5000; OUT = CSV path, appended). Instances sorted by size, bipartite first (sd(G) if
+     * needed). Traces cross-check (uncoloured |Aut|) for n <= 2000 on a separate thread with a 60 s
      * timeout; after one timeout, cross-checks are disabled for the rest of the family (a native
      * Traces call cannot be interrupted). One CSV row per instance, flushed immediately.
      */
@@ -1513,7 +1518,7 @@ class DecompositionCanonicalFormsTest {
                 "seriesfull" -> {
                     fun series(usePiArg: Boolean, dlArg: Long) = parityEquationsSeries(f.path, null, null, quiet = true, crossCheck = false, computeOrbits = false,
                     // SERIES_COLOUR=wl1 (Christos, 2026-10-01): start from canonical 1-WL instead of PI -- enough on cfi-rigid
-                    // t2/s2, where PI was nearly all of the time
+                    // t2/s2, where PI on sd(G) was nearly all of the time (t2-2880-01-1: PI 280 s, solve 2 s)
                     usePi = usePiArg, deadlineMs = dlArg, generalPrimes = true, cosetMode = true,
                     irFallback = System.getenv("IR_FALLBACK") != "0", maxCandidates = System.getenv("MAX_CAND")?.toIntOrNull() ?: 20_000,
                     // count budgets, env-overridable for large machines (2026-09-29): base length, DFS nodes, pair-table size
@@ -1940,24 +1945,103 @@ class DecompositionCanonicalFormsTest {
         val sortedPref = prefCol.map { it.sorted() }
         val perms = mutableListOf<List<Int>>()
         var nodes = 0L
+        // SERIES_AUTPRUNE=1 (2026-10-06, CLOSURE_BOUND_SPEC "generator-based T_C"): verified automorphisms of (G, baseline)
+        // found at leaves prune the enumeration. A leaf whose refinement is discrete on all of V extends uniquely to a map of
+        // V; if that map is an automorphism of G preserving the input colouring it joins K. A child x of a node with image
+        // prefix t is skipped when an already explored sibling lies in its orbit under the generators of K that fix t
+        // pointwise: refinement is equivariant, so such a k carries the explored subtree (dead or not) onto the skipped one.
+        // T_C is closed under left multiplication by K|_C for the same reason, so T_C = closure of the explored leaves under
+        // K|_C -- the same set as without pruning. Default off: bit-identical.
+        val autPrune = System.getenv("SERIES_AUTPRUNE") == "1"
+        // shared across the classes of one series solve (cleared at its start): verified automorphisms of (G, baseline) map
+        // every class to itself, so generators found on one class prune the others (2026-10-06)
+        val seed0 = if (autPrune) seedFor(emptyList()) else null
+        if (autPrune && (sharedAutGraph !== g || !seed0.contentEquals(sharedAutSeed))) { sharedAutGens.clear(); sharedAutGraph = g; sharedAutSeed = seed0 }
+        val gens = if (autPrune) sharedAutGens else ArrayList()
+        val colDom = if (autPrune) hashWlRounds(g, seedFor(base), prefT[depth - 1]) else null
+        val domDiscrete = colDom != null && colDom.toHashSet().size == g.n
+        val adjSorted = if (autPrune) Array(g.n) { g.adj[it].copyOf().also { a -> a.sort() } } else null
+        fun leafAutomorphism(colImg: LongArray): IntArray? {
+            if (!domDiscrete) return null
+            val at = HashMap<Long, Int>(g.n * 2); for (v in 0 until g.n) if (at.put(colImg[v], v) != null) return null
+            val phi = IntArray(g.n) { v -> at[colDom!![v]] ?: return null }
+            for (u in 0 until g.n) { if (seed0!![phi[u]] != seed0[u]) return null; val au = adjSorted!![phi[u]]; if (au.size != g.adj[u].size) return null
+                for (w in g.adj[u]) if (java.util.Arrays.binarySearch(au, phi[w]) < 0) return null }
+            return phi
+        }
+        // SERIES_DERIVE: full maps of V for every element of T_C (when the leaves are discrete on V), for deriving other classes
+        lastFullMaps = null
+        var fullOk = autPrune && domDiscrete
+        val leafFull = LinkedHashMap<List<Int>, IntArray>()
+        fun fullMapOf(colImg: LongArray): IntArray? {
+            val at = HashMap<Long, Int>(g.n * 2); for (v in 0 until g.n) if (at.put(colImg[v], v) != null) return null
+            return IntArray(g.n) { v -> at[colDom!![v]] ?: return null }
+        }
+        fun orbitReps(fixed: List<Int>): IntArray? {
+            val fix = gens.filter { h -> fixed.all { h[it] == it } }; if (fix.isEmpty()) return null
+            val par = IntArray(g.n) { it }
+            fun find(x: Int): Int { var y = x; while (par[y] != y) { par[y] = par[par[y]]; y = par[y] }; return y }
+            for (h in fix) for (v in 0 until g.n) { val a = find(v); val b = find(h[v]); if (a != b) par[maxOf(a, b)] = minOf(a, b) }
+            return IntArray(g.n) { find(it) }
+        }
+        val nodesAt = LongArray(depth + 1); val deadAt = LongArray(depth + 1)   // diagnostic per depth (SERIES_AUTPRUNE log line)
         fun dfs(tuple: MutableList<Int>) {
             val d = tuple.size
+            if (autPrune) nodesAt[d]++
             if (overBudget(deadline)) throw StopReason("STOP_TIME", "time budget exceeded while building candidates for a class of size ${c.size} (base length $depth)")
             if (++nodes > candidateNodeCap) throw StopReason("STOP_CANDIDATE_NODES", "class of size ${c.size}: more than $candidateNodeCap partial candidate maps (base length $depth)")
             if (perms.size > maxCandidates) throw StopReason("STOP_TOO_MANY_CANDIDATES", "class of size ${c.size}: more than $maxCandidates candidate restrictions (base length $depth)")
             if (d > 0) {
                 val col = hashWlRounds(g, seedFor(tuple), prefT[d - 1]); val onC = LongArray(c.size) { col[c[it]] }
-                if (onC.sorted() != sortedPref[d - 1]) { excludedCounter[0]++; return }
+                if (onC.sorted() != sortedPref[d - 1]) { excludedCounter[0]++; if (autPrune) deadAt[d]++; return }
                 if (d == depth) {
                     val where = HashMap<Long, Int>().apply { onC.forEachIndexed { i, x -> put(x, i) } }
-                    perms.add(List(c.size) { i -> where.getValue(prefCol[depth - 1][i]) }); return
+                    val pl = List(c.size) { i -> where.getValue(prefCol[depth - 1][i]) }
+                    perms.add(pl)
+                    if (fullOk) { val m = fullMapOf(col); if (m == null) fullOk = false else leafFull.putIfAbsent(pl, m) }
+                    if (autPrune) leafAutomorphism(col)?.let { phi -> if ((0 until g.n).any { phi[it] != it }) { gens.add(phi); autPruneGens++ } }
+                    return
                 }
                 val want = prefCol[d - 1][posIn[base[d]]]
-                for (i in c.indices) if (onC[i] == want && c[i] !in tuple) { tuple.add(c[i]); dfs(tuple); tuple.removeAt(tuple.size - 1) }
-            } else for (s0 in c) { tuple.add(s0); dfs(tuple); tuple.removeAt(tuple.size - 1) }
+                val explored = ArrayList<Int>(); var nGen = -1; var reps: IntArray? = null
+                for (i in c.indices) if (onC[i] == want && c[i] !in tuple) {
+                    if (autPrune && explored.isNotEmpty()) {
+                        if (gens.size != nGen) { reps = orbitReps(tuple); nGen = gens.size }   // refresh when K grew
+                        val r = reps; if (r != null && explored.any { r[it] == r[c[i]] }) { autPruneSkipped++; continue }
+                    }
+                    explored.add(c[i]); tuple.add(c[i]); dfs(tuple); tuple.removeAt(tuple.size - 1)
+                }
+            } else {
+                val explored = ArrayList<Int>(); var nGen = -1; var reps: IntArray? = null
+                for (s0 in c) {
+                    if (autPrune && explored.isNotEmpty()) {
+                        if (gens.size != nGen) { reps = orbitReps(emptyList()); nGen = gens.size }
+                        val r = reps; if (r != null && explored.any { r[it] == r[s0] }) { autPruneSkipped++; continue }
+                    }
+                    explored.add(s0); tuple.add(s0); dfs(tuple); tuple.removeAt(tuple.size - 1)
+                }
+            }
         }
+        val dead0 = excludedCounter[0]
         dfs(mutableListOf())
-        return perms.distinct()
+        if (autPrune) println("AUTPRUNE class=${c.size} base=$depth nodes=$nodes dead=${excludedCounter[0] - dead0} leaves=${perms.size} gens=${gens.size} skipped=$autPruneSkipped domDiscrete=$domDiscrete")
+        if (autPrune) println("AUTPRUNE   per depth (1..$depth): nodes=${nodesAt.drop(1)} dead=${deadAt.drop(1)}")
+        // SERIES_GENAUT=1: leaves discrete on V => Aut(G, baseline) = <verified leaf automorphisms> (IR correctness, see the
+        // series body); the closure (element list) is not needed, so it is skipped -- no 20,000 cap, no element lists
+        lastGenAutOk = autPrune && domDiscrete && System.getenv("SERIES_GENAUT") == "1"
+        if (lastGenAutOk) { println("GENAUT class=${c.size} base=$depth explored leaves=${perms.size} generators=${gens.size}"); return perms.distinct() }
+        if (!autPrune || gens.isEmpty()) { val res = perms.distinct(); if (fullOk) lastFullMaps = res.map { leafFull.getValue(it) }; return res }
+        // closure of the explored leaves under K|_C (left multiplication): the full T_C
+        val genC = gens.map { h -> IntArray(c.size) { j -> posIn[h[c[j]]] } }
+        val all = LinkedHashSet<List<Int>>(perms); val queue = ArrayDeque(all.toList())
+        val fullOf = if (fullOk) HashMap<List<Int>, IntArray>(leafFull) else null
+        while (queue.isNotEmpty()) { val sgm = queue.removeFirst()
+            for ((gi, k) in genC.withIndex()) { val t = List(c.size) { i -> k[sgm[i]] }; if (all.add(t)) { queue.add(t)
+                if (fullOf != null) { val hf = gens[gi]; val fs = fullOf.getValue(sgm); fullOf[t] = IntArray(g.n) { v -> hf[fs[v]] } }
+                if (all.size > maxCandidates) throw StopReason("STOP_TOO_MANY_CANDIDATES", "class of size ${c.size}: more than $maxCandidates candidate restrictions (closure, base length $depth)") } } }
+        if (fullOf != null) lastFullMaps = all.map { fullOf.getValue(it) }
+        println("AUTPRUNE   closure |T_C|=${all.size}")
+        return all.toList()
     }
 
     /**
@@ -2743,7 +2827,10 @@ class DecompositionCanonicalFormsTest {
         val t0 = System.currentTimeMillis()
         val el = { "${(System.currentTimeMillis() - t0) / 1000.0}s" }
         fun stop(status: String): ParityResult { res.status = status; res.seconds = (System.currentTimeMillis() - t0) / 1000.0; say("-> $status"); return res }
-        // The solver works on G itself; it does not need bipartiteness.
+        // solveOnOriginal (Christos, 2026-09-27): solve on G itself, never on sd(G). The parity solver does not need
+        // bipartiteness; only the PI colouring benefits from sd(G), and dispatchColouring(G) already takes care of that
+        // (non-bipartite G: PI on sd(G) projected back to G's own vertices, or 1-WL(G) if finer). This avoids the
+        // n+m blowup on dense families and the Aut(sd G) != Aut(G) caveat for graphs with degree-2 vertices.
         val g = if (solveOnOriginal) GraphIO.loadDimacs(File(path).toPath()) else loadForTrace(path)
         // Base partition: by default our own hash-1-WL from a uniform seed (canonical BY CONSTRUCTION, so
         // Aut-invariant regardless of JVM history); PI only if [usePi] (PI was seen to depend on earlier
@@ -2767,12 +2854,49 @@ class DecompositionCanonicalFormsTest {
             Array(g.n) { Content.Num(col[it]) }
         }
         // 2026-10-01: the deadline is the SOLVER's budget; the colouring time is added to it (still counted in res.seconds).
-        // Before, PI used up the budget on large non-bipartite graphs (cfi-rigid-t2-2880-01-1: PI 280 s, solve 2 s,
+        // Before, PI used up the budget on large non-bipartite graphs (cfi-rigid-t2-2880-01-1: PI on sd(G) 280 s, solve 2 s,
         // reported STOP_TIME at 300 s).
         val colourMs = System.currentTimeMillis() - t0
         val solverDeadlineMs = if (deadlineMs == Long.MAX_VALUE) Long.MAX_VALUE else deadlineMs + colourMs
-        return parityEquationsSeriesBody(path, g, baselineUsed, aIn, bIn, quiet, maxBase, maxNodes, usePi, computeOrbits, maxCandidates, maxPairTable, solverDeadlineMs,
+        val r = parityEquationsSeriesBody(path, g, baselineUsed, aIn, bIn, quiet, maxBase, maxNodes, usePi, computeOrbits, maxCandidates, maxPairTable, solverDeadlineMs,
             generalPrimes, cosetMode, irFallback, nonSolvableStage, res, say, t0, el, crossCheck)
+        return if (r.status == "EXACT" || System.getenv("SERIES_LUKS") != "1") r else luksFallback(g, baselineUsed, r, say)
+    }
+
+    /**
+     * SERIES_LUKS=1 (Luks integration L3 step 2, 2026-10-10): when the series solver stops (any non-EXACT status), compute
+     * Aut(G, baseline) by the Luks pipeline [luksAutOf] on the same graph and the same baseline colouring (its 1-WL
+     * refinement gives the invariant cut). Success: status EXACT, order, verified generators and orbits from Luks, the
+     * series stop kept in stop_detail; failure: the series result unchanged, the Luks reason prepended to stop_detail.
+     * LUKS_PIECE_S: solver deadline per piece representative / quotient (default 600).
+     */
+    private fun luksFallback(g: Graph, baseline: Array<Content>, r: ParityResult, say: (String) -> Unit): ParityResult {
+        val tl = System.currentTimeMillis()
+        val seed = LongArray(g.n) { sha64(baseline[it].serialize()) }
+        val deadline = (System.getenv("LUKS_PIECE_S")?.toLongOrNull() ?: 600) * 1000
+        var (aut, detail) = try { luksAutOf(g, seed, deadline) { say("   luks: $it") } }
+            catch (e: Throwable) { System.gc(); null to "luks failed: ${e.javaClass.simpleName} ${e.message ?: ""}".trim() }
+        // SERIES_STAR=1 (FALLBACK_SPEC F2a, 2026-10-12): next in the fallback order, the star route D_d
+        if (aut == null && System.getenv("SERIES_STAR") == "1") {
+            val (sa, sd) = try { luksStarAutOf(g, seed, deadline) { say("   star: $it") } }
+                catch (e: Throwable) { System.gc(); null to "star failed: ${e.javaClass.simpleName} ${e.message ?: ""}".trim() }
+            if (sa != null) { aut = sa; detail = sd } else detail = "$detail | $sd"
+        }
+        val secs = (System.currentTimeMillis() - tl) / 1000.0
+        if (aut == null) { r.stopDetail = "$detail (${secs}s) | ${r.stopDetail}"; r.seconds += secs; return r }
+        // the generators preserve G's edges and the baseline: verify before reporting EXACT
+        val gens = aut.generators
+        for (h in gens) {
+            check((0 until g.n).all { u -> g.adj[u].all { x -> java.util.Arrays.binarySearch(g.adj[h[u]], h[x]) >= 0 } }) { "luks: a generator is not an automorphism" }
+            check((0 until g.n).all { baseline[h[it]] == baseline[it] }) { "luks: a generator does not preserve the baseline colouring" }
+        }
+        val orb = Perms.orbits(g.n, gens)
+        val prev = "${r.status}${if (r.stopDetail.isNotBlank()) ": " + r.stopDetail else ""}"
+        r.status = "EXACT"; r.autOrder = aut.order.toDouble(); r.autStr = "%.6g".format(r.autOrder)
+        r.generators = gens; r.orbits = orb.toSet().size; r.orbitOf = orb; r.orbitsOriginal = r.orbits
+        r.stopDetail = "$detail; |Aut| = ${aut.order} (after series $prev)"; r.seconds += secs
+        say("-> EXACT by Luks (${secs}s): |Aut| = ${aut.order}")
+        return r
     }
 
     /** The series parity/coset solver on an in-memory coloured graph (no file, no Traces cross-check, no time
@@ -2835,8 +2959,12 @@ class DecompositionCanonicalFormsTest {
         val res = ParityResult(); val t0 = System.currentTimeMillis()
         twistSupplier = next; twistOnGroup = onGroup; twistQueryBudgetMs = queryBudgetMs
         this.workBudget = workBudget; work = 0L; groupWork = -1L
+        // SERIES_SAY=1 (2026-10-11, diagnostics): print the series solver's progress for the group phase; SC_QUERY_MS caps
+        // the query phase (default 1 h)
+        System.getenv("SC_QUERY_MS")?.toLongOrNull()?.let { twistQueryBudgetMs = it }
+        val quietGroup = System.getenv("SERIES_SAY") != "1"
         try {
-            return parityEquationsSeriesBody("", g, dom, null, null, true, 12, 200_000, false, false, maxCandidates, 3_000_000L, deadlineMs,
+            return parityEquationsSeriesBody("", g, dom, null, null, quietGroup, 12, (System.getenv("SERIES_MAX_NODES")?.toIntOrNull() ?: 200_000), false, false, maxCandidates, 3_000_000L, deadlineMs,
                 true, true, false, true, res, {}, t0, { "" }, false)
         } finally { twistSupplier = null; twistOnGroup = null; twistImage = null; this.workBudget = Long.MAX_VALUE; if (groupWork < 0) groupWork = work }
     }
@@ -2852,7 +2980,7 @@ class DecompositionCanonicalFormsTest {
         if (dom.map { it.serialize() }.sorted() != img.map { it.serialize() }.sorted()) { res.status = "EXACT"; res.autOrder = 0.0; res.stopDetail = "colour multisets differ"; return res }
         twistImage = img
         try {
-            return parityEquationsSeriesBody("", g, dom, null, null, true, 12, 200_000, false, false, maxCandidates, 3_000_000L, deadlineMs,
+            return parityEquationsSeriesBody("", g, dom, null, null, true, 12, (System.getenv("SERIES_MAX_NODES")?.toIntOrNull() ?: 200_000), false, false, maxCandidates, 3_000_000L, deadlineMs,
                 true, true, false, true, res, {}, t0, { "" }, false)
         } finally { twistImage = null }
     }
@@ -2883,6 +3011,13 @@ class DecompositionCanonicalFormsTest {
 
     /** Node budget for [candidateRestrictions]' DFS over partial maps; unbounded except inside [parityAutOf]. Nets (slice
      *  graphs of projective planes) give that DFS no pruning at all, so without a count budget it never returns. */
+    // SERIES_AUTPRUNE counters (diagnostic)
+    var autPruneGens = 0L; var autPruneSkipped = 0L
+    private val sharedAutGens = ArrayList<IntArray>()
+    private var lastFullMaps: List<IntArray>? = null   // SERIES_DERIVE: full maps of the last candidateRestrictions result
+    private var lastGenAutOk = false                   // SERIES_GENAUT: last enumeration had leaves discrete on V
+
+    private var sharedAutGraph: Graph? = null; private var sharedAutSeed: LongArray? = null   // what sharedAutGens is valid for
     private var candidateNodeCap = Long.MAX_VALUE
 
     private fun parityEquationsSeriesBody(path: String, g: Graph, baseline: Array<Content>, aIn: Int?, bIn: Int?, quiet: Boolean, maxBase: Int, maxNodes: Int, usePi: Boolean,
@@ -2890,6 +3025,7 @@ class DecompositionCanonicalFormsTest {
                                           irFallback: Boolean, nonSolvableStage: Boolean, res: ParityResult, say: (String) -> Unit, t0: Long, el: () -> String,
                                           crossCheck: Boolean): ParityResult {
         fun stop(status: String): ParityResult { res.status = status; res.seconds = (System.currentTimeMillis() - t0) / 1000.0; say("-> $status"); return res }
+        sharedAutGens.clear(); sharedAutGraph = null   // SERIES_AUTPRUNE: generators are valid only for this graph and this baseline colouring
         val classes = (0 until g.n).groupBy { baseline[it] }.values.map { it.sorted().toIntArray() }.filter { it.size > 1 }
             .let { cl -> if (invariantStops) cl.sortedBy { baseline[it[0]].serialize() } else cl }
         res.n = g.n; res.m = g.m; res.piClasses = baseline.toHashSet().size; res.nonSingleton = classes.size
@@ -2916,22 +3052,50 @@ class DecompositionCanonicalFormsTest {
         val details = mutableListOf<String>()
         // With generalPrimes: first collect every class's candidate set, then take the primes dividing any |T_C|.
         val candidateSets = ArrayList<Set<List<Int>>>()
-        for (c in classes) {
+        // SERIES_DERIVE=1 (2026-10-06, plain stage-1 solves only): classes are processed smallest first; once a class's
+        // candidates come with full maps of V (leaves discrete on V), every later class gets T_C2 = {phi|C2 : phi a full map of
+        // an element of T_C1} without enumeration. It contains Aut|C2: an automorphism restricts into T_C1, and by
+        // equivariance its leaf's full map is that automorphism. Default off.
+        val derive = System.getenv("SERIES_DERIVE") == "1" && twistImage == null && twistSupplier == null && !invariantStops
+        val setArr = arrayOfNulls<Set<List<Int>>>(classes.size); val baseArr = arrayOfNulls<List<Int>>(classes.size)
+        var derivedMaps: List<IntArray>? = null; var derivedBase: List<Int>? = null
+        val order = if (derive || System.getenv("SERIES_GENAUT") == "1") classes.indices.sortedBy { classes[it].size } else classes.indices.toList()
+        for (ci0 in order) {
+            val c = classes[ci0]
+            if (derivedMaps != null) {
+                val dm = derivedMaps
+                val dp = dm.map { phi -> List(c.size) { i -> posIn[phi[c[i]]] } }.distinct()
+                say("   class of size ${c.size}: candidates derived from full maps (${dp.size})"); println("DERIVE class=${c.size} |T_C|=${dp.size} from ${dm.size} full maps")
+                setArr[ci0] = dp.toSet(); baseArr[ci0] = derivedBase; res.maxT = maxOf(res.maxT, dp.size); continue
+            }
             // with the fallback enabled, candidate listing gets a third of the budget; running out hands over to the fallback
             val candDeadline = if (irFallback && deadline != Long.MAX_VALUE) t0 + deadlineMs / 3 else deadline
+            // 2026-10-12 (paper 4, "series stage waste"): on PI-blind uniform classes (hidden-STS covers of J(19,2) / J(31,2))
+            // the candidate DFS ran into the time share above (~400 s) and the IR fallback then finished in 9 / 152 s. With the
+            // fallback enabled, cap the DFS deterministically by work: one node costs about one refinement (~ n + m units), so
+            // at most max(20,000, SERIES_CAND_WORK / (n + m)) nodes; the cap hands over like the others. OPT-IN here (off unless
+            // SERIES_CAND_WORK is set; 2e9 used in the second paper) so the first paper's results reproduce from the defaults.
+            val savedCap = candidateNodeCap
+            val candWork = System.getenv("SERIES_CAND_WORK")?.toLongOrNull()
+            if (irFallback && !invariantStops && candWork != null) {
+                val w = candWork
+                candidateNodeCap = minOf(candidateNodeCap, maxOf(20_000L, w / maxOf(1L, g.n.toLong() + adjTotal(g) / 2)))
+            }
             val perms = try { if (invariantStops) candidateRestrictionsInvariant(g, c, seedFor, posIn, g.n + 2, excl, maxBase, maxCandidates) else candidateRestrictions(g, c, seedFor, posIn, g.n + 2, excl, maxBase, maxCandidates, candDeadline)
                                   ?: candidateRestrictions(g, c, seedFor, posIn, g.n + 2, excl, maxBase, maxCandidates, candDeadline, baseRule = 1)
                                       ?.also { say("   class of size ${c.size}: default base too long, largest-cell base used") }
                                   ?: candidateRestrictions(g, c, seedFor, posIn, g.n + 2, excl, maxBase, maxCandidates, candDeadline, baseRule = 2)
                                       ?.also { say("   class of size ${c.size}: default base too long, smallest-cell base used") } }
                         catch (e: StopReason) {
-                            if (irFallback && (e.status == "STOP_TOO_MANY_CANDIDATES" || e.status == "STOP_TIME")) {
+                            candidateNodeCap = savedCap
+                            if (irFallback && (e.status == "STOP_TOO_MANY_CANDIDATES" || e.status == "STOP_TIME" || e.status == "STOP_CANDIDATE_NODES")) {
                                 say("   candidate list too large (${e.detail}) -> generator-based IR fallback")
                                 return try { irAutomorphisms(g, baseline, res, a, b, deadline, say = say).also { it.seconds = (System.currentTimeMillis() - t0) / 1000.0; it.stopDetail = "fallback: ${e.detail}" } }
                                        catch (e2: StopReason) { res.stopDetail = "fallback after [${e.detail}] failed: ${e2.detail}"; stop(e2.status) }
                             }
                             res.stopDetail = e.detail; return stop(e.status)
                         }
+            candidateNodeCap = savedCap
             if (perms == null) {
                 if (irFallback) {
                     say("   base too long for class of size ${c.size} -> generator-based IR fallback")
@@ -2940,8 +3104,25 @@ class DecompositionCanonicalFormsTest {
                 }
                 res.stopDetail = "class of size ${c.size}: individualising $maxBase base vertices does not split it into singletons"; return stop("STOP_BASE_TOO_LONG(>$maxBase)")
             }
-            candidateSets.add(perms.toSet()); classBases.add(lastBase); res.maxT = maxOf(res.maxT, perms.size); res.maxBaseLen = maxOf(res.maxBaseLen, lastBaseLen)
+            setArr[ci0] = perms.toSet(); baseArr[ci0] = lastBase; res.maxT = maxOf(res.maxT, perms.size); res.maxBaseLen = maxOf(res.maxBaseLen, lastBaseLen)
+            if (derive && lastFullMaps != null) { derivedMaps = lastFullMaps; derivedBase = lastBase }
+            // SERIES_GENAUT=1 (2026-10-06): the class's leaves are discrete on V, so every automorphism of (G, baseline) is
+            // determined by the image of the base; the pruned enumeration visits, for every automorphism a, either a's leaf
+            // (verified, a joins K) or a K-image of an explored leaf l with a = k l, and then l = k^-1 a is an automorphism in K.
+            // Hence Aut(G, baseline) = K = <verified leaf automorphisms>; |K| by nauty's schreier.c. Plain stage-1 solves only.
+            if (System.getenv("SERIES_GENAUT") == "1" && lastGenAutOk && twistImage == null && twistSupplier == null && !invariantStops) {
+                val kGens = sharedAutGens.toList()
+                // |K| by nauty's own Schreier-Sims (schreier.c via TracesJni.groupOrderFromGenerators), on the restriction to
+                // this class: faithful, because the base (inside the class) fixes all of V; far less native memory than on V
+                val onC = kGens.map { h -> IntArray(c.size) { j -> posIn[h[c[j]]] } }
+                val order = if (kGens.isEmpty()) 1.0 else traces.groupOrderFromGenerators(c.size, onC)
+                res.autOrder = order; res.autStr = "%.6g".format(order); res.generators = kGens
+                res.stopDetail = "generator shortcut: Aut = <${kGens.size} verified automorphisms>, leaves of a class of size ${c.size} discrete on V (base ${lastBaseLen})"
+                say("[${el()}] ${res.stopDetail}; |Aut| = ${res.autStr}"); println("GENAUT |Aut| = ${res.autStr} from ${kGens.size} generators")
+                res.status = "EXACT"; res.seconds = (System.currentTimeMillis() - t0) / 1000.0; return res
+            }
         }
+        for (i in classes.indices) { candidateSets.add(setArr[i]!!); classBases.add(baseArr[i]!!) }
         val maxCycles = 8
         val primeCycle = if (generalPrimes) candidateSets.flatMap { primeFactors(it.size) }.toSortedSet().toList().ifEmpty { listOf(2) } else listOf(2, 3)
         val mixed = nonSolvableStage && generalPrimes && cosetMode   // non-abelian levels exist only in coset mode
@@ -3211,8 +3392,9 @@ class DecompositionCanonicalFormsTest {
             val naOrder = DoubleArray(levels.size) { 1.0 }
             val naGens = arrayOfNulls<List<List<IntArray>>>(levels.size)
             val lb = arrayOfNulls<List<IntArray>>(levels.size)
-            val maxCombos = 4096
+            val maxCombos = System.getenv("SERIES_MAX_COMBOS")?.toLongOrNull() ?: 4096L   // 2026-10-07: env-overridable (default as before)
             fun combos(q: Int, k: Int): Sequence<IntArray> = sequence {
+                if (maxCombos > 4096L) println("CODIM q=$q k=$k reps=${Math.pow(q.toDouble(), k.toDouble()).toLong()}")
                 var total = 1L; repeat(k) { total *= q; if (total > maxCombos) throw StopReason("STOP_CODIM", "more than $maxCombos coset representatives to test at one level (spurious codimension too large)") }
                 for (code in 0 until total.toInt()) { val c = IntArray(k); var x = code; for (i in 0 until k) { c[i] = x % q; x /= q }; yield(c) }
             }
@@ -3457,9 +3639,12 @@ class DecompositionCanonicalFormsTest {
                         return out
                     }
                     var prevAns: Boolean? = null; var prevW: IntArray? = null
+                    val sayQ = System.getenv("SERIES_SAY") == "1"; var nQ = 0; var queryStopped = false
                     while (true) {
+                        if (System.currentTimeMillis() > deadline) { queryStopped = true; break }   // reported, never EXACT
                         val img = sup(prevAns, prevW) ?: break
                         prevW = null
+                        val tq = System.currentTimeMillis()
                         prevAns = try {
                             twistImage = img
                             val xiQ = xiFor(img)
@@ -3477,8 +3662,10 @@ class DecompositionCanonicalFormsTest {
                                 }
                             }
                         } catch (e: StopReason) { null } finally { twistImage = null }
+                        nQ++
+                        if (sayQ) System.out.println("   query $nQ: ${prevAns} in ${System.currentTimeMillis() - tq} ms")
                     }
-                    res.status = "EXACT"; res.seconds = (System.currentTimeMillis() - t0) / 1000.0
+                    res.status = if (queryStopped) "STOP_QUERY_TIME" else "EXACT"; res.seconds = (System.currentTimeMillis() - t0) / 1000.0
                     return res
                 }
                 val qa = a; val qb = b
@@ -3924,6 +4111,498 @@ class DecompositionCanonicalFormsTest {
         val r = parityEquationsSeries(path, null, null, quiet = false, crossCheck = false, usePi = true, generalPrimes = true, cosetMode = true,
             irFallback = System.getenv("IR_FALLBACK") != "0", nonSolvableStage = System.getenv("NONSOLV") != "0", maxCandidates = 20_000, solveOnOriginal = orig, deadlineMs = (System.getenv("ONE_DEADLINE_S")?.toLongOrNull() ?: 300) * 1000)
         println("ONE $path original=$orig -> ${r.status} |Aut|=${r.autStr} vars=${r.nVars} ${r.stopDetail} (${(System.currentTimeMillis() - t0) / 1000.0}s)")
+    }
+
+    /**
+     * The invariant cut of L1/L3 (Luks integration, 2026-10-10): hash-1-WL refinement of [seed] (default uniform = the
+     * canonical 1-WL colouring); edges grouped by unordered
+     * colour pair; the cut = the edge class whose removal leaves >= 2 components with the largest smallest component.
+     * Returns (colouring, cut edges, components of G - cut) or null if no edge class disconnects G.
+     */
+    private fun invariantCut(g: Graph, seed: LongArray = LongArray(g.n) { 0x1234567L }): Triple<LongArray, List<IntArray>, List<IntArray>>? {
+        val col = hashWlRounds(g, seed, hashWlStableRound(g, seed, g.n + 2))
+        val edgeClasses = HashMap<Pair<Long, Long>, MutableList<IntArray>>()
+        for (u in 0 until g.n) for (w in g.adj[u]) if (u < w) {
+            val k = if (col[u] <= col[w]) col[u] to col[w] else col[w] to col[u]
+            edgeClasses.getOrPut(k) { mutableListOf() }.add(intArrayOf(u, w))
+        }
+        fun components(removed: Set<Long>): List<IntArray> {
+            val seen = BooleanArray(g.n); val comps = ArrayList<IntArray>()
+            for (s in 0 until g.n) if (!seen[s]) {
+                val c = ArrayList<Int>(); val st = ArrayDeque(listOf(s)); seen[s] = true
+                while (st.isNotEmpty()) { val u = st.removeLast(); c.add(u)
+                    for (w in g.adj[u]) if (!seen[w] && (minOf(u, w).toLong() * g.n + maxOf(u, w)) !in removed) { seen[w] = true; st.add(w) } }
+                comps.add(c.sorted().toIntArray())
+            }
+            return comps
+        }
+        var best: Pair<Long, Long>? = null; var bestMin = -1; var bestComps: List<IntArray> = emptyList()
+        // the cut must split an existing component (2026-10-12): on a disconnected G (e.g. the disjoint union of two pieces
+        // in the recursive isomorphism test) a class whose removal leaves the components unchanged gives back the same
+        // pieces -- the recursion would ask the same question again. Connected G: same as before (base = 1).
+        val base = components(emptySet()).size
+        for (k in edgeClasses.keys.sortedWith(compareBy({ it.first }, { it.second }))) {
+            val rem = edgeClasses.getValue(k).map { minOf(it[0], it[1]).toLong() * g.n + maxOf(it[0], it[1]) }.toHashSet()
+            val comps = components(rem); if (comps.size < 2 || comps.size <= base) continue
+            val mn = comps.minOf { it.size }
+            if (mn > bestMin) { bestMin = mn; best = k; bestComps = comps }
+        }
+        return best?.let { Triple(col, edgeClasses.getValue(it), bestComps) }
+    }
+
+    /**
+     * An isomorphism between two coloured pieces, by individualisation-refinement on their disjoint union [u] (piece a =
+     * local 0..s-1, piece b = s..2s-1, colours [seed0]): individualise the lowest vertex of the smallest non-singleton
+     * cell on the a side together with a candidate of the same cell on the b side (same new colour), refine (hash 1-WL on
+     * [u]), prune when some colour is not split evenly between the sides; at a leaf (discrete on each side) verify the
+     * bijection. The refinement is equivariant, so the branch following a true isomorphism always survives: complete.
+     * Returns phi (a-local -> b-local) or null if the pieces are not isomorphic.
+     */
+    private fun pieceIso(u: Graph, s: Int, seed0: LongArray, maxNodes: Long = 2_000_000): IntArray? {
+        var nodes = 0L
+        fun refine(seed: LongArray) = hashWlRounds(u, seed, hashWlStableRound(u, seed, u.n + 2))
+        fun balanced(c: LongArray): Boolean {
+            val cnt = HashMap<Long, Int>(); for (v in 0 until s) cnt.merge(c[v], 1, Int::plus)
+            for (v in s until 2 * s) { val x = cnt[c[v]] ?: return false; if (x == 1) cnt.remove(c[v]) else cnt[c[v]] = x - 1 }
+            return cnt.isEmpty()
+        }
+        fun dfs(seed: LongArray, depth: Int): IntArray? {
+            if (++nodes > maxNodes) throw StopReason("STOP_ISO_NODES", "piece isomorphism search: more than $maxNodes nodes")
+            val c = refine(seed)
+            if (!balanced(c)) return null
+            val byCol = HashMap<Long, MutableList<Int>>(); for (v in 0 until s) byCol.getOrPut(c[v]) { mutableListOf() }.add(v)
+            val cell = byCol.values.filter { it.size > 1 }.minWithOrNull(compareBy({ it.size }, { it.min() }))
+            if (cell == null) {
+                val where = HashMap<Long, Int>(); for (v in s until 2 * s) where[c[v]] = v - s
+                val phi = IntArray(s) { where.getValue(c[it]) }
+                val ok = (0 until s).all { x -> seed0[x] == seed0[s + phi[x]] && u.adj[x].size == u.adj[s + phi[x]].size &&
+                    u.adj[x].all { y -> java.util.Arrays.binarySearch(u.adj[s + phi[x]], s + phi[y]) >= 0 } }
+                return if (ok) phi else null
+            }
+            val b = cell.min(); val mark = mix64(0x15E0000L + depth)
+            for (cand in s until 2 * s) if (c[cand] == c[b]) {
+                val sd = c.copyOf(); sd[b] = mix64(sd[b] xor mark); sd[cand] = mix64(sd[cand] xor mark)
+                dfs(sd, depth + 1)?.let { return it }
+            }
+            return null
+        }
+        return dfs(seed0, 0)
+    }
+
+    /**
+     * Phase L3 (2026-10-10): full Aut(G, [seed]-refined colouring) by the Luks pipeline, no Traces in the computation.
+     *  1. invariant cut ([invariantCut]) -> pieces; isomorphism types by [pieceIso] against one representative per type
+     *     (phi_i: rep -> piece i); Aut(rep) by our series solver (parityAutFull) ONCE per type, generators transported
+     *     to every piece of the type: P = product of the piece groups.
+     *  2. quotient graph: pieces coloured by type, one subdivision vertex per adjacent piece pair coloured by the number of
+     *     cut edges; Q = Aut(quotient) by our solver. Lift of pi in Q: piece i -> piece pi(i) by phi_pi(i) o phi_i^-1.
+     *     A = <P, lifts>, |A| = |Q| |P| exactly (the lifts act as the identity in local coordinates, so the kernel of
+     *     A -> Q is P). Every automorphism of (G, colouring) preserves the cut and induces an element of Q: Aut <= A.
+     *  3. Aut(G, colouring) = Stab_A(cut): Luks's coset step over the cosets P tau (lifts tau), each a piece-preserving
+     *     iso problem E -> E^(tau^-1) by LuksIso.edgeSetIso, with exact coset pruning (see below).
+     * Returns (Aut, detail) or (null, reason).
+     */
+    /**
+     * Recursion inside the pieces (Christos, 2026-10-12: "recurse with our algorithm inside the pieces"). Aut(g, col):
+     * the series solver first; if it stops, our (D) route ([luksAutOf], whose own pieces recurse here) and then the star
+     * route, up to depth LUKS_RECURSE_DEPTH (default 3). null = not solved (never a wrong group).
+     */
+    internal fun autRec(g: Graph, col: LongArray, deadline: Long, depth: Int, log: (String) -> Unit = {}): PermGroup? {
+        val res = parityAutFull(g, Array(g.n) { Content.Num(col[it]) as Content }, deadlineMs = deadline)
+        if (res.status == "EXACT" && res.generators != null) {
+            val red = PermGroup.reduceGenerators(g.n, res.generators!!)
+            return if (red.isEmpty()) PermGroup.of(g.n, emptyList()) else PermGroup.of(g.n, red)
+        }
+        if (depth >= (System.getenv("LUKS_RECURSE_DEPTH")?.toIntOrNull() ?: 3)) return null
+        log("  ${"  ".repeat(depth)}recurse (depth ${depth + 1}) on n=${g.n}: series ${res.status}")
+        val (a, why) = try { luksAutOf(g, col, deadline, rec = depth + 1, log = log) } catch (e: Throwable) { null to "${e.javaClass.simpleName}" }
+        if (a != null) return a
+        log("  ${"  ".repeat(depth)}(D) on n=${g.n} failed: ${why.take(120)}")
+        return try { luksStarAutOf(g, col, deadline, log).first } catch (e: Throwable) { null }
+    }
+
+    /** Isomorphism of two coloured pieces (union [uni], a = 0..s-1, b = s..2s-1, no edges between them): the capped IR search
+     *  first; if it gives up, Aut of the disjoint union by the recursion -- a and b are isomorphic iff some automorphism
+     *  swaps the two components (they are blocks of Aut), and a generator doing so restricts to the isomorphism. (An apex
+     *  vertex joining the sides was tried first and is wrong: its edges become the invariant cut and the recursion asks the
+     *  same question again.) Returns the map (a-local -> b-local) or null if not isomorphic; throws if undecided. */
+    private fun isoRec(uni: Graph, s: Int, seed: LongArray, deadline: Long, depth: Int, log: (String) -> Unit): IntArray? {
+        try { return pieceIso(uni, s, seed, System.getenv("ISO_IR_NODES")?.toLongOrNull() ?: 200_000L) } catch (e: StopReason) { }
+        val a = autRec(uni, seed, deadline, depth, log) ?: throw StopReason("STOP_ISO_UNDECIDED", "piece isomorphism not decided by the recursion")
+        val sw = a.generators.firstOrNull { it[0] >= s } ?: return null
+        return IntArray(s) { sw[it] - s }
+    }
+
+    internal fun luksAutOf(g: Graph, seed: LongArray, deadline: Long,
+                           rec: Int = if (System.getenv("LUKS_RECURSE") == "1") 0 else -1, log: (String) -> Unit = {}): Pair<PermGroup?, String> {
+        val t0 = System.currentTimeMillis()
+        fun el() = "${(System.currentTimeMillis() - t0) / 1000.0}s"
+        val (col, cut, comps) = invariantCut(g, seed) ?: return null to "no edge class disconnects G"
+        val k = comps.size
+        val pieceOf = IntArray(g.n); for ((i, c) in comps.withIndex()) for (v in c) pieceOf[v] = i
+        // 1. types and isomorphisms
+        fun key(c: IntArray): String { val (sub, _) = g.induced(c); return "${c.size}|${sub.m}|${c.map { col[it] }.sorted().hashCode()}" }
+        val reps = ArrayList<Int>(); val typeOf = IntArray(k) { -1 }; val phi = arrayOfNulls<IntArray>(k)
+        val keyOf = comps.map { key(it) }
+        var isoNodesStop = false
+        for (i in 0 until k) {
+            for ((t, r) in reps.withIndex()) {
+                if (keyOf[r] != keyOf[i]) continue
+                val (uni0, _) = g.induced(comps[r] + comps[i]); val sr = comps[r].size
+                val uni = Graph(uni0.n, Array(uni0.n) { v -> uni0.adj[v].filter { (it < sr) == (v < sr) }.toIntArray() }, uni0.names)   // no cut edges between the two
+                val useed = LongArray(uni.n) { col[(comps[r] + comps[i])[it]] }
+                val m = if (rec >= 0) { try { isoRec(uni, comps[r].size, useed, deadline, rec, log) } catch (e: StopReason) { return null to "piece isomorphism undecided (recursion)" } }
+                        else try { pieceIso(uni, comps[r].size, useed) } catch (e: StopReason) {
+                            // soundness (2026-10-12, paper-4 review): an UNDECIDED isomorphism must not type the pieces apart -- if
+                            // they were isomorphic, the quotient would lose the swaps and |Aut| would come out too small. Fail instead
+                            // (LUKS_RECURSE=1 decides it by the recursion).
+                            isoNodesStop = true; return null to "piece isomorphism undecided (IR node cap); use LUKS_RECURSE=1" }
+                if (m != null) { typeOf[i] = t; phi[i] = IntArray(m.size) { comps[i][m[it]] }; break }
+            }
+            if (typeOf[i] < 0) { typeOf[i] = reps.size; reps.add(i); phi[i] = comps[i] }
+        }
+        log("n=${g.n}: cut ${cut.size} edges, $k pieces, ${reps.size} isomorphism types${if (isoNodesStop) " (WARNING: an iso search hit its node cap)" else ""} ${el()}")
+        // Aut(rep) once per type
+        val repGens = ArrayList<List<IntArray>>(); var pOrder = java.math.BigInteger.ONE
+        val repOrder = ArrayList<java.math.BigInteger>()
+        for (r in reps) {
+            val c = comps[r]
+            if (c.size == 1) { repGens.add(emptyList()); repOrder.add(java.math.BigInteger.ONE); continue }
+            val (sub, _) = g.induced(c)
+            if (rec >= 0) {
+                val ag = autRec(sub, LongArray(sub.n) { col[c[it]] }, deadline, rec, log) ?: return null to "piece type of size ${c.size} not solved (recursion depth $rec)"
+                repGens.add(ag.generators); repOrder.add(ag.order); continue
+            }
+            val res = parityAutFull(sub, Array(sub.n) { Content.Num(col[c[it]]) as Content }, deadlineMs = deadline)
+            if (res.status != "EXACT" || res.generators == null) { return null to "piece type of size ${c.size} not solved (${res.status} ${res.stopDetail})" }
+            val red = PermGroup.reduceGenerators(sub.n, res.generators!!)
+            repGens.add(red); repOrder.add(PermGroup.of(sub.n, red).order)
+        }
+        val pGens = ArrayList<IntArray>()
+        for (i in 0 until k) {
+            val f = phi[i]!!; pOrder = pOrder.multiply(repOrder[typeOf[i]])
+            for (h in repGens[typeOf[i]]) { val q = IntArray(g.n) { it }; for (x in f.indices) q[f[x]] = f[h[x]]; pGens.add(q) }
+        }
+        log("  |Aut(rep)| per type = $repOrder; |P| = $pOrder ${el()}")
+        // 2. quotient
+        val mult = HashMap<Long, Int>()
+        for (e in cut) { val a = pieceOf[e[0]]; val b = pieceOf[e[1]]; mult.merge(minOf(a, b).toLong() * k + maxOf(a, b), 1, Int::plus) }
+        val pairs = mult.keys.sorted(); val qn = k + pairs.size
+        val qadj = Array(qn) { ArrayList<Int>() }
+        for ((j, kk) in pairs.withIndex()) { val a = (kk / k).toInt(); val b = (kk % k).toInt(); for (x in setOf(a, b)) { qadj[x].add(k + j); qadj[k + j].add(x) } }
+        val quot = Graph(qn, Array(qn) { qadj[it].sorted().toIntArray() }, Array(qn) { "q$it" })
+        // glue types (2026-10-11, glue-coded wired book): the cut edges between pieces i and j in REPRESENTATIVE coordinates
+        // (phi_i^-1, phi_j^-1), canonised under Aut(rep_i) x Aut(rep_j) restricted to the ports. Any automorphism of G maps
+        // pieces to pieces and acts in rep coordinates by rep automorphisms, so it preserves glue types: the refined
+        // quotient is still a valid ambient. Brute force over the restricted groups, guarded by GLUE_MAX (default 2e5).
+        val glueKey = HashMap<Long, String>()
+        if (System.getenv("LUKS_GLUE") != "0") run {
+            val loc = IntArray(g.n) { -1 }; for (i in 0 until k) { val fi = phi[i]!!; for (x in fi.indices) loc[fi[x]] = x }
+            val portsOf = HashMap<Int, java.util.TreeSet<Int>>()
+            for (e in cut) for (v in e) portsOf.getOrPut(typeOf[pieceOf[v]]) { java.util.TreeSet() }.add(loc[v])
+            val restricted = HashMap<Int, List<IntArray>>()
+            for ((t, ps) in portsOf) {
+                val pl = ps.toIntArray(); val idx = HashMap<Int, Int>(); pl.forEachIndexed { i, x -> idx[x] = i }
+                val gens = repGens[t].map { h -> IntArray(pl.size) { i -> idx[h[pl[i]]] ?: -1 } }
+                if (gens.any { r -> r.any { it < 0 } }) { restricted.clear(); return@run }   // ports not invariant: skip
+                val seen = LinkedHashMap<List<Int>, IntArray>(); val id = IntArray(pl.size) { it }; seen[id.toList()] = id
+                val q = ArrayDeque(listOf(id))
+                while (q.isNotEmpty() && seen.size <= 2000) { val x = q.removeFirst(); for (h in gens) { val y = IntArray(pl.size) { h[x[it]] }; if (seen.putIfAbsent(y.toList(), y) == null) q.add(y) } }
+                if (seen.size > 2000) { restricted.clear(); return@run }
+                // restricted permutations as maps on rep-local indices (only the port entries are used)
+                restricted[t] = seen.values.map { r -> val mm = IntArray(pl.last() + 1) { -1 }; pl.forEachIndexed { i, x -> mm[x] = pl[r[i]] }; mm }
+            }
+            val maxPairs = System.getenv("GLUE_MAX")?.toLongOrNull() ?: 200_000L
+            val byPair = HashMap<Long, MutableList<IntArray>>()
+            for (e in cut) { val a = pieceOf[e[0]]; val b = pieceOf[e[1]]; val (u, w) = if (a <= b) e[0] to e[1] else e[1] to e[0]
+                byPair.getOrPut(minOf(a, b).toLong() * k + maxOf(a, b)) { mutableListOf() }.add(intArrayOf(loc[u], loc[w])) }
+            for ((kk, ms) in byPair) {
+                val a = (kk / k).toInt(); val b = (kk % k).toInt(); val ra = restricted[typeOf[a]] ?: return@run; val rb = restricted[typeOf[b]] ?: return@run
+                if (ra.size.toLong() * rb.size > maxPairs) return@run
+                fun canon(m: List<IntArray>, r1: List<IntArray>, r2: List<IntArray>): String {
+                    var best: String? = null
+                    for (x in r1) for (y in r2) { val sKey = m.map { (x[it[0]].toLong() shl 20) or y[it[1]].toLong() }.sorted().joinToString(","); if (best == null || sKey < best) best = sKey }
+                    return best!!
+                }
+                val c1 = canon(ms, ra, rb)
+                val key = if (typeOf[a] == typeOf[b]) minOf(c1, canon(ms.map { intArrayOf(it[1], it[0]) }, rb, ra)) else c1
+                glueKey[kk] = key
+            }
+            log("  glue types: ${glueKey.values.toSet().size} distinct over ${glueKey.size} adjacent piece pairs")
+        }
+        val glueId = glueKey.values.toSortedSet().withIndex().associate { (i, v) -> v to i.toLong() }
+        val qcol = Array(qn) { i -> Content.Num(if (i < k) typeOf[i].toLong() else -1L - mult.getValue(pairs[i - k]) - 1_000_000L * (glueKey[pairs[i - k]]?.let { glueId.getValue(it) + 1 } ?: 0L)) as Content }
+        val qr = parityAutFull(quot, qcol, deadlineMs = deadline)
+        val qGens0: List<IntArray> = if (qr.status == "EXACT" && qr.generators != null) qr.generators!!
+            else if (rec >= 0) (autRec(quot, LongArray(qn) { (qcol[it] as Content.Num).v }, deadline, rec, log)?.generators ?: return null to "quotient not solved (recursion)")
+            else return null to "quotient not solved (${qr.status} ${qr.stopDetail})"
+        val qGens = qGens0.map { it.copyOf(k) }.filter { !Perms.isId(it) }
+        val qOrder = if (qGens.isEmpty()) java.math.BigInteger.ONE else PermGroup.of(k, qGens).order
+        val lifts = qGens.map { pi -> val q = IntArray(g.n); for (i in 0 until k) { val fi = phi[i]!!; val fj = phi[pi[i]]!!; for (x in fi.indices) q[fi[x]] = fj[x] }; q }
+        val pGroup = PermGroup.ofOrder(g.n, pGens, pOrder)
+        log("  |Q| = $qOrder; |A| = |Q| |P| ${el()}")
+        // 3. Luks, branching over Q (Luks's coset step at the top): for pi in Q with lift tau, the part of P tau that
+        //    preserves the cut is rho tau for rho in P mapping E to E^(tau^-1) (edgeSetIso); Aut = <Stab_P(E), rho_i tau_i>
+        val wcache = HashMap<List<Int>, dialysis.group.WindowChain>()   // P restricted to U: once for all tests (memory, 2026-10-12)
+        // Shortcut (2026-10-11, wired books): the pi whose coset contains an automorphism form a subgroup I <= Q. Test the
+        // generators of Q first: if every generator lifts, I = Q after |gens Q| tests and no element of Q is listed (Q may be a
+        // giant, e.g. S_6 x S_6 = 518,400 on the wired book with 12 pages).
+        run {
+            val ext = ArrayList<IntArray>(); var stabG0: List<IntArray> = emptyList(); var stabO0 = java.math.BigInteger.ONE; var allLift = true; var calls0 = 0L; var mb0 = 0L
+            var gi0 = 0L; var gd0 = 0; var qd0 = 0
+            // wcache: P restricted to U, once for all tests of both phases (declared below the run block)
+            val tests0 = listOf(Perms.id(k) to Perms.id(g.n)) + qGens.indices.map { qGens[it] to lifts[it] }
+            for ((idx, pt) in tests0.withIndex()) {
+                val tau = pt.second; val ti = Perms.inv(tau)
+                val (c, l) = dialysis.group.LuksIso.edgeSetIso(pGroup, cut, cut.map { intArrayOf(ti[it[0]], ti[it[1]]) }, windowCache = wcache, needGroup = false) { msg -> if (idx == 0) log("    [${el()}] $msg") }
+                calls0 += l.calls; mb0 = maxOf(mb0, l.maxBranch); gi0 += l.giants; gd0 = maxOf(gd0, l.giantMaxDegree); qd0 = maxOf(qd0, l.maxQuotientDegree)
+                if (idx == 0) { stabG0 = c!!.lazyGens!!; stabO0 = c.lazyOrder!! } else if (c == null) { allLift = false; break } else ext.add(Perms.mul(c.rep, tau))
+            }
+            if (allLift) {
+                val aut = PermGroup.ofOrder(g.n, stabG0 + ext, stabO0.multiply(qOrder))
+                log("|Aut(G)| = ${aut.order} (|Stab_P(E)| = ${stabO0}, every generator of Q lifts: image = Q of order $qOrder; ${tests0.size} iso tests) calls=$calls0 maxBranch=$mb0 (${el()})")
+                log("GIANTS giants=$gi0 maxGiantDeg=$gd0 maxQuotDeg=$qd0")
+                return aut to "luks: $k pieces, ${reps.size} types, |Q| = $qOrder (all generators lift), ${tests0.size} iso tests, ${el()}"
+            }
+            log("a generator of Q does not lift -> coset enumeration")
+        }
+        // (G) cap (2026-10-11, two-graph book): a giant quotient whose generators do not lift and whose image needs a long coset
+        // enumeration is handed to the chain (it resolves such global constraints by individualisation, A_1 there).
+        val glueCap = System.getenv("LUKS_GLUE_MAX_TESTS")?.toIntOrNull() ?: 200
+        if (qOrder > java.math.BigInteger.valueOf(100_000L)) return null to "glue: |Q| = $qOrder too large to enumerate and its generators do not all lift: hand the level to the chain"
+        val words = LinkedHashMap<List<Int>, IntArray>(); words[List(k) { it }] = Perms.id(g.n)
+        val queue = ArrayDeque<Pair<IntArray, IntArray>>(); queue.add(Perms.id(k) to Perms.id(g.n))
+        while (queue.isNotEmpty()) {
+            val (pi, tau) = queue.removeFirst()
+            for ((gi, qg) in qGens.withIndex()) { val pi2 = Perms.mul(pi, qg); val kk = pi2.toList(); if (kk !in words) { val t2 = Perms.mul(tau, lifts[gi]); words[kk] = t2; queue.add(pi2 to t2) } }
+            check(words.size <= 100_000) { "quotient group too large to enumerate" }
+        }
+        // Exact coset pruning: the pi whose coset P tau contains an automorphism form a subgroup I <= Q (the image of
+        // Aut). J = <non-empty pi found> <= I. pi in J: already generated, skip. pi in J e for a known empty e: empty
+        // (j e in I would give e in I), skip. Every pi of I is in J or tested, so finally J = I and |Aut| = |Stab| |J|.
+        var stabGens: List<IntArray> = emptyList(); var stabOrd = java.math.BigInteger.ONE; val extra = ArrayList<IntArray>(); var calls = 0L; var maxBranch = 0L
+        var gi2 = 0L; var gd2 = 0; var qd2 = 0
+        var jGens = ArrayList<IntArray>(); var jGroup: PermGroup? = null; val empties = ArrayList<IntArray>(); var tests = 0
+        for ((idx, entry) in words.entries.withIndex()) {
+            val pi = entry.key.toIntArray(); val tau = entry.value
+            if (idx > 0) {
+                val jg = jGroup
+                if (jg != null && pi in jg) continue
+                if (jg != null && empties.any { e -> Perms.mul(pi, Perms.inv(e)) in jg }) continue
+                if (jg == null && empties.any { e -> e.contentEquals(pi) }) continue
+            }
+            if (tests >= glueCap) return null to "glue: coset enumeration capped at $glueCap iso tests (|Q| = $qOrder, image so far ${jGroup?.order ?: 1}): hand the level to the chain"
+            tests++
+            val ti = Perms.inv(tau)
+            val e2 = cut.map { intArrayOf(ti[it[0]], ti[it[1]]) }
+            val (c, l) = dialysis.group.LuksIso.edgeSetIso(pGroup, cut, e2, windowCache = wcache, needGroup = false) { msg -> if (idx == 0) log("    [${el()}] $msg") }
+            calls += l.calls; maxBranch = maxOf(maxBranch, l.maxBranch); gi2 += l.giants; gd2 = maxOf(gd2, l.giantMaxDegree); qd2 = maxOf(qd2, l.maxQuotientDegree)
+            when {
+                idx == 0 -> { stabGens = c!!.lazyGens!!; stabOrd = c.lazyOrder!! }
+                c != null -> { extra.add(Perms.mul(c.rep, tau)); jGens.add(pi); jGroup = PermGroup.of(k, jGens) }
+                else -> empties.add(pi)
+            }
+        }
+        val jOrder = jGroup?.order ?: java.math.BigInteger.ONE
+        val aut = PermGroup.ofOrder(g.n, stabGens + extra, stabOrd.multiply(jOrder))
+        log("GIANTS giants=$gi2 maxGiantDeg=$gd2 maxQuotDeg=$qd2")
+        log("|Aut(G)| = ${aut.order} (|Stab_P(E)| = ${stabOrd}, image in Q of order $jOrder of ${words.size}; $tests iso tests) calls=$calls maxBranch=$maxBranch (${el()})")
+        return aut to "luks: $k pieces, ${reps.size} types, |Q| = ${words.size}, |image| = $jOrder, $tests iso tests, ${el()}"
+    }
+
+    /**
+     * Procedure D_d, stage F2a (2026-10-12, FALLBACK_SPEC.md; CLOSURE_BOUND_SPEC "Case (d) via Lemma L"): Aut(G, chi) from
+     * the STAR groups of the colour classes. chi = hash-1-WL refinement of [seed]. For every non-singleton class C, star(C)
+     * = G[C] plus one node per distinct trace N(y) cap C (y in another class D; empty and all-of-C traces dropped), the node
+     * coloured by D. Every automorphism of (G, chi) restricts on C to an automorphism of star(C) (Fact A), and an
+     * automorphism of star(C) is determined by its action on C (distinct traces), so
+     *   Aut(G, chi) = Stab_P(E(G)),  P = prod_C S(C),  S(C) = Aut(star(C)) restricted to C
+     * -- one LuksIso.edgeSetIso call. star(C) is solved by the series solver (parityAutFull), exactly as the pieces in
+     * [luksAutOf]. Precondition of the bound (majority dichotomy): no class larger than n/2 (else the star of that class
+     * is G-sized and the chain should take a (M) step instead); returns (null, reason) then.
+     */
+    internal fun luksStarAutOf(g: Graph, seed: LongArray, deadline: Long, log: (String) -> Unit = {}): Pair<PermGroup?, String> {
+        val t0 = System.currentTimeMillis()
+        fun el() = "${(System.currentTimeMillis() - t0) / 1000.0}s"
+        val col = hashWlRounds(g, seed, hashWlStableRound(g, seed, g.n + 2))
+        val classOf = HashMap<Long, MutableList<Int>>(); for (v in 0 until g.n) classOf.getOrPut(col[v]) { mutableListOf() }.add(v)
+        val classes = classOf.entries.sortedBy { it.key }.map { it.value.toIntArray() }
+        val largest = classes.maxOf { it.size }
+        if (classes.size < 2) return null to "one colour class: star = G"
+        if (2 * largest > g.n && System.getenv("STAR_IGNORE_MAJORITY") != "1") return null to "majority class (${largest} of ${g.n}): (M) step, not D_d"
+        val cid = IntArray(g.n); for ((i, c) in classes.withIndex()) for (v in c) cid[v] = i
+        log("n=${g.n}: ${classes.size} classes, largest $largest ${el()}")
+        val pGens = ArrayList<IntArray>(); var pOrder = java.math.BigInteger.ONE
+        for ((ci, c) in classes.withIndex()) {
+            if (c.size == 1) continue
+            val loc = HashMap<Int, Int>(c.size * 2); c.forEachIndexed { i, v -> loc[v] = i }
+            // traces keyed by (source class, sorted local set): one node each
+            val traces = LinkedHashMap<Pair<Int, List<Int>>, Int>()
+            for (y in 0 until g.n) {
+                if (cid[y] == ci) continue
+                val h = g.adj[y].toList().mapNotNull { loc[it] }.sorted()
+                if (h.isEmpty() || h.size == c.size) continue
+                traces.putIfAbsent(cid[y] to h, c.size + traces.size)
+            }
+            val sn = c.size + traces.size
+            val sadj = Array(sn) { ArrayList<Int>() }
+            for (v in c) for (w in g.adj[v]) { val lw = loc[w] ?: continue; sadj[loc.getValue(v)].add(lw) }
+            for ((key, node) in traces) for (x in key.second) { sadj[x].add(node); sadj[node].add(x) }
+            val star = Graph(sn, Array(sn) { sadj[it].distinct().sorted().toIntArray() }, Array(sn) { "s$it" })
+            val traceSrc = traces.keys.map { it.first.toLong() }
+            val scol = LongArray(sn) { i -> if (i < c.size) -1L else traceSrc[i - c.size] }
+            var (sAut, why) = autByComponents(star, scol, deadline)
+            // G-sized stars (e.g. the END class of a CFI-type graph: G[C] holds the wires, the traces are the gadgets) are
+            // as hard as G for the series solver: try our (D) route (invariant cut -> pieces -> Luks) on the star instead
+            if (sAut == null) {
+                val (d, whyD) = try { luksAutOf(star, scol, deadline) } catch (e: Throwable) { null to "luks: ${e.javaClass.simpleName}" }
+                if (d != null) { sAut = d; log("  class $ci: star solved by the (D) route ($whyD)") } else why = "$why; (D) route: $whyD"
+            }
+            if (sAut == null) return null to "star of class ${ci} (|C| = ${c.size}, ${traces.size} traces) not solved ($why)"
+            // restrict to C (traces follow), lift to V
+            val gensC = sAut.generators.map { h -> IntArray(c.size) { h[it] } }.filter { !Perms.isId(it) }
+            if (gensC.isEmpty()) continue
+            val red = PermGroup.reduceGenerators(c.size, gensC); val ord = PermGroup.of(c.size, red).order
+            pOrder = pOrder.multiply(ord)
+            for (h in red) { val q = IntArray(g.n) { it }; for (i in c.indices) q[c[i]] = c[h[i]]; pGens.add(q) }
+            log("  class $ci: |C| = ${c.size}, ${traces.size} traces, |S(C)| = $ord ${el()}")
+        }
+        if (pGens.isEmpty()) return PermGroup.of(g.n, emptyList()) to "star: every S(C) trivial, |Aut| = 1, ${el()}"
+        val pGroup = PermGroup.ofOrder(g.n, pGens, pOrder)
+        log("  |P| = prod |S(C)| = $pOrder ${el()}")
+        val edges = ArrayList<IntArray>(); for (u in 0 until g.n) for (w in g.adj[u]) if (u < w && cid[u] != cid[w]) edges.add(intArrayOf(u, w))
+        val (c, l) = dialysis.group.LuksIso.edgeSetIso(pGroup, edges, edges) { log("    [${el()}] $it") }
+        val aut = c!!.group
+        log("GIANTS giants=${l.giants} maxGiantDeg=${l.giantMaxDegree} maxQuotDeg=${l.maxQuotientDegree}")
+        log("|Aut(G, chi)| = ${aut.order} (|P| = $pOrder, ${edges.size} cross edges) calls=${l.calls} maxBranch=${l.maxBranch} (${el()})")
+        return aut to "star (D_d): ${classes.size} classes, |P| = $pOrder, Luks calls ${l.calls}, maxBranch ${l.maxBranch}, ${el()}"
+    }
+
+    /**
+     * Aut of a coloured graph that may be disconnected (stars are: one component per gadget / block), as in [luksAutOf]
+     * step 1: components typed by [pieceIso] (colours = hash-1-WL of [col]), one representative per type solved by the
+     * series solver, and Aut = prod_types Aut(rep) wr S_{k_t}: rep generators conjugated onto every copy, plus the swaps of
+     * consecutive copies of a type (adjacent transpositions generate S_k). Order prod |Aut(rep)|^{k_t} k_t!.
+     */
+    private fun autByComponents(g: Graph, col: LongArray, deadline: Long): Pair<PermGroup?, String> {
+        val rc = hashWlRounds(g, col, hashWlStableRound(g, col, g.n + 2))
+        val seen = BooleanArray(g.n); val comps = ArrayList<IntArray>()
+        for (s0 in 0 until g.n) if (!seen[s0]) {
+            val c = ArrayList<Int>(); val st = ArrayDeque(listOf(s0)); seen[s0] = true
+            while (st.isNotEmpty()) { val u = st.removeLast(); c.add(u); for (w in g.adj[u]) if (!seen[w]) { seen[w] = true; st.add(w) } }
+            comps.add(c.sorted().toIntArray())
+        }
+        val reps = ArrayList<Int>(); val typeOf = IntArray(comps.size) { -1 }; val phi = arrayOfNulls<IntArray>(comps.size)
+        fun key(c: IntArray): String { val (sub, _) = g.induced(c); return "${c.size}|${sub.m}|${c.map { rc[it] }.sorted().hashCode()}" }
+        val keyOf = comps.map { key(it) }
+        for (i in comps.indices) {
+            for ((t, r) in reps.withIndex()) {
+                if (keyOf[r] != keyOf[i]) continue
+                val (uni0, _) = g.induced(comps[r] + comps[i]); val sr = comps[r].size
+                val m = try { pieceIso(uni0, sr, LongArray(uni0.n) { rc[(comps[r] + comps[i])[it]] }) } catch (e: StopReason) { null }
+                if (m != null) { typeOf[i] = t; phi[i] = IntArray(m.size) { comps[i][m[it]] }; break }
+            }
+            if (typeOf[i] < 0) { typeOf[i] = reps.size; reps.add(i); phi[i] = comps[i] }
+        }
+        val gens = ArrayList<IntArray>(); var order = java.math.BigInteger.ONE
+        val repGens = ArrayList<List<IntArray>>()
+        for (r in reps) {
+            val c = comps[r]
+            if (c.size == 1) { repGens.add(emptyList()); continue }
+            val (sub, _) = g.induced(c)
+            val res = parityAutFull(sub, Array(sub.n) { Content.Num(rc[c[it]]) as Content }, deadlineMs = deadline)
+            if (res.status != "EXACT" || res.generators == null) return null to "component type of size ${c.size} not solved (${res.status} ${res.stopDetail})"
+            val red = PermGroup.reduceGenerators(sub.n, res.generators!!); repGens.add(red)
+        }
+        val repOrder = repGens.map { if (it.isEmpty()) java.math.BigInteger.ONE else PermGroup.of(it[0].size, it).order }
+        val lastOfType = IntArray(reps.size) { -1 }; val count = IntArray(reps.size)
+        for (i in comps.indices) {
+            val t = typeOf[i]; val f = phi[i]!!; order = order.multiply(repOrder[t]); count[t]++
+            for (h in repGens[t]) { val q = IntArray(g.n) { it }; for (x in f.indices) q[f[x]] = f[h[x]]; gens.add(q) }
+            val p = lastOfType[t]
+            if (p >= 0) { val fp = phi[p]!!; val q = IntArray(g.n) { it }; for (x in f.indices) { q[fp[x]] = f[x]; q[f[x]] = fp[x] }; gens.add(q) }
+            lastOfType[t] = i
+        }
+        for (k in count) for (j in 2..k) order = order.multiply(java.math.BigInteger.valueOf(j.toLong()))
+        if (gens.isEmpty()) return PermGroup.of(g.n, emptyList()) to "trivial"
+        return PermGroup.ofOrder(g.n, gens, order) to "${comps.size} components, ${reps.size} types"
+    }
+
+    /**
+     * Luks ablation (2026-10-12, FALLBACK_SPEC "do we need Babai's giant case?"): how many of OUR chain's roots does Luks
+     * need before it stops meeting giant quotients? Env ABL_FILE: lines "path<TAB>r1,r2,..." (greedy roots, export_roots.py);
+     * ABL_KS (default "0,1,2,3,4,6,8"): numbers of roots individualised. For each k: seed = uniform with the first k roots
+     * as distinct singleton colours; the (D) route ([luksAutOf]) if an invariant cut exists, else the star route
+     * ([luksStarAutOf], majority check off); prints ABL lines with the GIANTS counters, |Aut(G)_(roots)|, Traces' order on
+     * the same partition (oracle, ABL_TRACES=1) and time.
+     */
+    @Test fun luksAblation() {
+        val lines = System.getenv("ABL_FILE")?.let { f -> File(f).readLines().filter { it.isNotBlank() } } ?: return
+        val ks = (System.getenv("ABL_KS") ?: "0,1,2,3,4,6,8").split(",").map { it.trim().toInt() }
+        val deadline = (System.getenv("LUKS_PIECE_S")?.toLongOrNull() ?: 300) * 1000
+        for (line in lines) {
+            val (path, rs) = line.split("\t".toRegex()).let { it[0] to (if (it.size > 1 && it[1].isNotBlank()) it[1].split(",").map { x -> x.toInt() } else emptyList()) }
+            val name = File(path).name; val g = GraphIO.loadDimacs(File(path).toPath())
+            for (k in ks) {
+                if (k > rs.size) break
+                val roots = rs.take(k)
+                val seed = LongArray(g.n) { 0x1234567L }; roots.forEachIndexed { i, r -> seed[r] = 0x7000000L + i }
+                val giants = ArrayList<String>()
+                val logf: (String) -> Unit = { m -> if (m.startsWith("GIANTS")) giants.add(m.removePrefix("GIANTS ")) }
+                val t0 = System.currentTimeMillis()
+                var route = "D"
+                var (aut, detail) = try { luksAutOf(g, seed, deadline, log = logf) } catch (e: Throwable) { System.gc(); null to "D: ${e.javaClass.simpleName} ${e.message ?: ""}" }
+                if (aut == null && detail.startsWith("no edge class")) {
+                    route = "star"
+                    val r2 = try { luksStarAutOf(g, seed, deadline, logf) } catch (e: Throwable) { System.gc(); null to "star: ${e.javaClass.simpleName} ${e.message ?: ""}" }
+                    aut = r2.first; detail = r2.second
+                }
+                val secs = (System.currentTimeMillis() - t0) / 1000.0
+                val tr = if (System.getenv("ABL_TRACES") == "1") {
+                    val cells = ArrayList<IntArray>(); roots.forEach { cells.add(intArrayOf(it)) }
+                    val rest = (0 until g.n).filter { it !in roots }.toIntArray(); if (rest.isNotEmpty()) cells.add(rest)
+                    "%.6g".format(traces.stats(g, cells).autOrder)
+                } else "-"
+                println("ABL $name k=$k route=$route ${if (aut == null) "FAILED(${detail.take(160)})" else "|Aut|=${aut.order}"} traces=$tr giants=[${giants.joinToString("; ")}] (${secs}s)")
+            }
+        }
+    }
+
+    /** Driver for [luksStarAutOf] (F2a gate): canonical 1-WL from a uniform seed; prints STARAUT lines with Traces' order
+     *  (oracle). Env: INSTANCES_FILE, LUKS_PIECE_S (deadline per star, default 600), STAR_IGNORE_MAJORITY=1 (run anyway). */
+    @Test fun luksStarAut() {
+        val files = System.getenv("INSTANCES_FILE")?.let { f -> File(f).readLines().filter { it.isNotBlank() } } ?: return
+        val deadline = (System.getenv("LUKS_PIECE_S")?.toLongOrNull() ?: 600) * 1000
+        for (path in files) {
+            val name = File(path).name
+            val g = GraphIO.loadDimacs(File(path).toPath())
+            val t0 = System.currentTimeMillis()
+            val (aut, detail) = try { luksStarAutOf(g, LongArray(g.n) { 0x1234567L }, deadline) { println("STARAUT $name $it") } }
+                catch (e: Exception) { null to "exception: ${e.javaClass.simpleName} ${e.message}" }
+            val secs = (System.currentTimeMillis() - t0) / 1000.0
+            if (aut != null) for (h in aut.generators) check((0 until g.n).all { u -> g.adj[u].all { x -> java.util.Arrays.binarySearch(g.adj[h[u]], h[x]) >= 0 } }) { "star: a generator is not an automorphism" }
+            val tr = if (System.getenv("STAR_TRACES") == "0") Double.NaN else traces.stats(g, listOf(IntArray(g.n) { it })).autOrder
+            val agree = aut != null && Math.abs(aut.order.toDouble() / tr - 1.0) < 1e-6
+            println("STARAUT $name ${if (aut == null) "FAILED: $detail" else "|Aut| = ${aut.order} | $detail"} | Traces ${"%.6g".format(tr)} agree=$agree (${secs}s)")
+        }
+    }
+
+    /** Driver for [luksAutOf] (canonical 1-WL from a uniform seed). Env: INSTANCES_FILE, LUKS_PIECE_S (solver deadline
+     *  per representative, default 600). Prints LUKSAUT lines. */
+    @Test fun luksFullAut() {
+        val files = System.getenv("INSTANCES_FILE")?.let { f -> File(f).readLines().filter { it.isNotBlank() } } ?: return
+        val deadline = (System.getenv("LUKS_PIECE_S")?.toLongOrNull() ?: 600) * 1000
+        for (path in files) {
+            val name = File(path).name
+            val g = GraphIO.loadDimacs(File(path).toPath())
+            val rt = Runtime.getRuntime()
+            fun memMb() = (rt.totalMemory() - rt.freeMemory()) / 1_048_576
+            val memLog = System.getenv("LUKS_MEM") == "1"
+            val (aut, detail) = try { luksAutOf(g, LongArray(g.n) { 0x1234567L }, deadline) { println("LUKSAUT $name ${if (memLog) "[heap ${memMb()}M] " else ""}$it") } }
+                catch (e: Exception) { null to "exception: ${e.javaClass.simpleName} ${e.message}" }
+            val tr = if (System.getenv("LUKS_TRACES") == "1") " | Traces ${"%.6g".format(traces.stats(g, listOf(IntArray(g.n) { it })).autOrder)}" else ""
+            println("LUKSAUT $name ${if (aut == null) "FAILED: $detail" else "|Aut(G)| = ${aut.order} | $detail"}$tr")
+        }
     }
 
     @Test fun series_stops_sample() {
