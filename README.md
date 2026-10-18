@@ -8,7 +8,7 @@ Code, benchmark graphs, scripts and results for
 and its extension (see [Extension: practical algorithm with an explicit bound](#extension-practical-algorithm-with-an-explicit-bound))
 
 > C. I. Karatzas, *A practical graph isomorphism solver and an explicit quasi-polynomial bound*, preprint, Zenodo,
-> 2026. [doi:10.5281/zenodo.23336666](https://doi.org/10.5281/zenodo.23336666)
+> 2026. [doi:10.5281/zenodo.23458588](https://doi.org/10.5281/zenodo.23458588)
 
 The method computes the automorphism group of a graph exactly, with a verified generating set:
 
@@ -434,8 +434,8 @@ and, for the extension:
   title     = {A practical graph isomorphism solver and an explicit quasi-polynomial bound},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23336666},
-  url       = {https://doi.org/10.5281/zenodo.23336666},
+  doi       = {10.5281/zenodo.23458588},
+  url       = {https://doi.org/10.5281/zenodo.23458588},
   note      = {Preprint}
 }
 ```
