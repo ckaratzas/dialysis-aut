@@ -1,0 +1,31 @@
+instance | Traces |Aut| (ms) | tcg (cond.) | tcgu (uncond.) | tcgl (series, then Luks) | luks (D) route | giants
+gcfi-A5-K33 | 1.5552E7 (2887) | COND_EXACT 1.55520e+07 30.146s | ? | EXACT 1.55520e+07 30.058s | |Aut(G)| = 15552000 | luks: 6 pieces, 1 types, |Q| = 72, |im | GIANTS giants=11520 maxGiantDeg=5 maxQuotDeg=60 
+gcfi-A5-K33-tw | 259200.0 (12513) | COND_EXACT 259200 59.622s | ? | EXACT 259200 54.028s | |Aut(G)| = 259200 | luks: 6 pieces, 1 types, |Q| = 72, |imag | GIANTS giants=25920 maxGiantDeg=5 maxQuotDeg=60 
+gcfi-A5-K4 | 57600.0 (1417) | COND_EXACT 57600.0 5.707s | ? | EXACT 57600.0 8.502s | |Aut(G)| = 57600 | luks: 4 pieces, 1 types, |Q| = 24, |image | GIANTS giants=7938 maxGiantDeg=5 maxQuotDeg=60 
+gcfi-A5-K4-tw | 2880.0 (1454) | COND_EXACT 2880.00 13.713s | ? | EXACT 2880.00 15.037s | |Aut(G)| = 2880 | luks: 4 pieces, 1 types, |Q| = 24, |image| | GIANTS giants=8118 maxGiantDeg=5 maxQuotDeg=60 
+gcfi-A5-cube | 28800.0 (13247) | ? | ? | EXACT 28800.0 616.243s | |Aut(G)| = 28800 | luks: 8 pieces, 1 types, |Q| = 48, |image | GIANTS giants=17676 maxGiantDeg=5 maxQuotDeg=60 
+gcfi-A5-cube-tw | ? | ? | ? | EXACT 1440.00 607.364s | |Aut(G)| = 1440 | luks: 8 pieces, 1 types, |Q| = 48, |image| | GIANTS giants=17736 maxGiantDeg=5 maxQuotDeg=60 
+gcfi-A5-prism | 1728000.0 (170) | ? | ? | EXACT 1.72800e+06 10.775s | |Aut(G)| = 1728000 | luks: 6 pieces, 1 types, |Q| = 12, |ima | GIANTS giants=11160 maxGiantDeg=5 maxQuotDeg=60 
+gcfi-A5-prism-tw | 86400.0 (201) | ? | ? | EXACT 86400.0 17.967s | |Aut(G)| = 86400 | luks: 6 pieces, 1 types, |Q| = 12, |image | GIANTS giants=11160 maxGiantDeg=5 maxQuotDeg=60 
+gcfi-F2_3-tutte8 | 6.809442636584191E19 (46) | ? | ? | EXACT 6.80944e+19 221.778s | |Aut(G)| = 68094426365841899520 | luks: 30 pieces, 1 types,  | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=8 
+gcfi-F2_3-tutte8-tw | 9.727775195120271E18 (58) | ? | ? | EXACT 9.72778e+18 505.751s | |Aut(G)| = 9727775195120271360 | luks: 30 pieces, 1 types, | | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=8 
+gcfi-F3_2-mcgee | 3.9043059123133445E15 (5673) | ? | ? | EXACT 3.90431e+15 18.126s | |Aut(G)| = 3904305912313344 | luks: 24 pieces, 1 types, |Q|  | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=9 
+gcfi-F3_2-mcgee-tw | 4.8803823903916806E14 (354355) | ? | ? | EXACT 4.88038e+14 17.424s | |Aut(G)| = 488038239039168 | luks: 24 pieces, 1 types, |Q| = | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=9 
+gcfi-F3_2-tutte8 | 1.2808075545343926E20 (61) | ? | ? | EXACT 1.28081e+20 495.457s | |Aut(G)| = 128080755453439249920 | luks: 30 pieces, 1 types, | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=9 
+gcfi-F3_2-tutte8-tw | 1.6010094431679908E19 (113) | ? | ? | EXACT 1.60101e+19 495.852s | |Aut(G)| = 16010094431679906240 | luks: 30 pieces, 1 types,  | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=9 
+gcfi-F5_2-heawood | 2.4609375E16 (72) | ? | ? | EXACT 2.46094e+16 14.593s | |Aut(G)| = 24609375000000000 | luks: 14 pieces, 1 types, |Q| | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=25 
+gcfi-F5_2-heawood-tw | 1.025390625E15 (92) | ? | ? | EXACT 1.02539e+15 15.387s | |Aut(G)| = 1025390625000000 | luks: 14 pieces, 1 types, |Q|  | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=25 
+gcfi-S3-rc12-1 | 36.0 (778) | ? | ? | EXACT 36.0000 6.734s | |Aut(G)| = 36 | luks: 12 pieces, 1 types, |Q| = 4, |image| = | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 giants=192 maxGiantDeg=6 
+gcfi-S3-rc12-1-tw | 12.0 (2826) | ? | ? | EXACT 12.0000 6.641s | |Aut(G)| = 12 | luks: 12 pieces, 1 types, |Q| = 4, |image| = | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 giants=198 maxGiantDeg=6 
+gcfi-S3-rc20-1 | 1296.0 (482764) | ? | ? | EXACT 1296.00 35.163s | |Aut(G)| = 1296 | luks: 20 pieces, 1 types, |Q| = 1 (all gen | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 giants=1500 maxGiantDeg=6 
+gcfi-S3-rc20-1-tw | ? | ? | ? | EXACT 432.000 35.31s | |Aut(G)| = 432 | luks: 20 pieces, 1 types, |Q| = 1 (all gene | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 giants=1500 maxGiantDeg=6 
+gcfi-S3-rc24-1 | ? | ? | ? | EXACT 36.0000 66.91s | |Aut(G)| = 36 | luks: 24 pieces, 1 types, |Q| = 2, |image| = | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 giants=1558 maxGiantDeg=6 
+gcfi-S3-rc24-1-tw | ? | ? | ? | EXACT 12.0000 65.804s | |Aut(G)| = 12 | luks: 24 pieces, 1 types, |Q| = 2, |image| = | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 giants=1558 maxGiantDeg=6 
+gcfi-S3-rc32-1 | ? | ? | ? | EXACT 36.0000 157.692s | |Aut(G)| = 36 | luks: 32 pieces, 1 types, |Q| = 1 (all gener | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 giants=2395 maxGiantDeg=6 
+gcfi-S3-rc32-1-tw | ? | ? | ? | EXACT 12.0000 154.02s | |Aut(G)| = 12 | luks: 32 pieces, 1 types, |Q| = 1 (all gener | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 giants=2395 maxGiantDeg=6 
+gcfi-S3-rc48-1 | ? | ? | ? | EXACT 36.0000 666.113s | |Aut(G)| = 36 | luks: 48 pieces, 1 types, |Q| = 1 (all gener | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 giants=3600 maxGiantDeg=6 
+gcfi-S3-rc48-1-tw | ? | ? | ? | EXACT 12.0000 663.23s | |Aut(G)| = 12 | luks: 48 pieces, 1 types, |Q| = 1 (all gener | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 giants=3600 maxGiantDeg=6 
+gcfi-S3-rc64-1 | ? | ? | ? | ? | |Aut(G)| = 1296 | luks: 64 pieces, 1 types, |Q| = 1 (all gen | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 
+gcfi-S3-rc64-1-tw | ? | ? | ? | ? | |Aut(G)| = 432 | luks: 64 pieces, 1 types, |Q| = 1 (all gene | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 
+gcfi-S3-tutte8 | ? | ? | ? | STOP_TIME  721.207s | |Aut(G)| = 77760 | luks: 30 pieces, 1 types, |Q| = 1440, |im | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 
+gcfi-S3-tutte8-tw | ? | ? | ? | STOP_TIME  709.704s | |Aut(G)| = 25920 | luks: 30 pieces, 1 types, |Q| = 1440, |im | GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3 

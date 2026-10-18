@@ -464,6 +464,69 @@ class PieceProfileTest {
         // below image x onto the one below kx (k fixes img, preserves refinement and both invariants), so one image per
         // K-orbit suffices, for "yes" and for "no". Deterministic (generators in order found). Default off: bit-identical.
         private val prune = System.getenv("SC_PRUNE") == "1"
+        // SC_STABPRUNE=1 (2026-10-17, 2-CLASS_SPEC option (c), sound refutation caching): as SC_PRUNE, but with the full
+        // pointwise stabiliser K_(img) of the known group K (Schreier-Sims, passed down the tuple tree: K_(img,x) =
+        // (K_(img))_x), not only the generators that happen to fix img. Every k in K_(img) maps the subtree below x onto the
+        // one below kx with the same verdict (dead or witness), so one image per K_(img)-orbit suffices. Needs SC_PRUNE.
+        private val stabPrune = prune && System.getenv("SC_STABPRUNE") == "1"
+        var stabPruned = 0L
+        // SC_LOOKAHEAD=1 (2026-10-17, 2-CLASS_SPEC option (c), stronger pair invariant; needs SC_FASTNODE): at a CANDIDATE node
+        // (prefix + s, tuple depth 1) that passed the node invariant, a one-step lookahead on the canonical cell C = the
+        // smallest cell of size >= 3 (ties: smaller colour value): the multiset over t in C of the node invariant of
+        // (prefix + s + t), compared with the same for the domain (prefix + r_j), cached per level. An automorphism
+        // carrying the domain prefix to the image prefix maps C onto itself (canonical colour names) and preserves every
+        // refined colouring, so a mismatch refutes s. Diagnostic (PairInvariantDiag, s2): separates all 14 deep level-1
+        // refutations (122-634 nodes each) with 124 refinements, and no orbit member.
+        private val lookahead = System.getenv("SC_LOOKAHEAD") == "1" && System.getenv("SC_FASTNODE") == "1"
+        var lookPruned = 0; var lookRefinements = 0L
+        private val lookDomCache = HashMap<Int, Long?>()
+        private val lookFrac = System.getenv("SC_LOOK_FRAC")?.toDoubleOrNull() ?: 1.0
+        // per-candidate ski-rental state (set at the candidate node, checked at EVERY node of its subtree: the deep cost of a
+        // refutation sits inside a single child's subtree, so a check between the candidate's children comes too late)
+        private var lookCd: LongArray? = null; private var lookCi: LongArray? = null; private var lookPos = 0; private var lookJ = 0
+        private var lookStartN = 0L; private var lookCostN = Long.MAX_VALUE; private var lookState = 0   // 0 armed/off, 1 passed, 2 refuted
+        private fun lookCheck(): Boolean {   // true = the current candidate is refuted by the lookahead: abort its subtree
+            if (lookState == 2) return true
+            if (lookState != 0 || lookCi == null || recNodes - lookStartN < lookCostN) return false
+            val dv = lookDomCache.getOrPut(lookJ) { lookValue(lookCd!!, lookPos) }
+            lookState = if (dv != lookValue(lookCi!!, lookPos)) { nodePruned[lookJ]++; lookPruned++; 2 } else 1
+            return lookState == 2
+        }
+        private fun msHash(c: LongArray): Long { val a = c.copyOf(); a.sort(); var h = 0x2545F4914F6CDD1DL; for (x in a) h = h * 1000003L xor x; return h }
+        private fun lookCell(c: LongArray): Long? {
+            val cnt = HashMap<Long, Int>(); for (x in c) cnt.merge(x, 1, Int::plus)
+            var best: Long? = null; var bs = Int.MAX_VALUE
+            for ((x, k) in cnt) if (k >= 3 && (k < bs || (k == bs && x < best!!))) { bs = k; best = x }
+            return best
+        }
+        /** lookahead value of a node colouring c at mark position pos: (cell colour, sorted child invariants) hashed */
+        private fun lookValue(c: LongArray, pos: Int): Long? {
+            val col = lookCell(c) ?: return null
+            val hs = ArrayList<Long>(); for (t in 0 until g.n) if (c[t] == col) { hs.add(msHash(extendCol(c, t, pos))); lookRefinements++ }
+            hs.sort(); var h = col * 31L + hs.size; for (x in hs) h = h * 1000003L xor x; return h
+        }
+        /** A group as generators plus its exact order (randomised Schreier-Sims needs the order). */
+        inner class SG(val gens: List<IntArray>, val order: java.math.BigInteger)
+        // 2026-10-17 cost breakdown (s2): deterministic Schreier-Sims on 16,384 points cost ~150 s of 577 s. The order of
+        // <known> is known exactly: all known generators fix r_0..r_{j-1}; the stabiliser of r_j in <known> is
+        // Aut_(r_0..r_j) (complete: deeper levels are finished), of order stabK * prod_{i>j} orbit_i; the orbit of r_j is
+        // inOrb. So |<known>| = stabK * prod_{i>j} orbit_i * |inOrb|, and PermGroup.ofOrder (randomised, exact on return,
+        // throws on a wrong target) builds the BSGS with the image prefix as base.
+        private fun knownSG(): SG? {
+            if (known.isEmpty() || stabK.isNaN() || stabK > 9.0e15 || stabK != Math.rint(stabK)) return null
+            var o = java.math.BigInteger.valueOf(stabK.toLong())
+            for (i in j + 1 until kStar) o = o.multiply(java.math.BigInteger.valueOf(orbitSize[i].toLong()))
+            o = o.multiply(java.math.BigInteger.valueOf(inOrb.count { it }.toLong()))
+            return SG(known.toList(), o)
+        }
+        private fun stabSG(p: SG?, pts: List<Int>): SG? {
+            if (p == null || p.order == java.math.BigInteger.ONE) return null
+            val grp = dialysis.group.PermGroup.ofOrder(g.n, p.gens, p.order, pts.toIntArray())
+            val k = pts.size
+            var o = java.math.BigInteger.ONE; for (l in grp.levels.drop(k)) o = o.multiply(java.math.BigInteger.valueOf(l.orbit.size.toLong()))
+            if (o == java.math.BigInteger.ONE) return null
+            return SG(grp.levels[k].gens.toList(), o)
+        }
         // SC_NODE_INV=1 (2026-10-05, CLOSURE_BOUND_SPEC Phase 1(b)): node-invariant pruning at EVERY depth of the tuple search.
         // At a node the domain refinement cd and the image refinement ci are canonical (E), so an automorphism mapping the
         // domain prefix onto the image prefix gives equal colour multisets; different multisets prune the whole subtree with
@@ -588,7 +651,7 @@ class PieceProfileTest {
             // null-ness (net or not) is invariant too. Without this, pp-16-6 spent 230,856 queries on POSITIVE candidates:
             // the colour class of r1 under (s) has 272 vertices of which 3 extend.
             return sequence {
-                suspend fun SequenceScope<List<Int>>.rec(img: List<Int>, level: Int, par: LongArray?) {
+                suspend fun SequenceScope<List<Int>>.rec(img: List<Int>, level: Int, par: LongArray?, stab: Lazy<SG?>?) {
                     if (level - jj > curMaxD) curMaxD = level - jj
                     if (level - jj < curNodesAt.size) curNodesAt[level - jj]++
                     if (level == kStar) {
@@ -599,6 +662,16 @@ class PieceProfileTest {
                     val cd = if (fastNode) domAt(level) else refined(g, col, pre + rj + roots.subList(jj + 1, level))
                     val ci = if (fastNode) extendCol(par!!, img.last(), level - 1) else refined(g, col, img)
                     if (nodeInv && !sameMultiset(cd, ci)) { nodePruned[jj]++; return }
+                    // ski-rental: the lookahead (|C| refinements) runs only once this candidate's subtree has used |C| search nodes,
+                    // so witnesses and quick refutations never pay for it and the overhead is at most 2x the better choice
+                    if (lookahead && level - jj == 1) {
+                        val lc = lookCell(ci)
+                        lookCd = cd; lookCi = ci; lookPos = level; lookJ = jj; lookStartN = recNodes; lookState = 0
+                        // SC_LOOK_FRAC (default 1): trigger after FRAC * |C| subtree nodes (1 = classic ski-rental, overhead <= 2x)
+                        lookCostN = if (lc == null) Long.MAX_VALUE else maxOf(1L, (ci.count { it == lc } * lookFrac).toLong())
+                    }
+                    fun lookFails(): Boolean = lookahead && lookCheck()
+                    if (lookFails()) return
                     val target = roots[level]
                     val gi = globalInv; val giT = gi?.invoke(target)
                     val rrT = if (relInvOn) relTarget.getOrPut(level) { relPlaneInv(g, cd, target) } else null
@@ -607,7 +680,20 @@ class PieceProfileTest {
                     val batch = ArrayList<Int>(relBatch); var t = 0
                     // orbits of the known generators that fix the image prefix pointwise (SC_PRUNE)
                     var orbRep: IntArray? = null; var repSeen: BooleanArray? = null
-                    if (prune) { val fix = known.filter { h -> img.all { h[it] == it } }
+                    // SC_STABPRUNE: lazy. K_(img) is computed only when a node is about to explore its SECOND child, i.e. after the
+                    // first child's subtree yielded no witness (a sequence is pulled further only on "no"); witness searches whose
+                    // first child succeeds pay no Schreier-Sims (2026-10-17 cost breakdown: 150 s of 577 s at level 0).
+                    val exploredHere = ArrayList<Int>(); var stabDone = false
+                    fun stabSkip(x: Int): Boolean {
+                        if (exploredHere.isEmpty()) { exploredHere.add(x); return false }
+                        if (!stabDone) { stabDone = true; val st = stab?.value
+                            if (st != null) { orbRep = dialysis.group.Perms.orbits(g.n, st.gens); repSeen = BooleanArray(g.n).also { rs -> for (e in exploredHere) rs[orbRep!![e]] = true } } }
+                        val o = orbRep; val rs = repSeen
+                        if (o != null && rs != null) { if (rs[o[x]]) { stabPruned++; return true }; rs[o[x]] = true }
+                        exploredHere.add(x); return false
+                    }
+                    if (stabPrune) { }
+                    else if (prune) { val fix = known.filter { h -> img.all { h[it] == it } }
                         if (fix.isNotEmpty()) { val par = IntArray(g.n) { it }
                             fun find(x: Int): Int { var y = x; while (par[y] != y) { par[y] = par[par[y]]; y = par[y] }; return y }
                             for (h in fix) for (v in 0 until g.n) { val a = find(v); val b = find(h[v]); if (a != b) par[maxOf(a, b)] = minOf(a, b) }
@@ -615,16 +701,17 @@ class PieceProfileTest {
                     while (t < g.n || batch.isNotEmpty()) {
                         while (t < g.n && batch.size < relBatch) { val tt = t++; if (ci[tt] == cd[target] && (gi == null || gi(tt) == giT)) {
                             val o = orbRep; val rs = repSeen
-                            if (o != null && rs != null) { if (rs[o[tt]]) continue; rs[o[tt]] = true }
+                            if (!stabPrune && o != null && rs != null) { if (rs[o[tt]]) continue; rs[o[tt]] = true }
                             batch.add(tt) } }
                         if (batch.isEmpty()) break
                         val nextPar = if (fastNode) ci else null
-                        if (!relInvOn) { for (x in batch) rec(img + x, level + 1, nextPar) }
-                        else { val rel = relPlaneInvAll(g, ci, batch.toIntArray()); for (i in batch.indices) if (rel[i] == rrT) rec(img + batch[i], level + 1, nextPar) }
+                        fun child(x: Int) = if (stabPrune && stab != null) lazy { stabSG(stab.value, listOf(x)) } else null
+                        if (!relInvOn) { for (x in batch) { if (lookFails()) return; if (stabPrune && stabSkip(x)) continue; rec(img + x, level + 1, nextPar, child(x)) } }
+                        else { val rel = relPlaneInvAll(g, ci, batch.toIntArray()); for (i in batch.indices) if (rel[i] == rrT) { if (lookFails()) return; if (stabPrune && stabSkip(batch[i])) continue; rec(img + batch[i], level + 1, nextPar, child(batch[i])) } }
                         batch.clear()
                     }
                 }
-                rec(pre + s, jj + 1, if (fastNode) domAt(jj) else null)
+                rec(pre + s, jj + 1, if (fastNode) domAt(jj) else null, if (stabPrune) lazy { stabSG(knownSG(), pre + s) } else null)
             }
         }
         fun start(h: DecompositionCanonicalFormsTest.ParityResult) {
@@ -1065,6 +1152,8 @@ class PieceProfileTest {
                 for (jj in k - 1 downTo 0) sb.appendLine("   orbit of r$jj=${roots[jj]}: ${ph.orbitSize[jj]} of ${ph.candCount[jj]} candidates, ${ph.testsAt[jj]} two-sided queries, ${ph.fpExcluded[jj]} ruled out by fingerprint${if (ph.nodePruned[jj] > 0) ", ${ph.nodePruned[jj]} nodes pruned by invariant" else ""}${if (ph.cutHist[jj].isNotEmpty()) "; refuted candidates by cut depth ${ph.cutHist[jj]}, ${ph.leafRefuted[jj]} needed a leaf query" else ""}${if (ph.unknownAt[jj] > 0) " (${ph.unknownAt[jj]} unresolved)" else ""}")
                 if (ph.refStats.any { it.count > 0 } || ph.witStats.any { it.count > 0 })
                     for (jj in k - 1 downTo 0) sb.appendLine("   search r$jj: refutations ${ph.refStats[jj]}; witnesses ${ph.witStats[jj]}")
+                    if (System.getenv("SC_STABPRUNE") == "1") sb.appendLine("   stabiliser-orbit pruning (SC_STABPRUNE): ${ph.stabPruned} image nodes skipped")
+                    if (System.getenv("SC_LOOKAHEAD") == "1") sb.appendLine("   lookahead (SC_LOOKAHEAD): ${ph.lookPruned} candidates refuted at the candidate node, ${ph.lookRefinements} lookahead refinements")
                 ph.notes.take(3).forEach { sb.appendLine("      note: $it") }
                 sb.appendLine("   generators known at the end: ${ph.known.size}; two-sided queries in total: ${ph.testsAt.sum()}")
                 break

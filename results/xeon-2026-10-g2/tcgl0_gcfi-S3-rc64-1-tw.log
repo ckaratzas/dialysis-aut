@@ -1,0 +1,778 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+==== /home/linux/xeon_oct17/g2_instances/gcfi-S3-rc64-1-tw -- SERIES PARITY EQUATIONS (n=3456 m=7488, base partition PI) ====
+[4.815s] PI: 256 classes, non-singleton 256, sizes {6=192, 36=64}
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+[27.23s] TCGROUP: |P| = prod |<T_C>| = 103010000306408715721379581049891732626529896807755917940824667110419537982806600867537284958175743983978453868682874653231019087465412077016352754342665591175804303847407713441221603521096913112082657499852661634587384846399678103676577232010168792152312608125627195953436881537011149723023644888304550094140010194781175436427307606215960951648699806316005163702037843274498333269006625099872325147626863671160287948619998430972718090833096867700364566524092676136321639493877112234258401996076319166693376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 over 256 classes
+    [60.563s] U = 3456 points, |P^U| = 103010000306408715721379581049891732626529896807755917940824667110419537982806600867537284958175743983978453868682874653231019087465412077016352754342665591175804303847407713441221603521096913112082657499852661634587384846399678103676577232010168792152312608125627195953436881537011149723023644888304550094140010194781175436427307606215960951648699806316005163702037843274498333269006625099872325147626863671160287948619998430972718090833096867700364566524092676136321639493877112234258401996076319166693376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [115.697s] orbit of 36 pairs (6 in E1): |K| = 143069444870012105168582751458182961981291523344105441584478704320027136087231390093801784664132977755525630373170659240598637621479738995856045492142591098855283755343621824223918893779301268211225913194239807825815812286666219588439690600014123322433767511285593327713106779912515485726421729011534097352972236381640521439482371675299945766178749730994451616252830337881247685095842534860933784927259532876611511039749997820795441792823745649583839675727906494633780054852607100325358891661217109953740800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

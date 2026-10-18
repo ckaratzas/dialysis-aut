@@ -1,0 +1,14 @@
+00:34:36 START c2stress-rnd-p2-d4-e3-s1 look
+00:38:52 END c2stress-rnd-p2-d4-e3-s1 look rc=0 256s    |Aut| = 4.02653e+08  ours 256.348s
+00:38:52 START c2stress-rnd-p2-d4-e3-s2 look
+00:42:08 END c2stress-rnd-p2-d4-e3-s2 look rc=0 196s    |Aut| = 4.02653e+08  ours 195.598s
+00:42:08 START c2stress-rnd-p3-d3-e2-s1 look
+00:58:48 END c2stress-rnd-p3-d3-e2-s1 look rc=0 1000s    |Aut| = 2.23154e+11  ours 999.813s
+08:25:32 START c2stress-rnd-p2-d5-e3-s1 look
+10:08:24 END c2stress-rnd-p2-d5-e3-s1 look rc=137 6172s 
+10:22:55 skip c2stress-rnd-p2-d4-e3-s1 look (done)
+10:22:55 skip c2stress-rnd-p2-d4-e3-s2 look (done)
+10:22:55 START c2stress-rnd-p2-d4-e3-s3 look
+10:25:44 END c2stress-rnd-p2-d4-e3-s3 look rc=0 169s    |Aut| = 2.41592e+09  ours 168.337s
+10:31:01 START c2stress-rnd-p2-d5-e3-s1 look
+12:18:50 END c2stress-rnd-p2-d5-e3-s1 look rc=0 6469s    |Aut| = 1.28849e+10  ours 6468.022s

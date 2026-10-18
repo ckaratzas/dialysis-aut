@@ -1,0 +1,14 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+==== /home/linux/xeon_oct17/g2_instances/gcfi-F2_3-tutte8-tw -- SERIES PARITY EQUATIONS (n=2640 m=6120, base partition PI) ====
+[3.859s] PI: 2 classes, non-singleton 2, sizes {720=1, 1920=1}
+AUTPRUNE class=720 base=22 nodes=4049 dead=1113 leaves=58 gens=57 skipped=25164 domDiscrete=true
+AUTPRUNE   per depth (1..22): nodes=[5, 10, 22, 59, 187, 561, 1122, 1126, 47, 51, 55, 58, 61, 64, 67, 70, 73, 76, 79, 82, 85, 88] dead=[0, 0, 0, 0, 0, 0, 0, 1083, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30]
+GENAUT class=720 base=22 explored leaves=58 generators=57
+[568.506s] generator shortcut: Aut = <57 verified automorphisms>, leaves of a class of size 720 discrete on V (base 22); |Aut| = 9.72778e+18
+GENAUT |Aut| = 9.72778e+18 from 57 generators
+ONE /home/linux/xeon_oct17/g2_instances/gcfi-F2_3-tutte8-tw original=true -> EXACT |Aut|=9.72778e+18 vars=0 generator shortcut: Aut = <57 verified automorphisms>, leaves of a class of size 720 discrete on V (base 22) (568.517s)
+DONE rc=0 seconds=569

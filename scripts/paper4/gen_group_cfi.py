@@ -28,8 +28,21 @@ def cyclic(n):
     return list(range(n)), (lambda a, b: (a + b) % n), 0
 
 
+def elem_abelian(p, k):   # F_p^k (2026-10-17, ATTACK_G2_SPEC: the abelian form of projective-geometry gadgets)
+    els = list(itertools.product(range(p), repeat=k))
+    return els, (lambda a, b: tuple((x + y) % p for x, y in zip(a, b))), tuple([0] * k)
+
+
 GROUPS = {'Z2': lambda: cyclic(2), 'Z3': lambda: cyclic(3), 'S3': lambda: perm_group(3, False),
-          'A4': lambda: perm_group(4, True), 'A5': lambda: perm_group(5, True)}
+          'A4': lambda: perm_group(4, True), 'A5': lambda: perm_group(5, True),
+          'F2_3': lambda: elem_abelian(2, 3), 'F3_2': lambda: elem_abelian(3, 2), 'F5_2': lambda: elem_abelian(5, 2)}
+
+
+def lcf(n, shifts, rep):   # cubic graph from LCF notation [shifts]^rep on a Hamiltonian cycle of n vertices
+    E = {tuple(sorted((i, (i + 1) % n))) for i in range(n)}
+    for i in range(n):
+        E.add(tuple(sorted((i, (i + shifts[i % len(shifts)]) % n))))
+    return sorted(E)
 
 # 3-regular base graphs (edge lists)
 BASES = {
@@ -42,6 +55,11 @@ BASES = {
     'mobius8': [(i, (i + 1) % 8) for i in range(8)] + [(i, i + 4) for i in range(4)],
     'ladder10': [(i, (i + 1) % 5) for i in range(5)] + [(5 + i, 5 + (i + 1) % 5) for i in range(5)] + [(i, i + 5) for i in range(5)],
 }
+# high-girth cubic bases (ATTACK_G2_SPEC: expander-like, every neighbourhood looks alike): Heawood (girth 6, 14 vertices),
+# McGee (girth 7, 24), Tutte-Coxeter / Tutte 8-cage (girth 8, 30)
+BASES['heawood'] = lcf(14, [5, -5], 7)
+BASES['mcgee'] = lcf(24, [12, 7, -7], 8)
+BASES['tutte8'] = lcf(30, [-13, -9, 7, -7, 9, 13], 5)
 
 
 def prism_n(n):   # n-gonal prism (circular ladder), 2n vertices

@@ -1,0 +1,55 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+LUKSAUT gcfi-A5-cube-tw n=30240: cut 720 edges, 8 pieces, 1 isomorphism types 1.125s
+AUTPRUNE class=180 base=5 nodes=535 dead=501 leaves=9 gens=8 skipped=1132 domDiscrete=true
+AUTPRUNE   per depth (1..5): nodes=[3, 5, 17, 77, 432] dead=[0, 0, 10, 68, 423]
+GENAUT class=180 base=5 explored leaves=9 generators=8
+GENAUT |Aut| = 2.59200e+06 from 8 generators
+LUKSAUT gcfi-A5-cube-tw   |Aut(rep)| per type = [2592000]; |P| = 2037417244146278626404335616000000000000000000000000 1.924s
+AUTPRUNE class=8 base=3 nodes=10 dead=0 leaves=4 gens=3 skipped=1143 domDiscrete=true
+AUTPRUNE   per depth (1..3): nodes=[2, 3, 4] dead=[0, 0, 0]
+GENAUT class=8 base=3 explored leaves=4 generators=3
+GENAUT |Aut| = 48.0000 from 3 generators
+LUKSAUT gcfi-A5-cube-tw   |Q| = 48; |A| = |Q| |P| 2.718s
+LUKSAUT gcfi-A5-cube-tw     [3.765s] U = 1440 points, |P^U| = 2037417244146278626404335616000000000000000000000000
+LUKSAUT gcfi-A5-cube-tw     [4.084s] refine: 8 -> 24 colours, |K| = 1213025622610333925376000000000000000000000000
+LUKSAUT gcfi-A5-cube-tw     [6.681s] orbit of 3600 pairs (60 in E1): |K| = 168475780918101934080000000000000000000000
+LUKSAUT gcfi-A5-cube-tw     [9.62s] orbit of 3600 pairs (60 in E1): |K| = 23399414016403046400000000000000000000
+LUKSAUT gcfi-A5-cube-tw     [12.606s] orbit of 3600 pairs (60 in E1): |K| = 3249918613389312000000000000000000
+LUKSAUT gcfi-A5-cube-tw     [15.339s] orbit of 3600 pairs (60 in E1): |K| = 451377585192960000000000000000
+LUKSAUT gcfi-A5-cube-tw     [18.252s] orbit of 3600 pairs (60 in E1): |K| = 62691331276800000000000000
+LUKSAUT gcfi-A5-cube-tw     [20.809s] orbit of 3600 pairs (60 in E1): |K| = 17414258688000000000000
+LUKSAUT gcfi-A5-cube-tw     [20.824s] refine: 27 -> 30 colours, |K| = 290237644800000000000
+LUKSAUT gcfi-A5-cube-tw     [20.863s] orbit of 225 pairs (15 in E1): |K| = 2418647040000000000
+LUKSAUT gcfi-A5-cube-tw     [23.728s] orbit of 3600 pairs (60 in E1): |K| = 335923200000000
+LUKSAUT gcfi-A5-cube-tw     [26.198s] orbit of 3600 pairs (60 in E1): |K| = 93312000000
+LUKSAUT gcfi-A5-cube-tw     [28.825s] orbit of 3600 pairs (60 in E1): |K| = 25920000
+LUKSAUT gcfi-A5-cube-tw     [28.829s] refine: 33 -> 36 colours, |K| = 432000
+LUKSAUT gcfi-A5-cube-tw     [28.845s] orbit of 225 pairs (15 in E1): |K| = 7200
+LUKSAUT gcfi-A5-cube-tw     [29.031s] orbit of 1200 pairs (60 in E1): |K| = 360
+LUKSAUT gcfi-A5-cube-tw     [29.033s] |K| = 360 on U; lifting
+LUKSAUT gcfi-A5-cube-tw a generator of Q does not lift -> coset enumeration
+LUKSAUT gcfi-A5-cube-tw     [33.655s] U = 1440 points, |P^U| = 2037417244146278626404335616000000000000000000000000
+LUKSAUT gcfi-A5-cube-tw     [33.772s] refine: 8 -> 24 colours, |K| = 1213025622610333925376000000000000000000000000
+LUKSAUT gcfi-A5-cube-tw     [35.895s] orbit of 3600 pairs (60 in E1): |K| = 168475780918101934080000000000000000000000
+LUKSAUT gcfi-A5-cube-tw     [38.727s] orbit of 3600 pairs (60 in E1): |K| = 23399414016403046400000000000000000000
+LUKSAUT gcfi-A5-cube-tw     [41.658s] orbit of 3600 pairs (60 in E1): |K| = 3249918613389312000000000000000000
+LUKSAUT gcfi-A5-cube-tw     [44.613s] orbit of 3600 pairs (60 in E1): |K| = 451377585192960000000000000000
+LUKSAUT gcfi-A5-cube-tw     [47.522s] orbit of 3600 pairs (60 in E1): |K| = 62691331276800000000000000
+LUKSAUT gcfi-A5-cube-tw     [50.074s] orbit of 3600 pairs (60 in E1): |K| = 17414258688000000000000
+LUKSAUT gcfi-A5-cube-tw     [50.087s] refine: 27 -> 30 colours, |K| = 290237644800000000000
+LUKSAUT gcfi-A5-cube-tw     [50.147s] orbit of 225 pairs (15 in E1): |K| = 2418647040000000000
+LUKSAUT gcfi-A5-cube-tw     [52.989s] orbit of 3600 pairs (60 in E1): |K| = 335923200000000
+LUKSAUT gcfi-A5-cube-tw     [55.468s] orbit of 3600 pairs (60 in E1): |K| = 93312000000
+LUKSAUT gcfi-A5-cube-tw     [58.078s] orbit of 3600 pairs (60 in E1): |K| = 25920000
+LUKSAUT gcfi-A5-cube-tw     [58.082s] refine: 33 -> 36 colours, |K| = 432000
+LUKSAUT gcfi-A5-cube-tw     [58.101s] orbit of 225 pairs (15 in E1): |K| = 7200
+LUKSAUT gcfi-A5-cube-tw     [58.285s] orbit of 1200 pairs (60 in E1): |K| = 360
+LUKSAUT gcfi-A5-cube-tw     [58.286s] |K| = 360 on U; lifting
+LUKSAUT gcfi-A5-cube-tw GIANTS giants=17736 maxGiantDeg=5 maxQuotDeg=60
+LUKSAUT gcfi-A5-cube-tw |Aut(G)| = 1440 (|Stab_P(E)| = 360, image in Q of order 4 of 48; 17 iso tests) calls=25957900 maxBranch=60 (155.095s)
+LUKSAUT gcfi-A5-cube-tw |Aut(G)| = 1440 | luks: 8 pieces, 1 types, |Q| = 48, |image| = 4, 17 iso tests, 155.097s
+DONE rc=0 seconds=156

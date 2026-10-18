@@ -1,0 +1,28 @@
+== c2stress-rnd-p2-d4-e3-s1 n=16384 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 mu=16384 singletons=0 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4512514048 (4.1s)
+   depth 1: roots=[0] refinedClasses=3 mu=16002 singletons=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4506255360 (2.6s)
+   depth 2: roots=[0, 129] refinedClasses=19 mu=14880 singletons=4 ours=STOP_TIME |Aut(H)|=null maxT=2 maxBase=1 groupWork=4518772736 (2.5s)
+   depth 3: roots=[0, 129, 14449] refinedClasses=29 mu=14880 singletons=16 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4506255360 (2.5s)
+   depth 4: roots=[0, 129, 14449, 323] refinedClasses=305 mu=10752 singletons=256 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4506255360 (2.4s)
+   depth 5: roots=[0, 129, 14449, 323, 386] refinedClasses=1121 mu=6144 singletons=1024 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4506255360 (2.4s)
+   depth 6: roots=[0, 129, 14449, 323, 386, 515] refinedClasses=4288 mu=64 singletons=4096 ours=STOP_TIME |Aut(H)|=null maxT=8 maxBase=1 groupWork=4506255360 (2.5s)
+   depth 7: roots=[0, 129, 14449, 323, 386, 515, 648] refinedClasses=16384 mu=1 singletons=16384 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 groupWork=0 (232.3s)
+   orbit of r6=648: 8 of 64 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 28 nodes pruned by invariant; refuted candidates by cut depth {1=28}, 0 needed a leaf query
+   orbit of r5=515: 8 of 96 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 20 nodes pruned by invariant; refuted candidates by cut depth {1=20}, 0 needed a leaf query
+   orbit of r4=386: 1 of 112 candidates, 0 two-sided queries, 0 ruled out by fingerprint, 54 nodes pruned by invariant; refuted candidates by cut depth {1=24, 2=3}, 0 needed a leaf query
+   orbit of r3=323: 8 of 124 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 123 nodes pruned by invariant; refuted candidates by cut depth {1=27, 2=1}, 0 needed a leaf query
+   orbit of r2=14449: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint, 45 nodes pruned by invariant
+   orbit of r1=129: 24 of 16002 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 965 nodes pruned by invariant; refuted candidates by cut depth {1=218, 3=1, 4=7, 5=4}, 0 needed a leaf query
+   orbit of r0=0: 16384 of 16384 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 68 nodes pruned by invariant
+   search r6: refutations n=28 nodes sum=28 max=1 beta_max=0.00 perDepth=[28]; witnesses n=3 nodes sum=3 max=1 beta_max=0.00 perDepth=[3]
+   search r5: refutations n=20 nodes sum=20 max=1 beta_max=0.00 perDepth=[20]; witnesses n=3 nodes sum=6 max=2 beta_max=1.00 perDepth=[3, 3]
+   search r4: refutations n=27 nodes sum=54 max=10 beta_max=9.00 perDepth=[27, 27]; witnesses -
+   search r3: refutations n=28 nodes sum=39 max=12 beta_max=11.00 perDepth=[28, 11]; witnesses n=3 nodes sum=99 max=50 beta_max=23.00 perDepth=[3, 54, 39, 3]
+   search r2: refutations -; witnesses n=1 nodes sum=52 max=52 beta_max=11.50 perDepth=[1, 2, 23, 25, 1]
+   search r1: refutations n=230 nodes sum=835 max=474 beta_max=40.00 perDepth=[230, 12, 94, 164, 335]; witnesses n=4 nodes sum=198 max=54 beta_max=14.00 perDepth=[4, 4, 10, 83, 88, 9]
+   search r0: refutations -; witnesses n=4 nodes sum=96 max=34 beta_max=27.00 perDepth=[4, 65, 4, 4, 4, 4, 11]
+   stabiliser-orbit pruning (SC_STABPRUNE): 2051 image nodes skipped
+   lookahead (SC_LOOKAHEAD): 15 candidates refuted at the candidate node, 3300 lookahead refinements
+   generators known at the end: 18; two-sided queries in total: 18
+   |Aut| = 4.02653e+08  ours 256.348s

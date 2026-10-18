@@ -1,0 +1,16 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+==== /home/linux/xeon_oct17/g2_instances/gcfi-F2_3-tutte8 -- SERIES PARITY EQUATIONS (n=2640 m=6120, base partition PI) ====
+[4.501s] PI: 2 classes, non-singleton 2, sizes {720=1, 1920=1}
+AUTPRUNE class=720 base=22 nodes=1163 dead=213 leaves=58 gens=57 skipped=7928 domDiscrete=true
+AUTPRUNE   per depth (1..22): nodes=[4, 5, 7, 14, 37, 111, 222, 226, 17, 21, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58] dead=[0, 0, 0, 0, 0, 0, 0, 213, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=720 leafGens=57 |<leaves>|=68094426365841899520 stabiliserComputations=950 cells=[720, 7, 6, 5, 4, 3, 2, 16, 16, 16, 16, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8] prodCells=2042832790975256985600
+TCCERTK class=720 leaf generators used for pruning 57 of 57, |<K|_C>| = 68094426365841899520: all in <K|_C> -> class result UNCONDITIONAL
+TCGROUP early stop (unconditional, TCCERTK): |<K|_C>| = |<T_C>| = 68094426365841899520, leaves discrete on V
+TCGROUP class=720 base=22 nodes=1163 leaves=58 stored=58 |<T_C>|=68094426365841899520 gens=57
+TCGROUP |Aut| = 68094426365841899520 (early stop) EXACT
+ONE /home/linux/xeon_oct17/g2_instances/gcfi-F2_3-tutte8 original=true -> EXACT |Aut|=6.80944e+19 vars=0 TCGROUP early stop: Aut = <57 verified automorphisms>, |<K|_C>| = |<T_C>| on a class of size 720 with leaves discrete on V (unconditional: every pruning element is the restriction of a verified automorphism, TCCERTK) (221.778s)
+DONE rc=0 seconds=222

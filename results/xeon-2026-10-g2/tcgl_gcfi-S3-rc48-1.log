@@ -1,0 +1,1191 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+==== /home/linux/xeon_oct17/g2_instances/gcfi-S3-rc48-1 -- SERIES PARITY EQUATIONS (n=2592 m=5616, base partition PI) ====
+[3.31s] PI: 192 classes, non-singleton 192, sizes {6=144, 36=48}
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=30 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=60 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=90 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=120 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=150 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=180 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=210 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=240 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=270 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=300 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=330 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=360 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=390 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=420 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=450 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=480 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=510 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=540 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=570 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=600 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=630 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=660 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=690 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=720 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=750 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=780 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=810 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=840 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=870 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=900 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=930 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=960 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=990 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1020 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1050 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1080 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1110 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1140 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1170 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1200 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1230 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1260 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1290 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1320 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1350 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1380 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1410 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1440 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1470 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1500 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1530 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1560 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1590 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1620 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1650 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1680 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1710 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1740 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1770 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1800 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1830 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1860 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1890 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1920 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1950 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=1980 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2010 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2040 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2070 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2100 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2130 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2160 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2190 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2220 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2250 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2280 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2310 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2340 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2370 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2400 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2430 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2460 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2490 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2520 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2550 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2580 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2610 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2640 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2670 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2700 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2730 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2760 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2790 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2820 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2850 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2880 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2910 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2940 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=2970 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3000 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3030 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3060 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3090 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3120 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3150 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3180 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3210 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3240 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3270 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3300 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3330 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3360 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3390 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3420 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3450 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3480 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3510 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3540 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3570 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3600 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3630 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3660 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3690 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3720 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3750 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3780 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3810 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3840 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3870 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3900 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3930 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3960 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=3990 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4020 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4050 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4080 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4110 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4140 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4170 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4200 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4230 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4260 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4290 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=21 dead=0 leaves=6 gens=0 skipped=4320 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=6 leafGens=5 |<leaves>|=720 stabiliserComputations=18 cells=[6, 5, 4, 3, 2] prodCells=720
+TCCERTK class=6 leaf generators used for pruning 5 of 5, |<K|_C>| = 1: 5 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=6 base=5 nodes=21 leaves=6 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4367 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4414 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4461 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4508 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4555 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4602 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4649 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4696 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4743 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4790 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4837 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4884 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4931 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=4978 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5025 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5072 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5119 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5166 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5213 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5260 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5307 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5354 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5401 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5448 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5495 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5542 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5589 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5636 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5683 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5730 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5777 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5824 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5871 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5918 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=5965 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6012 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6059 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6106 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6153 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6200 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6247 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6294 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6341 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6388 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6435 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6482 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6529 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=21 dead=8 leaves=5 gens=0 skipped=6576 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[3, 7, 10] dead=[0, 3, 5]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=36 leafGens=4 |<leaves>|=216 stabiliserComputations=11 cells=[36, 5, 4] prodCells=720
+TCCERTK class=36 leaf generators used for pruning 4 of 4, |<K|_C>| = 1: 4 not in <K|_C> -> CONDITIONAL on Conjecture 11.1
+TCGROUP class=36 base=3 nodes=21 leaves=5 stored=5 |<T_C>|=216 gens=4
+[4.487s] TCGROUP: |P| = prod |<T_C>| = 32334007993715992047499279272104686946552584676105620636482167660057281314946802389344446091604308640532814612185583925664919554452099982007039583379574305287051784767949732579591265358514835483151471782471429115236754084660102993031160037257556498180373369613714004659538711457919114999948295421813008207308346877278717788586408988023263284278737141239179014773758118223597797376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 over 192 classes
+    [21.003s] U = 2592 points, |P^U| = 32334007993715992047499279272104686946552584676105620636482167660057281314946802389344446091604308640532814612185583925664919554452099982007039583379574305287051784767949732579591265358514835483151471782471429115236754084660102993031160037257556498180373369613714004659538711457919114999948295421813008207308346877278717788586408988023263284278737141239179014773758118223597797376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [41.725s] orbit of 36 pairs (6 in E1): |K| = 44908344435716655621526776766812065203545256494591139772891899527857335159648336651867286238339317556295575850257755452312388270072361086120888310249408757343127478844374628582765646331270604837710377475654762660051047339805698601432166718413272914139407457796825006471581543691554326388817076974740289176817148440664885817481123594476754561498246029498859742741330719754996940800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [57.638s] orbit of 36 pairs (6 in E1): |K| = 62372700605162021696564967731683423893812856242487694129016527122024076610622689794260119775471274383743855347580215905989428152878279286279011542013067718532121498394964761920507842126764728941264413160631614805626454638619025835322453775573990158526954802495590286766085477349381008873357051353805957190023817278701230302057116103439936890969786152081749642696292666326384640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [73.632s] orbit of 36 pairs (6 in E1): |K| = 86628750840502807911895788516226977630295633670121797401411843225033439736975958047583499688154547755199799093861410980540872434553165675387516030573705164627946525548562169334038669620506567973978351611988353896703409220304202549058963577186097442398548336799430953841785385207473623435218126880286051652810857331529486530634883476999912348569147433446874503744850925453312000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [89.009s] orbit of 36 pairs (6 in E1): |K| = 120317709500698344322077484050315246708743935652946940835294226701435332968022163954977082900214649659999720963696404139640100603546063438038216709130146061983259063261891901852831485584036899963858821683317158189865846139311392429248560523869579781109094912221431880335813035010380032548914065111508405073348412960457620181437338162499878261901593657565103477423404063129600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [103.415s] orbit of 36 pairs (6 in E1): |K| = 167107929862081033780663172292104509317699910629092973382353092640882406900030783270801504028075902305555168005133894638389028616036199219497523207125202863865637587863738752573377063311162361060915030115718275263702564082376933929511889616485527473762631822529766500466406993069972267429047312654872784824095018000635583585329636336805386474863324524395977051976950087680000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [116.172s] orbit of 36 pairs (6 in E1): |K| = 232094347030668102473143294850145151830138764762629129697712628667892231805598310098335422261216530979937733340463742553318095300050276693746560009896115088702274427588526045240801476821058834806826430716275382310698005669967963790988735578452121491336988642402453472870009712597183704762565712020656645589020858334216088312957828245563036770643506283883301461079097344000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [127.412s] orbit of 36 pairs (6 in E1): |K| = 322353259764816808990476798402979377541859395503651569024600873149850321952219875136576975362800737472135740750644086879608465694514273185759111124855715400975381149428508396167779828918137270565036709328160253209302785652733283043039910525627946515745817558892296490097235711940532923281341266695356452206973414353077900434663650341059773292560425394282363140387635200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [137.241s] orbit of 36 pairs (6 in E1): |K| = 447712860784467790264551108893026913252582493755071623645278990485903224933638715467468021337223246489077417709227898443900646797936490535776543228966271390243584929761817216899694206830746209118106540733555907235142757851018448670888764618927703494091413276239300680690605155472962393446307314854661739176351964379274861714810625473694129573000590825392171028316160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [146.268s] orbit of 36 pairs (6 in E1): |K| = 621823417756205264256320984573648490628586796882043921729554153452643367963387104815927807412810064568163080151705414505417564997134014633022976706897599153116090180224746134582908620598258623775147973241049871159920497015303400931789950859621810408460296216999028723181396049268003324230982381742585748856044394971215085715014757602352957740278598368600237539328000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [155.351s] orbit of 36 pairs (6 in E1): |K| = 863643635772507311467112478574511792539703884558394335735491879795338011060259867799899732517791756344670944655146409035302173607130575879198578759579998823772347472534369631365150861942025866354372185057013709944334023632365834627486042860585847789528189190276428782196383401761115728098586641309146873411172770793354285715298274447712441305942497734166996582400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [168.528s] orbit of 36 pairs (6 in E1): |K| = 1199505049684037932593211775797933045194033172997769910743738721937969459805916483055416295163599661589820756465481123660141907787681355387775803832749998366350482600742180043562709530475035925492183590356963486033797255044952548093730615084147010818789151653161706641939421391334882955692481446262703990848851070546325396826803158955156168480475691297454161920000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [178.111s] orbit of 36 pairs (6 in E1): |K| = 1665979235672274906379460799719351451658379406941347098255192669358290916397106226465855965504999529985862161757612671750197094149557438038577505323263886619931225834364138949392652125659772118739143875495782619491385076451322983463514743172426403914984932851613481447138085265742892994017335342031533320623404264647674162259448831882161345111771793468686336000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [187.712s] orbit of 36 pairs (6 in E1): |K| = 2313860049544826258860362221832432571747749176307426525354434262997626272773758647869244396534721569424808557996684266319718186318829775053579868504533175861015591436616859651934239063416350164915477604855253638182479272849059699254881587739481116548590184516129835343247340646865129158357410197266018500865839256455103003138123377614112979321905268706508800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [196.216s] orbit of 36 pairs (6 in E1): |K| = 3213694513256703137306058641433934127427429411538092396325603143052258712185775899818394995187113290867789663884283703221830814331708020907749817367407188695854988106412305072130887588078264117938163340076741164142332323401471804520668871860390439650819700716846993532287973120646012719940847496202803473424776745076531948802949135575156915724868428759040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [205.442s] orbit of 36 pairs (6 in E1): |K| = 4463464601745421024036192557547130732538096404914017217118893254239248211369133194192215271093212903983041199839282921141431686571816695705208079676954428744243039036683757044626232761219811274914115750106584950197683782502044172945373433139431166181694028773398602128177740445341684333251177078059449268645523257050738817781873799409940160728983928832000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [218.322s] orbit of 36 pairs (6 in E1): |K| = 6199256391313084755605822996593237128525133895713912801554018408665622515790462769711410098740573477754223888665670723807544009127523188479455666217992262144781998662060773673091989946138626770714049652925812430830116364586172462424129768249209953030130595518609169622469083951863450462848857052860346206452115634792692802474824721402694667679144345600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [227.522s] orbit of 36 pairs (6 in E1): |K| = 8610078321268173271674754161935051567396019299602656668825025567591142383042309402376958470473018719103088734257876005288255568232671095110355091969433697423308331475084407879294430480748092737102846740174739487264050506369683975589069122568347156986292493775846068920095949933143681198401190351194925286739049492767628892326145446392631482887700480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [237.308s] orbit of 36 pairs (6 in E1): |K| = 11958442112872462877326047447132016065827804582781467595590313288321031087558763058856886764545859332087623242024827785122577178100932076542159849957546801976817127048728344276797820112150128801531731583576027065644514592180116632762596003567148829147628463577563984611244374907144001664446097709992951787137568739955040128230757564434210392899584000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [246.634s] orbit of 36 pairs (6 in E1): |K| = 16608947378989531774063954787683355646983061920529816104986546233779209843831615359523453839647026850121698947256705257114690525140183439641888680496592780523357120901011589273330305711319623335460738310522259813395159155805717545503605560509928929371706199413283311960061631815477780089508469041656877482135512138826444622542718839491958879027200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [257.179s] orbit of 36 pairs (6 in E1): |K| = 23067982470818794130644381649560216176365363778513633479147980880248902560877243554893685888398648402946804093412090634881514618250254777280400945134156639615773779029182762879625424599055032410362136542392027518604387716396829924310563278486012401905147499185115711055641155299274694568761762557856774280743766859481173086864887277072165109760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [266.739s] orbit of 36 pairs (6 in E1): |K| = 32038864542803880737006085624389189133840783025713379832149973444790142445662838270685674844998122781870561240850125881779881414236464968445001312686328666133019137540531615110590867498687545014391856308877815998061649606106708228209115664563906113757149304423771820910612715693437075789946892441467742056588565082612740398423454551489118208000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [276.265s] orbit of 36 pairs (6 in E1): |K| = 44498422976116501023619563367207207130334420869046360877986074228875197841198386487063437284719614974820223945625174835805390853106201345062501823175456480740304357695182798764709538192621590297766467095663633330641180008481539205845993978560980713551596256144127529042517660685329271930481795057594086189706340392517694997810353543734886400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [284.668s] orbit of 36 pairs (6 in E1): |K| = 61803365244606251421693838010010009903242251207008834552758436428993330334997759009810329562110576353916977702257187271951931740425279645920141421077022889917089385687753887173207691934196653191342315410643935181446083345113248897008324970223584324377217022422399345892385639840735099903446937579991786374592139434052354163625491032965120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [292.208s] orbit of 36 pairs (6 in E1): |K| = 85838007284175349196796997236125013754503126676401159101053383929157403243052443069181013280709133824884691253134982322155460750590666174889085307051420680440401924566324843296121794353050907210197660292561021085341782423768401245844895791977200450523912531142221313739424499778798749865898524416655258853600193658406047449479848656896000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [299.302s] orbit of 36 pairs (6 in E1): |K| = 119219454561354651662218051716840296881254342606112720973685255457163060059795059818306962889873796979006515629354142114104806598042591909568174037571417611722780450786562282355724714379237371125274528184112529285196920033011668397006799711079445070172100737697529602415867360803887152591525728356465637296666935636675065902055345356800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [306.485s] orbit of 36 pairs (6 in E1): |K| = 165582575779659238419747294051167079001742142508489890241229521468282027860826471969870781791491384693064605040769641825145564719503599874400241718849191127392750626092447614382950992193385237673992400255711846229440166712516206106953888487610340375239028802357680003355371334449843267488230178272868940689815188384270924863965757440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [313.647s] orbit of 36 pairs (6 in E1): |K| = 229975799693971164471871241737732054169086309039569292001707668705947260917814544402598308043738034295923062556624502534924395443754999825555891276179432121378820314017288353309654155824146163436100555910710897540889120434050286259658178455014361632276428892163444449104682408958115649289208580934540195402521094978154062311063552000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [321.724s] orbit of 36 pairs (6 in E1): |K| = 319410832908293283988710057969072297457064318110512905557927317647148973496964645003608761171858380966559809106422920187394993671881944202160960105804766835248361547246233824041186327533536338105695216542654024362346000602847619805080803409742168933717262350227006179312058901330716179568345251297972493614612631914102864320921600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [329.001s] orbit of 36 pairs (6 in E1): |K| = 443626156817074005539875080512600413134811552931267924386010163398818018745784229171678834960914418009110845981142944704715268988724922503001333480284398382289391037841991422279425454907689358480132245198130589392147223059510583062612226957975234630162864375315286360155637362959328027178257293469406241131406433214031756001280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [335.924s] orbit of 36 pairs (6 in E1): |K| = 616147440023713896583159834045278351576127156848983228313903004720580581591366984960665048556825580568209508307142978756548984706562392365279629833728331086513043108113876975388090909594012997889072562775181374155760032027098032031405870774965603653003978299049008833549496337443511148858690685374175334904731157241710772224000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [342.819s] orbit of 36 pairs (6 in E1): |K| = 855760333366269300809944213951775488300176606734698928213754173223028585543565256889812567440035528566957650426587470495206923203558878285110596991289348731268115427935940243594570707769462497068156337187751908549666711148747266710285931631896671740283303193123623379929856024227098817859292618575243520701015496169042739200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [349.756s] orbit of 36 pairs (6 in E1): |K| = 1188556018564262917791589186044132622639134176020415178074658573920873035477173967902517454777827123009663403370260375687787393338276219840431384710124095460094604761022139227214681538568697912594661579427433206318981543262148981542063793933189821861504587768227254694347022255870970580360128636910060445418077078012559360000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [356.218s] orbit of 36 pairs (6 in E1): |K| = 1650772248005920719154984980616850864776575244472798858437025797112323660384963844309052020524759893068976949125361632899704712969828083111710256541839021472353617723641860037798168803567635989714807749204768342109696587864095807697310824907208085918756371900315631519926419799820792472722400884597306174191773719461888000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [362.708s] orbit of 36 pairs (6 in E1): |K| = 2292739233341556554381923584190070645523021172878887303384758051544893972756894228207016695173277629262467984896335601249589879124761226544042022974776418711602246838391472274719678893843938874603899651673289364041245260922355288468487256815566785998272738750438377111008916388639989545447779006385147464155241277030400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [368.83s] orbit of 36 pairs (6 in E1): |K| = 3184360046307717436641560533597320341004196073442899032478830627145686073273464205843078743296218929531205534578243890624430387673279481311169476353856137099447565053321489270443998463672137325838749516212901894501729529058826789539565634466064980553156581597831079320845717206444429924233026397757149255771168440320000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [374.87s] orbit of 36 pairs (6 in E1): |K| = 4422722286538496439779945185551833806950272324226248656220598093257897323990922508115387143466970735460007686914227625867264427323999279598846494935911301527010507018502068431172220088433524063664929883629030409030179901470592763249396714536201361879384141108098721278952385008950597116990314441329373966348845056000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [380.736s] orbit of 36 pairs (6 in E1): |K| = 6142669842414578388583257202155324731875378228092012022528608462858190727765170150160259921481903799250010676269760591482311704616665666109509020744321252120847926414586206154405861233935450088423513727262542234764138752042489948957495436855835224832477973761248223998544979179098051551375436724068574953262284800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [386.511s] orbit of 36 pairs (6 in E1): |K| = 8531485892242469984143412780771284349826914205683350031289733976191931566340514097444805446502644165625014828152445265947655145300924536263206973256001739056733231131369730770008140602688125122810435732309086437172414933392347151329854773410882256711774963557289199997979137748747293821354773227873020768419840000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [392.227s] orbit of 36 pairs (6 in E1): |K| = 11849285961447874977976962195515672708092936396782430599013519411377682731028491802006674231253672452256965039100618424927298812917950744810009685077780193134351709904680181625011306392622396003903382961540397829406131851933815487958131629737336467655243004940679444441637691317704574751881629483156973289472000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [397.93s] orbit of 36 pairs (6 in E1): |K| = 16457341613122048580523558604882878761240189439975598054185443626913448237539571947231491987852322850356895887639747812399026129052709367791680118163583601575488485978722474479182369989753327783199143002139441429730738683241410399941849485746300649521170840195388117280052349052367464933168929837718018457600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [405.152s] orbit of 36 pairs (6 in E1): |K| = 22857418907113956361838275840115109390611374222188330630813116148490900329916072148932627760906003958829022066166316406109758512573207455266222386338310557743734008303781214554419958319101844143332143058527001985737137060057514444363679841314306457668292833604705718444517151461621479073845735885719470080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [411.983s] orbit of 36 pairs (6 in E1): |K| = 31746415148769383835886494222382096375849130864150459209462661317348472680438989095739760779036116609484752869675439452930220156351677021203086647692097996866297233755251686881138830998752561310183532025731947202412690361190992283838444224047647857872628935562091275617384932585585387602563522063499264000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [417.643s] orbit of 36 pairs (6 in E1): |K| = 44092243262179699772064575308864022744234903977986748902031474051872878722831929299638556637550161957617712318993665906847527994932884751670953677350136106758746157993405120668248376387156335153032683369072148892239847723876378171997839200066177580378651299391793438357479073035535260559116002865971200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [423.045s] orbit of 36 pairs (6 in E1): |K| = 61239226753027360794534132373422253811437366636092706808377047294267887115044346249497995329930780496691267109713424870621566659629006599542991218541855703831591886101951556483678300537717132156989838012600206794777566283161636349996998888980802194970349026933046442163165379216021195220994448424960000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [428.178s] orbit of 36 pairs (6 in E1): |K| = 85054481601426889992408517185308685849218564772350981678301454575372065437561592013191660180459417356515648763490867875863287027262509166031932247974799588654988730697154939560664306302384905773596997239722509437191064282168939374995831790251114159681040315184786725226618582244473882251381178368000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [433.311s] orbit of 36 pairs (6 in E1): |K| = 118131224446426236100567384979595397012803562183820807886529798021350090885502211129432861361749190772938401060403983160921231982309040508377683677742777206465262125968270749389811536531090146907773607277392374218320922614123526909716433042015436332890333771089981562814748030895102614238029414400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [438.356s] orbit of 36 pairs (6 in E1): |K| = 164071145064480883473010256916104718073338280810862233175735830585208459563197515457545640780207209406858890361672198834612822197651445150524560663531635008979530730511487151930293800737625204038574454551933853081001281408504898485717268113910328240125463570958307726131594487354309186441707520000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [443.276s] orbit of 36 pairs (6 in E1): |K| = 227876590367334560379180912383478775101858723348419768299633098035011749393329882579924501083621124176192903280100276159184475274515896042395223143793937512471570459043732155458741389913368338942464520211019240390279557511812359007940650158208789222396477181886538508516103454658762758946816000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [448.078s] orbit of 36 pairs (6 in E1): |K| = 316495264399075778304417933865942743197026004650583011527268191715294096379624836916561807060584894689156810111250383554422882325716522281104476588602690989543847859782961327026029708213011581864534055848637833875388274321961609733250902997512207253328440530397970150716810353692726054092800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [452.767s] orbit of 36 pairs (6 in E1): |K| = 439576756109827469867247130369364921106980562014698627121205821826797356082812273495224732028590131512717791821181088270031781007939614279311773039725959707699788694143001843091707928073627197034075077567552547049150381002724457962848476385433621185178389625552736320440014380128786186240000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [457.589s] orbit of 36 pairs (6 in E1): |K| = 610523272374760374815621014401895723759695225020414759890563641426107439003905935410034350039708515989885821973862622597266362511027242054599684777397166260694150964087502559849594344546704440325104274399378537568264418059339524948400661646435584979414430035489911556166686639067758592000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [462.22s] orbit of 36 pairs (6 in E1): |K| = 847948989409389409466140297780410727444021145861687166514671724202926998616536021402825486166261827763730308297031420273981059043093391742499562190829397584297431894565975777568881034092645056007089269999136857733700580637971562428334252286716090249186708382624877161342620332038553600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [466.736s] orbit of 36 pairs (6 in E1): |K| = 1177706929735263068702972635806126010338918258141232175714821839170731942522966696392813175230919205227403205968099194824973693115407488531249391931707496644857544298008299691067890325128673688898735097221023413519028584219404947817130905953772347568314872753645662724086972683386880000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [471.039s] orbit of 36 pairs (6 in E1): |K| = 1635704069076754262087461994175175014359608691862822466270585887737127697948564856101129410042943340593615563844582215034685684882510400737846377682927078673413255969455971793149847673789824567914909857251421407665317478082506871968237369380239371622659545491174531561231906504704000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [475.461s] orbit of 36 pairs (6 in E1): |K| = 2271811207051047586232586103021076408832789849809475647598035955190455136039673411251568625059643528602243838673030854214841229003486667691453302337398720379740633290911071934930343991374756344326263690626974177312940941781259544400329679694776905031471590959964627168377647923200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [480.652s] orbit of 36 pairs (6 in E1): |K| = 3155293343126454980878591809751495012267763680290938399441716604431187688943990848960511979249504900836449775934765075298390595838175927349240697690831556082973101792932044354069922210242717144897588459204130801823529085807304922778235666242745701432599431888839759956080066560000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [486.007s] orbit of 36 pairs (6 in E1): |K| = 4382351865453409695664710846877076405927449555959636665891273061709982901311098401334044415624312362272846911020507049025542494219688787985056524570599383448573752490183394936208225292003773812357761748894626113643790396954590170525327314226035696434165877623388555494555648000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [490.083s] orbit of 36 pairs (6 in E1): |K| = 6086599813129735688423209509551495008232568827721717591515657030152754029598747779630617243922656058712287376417370901424364575305123316645911839681388032567463545125254715189178090683338574739385780206798091824505264440214708570174065714202827356158563718921372993742438400000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [494.674s] orbit of 36 pairs (6 in E1): |K| = 8453610851569077345032235429932631955878567816280163321549523652989936152220483027264746172114800081544843578357459585311617465701560162008210888446372267454810479340631548873858459282414687138035805842775127534035089500298206347463980158615037994664671831835240269086720000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [498.549s] orbit of 36 pairs (6 in E1): |K| = 11741126182734829645878104763795322160942455300389115724374338406930466878084004204534369683492777891034504969940916090710579813474389113900292900619961482576125665750877151213692304558909287691716397003854343797270957639303064371477750220298663881478710877548944818176000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [502.396s] orbit of 36 pairs (6 in E1): |K| = 16307119698242818952608478838604614112420076806095994061631025565181203997338894728519957893739969293103479124917939014875805296492207102639295695305502059133507869098440487796794867442929566238494995838686588607320774499032033849274653083748144279831542885484645580800000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [506.04s] orbit of 36 pairs (6 in E1): |K| = 22648777358670581878622887275839741822805662230688880641154202173862783329637353789611052630194401795977054340163804187327507356239176531443466243479863971018760929303389566384437315892957730886798605331509150843501075693100047012881462616316867055321587340950896640000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [509.868s] orbit of 36 pairs (6 in E1): |K| = 31456635220375808164754010105332974753896753098179000890491947463698310180051880263348684208603335827745908805783061371288204661443300738115925338166477737526056846254707731089496272073552404009442507404873820615973716240416731962335364744884537576835537973542912000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [514.163s] orbit of 36 pairs (6 in E1): |K| = 43689771139410844673269458479629131602634379303026390125683260366247653027849833699095394734171299760758206674698696349011395363115695469605451858564552413230634508687094070957633711213267227790892371395658084188852383667245461058799117701228524412271580518809600000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [517.944s] orbit of 36 pairs (6 in E1): |K| = 60680237693626173157318692332818238336992193476425541841226750508677295872013657915410270464126805223275287048192633818071382448771799263340905359117433907264770150954297320774491265573982260820683849160636228040072755093396473692776552362817395017043861831680000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [521.531s] orbit of 36 pairs (6 in E1): |K| = 84278107907814129385164850462247553245822490939479919223926042373162910933352302660292042311287229476771232011378658080654697845516387865751257443218658204534402987436524056631237868852753140028727568278661427833434382074161769017745211615024159745894252544000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [524.868s] orbit of 36 pairs (6 in E1): |K| = 117052927649741846368284514530899379508086792971499887811008392184948487407433753694850058765676707606626711126914802889798191452106094257987857560025914172964448593661838967543385928962157138928788289275918649768658863991891345857979460576422444091519795200000000000000000000000000000000000000000000000000000000000000000000000000000
+    [528.157s] orbit of 36 pairs (6 in E1): |K| = 162573510624641453289284047959582471539009434682638733070844989145761788065880213465069526063439871675870432120715004013608599239036242024983135500035991906895067491196998566032480456891884915178872623994331458012026199988737980358304806356142283460444160000000000000000000000000000000000000000000000000000000000000000000000000000
+    [531.483s] orbit of 36 pairs (6 in E1): |K| = 225796542534224240679561177721642321581957548170331573709506929369113594535944740923707675088110932883153377945437505574456387831994780590254354861161099870687593737773609119489556190127617937748434199992127025016703055539913861608756675494642060361728000000000000000000000000000000000000000000000000000000000000000000000000000
+    [534.673s] orbit of 36 pairs (6 in E1): |K| = 313606309075311445388279413502281002197163261347682741263204068568213325744367695727371770955709629004379691590885424408967205322214973042019937307168194264843880191352234888179939152955024913539491944433509756967643132694324807789939827075891750502400000000000000000000000000000000000000000000000000000000000000000000000000
+    [537.751s] orbit of 36 pairs (6 in E1): |K| = 435564318160154785261499185419834725273837862982892696198894539678074063533844021843571904105152262506082904987340867234676674058631907002805468482178047590060944710211437344694359934659756824360405478379874662455059906519895566374916426494294097920000000000000000000000000000000000000000000000000000000000000000000000000
+    [540.762s] orbit of 36 pairs (6 in E1): |K| = 604950441889103868418748868638659340658108143031795411387353527330658421574783363671627644590489253480670701371306760048162047303655426392785372891913954986195756541960329645408833242582995589389452053305381475632027647944299397742939481242075136000000000000000000000000000000000000000000000000000000000000000000000000
+    [544.168s] orbit of 216 pairs (36 in E1): |K| = 840208947068199817248262317553693528691816865321938071371324343514803363298310227321705061931235074278709307460148277844669510143965869989979684572102715258605217419389346729734490614698604985263127851813029827266705066589304719087415946169548800000000000000000000000000000000000000000000000000000000000000000000000
+    [547.471s] orbit of 216 pairs (36 in E1): |K| = 1166956870928055301733697663269018789849745646280469543571283810437226893469875315724590363793382047609318482583539274784263208533285930541638450794587104525840579749151870457964570298192506923976566460851430315648201481374034332065855480791040000000000000000000000000000000000000000000000000000000000000000000000
+    [550.707s] orbit of 216 pairs (36 in E1): |K| = 1620773431844521252407913421206970541457980064278429921626783070051704018708160160728597727490808399457386781366026770533698900740674903530053403881370978508111916318266486747173014303045148505523008973404764327289168724130603238980354834432000000000000000000000000000000000000000000000000000000000000000000000
+    [554.724s] orbit of 216 pairs (36 in E1): |K| = 2251074210895168406122101973898570196469416755942263780037198708405144470428000223234163510403900554801926085230592736852359584362048477125074172057459692372377661553147898259962519865340484035448623574173283787901623227959171165250492825600000000000000000000000000000000000000000000000000000000000000000000
+    [557.746s] orbit of 216 pairs (36 in E1): |K| = 3126491959576622786280697185970236383985301049919810805607220428340478431150000310047449320005417437224897340598045467850499422725067329340380794524249572739413418823816525361059055368528450049234199408574005260974476705498848840625684480000000000000000000000000000000000000000000000000000000000000000000
+    [560.75s] orbit of 216 pairs (36 in E1): |K| = 4342349943856420536500968313847550533312918124888626118898917261583997821041667097288124055563079773923468528608396483125693642673704624083862214617013295471407526144189618557026465789622847290603054734130562862464550979859512278646784000000000000000000000000000000000000000000000000000000000000000000
+    [563.572s] orbit of 216 pairs (36 in E1): |K| = 6031041588689472967362455991454931296267941840123091831804051752199996973668982079566838966059833019338150734178328448785685614824589755672030853634740688154732675200263359106981202485587287903615353797403559531200765249804878164787200000000000000000000000000000000000000000000000000000000000000000
+    [566.752s] orbit of 216 pairs (36 in E1): |K| = 8376446650957601343558966654798515689261030333504294210838960766944440241206919554953943008416434749080764908581011734424563353923041327322265074492695400214906493333699109870807225674426788755021324718616054904445507291395664117760000000000000000000000000000000000000000000000000000000000000000
+    [570.275s] orbit of 216 pairs (36 in E1): |K| = 11633953681885557421609675909442382901751431018755964181720778842978389223898499381880476400578381595945506817473627408923004658226446287947590381239854722520703462963470985931676702325592762159751839886966742922840982349160644608000000000000000000000000000000000000000000000000000000000000000
+    [573.107s] orbit of 216 pairs (36 in E1): |K| = 16158269002618829752235660985336642919099209748272172474612192837469985033192360252611772778581085549924315024268926956837506469758953177704986640610909336834310365227043036016217642118878836332988666509676031837279142151612006400000000000000000000000000000000000000000000000000000000000000
+    [575.893s] orbit of 216 pairs (36 in E1): |K| = 22442040281415041322549529146300892943193346872600239548072490052041645879433833684183017748029285486005993089262398551163203430220768302368037000848485190047653285037559772244746725165109494906928703485661155329554364099461120000000000000000000000000000000000000000000000000000000000000
+    [578.558s] orbit of 216 pairs (36 in E1): |K| = 31169500390854224059096568258751240198879648434166999372322902850057841499213657894698635761151785397230545957308886876615560319751067086622273612289562763955074006996610794784370451618207631815178754841196049068825505693696000000000000000000000000000000000000000000000000000000000000
+    [581.115s] orbit of 216 pairs (36 in E1): |K| = 43290972765075311193189678137154500276221733936343054683781809513969224304463413742636994112710813051709091607373453995299389332987593175864268905957726061048713898606403881644958960580843933076637159501661179262257646796800000000000000000000000000000000000000000000000000000000000
+    [583.589s] orbit of 216 pairs (36 in E1): |K| = 60126351062604598879430108523825694828085741578254242616363624324957255978421407975884714045431684794040405010240908326804707406927212744255929036052397307012102636953338724506887445251172129273107165974529415642024509440000000000000000000000000000000000000000000000000000000000
+    [586.047s] orbit of 216 pairs (36 in E1): |K| = 83508820920284165110319595171980131705674641080908670300505033784662855525585288855395436174210673325056118069779039342784315842954462144799901438961662926405698106879637117370677007293294623990426619409068632836145152000000000000000000000000000000000000000000000000000000000
+    [588.355s] orbit of 216 pairs (36 in E1): |K| = 115984473500394673764332771072194627368992557056817597639590324700920632674424012299160328019737046284800163985804221309422660892992308534444307554113420731119025148443940440792606954574020311097814749179261990050201600000000000000000000000000000000000000000000000000000000
+    [590.652s] orbit of 216 pairs (36 in E1): |K| = 161089546528325935783795515378048093568045218134468885610542117640167545381144461526611566694079230951111338869172529596420362351378206297839316047379751015443090483949917278878620770241694876524742707193419430625280000000000000000000000000000000000000000000000000000000
+    [592.857s] orbit of 216 pairs (36 in E1): |K| = 4474709625786831549549875427168002599112367170401913489181725490004654038365123931294765741502200859753092746365903599900565620871616841606647667982770861540085846776386591079961688062269302125687297422039428628480000000000000000000000000000000000000000000000000000000
+    [594.94s] orbit of 216 pairs (36 in E1): |K| = 6214874480259488263263715871066670276544954403335990957196840958339797275507116571242730196530834527434851036619310555417452251210578946675899538864959529916785898300536932055502344530929586285676801975054761984000000000000000000000000000000000000000000000000000000
+    [597.09s] orbit of 216 pairs (36 in E1): |K| = 8631770111471511476755160932037042050756881115744431884995612442138607327093217460059347495181714621437293106415709104746461460014692981494304915090221569328869303195190183410419922959624425396773336076464947200000000000000000000000000000000000000000000000000000
+    [599.17s] orbit of 216 pairs (36 in E1): |K| = 11988569599265988162159945738940336181606779327422822062493906169636954620962802027860204854419048085329573758910707089925640916687073585408756826514196624067874032215541921403361004110589479717740744550645760000000000000000000000000000000000000000000000000000
+    [601.114s] orbit of 216 pairs (36 in E1): |K| = 16650791110091650225222146859639355807787193510309475086797091902273548084670558372028062297804233451846630220709315402674501273176491090845495592380828644538713933632697113060223616820263166274639922987008000000000000000000000000000000000000000000000000000
+    [603.038s] orbit of 216 pairs (36 in E1): |K| = 23126098764016180868364092860610216399704435430985382064995960975379927895375775516705642080283657572009208639874049170381251768300682070618743878306706450748213796712079323694755023361476619825888781926400000000000000000000000000000000000000000000000000
+    [604.968s] orbit of 216 pairs (36 in E1): |K| = 32119581616689140094950128973069744999589493654146363979161056910249899854688577106535614000393968850012789777602846069973960789306502875859366497648203403816963606544554616242715310224273083091512197120000000000000000000000000000000000000000000000000
+    [606.803s] orbit of 216 pairs (36 in E1): |K| = 44610530023179361242986290240374645832763185630758838859945912375347083131511912647966130556102734513906652468892841763852723318481253994249120135622504727523560564645214744781549041978157059849322496000000000000000000000000000000000000000000000000
+    [608.673s] orbit of 216 pairs (36 in E1): |K| = 61959069476638001726369847556075896989948868931609498416591544965759837682655434233286292439031575713759239540128946894239893497890630547568222410586812121560500784229464923307707002747440360901836800000000000000000000000000000000000000000000000
+    [610.422s] orbit of 216 pairs (36 in E1): |K| = 1721085263239944492399162432113219360831913025878041622683098471271106602295984284257952567750877103159978876114692969284441486052517515210228400294078114487791688450818470091880750076317787802828800000000000000000000000000000000000000000000000
+    [612.177s] orbit of 216 pairs (36 in E1): |K| = 2390396198944367350554392266823915778933212535941724475948747876765425836522200394802711899653995976611081772381518012895057619517385437791983889297330714566377345070581208460945486217108038615040000000000000000000000000000000000000000000000
+    [613.79s] orbit of 216 pairs (36 in E1): |K| = 3319994720756065764658878148366549692962795188807950661039927606618646995169722770559322082852772189737613572752108351243135582663035330266644290690737103564412979264696122862424286412650053632000000000000000000000000000000000000000000000
+    [615.34s] orbit of 216 pairs (36 in E1): |K| = 4611103778827869117581775206064652351337215540011042584777677231414787493291281625776836226184405819080018851044594932282132753698660180925894848181579310506129137867633503975589286684236185600000000000000000000000000000000000000000000
+    [616.899s] orbit of 216 pairs (36 in E1): |K| = 6404310803927595996641354452867572710190577138904225812191218376964982629571224480245605869700563637611137293117492961502962157914805806841520622474415709036290469260602088854985120394772480000000000000000000000000000000000000000000
+    [618.407s] orbit of 216 pairs (36 in E1): |K| = 177897522331322111017815401468543686394182698302895161449756066026805073043645124451266829713904545489198258142152582263971171053189050190042239513178214139896957479461169134860697788743680000000000000000000000000000000000000000000
+    [619.952s] orbit of 216 pairs (36 in E1): |K| = 247079892126836265302521390928532897769698192087354390902438980592784823671729339515648374602645202068330914086323030922182182018318125263947554879414186305412440943696068242862080262144000000000000000000000000000000000000000000
+    [621.493s] orbit of 216 pairs (36 in E1): |K| = 6863330336856562925070038636903691604713838669093177525067749460910689546436926097656899294517922279675858724620084192282838389397725701776320968872616286261456692880446340079502229504000000000000000000000000000000000000000000
+    [622.864s] orbit of 216 pairs (36 in E1): |K| = 9532403245634115173708386995699571673213664818184968784816318695709291036717952913412360131274892055105359339750116933726164429719063474689334678989744842029800962333953250110419763200000000000000000000000000000000000000000
+    [624.223s] orbit of 216 pairs (36 in E1): |K| = 264788979045392088158566305436099213144824022727360244022675519325258084353276469817010003646524779308482203881947692603504567492196207630259296638604023389716693398165368058622771200000000000000000000000000000000000000000
+    [625.53s] orbit of 216 pairs (36 in E1): |K| = 367762470896377900220230979772360018256700031565778116698160443507302894935106208079180560620173304595114172058260684171534121516939177264249023109172254707939851941896344525864960000000000000000000000000000000000000000
+    [626.85s] orbit of 216 pairs (36 in E1): |K| = 510781209578302639194765249683833358689861154952469606525222838204587354076536400109973000861351811937658572303139839127130724329082190644790309873850353761027572141522700730368000000000000000000000000000000000000000
+    [628.104s] orbit of 216 pairs (36 in E1): |K| = 709418346636531443326062846783101887069251604100652231285031719728593547328522777930518056751877516580081350421027554343237117123725264784430985935903269112538294641003751014400000000000000000000000000000000000000
+    [629.316s] orbit of 216 pairs (36 in E1): |K| = 985303259217404782397309509420974843151738339028683654562544055178602149067392747125719523266496550805668542251427158810051551560729534422820813799865651545192075890282987520000000000000000000000000000000000000
+    [630.569s] orbit of 216 pairs (36 in E1): |K| = 27369534978261243955480819706138190087548287195241212626737334866072281918538687420158875646291570855713015062539643300279209765575820400633911494440712542922002108063416320000000000000000000000000000000000000
+    [631.724s] orbit of 216 pairs (36 in E1): |K| = 38013243025362838827056694036303041788261509993390573092690742869544835997970399194665105064293848410712520920193949028165569118855306111991543742278767420725002927865856000000000000000000000000000000000000
+    [632.838s] orbit of 216 pairs (36 in E1): |K| = 52796170868559498370912075050420891372585430546375795962070476207701161108292221103701534811519233903767390166936040316896623776187925155543810753164954751006948510924800000000000000000000000000000000000
+    [633.919s] orbit of 216 pairs (36 in E1): |K| = 1466560301904430510303113195845024760349595292954883221168624339102810030785895030658375966986645386215760837970445564358239549338553476542883632032359854194637458636800000000000000000000000000000000000
+    [634.949s] orbit of 216 pairs (36 in E1): |K| = 2036889308200597930976546105340312167152215684659560029400867137642791709424854209247744398592563036410778941625618839386443818525768717420671711156055353048107581440000000000000000000000000000000000
+    [636.204s] orbit of 216 pairs (36 in E1): |K| = 56580258561127720304904058481675337976450435684987778594468531601188658595134839145770677738682306566966081711822745538512328292382464372796436421001537584669655040000000000000000000000000000000000
+    [637.253s] orbit of 216 pairs (36 in E1): |K| = 78583692446010722645700081224549080522847827340260803603428516112762025826576165480237052414836536898564002377531591025711567072753422739995050584724357756485632000000000000000000000000000000000
+    [638.228s] orbit of 216 pairs (36 in E1): |K| = 109144017286126003674583446145207056281733093528140005004761827934391702536911340944773683909495190136894447746571654202377176489935309361104236923228274661785600000000000000000000000000000000
+    [639.131s] orbit of 216 pairs (36 in E1): |K| = 151588912897397227325810341868343133724629296566861118062169205464432920190154640201074560985409986301242288536905075281079411791576818557089217948928159252480000000000000000000000000000000
+    [639.996s] orbit of 216 pairs (36 in E1): |K| = 210540156801940593508069919261587685728651800787307108419679452033934611375214778057048001368624980973947622967923715668165849710523359107068358262400221184000000000000000000000000000000
+    [640.911s] orbit of 216 pairs (36 in E1): |K| = 292416884447139713205652665641094007956460834426815428360665905602686960243353858412566668567534695797149476344338493983563680153504665426483830920000307200000000000000000000000000000
+    [641.774s] orbit of 216 pairs (36 in E1): |K| = 406134561732138490563406480057075011050640047815021428278702646670398555893547025573009261899353744162707606033803463866060666879867590870116431833333760000000000000000000000000000
+    [642.547s] orbit of 216 pairs (36 in E1): |K| = 11281515603670513626761291112696528084740001328195039674408406851955515441487417377028035052759826226741877945383429551835018524440766413058789773148160000000000000000000000000000
+    [643.379s] orbit of 216 pairs (36 in E1): |K| = 313375433435292045187813642019348002353888925783195546511344634776542095596872704917445418132217395187274387371761931995417181234465733696077493698560000000000000000000000000000
+    [644.197s] orbit of 216 pairs (36 in E1): |K| = 8704873150980334588550378944981888954274692382866542958648462077126169322135352914373483837006038755202066315882275888761588367624048158224374824960000000000000000000000000000
+    [644.976s] orbit of 216 pairs (36 in E1): |K| = 241802031971675960793066081805052470952074788412959526629123946586838036725982025399263439916834409866724064330063219132266343545112448839565967360000000000000000000000000000
+    [645.745s] orbit of 216 pairs (36 in E1): |K| = 335836155516216612212591780284795098544548317240221564762672148037275051008308368610088110995603347037116756013976693239258810479322845610508288000000000000000000000000000
+    [646.425s] orbit of 216 pairs (36 in E1): |K| = 466439104883634183628599694839993192422983773944752173281489094496215348622650511958455709716115759773773272241634296165637236776837285570150400000000000000000000000000
+    [647.143s] orbit of 216 pairs (36 in E1): |K| = 12956641802323171767461102634444255345082882609576449257819141513783759683962514221068214158780993327049257562267619337934367688245480154726400000000000000000000000000
+    [647.767s] orbit of 216 pairs (36 in E1): |K| = 17995335836559960788140420325617021312615114735522846191415474324699666227725714195928075220529157398679524392038360191575510678118722437120000000000000000000000000
+    [648.425s] orbit of 216 pairs (36 in E1): |K| = 499870439904443355226122786822695036461530964875634616428207620130546284103492060998002089459143261074431233112176671988208629947742289920000000000000000000000000
+    [649.059s] orbit of 216 pairs (36 in E1): |K| = 694264499867282437814059426142631995085459673438381411705843916847980950143738973608336235359921195936710045989134266650289763816308736000000000000000000000000
+    [649.648s] orbit of 216 pairs (36 in E1): |K| = 19285124996313401050390539615073110974596102039955039214051219912443915281770527044676006537775588776019723499698174073619160106008576000000000000000000000000
+    [650.279s] orbit of 216 pairs (36 in E1): |K| = 26784895828213057014431305020934876353605697277715332241737805433949882335792398673161120191354984411138504860691908435582166813900800000000000000000000000
+    [650.864s] orbit of 216 pairs (36 in E1): |K| = 37201244205851468075599034751298439380007912885715739224635840880485947688600553712723778043548589459914590084294317271641898352640000000000000000000000
+    [651.436s] orbit of 216 pairs (36 in E1): |K| = 1033367894606985224322195409758289982777997580158770534017662246680165213572237603131216056765238596108738613452619924212274954240000000000000000000000
+    [651.938s] orbit of 216 pairs (36 in E1): |K| = 1435233186954146144891938069108736087191663305776070186135642009278007241072552226571133412173942494595470296461972116961492992000000000000000000000
+    [652.44s] orbit of 216 pairs (36 in E1): |K| = 1993379426325202979016580651539911232210643480244541925188391679552787834822989203571018628019364575827042078419405718002073600000000000000000000
+    [652.99s] orbit of 216 pairs (36 in E1): |K| = 2768582536562781915300806460472098933625893722561863784983877332712205326143040560515303650026895244204225108915841275002880000000000000000000
+    [653.479s] orbit of 216 pairs (36 in E1): |K| = 3845253523003863771251120083989026296702630170224810812477607406544729619643111889604588402815132283616979317938668437504000000000000000000
+    [653.933s] orbit of 216 pairs (36 in E1): |K| = 5340629893060921904515444561095869856531430791978903906218899175756568916170988735561928337243239282801360163803706163200000000000000000
+    [654.392s] orbit of 216 pairs (36 in E1): |K| = 7417541518140169311827006334855374800738098322192922091970693299661901272459706577169344912837832337224111338616258560000000000000000
+    [654.846s] orbit of 216 pairs (36 in E1): |K| = 206042819948338036439639064857093744464947175616470058110297036101719479790547404921370692023273120478447537183784960000000000000000
+    [655.235s] orbit of 216 pairs (36 in E1): |K| = 286170583261580606166165367857074645090204410578430636264301439030165944153538062390792627810101556220066023866368000000000000000
+    [655.631s] orbit of 216 pairs (36 in E1): |K| = 7949182868377239060171260218252073474727900293845295451786151084171276226487168399744239661391709895001833996288000000000000000
+    [656.016s] orbit of 216 pairs (36 in E1): |K| = 11040531761635054250237861414238990937122083741451799238591876505793439203454400555200332863044041520835880550400000000000000
+    [656.363s] orbit of 216 pairs (36 in E1): |K| = 306681437823195951395496150395527526031168992818105534405329902938706644540400015422231468417890042245441126400000000000000
+    [656.883s] orbit of 216 pairs (36 in E1): |K| = 425946441421105488049300208882677119487734712247368797785180420748203672972777799197543706135958392007557120000000000000
+    [657.204s] orbit of 216 pairs (36 in E1): |K| = 11831845595030708001369450246741031096881519784649133271810567243005657582577161088820658503776622000209920000000000000
+    [657.582s] orbit of 216 pairs (36 in E1): |K| = 328662377639741888926929173520584197135597771795809257550293534527934932849365585800573847327128388894720000000000000
+    [657.928s] orbit of 216 pairs (36 in E1): |K| = 9129510489992830247970254820016227698211049216550257154174820403553748134704599605571495759086899691520000000000000
+    [658.26s] orbit of 216 pairs (36 in E1): |K| = 12679875680545597566625353916689205136404235022986468269687250560491316853756388341071521887620694016000000000000
+    [658.602s] orbit of 216 pairs (36 in E1): |K| = 352218768904044376850704275463589031566784306194068563046868071124758801493233009474208941322797056000000000000
+    [658.912s] orbit of 216 pairs (36 in E1): |K| = 489192734588950523403755938143873654953867091936206337565094543228831668740601402047512418503884800000000000
+    [659.214s] orbit of 216 pairs (36 in E1): |K| = 13588687071915292316770998281774268193162974776005731599030403978578657465016705612430900513996800000000000
+    [659.523s] orbit of 216 pairs (36 in E1): |K| = 377463529775424786576972174493729672032304854889048099973066777182740485139352933678636125388800000000000
+    [659.801s] orbit of 216 pairs (36 in E1): |K| = 10485098049317355182693671513714713112008468191362447221474077143965013476093137046628781260800000000000
+    [660.082s] orbit of 216 pairs (36 in E1): |K| = 14562636179607437753741210435714879322233983599114510029825107144395852050129357009206640640000000000
+    [660.337s] orbit of 216 pairs (36 in E1): |K| = 404517671655762159826144734325413314506499544419847500828475198455440334725815472477962240000000000
+    [660.605s] orbit of 216 pairs (36 in E1): |K| = 11236601990437837772948464842372592069624987344995763911902088845984453742383763124387840000000000
+    [660.866s] orbit of 216 pairs (36 in E1): |K| = 312127833067717715915235134510349779711805204027660108663946912388457048399548975677440000000000
+    [661.072s] orbit of 216 pairs (36 in E1): |K| = 8670217585214380997645420403065271658661255667435003018442969788568251344431915991040000000000
+    [661.251s] orbit of 216 pairs (36 in E1): |K| = 240839377367066138823483900085146434962812657428750083845638049682451426234219888640000000000
+    [661.483s] orbit of 216 pairs (36 in E1): |K| = 6689982704640726078430108335698512082300351595243057884601056935623650728728330240000000000
+    [661.725s] orbit of 216 pairs (36 in E1): |K| = 9291642645334341775597372688470155669861599437837580395279245743921737123233792000000000
+    [661.941s] orbit of 216 pairs (36 in E1): |K| = 258101184592620604877704796901948768607266651051043899868867937331159364534272000000000
+    [662.157s] orbit of 216 pairs (36 in E1): |K| = 7169477349795016802158466580609688016868518084751219440801887148087760125952000000000
+    [662.371s] orbit of 216 pairs (36 in E1): |K| = 199152148605417133393290738350269111579681057909756095577830198557993336832000000000
+    [662.576s] orbit of 216 pairs (36 in E1): |K| = 276600206396412685268459358819818210527334802652439021635875275774990745600000000
+    [662.764s] orbit of 216 pairs (36 in E1): |K| = 7683339066567019035234982189439394736870411184789972823218757660416409600000000
+    [662.949s] orbit of 216 pairs (36 in E1): |K| = 10671304259120859771159697485332492690097793312208295587803830083911680000000
+    [663.115s] orbit of 216 pairs (36 in E1): |K| = 296425118308912771421102707925902574724938703116897099661217502330880000000
+    [663.247s] orbit of 216 pairs (36 in E1): |K| = 8234031064136465872808408553497293742359408419913808323922708398080000000
+    [663.403s] orbit of 216 pairs (36 in E1): |K| = 228723085114901829800233570930480381732205789442050231220075233280000000
+    [663.518s] orbit of 216 pairs (36 in E1): |K| = 317670951548474763611435515181222752405841374225069765583437824000000
+    [663.672s] orbit of 216 pairs (36 in E1): |K| = 441209654928437171682549326640587156119224130868152452199219200000
+    [663.795s] orbit of 216 pairs (36 in E1): |K| = 612791187400607182892429620334148827943366848427989516943360000
+    [663.921s] orbit of 216 pairs (36 in E1): |K| = 17021977427794643969234156120393022998426856900777486581760000
+    [664.045s] orbit of 216 pairs (36 in E1): |K| = 472832706327628999145393225566472861067412691688263516160000
+    [664.14s] orbit of 216 pairs (36 in E1): |K| = 13134241842434138865149811821290912807428130324673986560000
+    [664.257s] orbit of 216 pairs (36 in E1): |K| = 364840051178726079587494772813636466873003620129832960000
+    [664.356s] orbit of 216 pairs (36 in E1): |K| = 10134445866075724432985965911489901857583433892495360000
+    [664.46s] orbit of 216 pairs (36 in E1): |K| = 281512385168770123138499053096941718266206497013760000
+    [664.556s] orbit of 216 pairs (36 in E1): |K| = 7819788476910281198291640363803936618505736028160000
+    [664.656s] orbit of 216 pairs (36 in E1): |K| = 217216346580841144396990010105664906069603778560000
+    [664.744s] orbit of 216 pairs (36 in E1): |K| = 6033787405023365122138611391824025168600104960000
+    [664.847s] orbit of 216 pairs (36 in E1): |K| = 8380260284754673780748071377533368289722368000
+    [664.924s] orbit of 216 pairs (36 in E1): |K| = 232785007909852049465224204931482452492288000
+    [664.985s] orbit of 216 pairs (36 in E1): |K| = 6466250219718112485145116803652290347008000
+    [665.057s] orbit of 216 pairs (36 in E1): |K| = 179618061658836457920697688990341398528000
+    [665.132s] orbit of 216 pairs (36 in E1): |K| = 4989390601634346053352713583065038848000
+    [665.217s] orbit of 216 pairs (36 in E1): |K| = 6929709168936591740767657754256998400
+    [665.302s] orbit of 216 pairs (36 in E1): |K| = 9624596067967488528843969103134720
+    [665.372s] orbit of 216 pairs (36 in E1): |K| = 267349890776874681356776919531520
+    [665.437s] orbit of 216 pairs (36 in E1): |K| = 7426385854913185593243803320320
+    [665.495s] orbit of 216 pairs (36 in E1): |K| = 206288495969810710923438981120
+    [665.553s] orbit of 216 pairs (36 in E1): |K| = 286511799958070431838109696
+    [665.605s] orbit of 216 pairs (36 in E1): |K| = 7958661109946400884391936
+    [665.651s] orbit of 216 pairs (36 in E1): |K| = 221073919720733357899776
+    [665.697s] orbit of 216 pairs (36 in E1): |K| = 6140942214464815497216
+    [665.738s] orbit of 216 pairs (36 in E1): |K| = 170581728179578208256
+    [665.774s] orbit of 216 pairs (36 in E1): |K| = 4738381338321616896
+    [665.805s] orbit of 216 pairs (36 in E1): |K| = 131621703842267136
+    [665.832s] orbit of 216 pairs (36 in E1): |K| = 3656158440062976
+    [665.864s] orbit of 216 pairs (36 in E1): |K| = 101559956668416
+    [665.892s] orbit of 216 pairs (36 in E1): |K| = 2821109907456
+    [665.92s] orbit of 216 pairs (36 in E1): |K| = 78364164096
+    [665.946s] orbit of 216 pairs (36 in E1): |K| = 2176782336
+    [665.97s] orbit of 216 pairs (36 in E1): |K| = 60466176
+    [665.991s] orbit of 216 pairs (36 in E1): |K| = 1679616
+    [666.012s] orbit of 216 pairs (36 in E1): |K| = 46656
+    [666.031s] orbit of 216 pairs (36 in E1): |K| = 1296
+    [666.033s] refine: 394 -> 396 colours, |K| = 216
+    [666.041s] orbit of 12 pairs (6 in E1): |K| = 108
+    [666.046s] orbit of 9 pairs (3 in E1): |K| = 36
+    [666.05s] |K| = 36 on U; lifting
+TCGROUP Luks calls=3817989 maxBranch=24 giants=3600 maxGiantDeg=6
+TCGROUP |Aut| = 36 |P| = 32334007993715992047499279272104686946552584676105620636482167660057281314946802389344446091604308640532814612185583925664919554452099982007039583379574305287051784767949732579591265358514835483151471782471429115236754084660102993031160037257556498180373369613714004659538711457919114999948295421813008207308346877278717788586408988023263284278737141239179014773758118223597797376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ONE /home/linux/xeon_oct17/g2_instances/gcfi-S3-rc48-1 original=true -> EXACT |Aut|=36.0000 vars=0 TCGROUP: Aut = Stab_P(E), |P| = 32334007993715992047499279272104686946552584676105620636482167660057281314946802389344446091604308640532814612185583925664919554452099982007039583379574305287051784767949732579591265358514835483151471782471429115236754084660102993031160037257556498180373369613714004659538711457919114999948295421813008207308346877278717788586408988023263284278737141239179014773758118223597797376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (666.113s)
+DONE rc=0 seconds=666

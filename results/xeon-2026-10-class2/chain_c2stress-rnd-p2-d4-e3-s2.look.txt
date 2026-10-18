@@ -1,0 +1,25 @@
+== c2stress-rnd-p2-d4-e3-s2 n=16384 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 mu=16384 singletons=0 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4531290112 (5.5s)
+   depth 1: roots=[0] refinedClasses=3 mu=16002 singletons=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4525031424 (2.4s)
+   depth 2: roots=[0, 129] refinedClasses=19 mu=14880 singletons=4 ours=STOP_TIME |Aut(H)|=null maxT=2 maxBase=1 groupWork=4518772736 (2.4s)
+   depth 3: roots=[0, 129, 2065] refinedClasses=29 mu=14880 singletons=16 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4506255360 (2.4s)
+   depth 4: roots=[0, 129, 2065, 272] refinedClasses=1121 mu=6144 singletons=1024 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4506255360 (2.4s)
+   depth 5: roots=[0, 129, 2065, 272, 388] refinedClasses=4288 mu=64 singletons=4096 ours=STOP_TIME |Aut(H)|=null maxT=8 maxBase=1 groupWork=4506255360 (2.3s)
+   depth 6: roots=[0, 129, 2065, 272, 388, 520] refinedClasses=16384 mu=1 singletons=16384 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 groupWork=0 (173.5s)
+   orbit of r5=520: 8 of 64 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 28 nodes pruned by invariant; refuted candidates by cut depth {1=28}, 0 needed a leaf query
+   orbit of r4=388: 8 of 96 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 20 nodes pruned by invariant; refuted candidates by cut depth {1=20}, 0 needed a leaf query
+   orbit of r3=272: 8 of 124 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 100 nodes pruned by invariant; refuted candidates by cut depth {1=20, 2=8}, 0 needed a leaf query
+   orbit of r2=2065: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=129: 24 of 16002 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 392 nodes pruned by invariant; refuted candidates by cut depth {1=201, 4=13, 5=1}, 0 needed a leaf query
+   orbit of r0=0: 16384 of 16384 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 54 nodes pruned by invariant
+   search r5: refutations n=28 nodes sum=28 max=1 beta_max=0.00 perDepth=[28]; witnesses n=3 nodes sum=3 max=1 beta_max=0.00 perDepth=[3]
+   search r4: refutations n=20 nodes sum=20 max=1 beta_max=0.00 perDepth=[20]; witnesses n=3 nodes sum=6 max=2 beta_max=1.00 perDepth=[3, 3]
+   search r3: refutations n=28 nodes sum=100 max=10 beta_max=9.00 perDepth=[28, 72]; witnesses n=3 nodes sum=9 max=3 beta_max=1.00 perDepth=[3, 3, 3]
+   search r2: refutations -; witnesses n=1 nodes sum=4 max=4 beta_max=1.00 perDepth=[1, 1, 1, 1]
+   search r1: refutations n=215 nodes sum=391 max=21 beta_max=10.00 perDepth=[215, 14, 39, 115, 8]; witnesses n=4 nodes sum=50 max=13 beta_max=4.00 perDepth=[4, 4, 6, 16, 20]
+   search r0: refutations -; witnesses n=4 nodes sum=78 max=22 beta_max=15.00 perDepth=[4, 38, 4, 4, 17, 11]
+   stabiliser-orbit pruning (SC_STABPRUNE): 80 image nodes skipped
+   lookahead (SC_LOOKAHEAD): 22 candidates refuted at the candidate node, 2724 lookahead refinements
+   generators known at the end: 18; two-sided queries in total: 18
+   |Aut| = 4.02653e+08  ours 195.598s

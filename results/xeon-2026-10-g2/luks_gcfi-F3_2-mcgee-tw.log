@@ -1,0 +1,59 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+LUKSAUT gcfi-F3_2-mcgee-tw n=2592: cut 324 edges, 24 pieces, 1 isomorphism types 0.121s
+AUTPRUNE class=27 base=9 nodes=14041 dead=5153 leaves=10 gens=9 skipped=87807 domDiscrete=true
+AUTPRUNE   per depth (1..9): nodes=[3, 5, 11, 43, 215, 860, 2580, 5160, 5163] dead=[0, 0, 0, 0, 0, 0, 0, 0, 5153]
+GENAUT class=27 base=9 explored leaves=10 generators=9
+GENAUT |Aut| = 23328.0 from 9 generators
+LUKSAUT gcfi-F3_2-mcgee-tw   |Aut(rep)| per type = [23328]; |P| = 674621471092920665962720371213015350871328184638780120801192724653619850183504838893836214341520857235456 0.962s
+AUTPRUNE class=24 base=3 nodes=12 dead=2 leaves=4 gens=3 skipped=87830 domDiscrete=true
+AUTPRUNE   per depth (1..3): nodes=[4, 3, 4] dead=[2, 0, 0]
+GENAUT class=24 base=3 explored leaves=4 generators=3
+GENAUT |Aut| = 32.0000 from 3 generators
+LUKSAUT gcfi-F3_2-mcgee-tw   |Q| = 32; |A| = |Q| |P| 1.167s
+LUKSAUT gcfi-F3_2-mcgee-tw     [1.266s] U = 648 points, |P^U| = 674621471092920665962720371213015350871328184638780120801192724653619850183504838893836214341520857235456
+LUKSAUT gcfi-F3_2-mcgee-tw     [3.053s] refine: 24 -> 72 colours, |K| = 142373824081427453610742213828452413131560633173272461154583883247347452194837795700736
+LUKSAUT gcfi-F3_2-mcgee-tw     [3.459s] orbit of 81 pairs (9 in E1): |K| = 329569037225526512987829198676973178545279243456649215635610840850341324525087490048
+LUKSAUT gcfi-F3_2-mcgee-tw     [3.657s] orbit of 81 pairs (9 in E1): |K| = 762891289873903965249604626567067542928887137631132443600951020486901214178443264
+LUKSAUT gcfi-F3_2-mcgee-tw     [3.903s] orbit of 81 pairs (9 in E1): |K| = 1765952059893296215855566265201545238261312818590584360187386621497456514301952
+LUKSAUT gcfi-F3_2-mcgee-tw     [4.039s] orbit of 81 pairs (9 in E1): |K| = 4087851990493741240406403391670243607086372265255982315248580142355223412736
+LUKSAUT gcfi-F3_2-mcgee-tw     [4.238s] orbit of 81 pairs (9 in E1): |K| = 9462620348365141760200007851088526868255491354759218322334676255451906048
+LUKSAUT gcfi-F3_2-mcgee-tw     [4.379s] orbit of 81 pairs (9 in E1): |K| = 21904213769363754074537055210853071454295118876757449820219157998731264
+LUKSAUT gcfi-F3_2-mcgee-tw     [4.568s] orbit of 81 pairs (9 in E1): |K| = 50704198540193875172539479654752480218275738140642244954211013885952
+LUKSAUT gcfi-F3_2-mcgee-tw     [4.686s] orbit of 81 pairs (9 in E1): |K| = 117370829954152488825322869571186296801564208658894085542155124736
+LUKSAUT gcfi-F3_2-mcgee-tw     [4.786s] orbit of 81 pairs (9 in E1): |K| = 271691736004982613021580716599968279633250483006699272088322048
+LUKSAUT gcfi-F3_2-mcgee-tw     [4.859s] orbit of 81 pairs (9 in E1): |K| = 628916055567089381994399806944371017669561303256248315019264
+LUKSAUT gcfi-F3_2-mcgee-tw     [4.939s] orbit of 81 pairs (9 in E1): |K| = 1455824202701595791653703256815673652012873387167241469952
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.016s] orbit of 81 pairs (9 in E1): |K| = 3369963432179619888087276057443689009289058766590836736
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.105s] orbit of 81 pairs (9 in E1): |K| = 7800841278193564555757583466304835669650598996738048
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.19s] orbit of 81 pairs (9 in E1): |K| = 18057502958781399434624035801631564050117127307264
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.249s] orbit of 81 pairs (9 in E1): |K| = 41799775367549535728296379170443435301197053952
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.298s] orbit of 81 pairs (9 in E1): |K| = 96758739276735036408093470301952396530548736
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.36s] orbit of 81 pairs (9 in E1): |K| = 223978563140590362055771921995260177154048
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.446s] orbit of 81 pairs (9 in E1): |K| = 518468896158773986240212782396435595264
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.491s] orbit of 81 pairs (9 in E1): |K| = 1200159481849013857037529588880637952
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.54s] orbit of 81 pairs (9 in E1): |K| = 2778146948724569113512799974260736
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.55s] orbit of 81 pairs (9 in E1): |K| = 308682994302729901501422219362304
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.625s] orbit of 81 pairs (9 in E1): |K| = 714543968293356253475514396672
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.636s] orbit of 81 pairs (9 in E1): |K| = 79393774254817361497279377408
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.715s] orbit of 81 pairs (9 in E1): |K| = 183781884849114262725183744
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.765s] orbit of 81 pairs (9 in E1): |K| = 425421029743320052604592
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.771s] orbit of 81 pairs (9 in E1): |K| = 47269003304813339178288
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.776s] orbit of 81 pairs (9 in E1): |K| = 5252111478312593242032
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.781s] orbit of 81 pairs (9 in E1): |K| = 583567942034732582448
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.785s] orbit of 81 pairs (9 in E1): |K| = 64840882448303620272
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.789s] orbit of 81 pairs (9 in E1): |K| = 7204542494255957808
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.794s] orbit of 81 pairs (9 in E1): |K| = 800504721583995312
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.797s] orbit of 81 pairs (9 in E1): |K| = 88944969064888368
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.801s] orbit of 81 pairs (9 in E1): |K| = 9882774340543152
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.804s] orbit of 81 pairs (9 in E1): |K| = 1098086037838128
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.807s] orbit of 81 pairs (9 in E1): |K| = 122009559759792
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.81s] orbit of 72 pairs (9 in E1): |K| = 15251194969974
+LUKSAUT gcfi-F3_2-mcgee-tw     [5.812s] |K| = 15251194969974 on U; lifting
+LUKSAUT gcfi-F3_2-mcgee-tw |Aut(G)| = 488038239039168 (|Stab_P(E)| = 15251194969974, every generator of Q lifts: image = Q of order 32; 4 iso tests) calls=6540572 maxBranch=24 (17.507s)
+LUKSAUT gcfi-F3_2-mcgee-tw GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=9
+LUKSAUT gcfi-F3_2-mcgee-tw |Aut(G)| = 488038239039168 | luks: 24 pieces, 1 types, |Q| = 32 (all generators lift), 4 iso tests, 17.511s
+DONE rc=0 seconds=18

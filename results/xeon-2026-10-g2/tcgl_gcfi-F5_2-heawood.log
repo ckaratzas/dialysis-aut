@@ -1,0 +1,17 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+==== /home/linux/xeon_oct17/g2_instances/gcfi-F5_2-heawood -- SERIES PARITY EQUATIONS (n=9800 m=26775, base partition canonical hash-1-WL) ====
+[0.156s] PI: 2 classes, non-singleton 2, sizes {1050=1, 8750=1}
+AUTPRUNE class=1050 base=10 nodes=116 dead=0 leaves=18 gens=17 skipped=3966 domDiscrete=true
+AUTPRUNE   per depth (1..10): nodes=[4, 8, 9, 10, 11, 12, 13, 14, 16, 18] dead=[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=1050 leafGens=17 |<leaves>|=24609375000000000 stabiliserComputations=114 cells=[1050, 200, 25, 25, 25, 25, 25, 25, 24, 20] prodCells=24609375000000000
+TCCERTK class=1050 leaf generators used for pruning 17 of 17, |<K|_C>| = 24609375000000000: all in <K|_C> -> class result UNCONDITIONAL
+TCGROUP early stop (unconditional, TCCERTK): |<K|_C>| = |<T_C>| = 24609375000000000, leaves discrete on V
+TCGROUP class=1050 base=10 nodes=116 leaves=18 stored=18 |<T_C>|=24609375000000000 gens=17
+   class of size 1050: default base too long, largest-cell base used
+TCGROUP |Aut| = 24609375000000000 (early stop) EXACT
+ONE /home/linux/xeon_oct17/g2_instances/gcfi-F5_2-heawood original=true -> EXACT |Aut|=2.46094e+16 vars=0 TCGROUP early stop: Aut = <17 verified automorphisms>, |<K|_C>| = |<T_C>| on a class of size 1050 with leaves discrete on V (unconditional: every pruning element is the restriction of a verified automorphism, TCCERTK) (14.593s)
+DONE rc=0 seconds=14

@@ -1,0 +1,55 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+LUKSAUT gcfi-S3-rc20-1-tw n=1080: cut 180 edges, 20 pieces, 1 isomorphism types 0.074s
+AUTPRUNE class=18 base=6 nodes=189 dead=82 leaves=8 gens=7 skipped=504 domDiscrete=true
+AUTPRUNE   per depth (1..6): nodes=[3, 7, 15, 29, 44, 90] dead=[0, 0, 0, 0, 0, 82]
+GENAUT class=18 base=6 explored leaves=8 generators=7
+GENAUT |Aut| = 1296.00 from 7 generators
+LUKSAUT gcfi-S3-rc20-1-tw   |Aut(rep)| per type = [1296]; |P| = 178689910246017054531432477289437798228285773001601743140683776 0.177s
+AUTPRUNE class=20 base=1 nodes=21 dead=19 leaves=1 gens=0 skipped=504 domDiscrete=true
+AUTPRUNE   per depth (1..1): nodes=[20] dead=[19]
+GENAUT class=20 base=1 explored leaves=1 generators=0
+GENAUT |Aut| = 1.00000 from 0 generators
+LUKSAUT gcfi-S3-rc20-1-tw   |Q| = 1; |A| = |Q| |P| 0.305s
+LUKSAUT gcfi-S3-rc20-1-tw     [0.332s] U = 360 points, |P^U| = 178689910246017054531432477289437798228285773001601743140683776
+LUKSAUT gcfi-S3-rc20-1-tw     [0.568s] refine: 20 -> 60 colours, |K| = 48873677980689257489322752273774603865660850176
+LUKSAUT gcfi-S3-rc20-1-tw     [0.619s] orbit of 36 pairs (6 in E1): |K| = 1357602166130257152481187563160405662935023616
+LUKSAUT gcfi-S3-rc20-1-tw     [0.653s] orbit of 36 pairs (6 in E1): |K| = 37711171281396032013366321198900157303750656
+LUKSAUT gcfi-S3-rc20-1-tw     [0.699s] orbit of 36 pairs (6 in E1): |K| = 1047532535594334222593508922191671036215296
+LUKSAUT gcfi-S3-rc20-1-tw     [0.735s] orbit of 36 pairs (6 in E1): |K| = 29098125988731506183153025616435306561536
+LUKSAUT gcfi-S3-rc20-1-tw     [0.763s] orbit of 36 pairs (6 in E1): |K| = 808281277464764060643139600456536293376
+LUKSAUT gcfi-S3-rc20-1-tw     [0.779s] orbit of 36 pairs (6 in E1): |K| = 22452257707354557240087211123792674816
+LUKSAUT gcfi-S3-rc20-1-tw     [0.797s] orbit of 36 pairs (6 in E1): |K| = 623673825204293256669089197883129856
+LUKSAUT gcfi-S3-rc20-1-tw     [0.812s] orbit of 36 pairs (6 in E1): |K| = 17324272922341479351919144385642496
+LUKSAUT gcfi-S3-rc20-1-tw     [0.825s] orbit of 36 pairs (6 in E1): |K| = 481229803398374426442198455156736
+LUKSAUT gcfi-S3-rc20-1-tw     [0.85s] orbit of 36 pairs (6 in E1): |K| = 13367494538843734067838845976576
+LUKSAUT gcfi-S3-rc20-1-tw     [0.872s] orbit of 36 pairs (6 in E1): |K| = 371319292745659279662190166016
+LUKSAUT gcfi-S3-rc20-1-tw     [0.892s] orbit of 36 pairs (6 in E1): |K| = 10314424798490535546171949056
+LUKSAUT gcfi-S3-rc20-1-tw     [0.91s] orbit of 36 pairs (6 in E1): |K| = 286511799958070431838109696
+LUKSAUT gcfi-S3-rc20-1-tw     [0.927s] orbit of 36 pairs (6 in E1): |K| = 7958661109946400884391936
+LUKSAUT gcfi-S3-rc20-1-tw     [0.942s] orbit of 36 pairs (6 in E1): |K| = 221073919720733357899776
+LUKSAUT gcfi-S3-rc20-1-tw     [0.956s] orbit of 36 pairs (6 in E1): |K| = 6140942214464815497216
+LUKSAUT gcfi-S3-rc20-1-tw     [0.968s] orbit of 36 pairs (6 in E1): |K| = 170581728179578208256
+LUKSAUT gcfi-S3-rc20-1-tw     [0.979s] orbit of 36 pairs (6 in E1): |K| = 4738381338321616896
+LUKSAUT gcfi-S3-rc20-1-tw     [0.99s] orbit of 36 pairs (6 in E1): |K| = 131621703842267136
+LUKSAUT gcfi-S3-rc20-1-tw     [1.003s] orbit of 36 pairs (6 in E1): |K| = 3656158440062976
+LUKSAUT gcfi-S3-rc20-1-tw     [1.012s] orbit of 36 pairs (6 in E1): |K| = 101559956668416
+LUKSAUT gcfi-S3-rc20-1-tw     [1.019s] orbit of 36 pairs (6 in E1): |K| = 2821109907456
+LUKSAUT gcfi-S3-rc20-1-tw     [1.026s] orbit of 36 pairs (6 in E1): |K| = 78364164096
+LUKSAUT gcfi-S3-rc20-1-tw     [1.031s] orbit of 36 pairs (6 in E1): |K| = 13060694016
+LUKSAUT gcfi-S3-rc20-1-tw     [1.037s] orbit of 36 pairs (6 in E1): |K| = 2176782336
+LUKSAUT gcfi-S3-rc20-1-tw     [1.043s] orbit of 36 pairs (6 in E1): |K| = 60466176
+LUKSAUT gcfi-S3-rc20-1-tw     [1.048s] orbit of 36 pairs (6 in E1): |K| = 1679616
+LUKSAUT gcfi-S3-rc20-1-tw     [1.053s] orbit of 36 pairs (6 in E1): |K| = 46656
+LUKSAUT gcfi-S3-rc20-1-tw     [1.054s] refine: 86 -> 88 colours, |K| = 7776
+LUKSAUT gcfi-S3-rc20-1-tw     [1.056s] orbit of 4 pairs (2 in E1): |K| = 3888
+LUKSAUT gcfi-S3-rc20-1-tw     [1.058s] orbit of 9 pairs (3 in E1): |K| = 1296
+LUKSAUT gcfi-S3-rc20-1-tw     [1.06s] orbit of 18 pairs (6 in E1): |K| = 432
+LUKSAUT gcfi-S3-rc20-1-tw     [1.062s] |K| = 432 on U; lifting
+LUKSAUT gcfi-S3-rc20-1-tw |Aut(G)| = 432 (|Stab_P(E)| = 432, every generator of Q lifts: image = Q of order 1; 1 iso tests) calls=13891 maxBranch=6 (1.064s)
+LUKSAUT gcfi-S3-rc20-1-tw GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=3
+LUKSAUT gcfi-S3-rc20-1-tw |Aut(G)| = 432 | luks: 20 pieces, 1 types, |Q| = 1 (all generators lift), 1 iso tests, 1.069s
+DONE rc=0 seconds=1

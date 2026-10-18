@@ -1,0 +1,77 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+==== /home/linux/xeon_oct17/g2_instances/gcfi-F3_2-tutte8 -- SERIES PARITY EQUATIONS (n=3240 m=7695, base partition PI) ====
+[4.208s] PI: 2 classes, non-singleton 2, sizes {810=1, 2430=1}
+-> STOP_TIME
+   luks (plain): n=3240: cut 405 edges, 30 pieces, 1 isomorphism types 0.053s
+AUTPRUNE class=27 base=9 nodes=14041 dead=5153 leaves=10 gens=9 skipped=121643 domDiscrete=true
+AUTPRUNE   per depth (1..9): nodes=[3, 5, 11, 43, 215, 860, 2580, 5160, 5163] dead=[0, 0, 0, 0, 0, 0, 0, 0, 5153]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=27 leafGens=9 |<leaves>|=23328 stabiliserComputations=8893 cells=[27, 8, 7, 6, 5, 4, 3, 2, 18] prodCells=19595520
+TCCERTK class=27 leaf generators used for pruning 9 of 9, |<K|_C>| = 23328: all in <K|_C> -> class result UNCONDITIONAL
+TCGROUP early stop (unconditional, TCCERTK): |<K|_C>| = |<T_C>| = 23328, leaves discrete on V
+TCGROUP class=27 base=9 nodes=14041 leaves=10 stored=10 |<T_C>|=23328 gens=9
+TCGROUP |Aut| = 23328 (early stop) EXACT
+   luks (plain):   |Aut(rep)| per type = [23328]; |P| = 108723944234921670172413236267246195704927790645353944714907255395163648696879832618813136642452672471240988698232947383201928577024 0.836s
+AUTPRUNE class=30 base=6 nodes=28 dead=0 leaves=7 gens=6 skipped=121688 domDiscrete=true
+AUTPRUNE   per depth (1..6): nodes=[2, 3, 4, 5, 6, 7] dead=[0, 0, 0, 0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=30 leafGens=6 |<leaves>|=1440 stabiliserComputations=22 cells=[30, 3, 2, 2, 2, 2] prodCells=1440
+TCCERTK class=30 leaf generators used for pruning 6 of 6, |<K|_C>| = 1440: all in <K|_C> -> class result UNCONDITIONAL
+TCGROUP early stop (unconditional, TCCERTK): |<K|_C>| = |<T_C>| = 1440, leaves discrete on V
+TCGROUP class=30 base=6 nodes=28 leaves=7 stored=7 |<T_C>|=1440 gens=6
+TCGROUP |Aut| = 1440 (early stop) EXACT
+   luks (plain):   |Q| = 1440; |A| = |Q| |P| 1.128s
+   luks (plain):     [1.231s] U = 810 points, |P^U| = 108723944234921670172413236267246195704927790645353944714907255395163648696879832618813136642452672471240988698232947383201928577024
+   luks (plain):     [3.384s] refine: 30 -> 90 colours, |K| = 491799052426739165486823150614288190785198246601670708064069496272488870783775027553606600254968704924647424
+   luks (plain):     [3.853s] orbit of 81 pairs (9 in E1): |K| = 1138423732469303623812090626421963404595366311577941453852012722852983497184664415633348611701316446584832
+   luks (plain):     [4.116s] orbit of 81 pairs (9 in E1): |K| = 2635240121456721351416876450050841214341125721245234846879659080678202539779315776929047712271565848576
+   luks (plain):     [4.472s] orbit of 81 pairs (9 in E1): |K| = 6100092873742410535687214004747317625789642873252858441851062686755098471711379113261684519147143168
+   luks (plain):     [4.816s] orbit of 81 pairs (9 in E1): |K| = 14120585355885209573350032418396568578216765910307542689470052515636802017850414614031677127655424
+   luks (plain):     [5.061s] orbit of 81 pairs (9 in E1): |K| = 32686540175660207345717667635177242079205476644230422892291788230640745411690774569517771128832
+   luks (plain):     [5.299s] orbit of 81 pairs (9 in E1): |K| = 75663287443657887374346452859206578887049714454237090028453213496853577341876792984994840576
+   luks (plain):     [5.459s] orbit of 81 pairs (9 in E1): |K| = 175146498712171035588764937174089302979281746421845115806604660872346243846937020798599168
+   luks (plain):     [5.564s] orbit of 81 pairs (9 in E1): |K| = 405431709981877397196215132347428942081670709309826656959733011278579268164206066663424
+   luks (plain):     [5.69s] orbit of 81 pairs (9 in E1): |K| = 938499328661753234250497991544974402966830345624598742962344933515229787417143672832
+   luks (plain):     [5.822s] orbit of 81 pairs (9 in E1): |K| = 2172452149679984338542819424872625932793588763019904497598020679433402285687832576
+   luks (plain):     [5.945s] orbit of 81 pairs (9 in E1): |K| = 5028824420555519302182452372390337807392566581064593744439862683873616402055168
+   luks (plain):     [6.029s] orbit of 81 pairs (9 in E1): |K| = 11640797269804442829126047158310967146742052270982855889907089546003741671424
+   luks (plain):     [6.13s] orbit of 81 pairs (9 in E1): |K| = 26946289976399173215569553607201312839680676553201055300710855430564216832
+   luks (plain):     [6.205s] orbit of 81 pairs (9 in E1): |K| = 62375671241664752813818411127780816758520084613891331714608461644824576
+   luks (plain):     [6.308s] orbit of 81 pairs (9 in E1): |K| = 144388127874223964846801877610603742496574269939563267857889957511168
+   luks (plain):     [6.4s] orbit of 81 pairs (9 in E1): |K| = 334231777486629548256485827802323478001329328563803860782152679424
+   luks (plain):     [6.658s] orbit of 81 pairs (9 in E1): |K| = 773684670107938769112235712505378421299373445749545974032760832
+   luks (plain):     [6.753s] orbit of 81 pairs (9 in E1): |K| = 1790936736360969372944990075243931530785586679975800865816576
+   luks (plain):     [6.831s] orbit of 81 pairs (9 in E1): |K| = 4145686889724466141076365914916508173114783981425464967168
+   luks (plain):     [6.893s] orbit of 81 pairs (9 in E1): |K| = 9596497429917745696936032210454880030358296253299687424
+   luks (plain):     [6.96s] orbit of 81 pairs (9 in E1): |K| = 22214114421105892816981556042719629699903463549304832
+   luks (plain):     [7.054s] orbit of 81 pairs (9 in E1): |K| = 51421561159967344483753601950739883564591350808576
+   luks (plain):     [7.114s] orbit of 81 pairs (9 in E1): |K| = 119031391573998482601281485997083063806924423168
+   luks (plain):     [7.191s] orbit of 81 pairs (9 in E1): |K| = 275535628643515006021484921289544129182695424
+   luks (plain):     [7.275s] orbit of 81 pairs (9 in E1): |K| = 637813955193321773197881762244315113848832
+   luks (plain):     [7.368s] orbit of 81 pairs (9 in E1): |K| = 1476421192577133734254355931121099800576
+   luks (plain):     [7.386s] orbit of 81 pairs (9 in E1): |K| = 164046799175237081583817325680122200064
+   luks (plain):     [7.459s] orbit of 81 pairs (9 in E1): |K| = 379737961053789540703280846481764352
+   luks (plain):     [7.527s] orbit of 81 pairs (9 in E1): |K| = 879023057994883196072409366855936
+   luks (plain):     [7.537s] orbit of 81 pairs (9 in E1): |K| = 97669228666098132896934374095104
+   luks (plain):     [7.542s] orbit of 81 pairs (9 in E1): |K| = 10852136518455348099659374899456
+   luks (plain):     [7.55s] orbit of 81 pairs (9 in E1): |K| = 1205792946495038677739930544384
+   luks (plain):     [7.56s] orbit of 81 pairs (9 in E1): |K| = 133976994055004297526658949376
+   luks (plain):     [7.566s] orbit of 81 pairs (9 in E1): |K| = 14886332672778255280739883264
+   luks (plain):     [7.625s] orbit of 81 pairs (9 in E1): |K| = 34459103409208924260971952
+   luks (plain):     [7.634s] orbit of 81 pairs (9 in E1): |K| = 3828789267689880473441328
+   luks (plain):     [7.639s] orbit of 81 pairs (9 in E1): |K| = 425421029743320052604592
+   luks (plain):     [7.644s] orbit of 81 pairs (9 in E1): |K| = 47269003304813339178288
+   luks (plain):     [7.649s] orbit of 81 pairs (9 in E1): |K| = 5252111478312593242032
+   luks (plain):     [7.653s] orbit of 81 pairs (9 in E1): |K| = 583567942034732582448
+   luks (plain):     [7.657s] orbit of 81 pairs (9 in E1): |K| = 64840882448303620272
+   luks (plain):     [7.661s] orbit of 81 pairs (9 in E1): |K| = 7204542494255957808
+   luks (plain):     [7.665s] orbit of 81 pairs (9 in E1): |K| = 800504721583995312
+   luks (plain):     [7.669s] orbit of 81 pairs (9 in E1): |K| = 88944969064888368
+   luks (plain):     [7.67s] |K| = 88944969064888368 on U; lifting
+   luks (plain): |Aut(G)| = 128080755453439249920 (|Stab_P(E)| = 88944969064888368, every generator of Q lifts: image = Q of order 1440; 7 iso tests) calls=14901474 maxBranch=24 (41.187s)
+   luks (plain): GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=9
+-> EXACT by Luks (41.205s): |Aut| = 128080755453439249920
+ONE /home/linux/xeon_oct17/g2_instances/gcfi-F3_2-tutte8 original=true -> EXACT |Aut|=1.28081e+20 vars=0 luks: 30 pieces, 1 types, |Q| = 1440 (all generators lift), 7 iso tests, 41.191s; |Aut| = 128080755453439249920 (after series STOP_TIME: time budget exceeded while building candidates for a class of size 810 (base length 23)) (495.457s)
+DONE rc=0 seconds=496

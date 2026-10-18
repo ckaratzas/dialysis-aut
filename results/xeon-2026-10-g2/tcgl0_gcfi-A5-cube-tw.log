@@ -1,0 +1,59 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+==== /home/linux/xeon_oct17/g2_instances/gcfi-A5-cube-tw -- SERIES PARITY EQUATIONS (n=30240 m=87120, base partition canonical hash-1-WL) ====
+[0.253s] PI: 2 classes, non-singleton 2, sizes {1440=1, 28800=1}
+-> STOP_TIME
+   luks (plain): n=30240: cut 720 edges, 8 pieces, 1 isomorphism types 0.79s
+AUTPRUNE class=180 base=5 nodes=535 dead=501 leaves=9 gens=8 skipped=7575 domDiscrete=true
+AUTPRUNE   per depth (1..5): nodes=[3, 5, 17, 77, 432] dead=[0, 0, 10, 68, 423]
+GENAUT class=180 base=5 explored leaves=9 generators=8
+GENAUT |Aut| = 2.59200e+06 from 8 generators
+   luks (plain):   |Aut(rep)| per type = [2592000]; |P| = 2037417244146278626404335616000000000000000000000000 1.272s
+AUTPRUNE class=8 base=3 nodes=10 dead=0 leaves=4 gens=3 skipped=7586 domDiscrete=true
+AUTPRUNE   per depth (1..3): nodes=[2, 3, 4] dead=[0, 0, 0]
+GENAUT class=8 base=3 explored leaves=4 generators=3
+GENAUT |Aut| = 48.0000 from 3 generators
+   luks (plain):   |Q| = 48; |A| = |Q| |P| 1.733s
+   luks (plain):     [2.372s] U = 1440 points, |P^U| = 2037417244146278626404335616000000000000000000000000
+   luks (plain):     [2.623s] refine: 8 -> 24 colours, |K| = 1213025622610333925376000000000000000000000000
+   luks (plain):     [6.222s] orbit of 3600 pairs (60 in E1): |K| = 168475780918101934080000000000000000000000
+   luks (plain):     [9.297s] orbit of 3600 pairs (60 in E1): |K| = 23399414016403046400000000000000000000
+   luks (plain):     [12.284s] orbit of 3600 pairs (60 in E1): |K| = 3249918613389312000000000000000000
+   luks (plain):     [15.058s] orbit of 3600 pairs (60 in E1): |K| = 451377585192960000000000000000
+   luks (plain):     [18.025s] orbit of 3600 pairs (60 in E1): |K| = 62691331276800000000000000
+   luks (plain):     [20.62s] orbit of 3600 pairs (60 in E1): |K| = 17414258688000000000000
+   luks (plain):     [20.635s] refine: 27 -> 30 colours, |K| = 290237644800000000000
+   luks (plain):     [20.674s] orbit of 225 pairs (15 in E1): |K| = 2418647040000000000
+   luks (plain):     [23.56s] orbit of 3600 pairs (60 in E1): |K| = 335923200000000
+   luks (plain):     [26.071s] orbit of 3600 pairs (60 in E1): |K| = 93312000000
+   luks (plain):     [29.92s] orbit of 3600 pairs (60 in E1): |K| = 25920000
+   luks (plain):     [29.927s] refine: 33 -> 36 colours, |K| = 432000
+   luks (plain):     [29.95s] orbit of 225 pairs (15 in E1): |K| = 7200
+   luks (plain):     [30.221s] orbit of 1200 pairs (60 in E1): |K| = 360
+   luks (plain):     [30.224s] |K| = 360 on U; lifting
+   luks (plain): a generator of Q does not lift -> coset enumeration
+   luks (plain):     [35.014s] U = 1440 points, |P^U| = 2037417244146278626404335616000000000000000000000000
+   luks (plain):     [35.133s] refine: 8 -> 24 colours, |K| = 1213025622610333925376000000000000000000000000
+   luks (plain):     [37.281s] orbit of 3600 pairs (60 in E1): |K| = 168475780918101934080000000000000000000000
+   luks (plain):     [40.177s] orbit of 3600 pairs (60 in E1): |K| = 23399414016403046400000000000000000000
+   luks (plain):     [43.435s] orbit of 3600 pairs (60 in E1): |K| = 3249918613389312000000000000000000
+   luks (plain):     [46.563s] orbit of 3600 pairs (60 in E1): |K| = 451377585192960000000000000000
+   luks (plain):     [49.856s] orbit of 3600 pairs (60 in E1): |K| = 62691331276800000000000000
+   luks (plain):     [52.423s] orbit of 3600 pairs (60 in E1): |K| = 17414258688000000000000
+   luks (plain):     [52.436s] refine: 27 -> 30 colours, |K| = 290237644800000000000
+   luks (plain):     [52.496s] orbit of 225 pairs (15 in E1): |K| = 2418647040000000000
+   luks (plain):     [55.382s] orbit of 3600 pairs (60 in E1): |K| = 335923200000000
+   luks (plain):     [58.278s] orbit of 3600 pairs (60 in E1): |K| = 93312000000
+   luks (plain):     [60.934s] orbit of 3600 pairs (60 in E1): |K| = 25920000
+   luks (plain):     [60.938s] refine: 33 -> 36 colours, |K| = 432000
+   luks (plain):     [60.953s] orbit of 225 pairs (15 in E1): |K| = 7200
+   luks (plain):     [61.137s] orbit of 1200 pairs (60 in E1): |K| = 360
+   luks (plain):     [61.138s] |K| = 360 on U; lifting
+   luks (plain): GIANTS giants=17736 maxGiantDeg=5 maxQuotDeg=60
+   luks (plain): |Aut(G)| = 1440 (|Stab_P(E)| = 360, image in Q of order 4 of 48; 17 iso tests) calls=25957900 maxBranch=60 (158.659s)
+-> EXACT by Luks (158.698s): |Aut| = 1440
+ONE /home/linux/xeon_oct17/g2_instances/gcfi-A5-cube-tw original=true -> EXACT |Aut|=1440.00 vars=0 luks: 8 pieces, 1 types, |Q| = 48, |image| = 4, 17 iso tests, 158.661s; |Aut| = 1440 (after series STOP_TIME: time budget exceeded while building candidates for a class of size 1440 (base length 7)) (1958.987s)
+DONE rc=0 seconds=1959

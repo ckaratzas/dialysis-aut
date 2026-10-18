@@ -1,0 +1,400 @@
+TRACE     0.0s heap=10M rss=64M load /home/linux/stress/stress_instances/c2stress-rnd-p2-d4-e3-s2
+TRACE     2.7s heap=785M rss=1835M loaded n=16384 m=3121152; 1-WL
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.refinement.NativeWL1 in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+TRACE     2.9s heap=821M rss=1859M colouring done: 1 classes
+TRACE     2.9s heap=823M rss=1865M depth 0: refine, roots=[]
+TRACE     2.9s heap=874M rss=1869M depth 0: OrbitPhase
+TRACE     2.9s heap=874M rss=1869M depth 0: solve (1 refined classes)
+TRACE     8.5s heap=1229M rss=1900M depth 0: STOP_TIME |Aut(H)|=null maxT=0
+TRACE     8.5s heap=1229M rss=1900M depth 0: next root
+TRACE     8.5s heap=1230M rss=1900M depth 0: root 0, decompose part of 16384
+TRACE     8.7s heap=1358M rss=1902M depth 1: refine, roots=[0]
+TRACE     8.8s heap=620M rss=1906M depth 1: OrbitPhase
+TRACE     8.8s heap=620M rss=1906M depth 1: solve (3 refined classes)
+TRACE    11.2s heap=831M rss=1914M depth 1: STOP_TIME |Aut(H)|=null maxT=0
+TRACE    11.2s heap=831M rss=1914M depth 1: next root
+TRACE    11.2s heap=832M rss=1914M depth 1: root 129, decompose part of 16002
+TRACE    11.4s heap=955M rss=1926M depth 2: refine, roots=[0, 129]
+TRACE    11.6s heap=1221M rss=1932M depth 2: OrbitPhase
+TRACE    11.6s heap=1222M rss=1932M depth 2: solve (19 refined classes)
+TRACE    13.9s heap=1428M rss=1935M depth 2: STOP_TIME |Aut(H)|=null maxT=2
+TRACE    13.9s heap=1428M rss=1935M depth 2: next root
+TRACE    13.9s heap=1429M rss=1935M depth 2: root 2065, decompose part of 15626
+TRACE    14.1s heap=681M rss=1935M depth 3: refine, roots=[0, 129, 2065]
+TRACE    14.2s heap=887M rss=1945M depth 3: OrbitPhase
+TRACE    14.2s heap=887M rss=1945M depth 3: solve (29 refined classes)
+TRACE    16.5s heap=1093M rss=1952M depth 3: STOP_TIME |Aut(H)|=null maxT=0
+TRACE    16.5s heap=1093M rss=1952M depth 3: next root
+TRACE    16.5s heap=1094M rss=1952M depth 3: root 272, decompose part of 15252
+TRACE    16.6s heap=1208M rss=1952M depth 4: refine, roots=[0, 129, 2065, 272]
+TRACE    16.8s heap=1460M rss=1954M depth 4: OrbitPhase
+TRACE    16.8s heap=1460M rss=1954M depth 4: solve (1121 refined classes)
+TRACE    19.2s heap=750M rss=1957M depth 4: STOP_TIME |Aut(H)|=null maxT=0
+TRACE    19.2s heap=750M rss=1957M depth 4: next root
+TRACE    19.2s heap=751M rss=1957M depth 4: root 388, decompose part of 14886
+TRACE    19.3s heap=860M rss=1957M depth 5: refine, roots=[0, 129, 2065, 272, 388]
+TRACE    19.5s heap=1115M rss=1957M depth 5: OrbitPhase
+TRACE    19.5s heap=1115M rss=1957M depth 5: solve (4288 refined classes)
+TRACE    21.8s heap=1336M rss=1957M depth 5: STOP_TIME |Aut(H)|=null maxT=8
+TRACE    21.8s heap=1336M rss=1957M depth 5: next root
+TRACE    21.8s heap=1338M rss=1957M depth 5: root 520, decompose part of 14527
+TRACE    21.9s heap=1444M rss=1957M depth 6: refine, roots=[0, 129, 2065, 272, 388, 520]
+TRACE    22.1s heap=724M rss=1957M depth 6: OrbitPhase
+TRACE    22.1s heap=725M rss=1957M depth 6: solve (16384 refined classes)
+PROGRESS      1.8s level=5 start cand=521 (#2 of 64, inOrb=1, excluded=0, tests=0) recNodes=0
+PROGRESS      2.1s level=5 start cand=522 (#3 of 64, inOrb=1, excluded=1, tests=0) recNodes=0
+PROGRESS      2.1s level=5 start cand=523 (#4 of 64, inOrb=1, excluded=2, tests=0) recNodes=0
+PROGRESS      2.2s level=5 start cand=524 (#5 of 64, inOrb=1, excluded=3, tests=0) recNodes=0
+PROGRESS      2.2s level=5 start cand=525 (#6 of 64, inOrb=1, excluded=4, tests=0) recNodes=0
+PROGRESS      2.3s level=5 start cand=526 (#7 of 64, inOrb=1, excluded=5, tests=0) recNodes=0
+PROGRESS      2.3s level=5 start cand=527 (#8 of 64, inOrb=1, excluded=6, tests=0) recNodes=0
+PROGRESS      2.3s level=5 start cand=536 (#9 of 64, inOrb=1, excluded=7, tests=0) recNodes=0
+PROGRESS      4.1s level=5 answer=true cand=536 tests=1 recNodes=0
+PROGRESS      4.1s level=5 start cand=537 (#10 of 64, inOrb=2, excluded=7, tests=1) recNodes=0
+PROGRESS      4.2s level=5 start cand=538 (#11 of 64, inOrb=2, excluded=8, tests=1) recNodes=0
+PROGRESS      4.2s level=5 start cand=539 (#12 of 64, inOrb=2, excluded=9, tests=1) recNodes=0
+PROGRESS      4.3s level=5 start cand=540 (#13 of 64, inOrb=2, excluded=10, tests=1) recNodes=0
+PROGRESS      4.3s level=5 start cand=541 (#14 of 64, inOrb=2, excluded=11, tests=1) recNodes=0
+PROGRESS      4.3s level=5 start cand=542 (#15 of 64, inOrb=2, excluded=12, tests=1) recNodes=0
+PROGRESS      4.4s level=5 start cand=543 (#16 of 64, inOrb=2, excluded=13, tests=1) recNodes=0
+PROGRESS      4.4s level=5 start cand=552 (#17 of 64, inOrb=2, excluded=14, tests=1) recNodes=0
+PROGRESS      6.3s level=5 answer=true cand=552 tests=2 recNodes=0
+PROGRESS      6.3s level=5 start cand=553 (#18 of 64, inOrb=4, excluded=14, tests=2) recNodes=0
+PROGRESS      6.3s level=5 start cand=554 (#19 of 64, inOrb=4, excluded=16, tests=2) recNodes=0
+PROGRESS      6.4s level=5 start cand=555 (#20 of 64, inOrb=4, excluded=18, tests=2) recNodes=0
+PROGRESS      6.4s level=5 start cand=556 (#21 of 64, inOrb=4, excluded=20, tests=2) recNodes=0
+PROGRESS      6.4s level=5 start cand=557 (#22 of 64, inOrb=4, excluded=22, tests=2) recNodes=0
+PROGRESS      6.5s level=5 start cand=558 (#23 of 64, inOrb=4, excluded=24, tests=2) recNodes=0
+PROGRESS      6.5s level=5 start cand=559 (#24 of 64, inOrb=4, excluded=26, tests=2) recNodes=0
+PROGRESS      6.5s level=5 start cand=584 (#33 of 64, inOrb=4, excluded=28, tests=2) recNodes=0
+PROGRESS      8.6s level=5 answer=true cand=584 tests=3 recNodes=0
+PROGRESS      8.6s level=5 start cand=585 (#34 of 64, inOrb=8, excluded=28, tests=3) recNodes=0
+PROGRESS      8.7s level=5 start cand=586 (#35 of 64, inOrb=8, excluded=32, tests=3) recNodes=0
+PROGRESS      8.7s level=5 start cand=587 (#36 of 64, inOrb=8, excluded=36, tests=3) recNodes=0
+PROGRESS      8.8s level=5 start cand=588 (#37 of 64, inOrb=8, excluded=40, tests=3) recNodes=0
+PROGRESS      8.8s level=5 start cand=589 (#38 of 64, inOrb=8, excluded=44, tests=3) recNodes=0
+PROGRESS      8.8s level=5 start cand=590 (#39 of 64, inOrb=8, excluded=48, tests=3) recNodes=0
+PROGRESS      8.9s level=5 start cand=591 (#40 of 64, inOrb=8, excluded=52, tests=3) recNodes=0
+PROGRESS      9.1s level=4 start cand=389 (#2 of 96, inOrb=1, excluded=0, tests=0) recNodes=0
+PROGRESS      9.1s level=4 start cand=390 (#3 of 96, inOrb=1, excluded=1, tests=0) recNodes=1
+PROGRESS      9.2s level=4 start cand=391 (#4 of 96, inOrb=1, excluded=2, tests=0) recNodes=2
+PROGRESS      9.2s level=4 start cand=392 (#5 of 96, inOrb=1, excluded=3, tests=0) recNodes=3
+PROGRESS      9.2s level=4 start cand=393 (#6 of 96, inOrb=1, excluded=11, tests=0) recNodes=4
+PROGRESS      9.3s level=4 start cand=394 (#7 of 96, inOrb=1, excluded=19, tests=0) recNodes=5
+PROGRESS      9.3s level=4 start cand=395 (#8 of 96, inOrb=1, excluded=27, tests=0) recNodes=6
+PROGRESS      9.4s level=4 start cand=396 (#9 of 96, inOrb=1, excluded=35, tests=0) recNodes=7
+PROGRESS      9.4s level=4 start cand=397 (#10 of 96, inOrb=1, excluded=43, tests=0) recNodes=8
+PROGRESS      9.4s level=4 start cand=398 (#11 of 96, inOrb=1, excluded=51, tests=0) recNodes=9
+PROGRESS      9.5s level=4 start cand=399 (#12 of 96, inOrb=1, excluded=59, tests=0) recNodes=10
+PROGRESS      9.5s level=4 start cand=404 (#13 of 96, inOrb=1, excluded=67, tests=0) recNodes=11
+PROGRESS     11.2s level=4 answer=true cand=404 tests=1 recNodes=12
+PROGRESS     11.2s level=4 start cand=405 (#14 of 96, inOrb=2, excluded=67, tests=1) recNodes=12
+PROGRESS     11.3s level=4 start cand=406 (#15 of 96, inOrb=2, excluded=68, tests=1) recNodes=13
+PROGRESS     11.3s level=4 start cand=407 (#16 of 96, inOrb=2, excluded=69, tests=1) recNodes=14
+PROGRESS     11.3s level=4 start cand=420 (#25 of 96, inOrb=2, excluded=70, tests=1) recNodes=15
+PROGRESS     13.2s level=4 answer=true cand=420 tests=2 recNodes=16
+PROGRESS     13.2s level=4 start cand=421 (#26 of 96, inOrb=4, excluded=70, tests=2) recNodes=16
+PROGRESS     13.2s level=4 start cand=422 (#27 of 96, inOrb=4, excluded=72, tests=2) recNodes=17
+PROGRESS     13.3s level=4 start cand=423 (#28 of 96, inOrb=4, excluded=74, tests=2) recNodes=18
+PROGRESS     13.3s level=4 start cand=452 (#49 of 96, inOrb=4, excluded=76, tests=2) recNodes=19
+PROGRESS     15.5s level=4 answer=true cand=452 tests=3 recNodes=20
+PROGRESS     15.5s level=4 start cand=453 (#50 of 96, inOrb=8, excluded=76, tests=3) recNodes=20
+PROGRESS     15.6s level=4 start cand=454 (#51 of 96, inOrb=8, excluded=80, tests=3) recNodes=21
+PROGRESS     15.6s level=4 start cand=455 (#52 of 96, inOrb=8, excluded=84, tests=3) recNodes=22
+PROGRESS     15.7s level=3 start cand=400 (#2 of 124, inOrb=1, excluded=0, tests=0) recNodes=23
+PROGRESS     22.6s level=3 start cand=528 (#3 of 124, inOrb=1, excluded=1, tests=0) recNodes=33
+PROGRESS     22.7s level=3 start cand=656 (#4 of 124, inOrb=1, excluded=9, tests=0) recNodes=34
+PROGRESS     22.7s level=3 start cand=784 (#5 of 124, inOrb=1, excluded=17, tests=0) recNodes=35
+PROGRESS     22.8s level=3 start cand=912 (#6 of 124, inOrb=1, excluded=25, tests=0) recNodes=36
+PROGRESS     22.8s level=3 start cand=1040 (#7 of 124, inOrb=1, excluded=33, tests=0) recNodes=37
+PROGRESS     22.8s level=3 start cand=1168 (#8 of 124, inOrb=1, excluded=41, tests=0) recNodes=38
+PROGRESS     22.9s level=3 start cand=1296 (#9 of 124, inOrb=1, excluded=49, tests=0) recNodes=39
+PROGRESS     26.5s level=3 start cand=1424 (#10 of 124, inOrb=1, excluded=57, tests=0) recNodes=49
+PROGRESS     30.1s level=3 start cand=1552 (#11 of 124, inOrb=1, excluded=65, tests=0) recNodes=59
+PROGRESS     30.2s level=3 start cand=1680 (#12 of 124, inOrb=1, excluded=73, tests=0) recNodes=60
+PROGRESS     30.2s level=3 start cand=1808 (#13 of 124, inOrb=1, excluded=81, tests=0) recNodes=61
+PROGRESS     33.9s level=3 start cand=1936 (#14 of 124, inOrb=1, excluded=89, tests=0) recNodes=71
+PROGRESS     37.5s level=3 start cand=2320 (#15 of 124, inOrb=1, excluded=97, tests=0) recNodes=81
+PROGRESS     39.4s level=3 answer=true cand=2320 tests=1 recNodes=83
+PROGRESS     39.4s level=3 start cand=2448 (#16 of 124, inOrb=2, excluded=97, tests=1) recNodes=83
+PROGRESS     43.0s level=3 start cand=4112 (#29 of 124, inOrb=2, excluded=98, tests=1) recNodes=93
+PROGRESS     43.1s level=3 start cand=4240 (#30 of 124, inOrb=2, excluded=99, tests=1) recNodes=94
+PROGRESS     43.1s level=3 start cand=4368 (#31 of 124, inOrb=2, excluded=100, tests=1) recNodes=95
+PROGRESS     45.1s level=3 answer=true cand=4368 tests=2 recNodes=97
+PROGRESS     45.1s level=3 start cand=4496 (#32 of 124, inOrb=4, excluded=100, tests=2) recNodes=97
+PROGRESS     48.7s level=3 start cand=6160 (#45 of 124, inOrb=4, excluded=102, tests=2) recNodes=107
+PROGRESS     48.7s level=3 start cand=6288 (#46 of 124, inOrb=4, excluded=103, tests=2) recNodes=108
+PROGRESS     48.8s level=3 start cand=8208 (#61 of 124, inOrb=4, excluded=104, tests=2) recNodes=109
+PROGRESS     48.8s level=3 start cand=8336 (#62 of 124, inOrb=4, excluded=105, tests=2) recNodes=110
+PROGRESS     48.8s level=3 start cand=8464 (#63 of 124, inOrb=4, excluded=106, tests=2) recNodes=111
+PROGRESS     51.2s level=3 answer=true cand=8464 tests=3 recNodes=113
+PROGRESS     51.2s level=3 start cand=8592 (#64 of 124, inOrb=8, excluded=106, tests=3) recNodes=113
+PROGRESS     54.8s level=3 start cand=10256 (#77 of 124, inOrb=8, excluded=110, tests=3) recNodes=123
+PROGRESS     54.9s level=3 start cand=10384 (#78 of 124, inOrb=8, excluded=111, tests=3) recNodes=124
+PROGRESS     54.9s level=3 start cand=12304 (#93 of 124, inOrb=8, excluded=112, tests=3) recNodes=125
+PROGRESS     54.9s level=3 start cand=12432 (#94 of 124, inOrb=8, excluded=113, tests=3) recNodes=126
+PROGRESS     55.0s level=3 start cand=14352 (#109 of 124, inOrb=8, excluded=114, tests=3) recNodes=127
+PROGRESS     55.0s level=3 start cand=14480 (#110 of 124, inOrb=8, excluded=115, tests=3) recNodes=128
+PROGRESS     55.2s level=2 start cand=2192 (#2 of 2, inOrb=1, excluded=0, tests=0) recNodes=129
+PROGRESS     58.4s level=2 answer=true cand=2192 tests=1 recNodes=132
+PROGRESS     58.5s level=1 start cand=130 (#2 of 16002, inOrb=1, excluded=0, tests=0) recNodes=132
+PROGRESS     58.5s level=1 start cand=131 (#3 of 16002, inOrb=1, excluded=16, tests=0) recNodes=133
+PROGRESS     58.6s level=1 start cand=132 (#4 of 16002, inOrb=1, excluded=32, tests=0) recNodes=134
+PROGRESS     58.6s level=1 start cand=133 (#5 of 16002, inOrb=1, excluded=48, tests=0) recNodes=135
+PROGRESS     58.7s level=1 start cand=134 (#6 of 16002, inOrb=1, excluded=64, tests=0) recNodes=136
+PROGRESS     58.7s level=1 start cand=135 (#7 of 16002, inOrb=1, excluded=80, tests=0) recNodes=137
+PROGRESS     58.8s level=1 start cand=136 (#8 of 16002, inOrb=1, excluded=96, tests=0) recNodes=138
+PROGRESS     58.8s level=1 start cand=137 (#9 of 16002, inOrb=1, excluded=112, tests=0) recNodes=139
+PROGRESS     58.8s level=1 start cand=138 (#10 of 16002, inOrb=1, excluded=128, tests=0) recNodes=140
+PROGRESS     58.9s level=1 start cand=139 (#11 of 16002, inOrb=1, excluded=144, tests=0) recNodes=141
+PROGRESS     58.9s level=1 start cand=140 (#12 of 16002, inOrb=1, excluded=160, tests=0) recNodes=142
+PROGRESS     59.0s level=1 start cand=141 (#13 of 16002, inOrb=1, excluded=176, tests=0) recNodes=143
+PROGRESS     59.0s level=1 start cand=142 (#14 of 16002, inOrb=1, excluded=192, tests=0) recNodes=144
+PROGRESS     59.1s level=1 start cand=143 (#15 of 16002, inOrb=1, excluded=208, tests=0) recNodes=145
+PROGRESS     59.1s level=1 start cand=144 (#16 of 16002, inOrb=1, excluded=224, tests=0) recNodes=146
+PROGRESS     61.8s level=1 answer=true cand=144 tests=1 recNodes=153
+PROGRESS     61.8s level=1 start cand=160 (#31 of 16002, inOrb=3, excluded=224, tests=1) recNodes=153
+PROGRESS     61.8s level=1 start cand=161 (#32 of 16002, inOrb=3, excluded=230, tests=1) recNodes=154
+PROGRESS     61.9s level=1 start cand=192 (#63 of 16002, inOrb=3, excluded=236, tests=1) recNodes=155
+PROGRESS     61.9s level=1 start cand=193 (#64 of 16002, inOrb=3, excluded=242, tests=1) recNodes=156
+PROGRESS     62.0s level=1 start cand=224 (#95 of 16002, inOrb=3, excluded=248, tests=1) recNodes=157
+PROGRESS     62.0s level=1 start cand=225 (#96 of 16002, inOrb=3, excluded=254, tests=1) recNodes=158
+PROGRESS     62.0s level=1 start cand=258 (#128 of 16002, inOrb=3, excluded=260, tests=1) recNodes=159
+PROGRESS     72.5s level=1 start cand=259 (#129 of 16002, inOrb=3, excluded=284, tests=1) recNodes=172
+PROGRESS     72.5s level=1 start cand=260 (#130 of 16002, inOrb=3, excluded=332, tests=1) recNodes=173
+PROGRESS     72.6s level=1 start cand=261 (#131 of 16002, inOrb=3, excluded=716, tests=1) recNodes=174
+PROGRESS     72.6s level=1 start cand=264 (#134 of 16002, inOrb=3, excluded=1100, tests=1) recNodes=175
+PROGRESS     72.7s level=1 start cand=265 (#135 of 16002, inOrb=3, excluded=1484, tests=1) recNodes=176
+PROGRESS     72.7s level=1 start cand=268 (#138 of 16002, inOrb=3, excluded=1868, tests=1) recNodes=177
+PROGRESS     72.7s level=1 start cand=269 (#139 of 16002, inOrb=3, excluded=2252, tests=1) recNodes=178
+PROGRESS     72.8s level=1 start cand=272 (#142 of 16002, inOrb=3, excluded=2636, tests=1) recNodes=179
+PROGRESS     72.8s level=1 start cand=273 (#143 of 16002, inOrb=3, excluded=2660, tests=1) recNodes=180
+PROGRESS     72.9s level=1 start cand=274 (#144 of 16002, inOrb=3, excluded=2708, tests=1) recNodes=181
+PROGRESS     72.9s level=1 start cand=275 (#145 of 16002, inOrb=3, excluded=2732, tests=1) recNodes=182
+PROGRESS     73.0s level=1 start cand=288 (#158 of 16002, inOrb=3, excluded=2780, tests=1) recNodes=183
+PROGRESS     73.0s level=1 start cand=289 (#159 of 16002, inOrb=3, excluded=2804, tests=1) recNodes=184
+PROGRESS     73.1s level=1 start cand=290 (#160 of 16002, inOrb=3, excluded=2852, tests=1) recNodes=185
+PROGRESS     73.1s level=1 start cand=291 (#161 of 16002, inOrb=3, excluded=2876, tests=1) recNodes=186
+PROGRESS     73.2s level=1 start cand=304 (#174 of 16002, inOrb=3, excluded=2924, tests=1) recNodes=187
+PROGRESS     73.2s level=1 start cand=305 (#175 of 16002, inOrb=3, excluded=2948, tests=1) recNodes=188
+PROGRESS     73.3s level=1 start cand=306 (#176 of 16002, inOrb=3, excluded=2996, tests=1) recNodes=189
+PROGRESS     73.3s level=1 start cand=307 (#177 of 16002, inOrb=3, excluded=3020, tests=1) recNodes=190
+PROGRESS     73.4s level=1 start cand=339 (#208 of 16002, inOrb=3, excluded=3068, tests=1) recNodes=191
+PROGRESS     73.4s level=1 start cand=387 (#255 of 16002, inOrb=3, excluded=3084, tests=1) recNodes=192
+PROGRESS     78.9s level=1 start cand=388 (#256 of 16002, inOrb=3, excluded=3108, tests=1) recNodes=205
+PROGRESS     78.9s level=1 start cand=389 (#257 of 16002, inOrb=3, excluded=3492, tests=1) recNodes=206
+PROGRESS     79.0s level=1 start cand=392 (#260 of 16002, inOrb=3, excluded=3876, tests=1) recNodes=207
+PROGRESS     79.0s level=1 start cand=393 (#261 of 16002, inOrb=3, excluded=4260, tests=1) recNodes=208
+PROGRESS     79.1s level=1 start cand=396 (#264 of 16002, inOrb=3, excluded=4644, tests=1) recNodes=209
+PROGRESS     79.1s level=1 start cand=397 (#265 of 16002, inOrb=3, excluded=5028, tests=1) recNodes=210
+PROGRESS     79.1s level=1 start cand=400 (#268 of 16002, inOrb=3, excluded=5412, tests=1) recNodes=211
+PROGRESS     79.2s level=1 start cand=403 (#271 of 16002, inOrb=3, excluded=5436, tests=1) recNodes=212
+PROGRESS     79.2s level=1 start cand=448 (#315 of 16002, inOrb=3, excluded=5460, tests=1) recNodes=213
+PROGRESS     79.3s level=1 start cand=451 (#318 of 16002, inOrb=3, excluded=5484, tests=1) recNodes=214
+PROGRESS     79.3s level=1 start cand=464 (#331 of 16002, inOrb=3, excluded=5508, tests=1) recNodes=215
+PROGRESS     79.4s level=1 start cand=467 (#334 of 16002, inOrb=3, excluded=5532, tests=1) recNodes=216
+PROGRESS     79.4s level=1 start cand=516 (#382 of 16002, inOrb=3, excluded=5556, tests=1) recNodes=217
+PROGRESS     84.9s level=1 start cand=517 (#383 of 16002, inOrb=3, excluded=5580, tests=1) recNodes=230
+PROGRESS     84.9s level=1 start cand=520 (#386 of 16002, inOrb=3, excluded=5628, tests=1) recNodes=231
+PROGRESS     85.0s level=1 start cand=521 (#387 of 16002, inOrb=3, excluded=6012, tests=1) recNodes=232
+PROGRESS     85.0s level=1 start cand=522 (#388 of 16002, inOrb=3, excluded=6396, tests=1) recNodes=233
+PROGRESS     85.1s level=1 start cand=523 (#389 of 16002, inOrb=3, excluded=6780, tests=1) recNodes=234
+PROGRESS     85.1s level=1 start cand=529 (#395 of 16002, inOrb=3, excluded=7164, tests=1) recNodes=235
+PROGRESS     85.1s level=1 start cand=533 (#398 of 16002, inOrb=3, excluded=7212, tests=1) recNodes=236
+PROGRESS     85.2s level=1 start cand=544 (#409 of 16002, inOrb=3, excluded=7260, tests=1) recNodes=237
+PROGRESS     85.3s level=1 start cand=545 (#410 of 16002, inOrb=3, excluded=7284, tests=1) recNodes=238
+PROGRESS     85.3s level=1 start cand=548 (#413 of 16002, inOrb=3, excluded=7332, tests=1) recNodes=239
+PROGRESS     85.3s level=1 start cand=549 (#414 of 16002, inOrb=3, excluded=7356, tests=1) recNodes=240
+PROGRESS     85.4s level=1 start cand=561 (#426 of 16002, inOrb=3, excluded=7404, tests=1) recNodes=241
+PROGRESS     85.4s level=1 start cand=565 (#430 of 16002, inOrb=3, excluded=7452, tests=1) recNodes=242
+PROGRESS     85.5s level=1 start cand=576 (#441 of 16002, inOrb=3, excluded=7500, tests=1) recNodes=243
+PROGRESS     85.5s level=1 start cand=580 (#445 of 16002, inOrb=3, excluded=7524, tests=1) recNodes=244
+PROGRESS     85.6s level=1 start cand=581 (#446 of 16002, inOrb=3, excluded=7548, tests=1) recNodes=245
+PROGRESS     85.6s level=1 start cand=608 (#473 of 16002, inOrb=3, excluded=7564, tests=1) recNodes=246
+PROGRESS     85.6s level=1 start cand=612 (#477 of 16002, inOrb=3, excluded=7588, tests=1) recNodes=247
+PROGRESS     85.7s level=1 start cand=645 (#509 of 16002, inOrb=3, excluded=7612, tests=1) recNodes=248
+PROGRESS     90.8s level=1 start cand=648 (#512 of 16002, inOrb=3, excluded=7636, tests=1) recNodes=261
+PROGRESS     90.9s level=1 start cand=649 (#513 of 16002, inOrb=3, excluded=8020, tests=1) recNodes=262
+PROGRESS     90.9s level=1 start cand=650 (#514 of 16002, inOrb=3, excluded=8404, tests=1) recNodes=263
+PROGRESS     91.0s level=1 start cand=651 (#515 of 16002, inOrb=3, excluded=8788, tests=1) recNodes=264
+PROGRESS     91.0s level=1 start cand=656 (#520 of 16002, inOrb=3, excluded=9172, tests=1) recNodes=265
+PROGRESS     91.1s level=1 start cand=661 (#525 of 16002, inOrb=3, excluded=9196, tests=1) recNodes=266
+PROGRESS     91.1s level=1 start cand=704 (#567 of 16002, inOrb=3, excluded=9220, tests=1) recNodes=267
+PROGRESS     91.1s level=1 start cand=709 (#572 of 16002, inOrb=3, excluded=9244, tests=1) recNodes=268
+PROGRESS     91.2s level=1 start cand=720 (#583 of 16002, inOrb=3, excluded=9268, tests=1) recNodes=269
+PROGRESS     91.2s level=1 start cand=725 (#588 of 16002, inOrb=3, excluded=9292, tests=1) recNodes=270
+PROGRESS     91.3s level=1 start cand=774 (#636 of 16002, inOrb=3, excluded=9316, tests=1) recNodes=271
+PROGRESS     96.8s level=1 start cand=775 (#637 of 16002, inOrb=3, excluded=9340, tests=1) recNodes=284
+PROGRESS     96.8s level=1 start cand=776 (#638 of 16002, inOrb=3, excluded=9356, tests=1) recNodes=285
+PROGRESS     96.9s level=1 start cand=777 (#639 of 16002, inOrb=3, excluded=9740, tests=1) recNodes=286
+PROGRESS     96.9s level=1 start cand=778 (#640 of 16002, inOrb=3, excluded=10124, tests=1) recNodes=287
+PROGRESS     97.0s level=1 start cand=779 (#641 of 16002, inOrb=3, excluded=10508, tests=1) recNodes=288
+PROGRESS     97.0s level=1 start cand=784 (#646 of 16002, inOrb=3, excluded=10892, tests=1) recNodes=289
+PROGRESS     97.0s level=1 start cand=785 (#647 of 16002, inOrb=3, excluded=10916, tests=1) recNodes=290
+PROGRESS     97.1s level=1 start cand=790 (#652 of 16002, inOrb=3, excluded=10964, tests=1) recNodes=291
+PROGRESS     97.1s level=1 start cand=800 (#662 of 16002, inOrb=3, excluded=10988, tests=1) recNodes=292
+PROGRESS     97.2s level=1 start cand=801 (#663 of 16002, inOrb=3, excluded=11012, tests=1) recNodes=293
+PROGRESS     97.2s level=1 start cand=806 (#668 of 16002, inOrb=3, excluded=11060, tests=1) recNodes=294
+PROGRESS     97.3s level=1 start cand=816 (#678 of 16002, inOrb=3, excluded=11084, tests=1) recNodes=295
+PROGRESS     97.3s level=1 start cand=817 (#679 of 16002, inOrb=3, excluded=11108, tests=1) recNodes=296
+PROGRESS     97.3s level=1 start cand=822 (#684 of 16002, inOrb=3, excluded=11156, tests=1) recNodes=297
+PROGRESS     97.4s level=1 start cand=833 (#695 of 16002, inOrb=3, excluded=11180, tests=1) recNodes=298
+PROGRESS     97.4s level=1 start cand=849 (#710 of 16002, inOrb=3, excluded=11228, tests=1) recNodes=299
+PROGRESS     97.5s level=1 start cand=865 (#726 of 16002, inOrb=3, excluded=11276, tests=1) recNodes=300
+PROGRESS     97.5s level=1 start cand=881 (#742 of 16002, inOrb=3, excluded=11324, tests=1) recNodes=301
+PROGRESS     97.5s level=1 start cand=903 (#763 of 16002, inOrb=3, excluded=11372, tests=1) recNodes=302
+PROGRESS    103.3s level=1 start cand=904 (#764 of 16002, inOrb=3, excluded=11396, tests=1) recNodes=315
+PROGRESS    103.3s level=1 start cand=905 (#765 of 16002, inOrb=3, excluded=11780, tests=1) recNodes=316
+PROGRESS    103.3s level=1 start cand=906 (#766 of 16002, inOrb=3, excluded=12164, tests=1) recNodes=317
+PROGRESS    103.4s level=1 start cand=907 (#767 of 16002, inOrb=3, excluded=12548, tests=1) recNodes=318
+PROGRESS    103.4s level=1 start cand=928 (#787 of 16002, inOrb=3, excluded=12932, tests=1) recNodes=319
+PROGRESS    103.5s level=1 start cand=935 (#794 of 16002, inOrb=3, excluded=12956, tests=1) recNodes=320
+PROGRESS    103.5s level=1 start cand=960 (#819 of 16002, inOrb=3, excluded=12980, tests=1) recNodes=321
+PROGRESS    103.6s level=1 start cand=967 (#826 of 16002, inOrb=3, excluded=13004, tests=1) recNodes=322
+PROGRESS    103.6s level=1 start cand=992 (#851 of 16002, inOrb=3, excluded=13028, tests=1) recNodes=323
+PROGRESS    103.6s level=1 start cand=999 (#858 of 16002, inOrb=3, excluded=13052, tests=1) recNodes=324
+PROGRESS    103.7s level=1 start cand=1032 (#890 of 16002, inOrb=3, excluded=13076, tests=1) recNodes=325
+PROGRESS    108.9s level=1 start cand=1033 (#891 of 16002, inOrb=3, excluded=13100, tests=1) recNodes=338
+PROGRESS    108.9s level=1 start cand=1040 (#898 of 16002, inOrb=3, excluded=13148, tests=1) recNodes=339
+PROGRESS    109.0s level=1 start cand=1041 (#899 of 16002, inOrb=3, excluded=13172, tests=1) recNodes=340
+PROGRESS    109.0s level=1 start cand=1048 (#906 of 16002, inOrb=3, excluded=13220, tests=1) recNodes=341
+PROGRESS    109.1s level=1 start cand=1049 (#907 of 16002, inOrb=3, excluded=13244, tests=1) recNodes=342
+PROGRESS    109.1s level=1 start cand=1081 (#938 of 16002, inOrb=3, excluded=13292, tests=1) recNodes=343
+PROGRESS    109.2s level=1 start cand=1088 (#945 of 16002, inOrb=3, excluded=13308, tests=1) recNodes=344
+PROGRESS    109.2s level=1 start cand=1089 (#946 of 16002, inOrb=3, excluded=13332, tests=1) recNodes=345
+PROGRESS    109.2s level=1 start cand=1096 (#953 of 16002, inOrb=3, excluded=13380, tests=1) recNodes=346
+PROGRESS    109.3s level=1 start cand=1097 (#954 of 16002, inOrb=3, excluded=13404, tests=1) recNodes=347
+PROGRESS    109.3s level=1 start cand=1104 (#961 of 16002, inOrb=3, excluded=13452, tests=1) recNodes=348
+PROGRESS    109.4s level=1 start cand=1105 (#962 of 16002, inOrb=3, excluded=13476, tests=1) recNodes=349
+PROGRESS    109.4s level=1 start cand=1112 (#969 of 16002, inOrb=3, excluded=13524, tests=1) recNodes=350
+PROGRESS    109.5s level=1 start cand=1113 (#970 of 16002, inOrb=3, excluded=13548, tests=1) recNodes=351
+PROGRESS    109.5s level=1 start cand=1161 (#1017 of 16002, inOrb=3, excluded=13596, tests=1) recNodes=352
+PROGRESS    114.9s level=1 start cand=1168 (#1024 of 16002, inOrb=3, excluded=13620, tests=1) recNodes=365
+PROGRESS    115.0s level=1 start cand=1177 (#1033 of 16002, inOrb=3, excluded=13644, tests=1) recNodes=366
+PROGRESS    115.0s level=1 start cand=1216 (#1071 of 16002, inOrb=3, excluded=13668, tests=1) recNodes=367
+PROGRESS    115.1s level=1 start cand=1225 (#1080 of 16002, inOrb=3, excluded=13692, tests=1) recNodes=368
+PROGRESS    115.1s level=1 start cand=1232 (#1087 of 16002, inOrb=3, excluded=13716, tests=1) recNodes=369
+PROGRESS    115.1s level=1 start cand=1241 (#1096 of 16002, inOrb=3, excluded=13740, tests=1) recNodes=370
+PROGRESS    115.2s level=1 start cand=1290 (#1144 of 16002, inOrb=3, excluded=13764, tests=1) recNodes=371
+PROGRESS    120.6s level=1 start cand=1291 (#1145 of 16002, inOrb=3, excluded=13788, tests=1) recNodes=384
+PROGRESS    120.7s level=1 start cand=1296 (#1150 of 16002, inOrb=3, excluded=13836, tests=1) recNodes=385
+PROGRESS    120.7s level=1 start cand=1297 (#1151 of 16002, inOrb=3, excluded=13860, tests=1) recNodes=386
+PROGRESS    120.8s level=1 start cand=1306 (#1160 of 16002, inOrb=3, excluded=13908, tests=1) recNodes=387
+PROGRESS    120.8s level=1 start cand=1307 (#1161 of 16002, inOrb=3, excluded=13932, tests=1) recNodes=388
+PROGRESS    120.9s level=1 start cand=1312 (#1166 of 16002, inOrb=3, excluded=13980, tests=1) recNodes=389
+PROGRESS    120.9s level=1 start cand=1313 (#1167 of 16002, inOrb=3, excluded=14004, tests=1) recNodes=390
+PROGRESS    121.0s level=1 start cand=1322 (#1176 of 16002, inOrb=3, excluded=14052, tests=1) recNodes=391
+PROGRESS    121.0s level=1 start cand=1323 (#1177 of 16002, inOrb=3, excluded=14076, tests=1) recNodes=392
+PROGRESS    121.0s level=1 start cand=1328 (#1182 of 16002, inOrb=3, excluded=14124, tests=1) recNodes=393
+PROGRESS    121.1s level=1 start cand=1329 (#1183 of 16002, inOrb=3, excluded=14148, tests=1) recNodes=394
+PROGRESS    121.1s level=1 start cand=1338 (#1192 of 16002, inOrb=3, excluded=14196, tests=1) recNodes=395
+PROGRESS    121.2s level=1 start cand=1339 (#1193 of 16002, inOrb=3, excluded=14220, tests=1) recNodes=396
+PROGRESS    121.2s level=1 start cand=1355 (#1208 of 16002, inOrb=3, excluded=14268, tests=1) recNodes=397
+PROGRESS    121.3s level=1 start cand=1419 (#1271 of 16002, inOrb=3, excluded=14284, tests=1) recNodes=398
+PROGRESS    126.8s level=1 start cand=1424 (#1276 of 16002, inOrb=3, excluded=14308, tests=1) recNodes=411
+PROGRESS    126.8s level=1 start cand=1435 (#1287 of 16002, inOrb=3, excluded=14332, tests=1) recNodes=412
+PROGRESS    126.8s level=1 start cand=1472 (#1323 of 16002, inOrb=3, excluded=14356, tests=1) recNodes=413
+PROGRESS    126.9s level=1 start cand=1483 (#1334 of 16002, inOrb=3, excluded=14380, tests=1) recNodes=414
+PROGRESS    126.9s level=1 start cand=1488 (#1339 of 16002, inOrb=3, excluded=14404, tests=1) recNodes=415
+PROGRESS    127.0s level=1 start cand=1499 (#1350 of 16002, inOrb=3, excluded=14428, tests=1) recNodes=416
+PROGRESS    127.0s level=1 start cand=1548 (#1398 of 16002, inOrb=3, excluded=14452, tests=1) recNodes=417
+PROGRESS    132.4s level=1 start cand=1549 (#1399 of 16002, inOrb=3, excluded=14476, tests=1) recNodes=430
+PROGRESS    132.5s level=1 start cand=1553 (#1403 of 16002, inOrb=3, excluded=14524, tests=1) recNodes=431
+PROGRESS    132.5s level=1 start cand=1565 (#1414 of 16002, inOrb=3, excluded=14572, tests=1) recNodes=432
+PROGRESS    132.6s level=1 start cand=1568 (#1417 of 16002, inOrb=3, excluded=14620, tests=1) recNodes=433
+PROGRESS    132.6s level=1 start cand=1569 (#1418 of 16002, inOrb=3, excluded=14644, tests=1) recNodes=434
+PROGRESS    132.6s level=1 start cand=1580 (#1429 of 16002, inOrb=3, excluded=14692, tests=1) recNodes=435
+PROGRESS    132.7s level=1 start cand=1581 (#1430 of 16002, inOrb=3, excluded=14716, tests=1) recNodes=436
+PROGRESS    132.7s level=1 start cand=1585 (#1434 of 16002, inOrb=3, excluded=14764, tests=1) recNodes=437
+PROGRESS    132.8s level=1 start cand=1597 (#1446 of 16002, inOrb=3, excluded=14812, tests=1) recNodes=438
+PROGRESS    132.8s level=1 start cand=1600 (#1449 of 16002, inOrb=3, excluded=14860, tests=1) recNodes=439
+PROGRESS    132.8s level=1 start cand=1612 (#1461 of 16002, inOrb=3, excluded=14884, tests=1) recNodes=440
+PROGRESS    132.9s level=1 start cand=1613 (#1462 of 16002, inOrb=3, excluded=14908, tests=1) recNodes=441
+PROGRESS    132.9s level=1 start cand=1632 (#1481 of 16002, inOrb=3, excluded=14924, tests=1) recNodes=442
+PROGRESS    133.0s level=1 start cand=1644 (#1493 of 16002, inOrb=3, excluded=14948, tests=1) recNodes=443
+PROGRESS    133.0s level=1 start cand=1677 (#1525 of 16002, inOrb=3, excluded=14972, tests=1) recNodes=444
+PROGRESS    138.2s level=1 start cand=1680 (#1528 of 16002, inOrb=3, excluded=14996, tests=1) recNodes=457
+PROGRESS    138.3s level=1 start cand=1693 (#1541 of 16002, inOrb=3, excluded=15020, tests=1) recNodes=458
+PROGRESS    138.3s level=1 start cand=1728 (#1575 of 16002, inOrb=3, excluded=15044, tests=1) recNodes=459
+PROGRESS    138.4s level=1 start cand=1741 (#1588 of 16002, inOrb=3, excluded=15068, tests=1) recNodes=460
+PROGRESS    138.4s level=1 start cand=1744 (#1591 of 16002, inOrb=3, excluded=15092, tests=1) recNodes=461
+PROGRESS    138.4s level=1 start cand=1757 (#1604 of 16002, inOrb=3, excluded=15116, tests=1) recNodes=462
+PROGRESS    138.5s level=1 start cand=1806 (#1652 of 16002, inOrb=3, excluded=15140, tests=1) recNodes=463
+PROGRESS    143.9s level=1 start cand=1807 (#1653 of 16002, inOrb=3, excluded=15164, tests=1) recNodes=476
+PROGRESS    144.0s level=1 start cand=1808 (#1654 of 16002, inOrb=3, excluded=15212, tests=1) recNodes=477
+PROGRESS    144.0s level=1 start cand=1809 (#1655 of 16002, inOrb=3, excluded=15236, tests=1) recNodes=478
+PROGRESS    144.1s level=1 start cand=1822 (#1668 of 16002, inOrb=3, excluded=15284, tests=1) recNodes=479
+PROGRESS    144.1s level=1 start cand=1823 (#1669 of 16002, inOrb=3, excluded=15308, tests=1) recNodes=480
+PROGRESS    144.1s level=1 start cand=1824 (#1670 of 16002, inOrb=3, excluded=15356, tests=1) recNodes=481
+PROGRESS    144.2s level=1 start cand=1838 (#1684 of 16002, inOrb=3, excluded=15380, tests=1) recNodes=482
+PROGRESS    144.2s level=1 start cand=1840 (#1686 of 16002, inOrb=3, excluded=15404, tests=1) recNodes=483
+PROGRESS    144.3s level=1 start cand=1854 (#1700 of 16002, inOrb=3, excluded=15428, tests=1) recNodes=484
+PROGRESS    144.3s level=1 start cand=1855 (#1701 of 16002, inOrb=3, excluded=15452, tests=1) recNodes=485
+PROGRESS    144.4s level=1 start cand=1857 (#1703 of 16002, inOrb=3, excluded=15468, tests=1) recNodes=486
+PROGRESS    144.4s level=1 start cand=1871 (#1717 of 16002, inOrb=3, excluded=15516, tests=1) recNodes=487
+PROGRESS    144.5s level=1 start cand=1873 (#1719 of 16002, inOrb=3, excluded=15564, tests=1) recNodes=488
+PROGRESS    144.5s level=1 start cand=1887 (#1733 of 16002, inOrb=3, excluded=15612, tests=1) recNodes=489
+PROGRESS    144.6s level=1 start cand=1935 (#1779 of 16002, inOrb=3, excluded=15660, tests=1) recNodes=490
+PROGRESS    150.0s level=1 start cand=1936 (#1780 of 16002, inOrb=3, excluded=15684, tests=1) recNodes=503
+PROGRESS    150.0s level=1 start cand=1951 (#1795 of 16002, inOrb=3, excluded=15708, tests=1) recNodes=504
+PROGRESS    150.1s level=1 start cand=1984 (#1827 of 16002, inOrb=3, excluded=15732, tests=1) recNodes=505
+PROGRESS    150.1s level=1 start cand=1999 (#1842 of 16002, inOrb=3, excluded=15756, tests=1) recNodes=506
+PROGRESS    150.2s level=1 start cand=2000 (#1843 of 16002, inOrb=3, excluded=15780, tests=1) recNodes=507
+PROGRESS    150.2s level=1 start cand=2015 (#1858 of 16002, inOrb=3, excluded=15804, tests=1) recNodes=508
+PROGRESS    150.2s level=1 start cand=2065 (#1906 of 16002, inOrb=3, excluded=15828, tests=1) recNodes=509
+PROGRESS    153.9s level=1 answer=true cand=2065 tests=2 recNodes=516
+PROGRESS    153.9s level=1 start cand=2080 (#1921 of 16002, inOrb=6, excluded=15828, tests=2) recNodes=516
+PROGRESS    153.9s level=1 start cand=2081 (#1922 of 16002, inOrb=6, excluded=15834, tests=2) recNodes=517
+PROGRESS    157.5s level=1 answer=true cand=2081 tests=3 recNodes=525
+PROGRESS    157.5s level=1 start cand=2112 (#1953 of 16002, inOrb=12, excluded=15834, tests=3) recNodes=525
+PROGRESS    157.6s level=1 start cand=2113 (#1954 of 16002, inOrb=12, excluded=15840, tests=3) recNodes=526
+PROGRESS    161.2s level=1 answer=true cand=2113 tests=4 recNodes=534
+PROGRESS    161.2s level=1 start cand=2144 (#1985 of 16002, inOrb=24, excluded=15840, tests=4) recNodes=534
+PROGRESS    161.2s level=1 start cand=2208 (#2047 of 16002, inOrb=24, excluded=15846, tests=4) recNodes=535
+PROGRESS    161.2s level=1 start cand=2224 (#2063 of 16002, inOrb=24, excluded=15864, tests=4) recNodes=536
+PROGRESS    161.3s level=1 start cand=2240 (#2079 of 16002, inOrb=24, excluded=15882, tests=4) recNodes=537
+PROGRESS    161.3s level=1 start cand=2256 (#2095 of 16002, inOrb=24, excluded=15900, tests=4) recNodes=538
+PROGRESS    161.4s level=1 start cand=2272 (#2111 of 16002, inOrb=24, excluded=15918, tests=4) recNodes=539
+PROGRESS    161.4s level=1 start cand=2288 (#2127 of 16002, inOrb=24, excluded=15936, tests=4) recNodes=540
+PROGRESS    161.5s level=1 start cand=4160 (#3969 of 16002, inOrb=24, excluded=15954, tests=4) recNodes=541
+PROGRESS    161.5s level=1 start cand=4176 (#3985 of 16002, inOrb=24, excluded=15960, tests=4) recNodes=542
+PROGRESS    161.5s level=1 start cand=6208 (#5985 of 16002, inOrb=24, excluded=15966, tests=4) recNodes=543
+PROGRESS    161.5s level=1 start cand=6224 (#6001 of 16002, inOrb=24, excluded=15972, tests=4) recNodes=544
+PROGRESS    161.6s level=0 start cand=1 (#2 of 16384, inOrb=1, excluded=0, tests=0) recNodes=545
+PROGRESS    164.6s level=0 answer=true cand=1 tests=1 recNodes=565
+PROGRESS    164.6s level=0 start cand=2 (#3 of 16384, inOrb=256, excluded=0, tests=1) recNodes=565
+PROGRESS    167.8s level=0 answer=true cand=2 tests=2 recNodes=579
+PROGRESS    167.8s level=0 start cand=4 (#5 of 16384, inOrb=1024, excluded=0, tests=2) recNodes=579
+PROGRESS    170.9s level=0 answer=true cand=4 tests=3 recNodes=595
+PROGRESS    170.9s level=0 start cand=8 (#9 of 16384, inOrb=4096, excluded=0, tests=3) recNodes=595
+PROGRESS    173.5s level=0 answer=true cand=8 tests=4 recNodes=612
+TRACE   195.6s heap=994M rss=1660M depth 6: EXACT |Aut(H)|=1.0 maxT=0
+== c2stress-rnd-p2-d4-e3-s2 n=16384 colour=1-WL
+   group budget 4500000000 work units per depth:
+   depth 0: roots=[] refinedClasses=1 mu=16384 singletons=0 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4531290112 (5.5s)
+   depth 1: roots=[0] refinedClasses=3 mu=16002 singletons=1 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4525031424 (2.4s)
+   depth 2: roots=[0, 129] refinedClasses=19 mu=14880 singletons=4 ours=STOP_TIME |Aut(H)|=null maxT=2 maxBase=1 groupWork=4518772736 (2.4s)
+   depth 3: roots=[0, 129, 2065] refinedClasses=29 mu=14880 singletons=16 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4506255360 (2.4s)
+   depth 4: roots=[0, 129, 2065, 272] refinedClasses=1121 mu=6144 singletons=1024 ours=STOP_TIME |Aut(H)|=null maxT=0 maxBase=0 groupWork=4506255360 (2.4s)
+   depth 5: roots=[0, 129, 2065, 272, 388] refinedClasses=4288 mu=64 singletons=4096 ours=STOP_TIME |Aut(H)|=null maxT=8 maxBase=1 groupWork=4506255360 (2.3s)
+   depth 6: roots=[0, 129, 2065, 272, 388, 520] refinedClasses=16384 mu=1 singletons=16384 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 groupWork=0 (173.5s)
+   orbit of r5=520: 8 of 64 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 28 nodes pruned by invariant; refuted candidates by cut depth {1=28}, 0 needed a leaf query
+   orbit of r4=388: 8 of 96 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 20 nodes pruned by invariant; refuted candidates by cut depth {1=20}, 0 needed a leaf query
+   orbit of r3=272: 8 of 124 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 100 nodes pruned by invariant; refuted candidates by cut depth {1=20, 2=8}, 0 needed a leaf query
+   orbit of r2=2065: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=129: 24 of 16002 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 392 nodes pruned by invariant; refuted candidates by cut depth {1=201, 4=13, 5=1}, 0 needed a leaf query
+   orbit of r0=0: 16384 of 16384 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 54 nodes pruned by invariant
+   search r5: refutations n=28 nodes sum=28 max=1 beta_max=0.00 perDepth=[28]; witnesses n=3 nodes sum=3 max=1 beta_max=0.00 perDepth=[3]
+   search r4: refutations n=20 nodes sum=20 max=1 beta_max=0.00 perDepth=[20]; witnesses n=3 nodes sum=6 max=2 beta_max=1.00 perDepth=[3, 3]
+   search r3: refutations n=28 nodes sum=100 max=10 beta_max=9.00 perDepth=[28, 72]; witnesses n=3 nodes sum=9 max=3 beta_max=1.00 perDepth=[3, 3, 3]
+   search r2: refutations -; witnesses n=1 nodes sum=4 max=4 beta_max=1.00 perDepth=[1, 1, 1, 1]
+   search r1: refutations n=215 nodes sum=391 max=21 beta_max=10.00 perDepth=[215, 14, 39, 115, 8]; witnesses n=4 nodes sum=50 max=13 beta_max=4.00 perDepth=[4, 4, 6, 16, 20]
+   search r0: refutations -; witnesses n=4 nodes sum=78 max=22 beta_max=15.00 perDepth=[4, 38, 4, 4, 17, 11]
+   stabiliser-orbit pruning (SC_STABPRUNE): 80 image nodes skipped
+   lookahead (SC_LOOKAHEAD): 22 candidates refuted at the candidate node, 2724 lookahead refinements
+   generators known at the end: 18; two-sided queries in total: 18
+   |Aut| = 4.02653e+08  ours 195.598s

@@ -1,0 +1,82 @@
+instance | mode | ours |Aut| | ours time | Traces |Aut| | Traces ms | agree
+c2stress-rnd-p2-d5-e3-s1 | look | 1.28849e+10 | 6468.022 | - | - | -
+
+per-level search statistics (refutations / witnesses):
+== chain_c2stress-rnd-p2-d4-e3-s1.look.txt
+   depth 7: roots=[0, 129, 14449, 323, 386, 515, 648] refinedClasses=16384 mu=1 singletons=16384 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 groupWork=0 (232.3s)
+   orbit of r6=648: 8 of 64 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 28 nodes pruned by invariant; refuted candidates by cut depth {1=28}, 0 needed a leaf query
+   orbit of r5=515: 8 of 96 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 20 nodes pruned by invariant; refuted candidates by cut depth {1=20}, 0 needed a leaf query
+   orbit of r4=386: 1 of 112 candidates, 0 two-sided queries, 0 ruled out by fingerprint, 54 nodes pruned by invariant; refuted candidates by cut depth {1=24, 2=3}, 0 needed a leaf query
+   orbit of r3=323: 8 of 124 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 123 nodes pruned by invariant; refuted candidates by cut depth {1=27, 2=1}, 0 needed a leaf query
+   orbit of r2=14449: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint, 45 nodes pruned by invariant
+   orbit of r1=129: 24 of 16002 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 965 nodes pruned by invariant; refuted candidates by cut depth {1=218, 3=1, 4=7, 5=4}, 0 needed a leaf query
+   orbit of r0=0: 16384 of 16384 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 68 nodes pruned by invariant
+   search r6: refutations n=28 nodes sum=28 max=1 beta_max=0.00 perDepth=[28]; witnesses n=3 nodes sum=3 max=1 beta_max=0.00 perDepth=[3]
+   search r5: refutations n=20 nodes sum=20 max=1 beta_max=0.00 perDepth=[20]; witnesses n=3 nodes sum=6 max=2 beta_max=1.00 perDepth=[3, 3]
+   search r4: refutations n=27 nodes sum=54 max=10 beta_max=9.00 perDepth=[27, 27]; witnesses -
+   search r3: refutations n=28 nodes sum=39 max=12 beta_max=11.00 perDepth=[28, 11]; witnesses n=3 nodes sum=99 max=50 beta_max=23.00 perDepth=[3, 54, 39, 3]
+   search r2: refutations -; witnesses n=1 nodes sum=52 max=52 beta_max=11.50 perDepth=[1, 2, 23, 25, 1]
+   search r1: refutations n=230 nodes sum=835 max=474 beta_max=40.00 perDepth=[230, 12, 94, 164, 335]; witnesses n=4 nodes sum=198 max=54 beta_max=14.00 perDepth=[4, 4, 10, 83, 88, 9]
+   search r0: refutations -; witnesses n=4 nodes sum=96 max=34 beta_max=27.00 perDepth=[4, 65, 4, 4, 4, 4, 11]
+== chain_c2stress-rnd-p2-d4-e3-s2.look.txt
+   depth 6: roots=[0, 129, 2065, 272, 388, 520] refinedClasses=16384 mu=1 singletons=16384 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 groupWork=0 (173.5s)
+   orbit of r5=520: 8 of 64 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 28 nodes pruned by invariant; refuted candidates by cut depth {1=28}, 0 needed a leaf query
+   orbit of r4=388: 8 of 96 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 20 nodes pruned by invariant; refuted candidates by cut depth {1=20}, 0 needed a leaf query
+   orbit of r3=272: 8 of 124 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 100 nodes pruned by invariant; refuted candidates by cut depth {1=20, 2=8}, 0 needed a leaf query
+   orbit of r2=2065: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint
+   orbit of r1=129: 24 of 16002 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 392 nodes pruned by invariant; refuted candidates by cut depth {1=201, 4=13, 5=1}, 0 needed a leaf query
+   orbit of r0=0: 16384 of 16384 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 54 nodes pruned by invariant
+   search r5: refutations n=28 nodes sum=28 max=1 beta_max=0.00 perDepth=[28]; witnesses n=3 nodes sum=3 max=1 beta_max=0.00 perDepth=[3]
+   search r4: refutations n=20 nodes sum=20 max=1 beta_max=0.00 perDepth=[20]; witnesses n=3 nodes sum=6 max=2 beta_max=1.00 perDepth=[3, 3]
+   search r3: refutations n=28 nodes sum=100 max=10 beta_max=9.00 perDepth=[28, 72]; witnesses n=3 nodes sum=9 max=3 beta_max=1.00 perDepth=[3, 3, 3]
+   search r2: refutations -; witnesses n=1 nodes sum=4 max=4 beta_max=1.00 perDepth=[1, 1, 1, 1]
+   search r1: refutations n=215 nodes sum=391 max=21 beta_max=10.00 perDepth=[215, 14, 39, 115, 8]; witnesses n=4 nodes sum=50 max=13 beta_max=4.00 perDepth=[4, 4, 6, 16, 20]
+   search r0: refutations -; witnesses n=4 nodes sum=78 max=22 beta_max=15.00 perDepth=[4, 38, 4, 4, 17, 11]
+== chain_c2stress-rnd-p2-d4-e3-s3.look.txt
+   depth 6: roots=[0, 129, 8257, 259, 388, 520] refinedClasses=16384 mu=1 singletons=16384 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 groupWork=0 (147.4s)
+   orbit of r5=520: 8 of 64 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 28 nodes pruned by invariant; refuted candidates by cut depth {1=28}, 0 needed a leaf query
+   orbit of r4=388: 8 of 96 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 20 nodes pruned by invariant; refuted candidates by cut depth {1=20}, 0 needed a leaf query
+   orbit of r3=259: 8 of 124 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 118 nodes pruned by invariant; refuted candidates by cut depth {1=18, 2=10}, 0 needed a leaf query
+   orbit of r2=8257: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint, 12 nodes pruned by invariant
+   orbit of r1=129: 144 of 16002 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 486 nodes pruned by invariant; refuted candidates by cut depth {1=112, 4=5}, 0 needed a leaf query
+   orbit of r0=0: 16384 of 16384 candidates, 1 two-sided queries, 0 ruled out by fingerprint, 22 nodes pruned by invariant
+   search r5: refutations n=28 nodes sum=28 max=1 beta_max=0.00 perDepth=[28]; witnesses n=3 nodes sum=3 max=1 beta_max=0.00 perDepth=[3]
+   search r4: refutations n=20 nodes sum=20 max=1 beta_max=0.00 perDepth=[20]; witnesses n=3 nodes sum=6 max=2 beta_max=1.00 perDepth=[3, 3]
+   search r3: refutations n=28 nodes sum=118 max=10 beta_max=9.00 perDepth=[28, 90]; witnesses n=3 nodes sum=9 max=3 beta_max=1.00 perDepth=[3, 3, 3]
+   search r2: refutations -; witnesses n=1 nodes sum=17 max=17 beta_max=6.50 perDepth=[1, 2, 13, 1]
+   search r1: refutations n=117 nodes sum=177 max=13 beta_max=10.00 perDepth=[117, 5, 7, 48]; witnesses n=3 nodes sum=346 max=220 beta_max=22.67 perDepth=[3, 3, 24, 299, 17]
+   search r0: refutations -; witnesses n=1 nodes sum=28 max=28 beta_max=21.00 perDepth=[1, 21, 1, 1, 2, 2]
+== chain_c2stress-rnd-p2-d5-e3-s1.look.txt
+   depth 8: roots=[0, 257, 49345, 704, 770, 1027, 1288, 1552] refinedClasses=65536 mu=1 singletons=65536 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 groupWork=0 (6403.8s)
+   orbit of r7=1552: 8 of 128 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 60 nodes pruned by invariant; refuted candidates by cut depth {1=60}, 0 needed a leaf query
+   orbit of r6=1288: 8 of 192 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 44 nodes pruned by invariant; refuted candidates by cut depth {1=44}, 0 needed a leaf query
+   orbit of r5=1027: 8 of 224 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 36 nodes pruned by invariant; refuted candidates by cut depth {1=36}, 0 needed a leaf query
+   orbit of r4=770: 1 of 240 candidates, 0 two-sided queries, 0 ruled out by fingerprint, 109 nodes pruned by invariant; refuted candidates by cut depth {1=40, 2=3}, 0 needed a leaf query
+   orbit of r3=704: 8 of 252 candidates, 3 two-sided queries, 0 ruled out by fingerprint, 248 nodes pruned by invariant; refuted candidates by cut depth {1=43, 2=1}, 0 needed a leaf query
+   orbit of r2=49345: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint, 59 nodes pruned by invariant
+   orbit of r1=257: 24 of 64770 candidates, 4 two-sided queries, 0 ruled out by fingerprint, 3471 nodes pruned by invariant; refuted candidates by cut depth {1=506, 3=4, 4=13, 5=6, 6=2, 7=1}, 0 needed a leaf query
+   orbit of r0=0: 65536 of 65536 candidates, 5 two-sided queries, 0 ruled out by fingerprint, 214 nodes pruned by invariant
+   search r7: refutations n=60 nodes sum=60 max=1 beta_max=0.00 perDepth=[60]; witnesses n=3 nodes sum=3 max=1 beta_max=0.00 perDepth=[3]
+   search r6: refutations n=44 nodes sum=44 max=1 beta_max=0.00 perDepth=[44]; witnesses n=3 nodes sum=6 max=2 beta_max=1.00 perDepth=[3, 3]
+   search r5: refutations n=36 nodes sum=36 max=1 beta_max=0.00 perDepth=[36]; witnesses n=3 nodes sum=9 max=3 beta_max=1.00 perDepth=[3, 3, 3]
+   search r4: refutations n=43 nodes sum=109 max=23 beta_max=22.00 perDepth=[43, 66]; witnesses -
+   search r3: refutations n=44 nodes sum=68 max=25 beta_max=24.00 perDepth=[44, 24]; witnesses n=3 nodes sum=198 max=97 beta_max=37.00 perDepth=[3, 102, 87, 3, 3]
+   search r2: refutations -; witnesses n=1 nodes sum=66 max=66 beta_max=33.00 perDepth=[1, 1, 33, 29, 1, 1]
+   search r1: refutations n=532 nodes sum=3342 max=858 beta_max=56.00 perDepth=[532, 26, 399, 656, 1430, 171, 128]; witnesses n=4 nodes sum=257 max=132 beta_max=33.00 perDepth=[4, 4, 7, 107, 116, 9, 10]
+   search r0: refutations -; witnesses n=5 nodes sum=255 max=107 beta_max=41.00 perDepth=[5, 111, 5, 5, 37, 33, 33, 26]
+== chain_c2stress-rnd-p3-d3-e2-s1.look.txt
+   depth 7: roots=[0, 244, 515, 6588, 731, 975, 1224] refinedClasses=59049 mu=1 singletons=59049 ours=EXACT |Aut(H)|=1.0 maxT=0 maxBase=0 groupWork=0 (945.9s)
+   orbit of r6=1224: 9 of 162 candidates, 2 two-sided queries, 0 ruled out by fingerprint, 51 nodes pruned by invariant; refuted candidates by cut depth {1=51}, 0 needed a leaf query
+   orbit of r5=975: 6 of 216 candidates, 2 two-sided queries, 0 ruled out by fingerprint, 53 nodes pruned by invariant; refuted candidates by cut depth {1=36}, 0 needed a leaf query
+   orbit of r4=731: 81 of 234 candidates, 2 two-sided queries, 0 ruled out by fingerprint, 9 nodes pruned by invariant; refuted candidates by cut depth {1=6}, 0 needed a leaf query
+   orbit of r3=6588: 2 of 2 candidates, 1 two-sided queries, 0 ruled out by fingerprint, 18 nodes pruned by invariant
+   orbit of r2=515: 6 of 720 candidates, 1 two-sided queries, 0 ruled out by fingerprint, 79 nodes pruned by invariant; refuted candidates by cut depth {1=1, 3=4}, 0 needed a leaf query
+   orbit of r1=244: 72 of 58322 candidates, 2 two-sided queries, 0 ruled out by fingerprint, 1551 nodes pruned by invariant; refuted candidates by cut depth {1=27, 4=1, 6=1}, 0 needed a leaf query
+   orbit of r0=0: 59049 of 59049 candidates, 2 two-sided queries, 0 ruled out by fingerprint, 17 nodes pruned by invariant
+   search r6: refutations n=51 nodes sum=51 max=1 beta_max=0.00 perDepth=[51]; witnesses n=2 nodes sum=2 max=1 beta_max=0.00 perDepth=[2]
+   search r5: refutations n=36 nodes sum=36 max=1 beta_max=0.00 perDepth=[36]; witnesses n=2 nodes sum=21 max=18 beta_max=17.00 perDepth=[2, 19]
+   search r4: refutations n=6 nodes sum=6 max=1 beta_max=0.00 perDepth=[6]; witnesses n=2 nodes sum=9 max=5 beta_max=3.00 perDepth=[2, 5, 2]
+   search r3: refutations -; witnesses n=1 nodes sum=22 max=22 beta_max=18.00 perDepth=[1, 2, 1, 18]
+   search r2: refutations n=5 nodes sum=79 max=24 beta_max=22.00 perDepth=[5, 6, 68]; witnesses n=1 nodes sum=13 max=13 beta_max=2.00 perDepth=[1, 1, 2, 3, 6]
+   search r1: refutations n=29 nodes sum=1151 max=1079 beta_max=24.00 perDepth=[29, 14, 10, 180, 270, 648]; witnesses n=2 nodes sum=474 max=455 beta_max=41.10 perDepth=[2, 9, 11, 413, 26, 13]
+   search r0: refutations -; witnesses n=2 nodes sum=31 max=18 beta_max=9.00 perDepth=[2, 15, 2, 2, 2, 2, 6]

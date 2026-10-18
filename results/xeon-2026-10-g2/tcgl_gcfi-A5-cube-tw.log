@@ -1,0 +1,65 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+==== /home/linux/xeon_oct17/g2_instances/gcfi-A5-cube-tw -- SERIES PARITY EQUATIONS (n=30240 m=87120, base partition canonical hash-1-WL) ====
+[0.276s] PI: 2 classes, non-singleton 2, sizes {1440=1, 28800=1}
+-> STOP_TIME
+   luks (plain): n=30240: cut 720 edges, 8 pieces, 1 isomorphism types 0.971s
+AUTPRUNE class=180 base=5 nodes=535 dead=501 leaves=9 gens=8 skipped=7575 domDiscrete=true
+AUTPRUNE   per depth (1..5): nodes=[3, 5, 17, 77, 432] dead=[0, 0, 10, 68, 423]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=180 leafGens=8 |<leaves>|=2592000 stabiliserComputations=36 cells=[180, 120, 59, 57, 48] prodCells=3486758400
+TCCERTK class=180 leaf generators used for pruning 8 of 8, |<K|_C>| = 2592000: all in <K|_C> -> class result UNCONDITIONAL
+TCGROUP early stop (unconditional, TCCERTK): |<K|_C>| = |<T_C>| = 2592000, leaves discrete on V
+TCGROUP class=180 base=5 nodes=535 leaves=9 stored=9 |<T_C>|=2592000 gens=8
+TCGROUP |Aut| = 2592000 (early stop) EXACT
+   luks (plain):   |Aut(rep)| per type = [2592000]; |P| = 2037417244146278626404335616000000000000000000000000 1.635s
+AUTPRUNE class=8 base=3 nodes=10 dead=0 leaves=4 gens=3 skipped=7586 domDiscrete=true
+AUTPRUNE   per depth (1..3): nodes=[2, 3, 4] dead=[0, 0, 0]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=8 leafGens=3 |<leaves>|=48 stabiliserComputations=7 cells=[8, 3, 2] prodCells=48
+TCCERTK class=8 leaf generators used for pruning 3 of 3, |<K|_C>| = 48: all in <K|_C> -> class result UNCONDITIONAL
+TCGROUP early stop (unconditional, TCCERTK): |<K|_C>| = |<T_C>| = 48, leaves discrete on V
+TCGROUP class=8 base=3 nodes=10 leaves=4 stored=4 |<T_C>|=48 gens=3
+TCGROUP |Aut| = 48 (early stop) EXACT
+   luks (plain):   |Q| = 48; |A| = |Q| |P| 2.53s
+   luks (plain):     [3.621s] U = 1440 points, |P^U| = 2037417244146278626404335616000000000000000000000000
+   luks (plain):     [3.876s] refine: 8 -> 24 colours, |K| = 1213025622610333925376000000000000000000000000
+   luks (plain):     [6.383s] orbit of 3600 pairs (60 in E1): |K| = 168475780918101934080000000000000000000000
+   luks (plain):     [9.479s] orbit of 3600 pairs (60 in E1): |K| = 23399414016403046400000000000000000000
+   luks (plain):     [12.812s] orbit of 3600 pairs (60 in E1): |K| = 3249918613389312000000000000000000
+   luks (plain):     [15.613s] orbit of 3600 pairs (60 in E1): |K| = 451377585192960000000000000000
+   luks (plain):     [18.589s] orbit of 3600 pairs (60 in E1): |K| = 62691331276800000000000000
+   luks (plain):     [21.163s] orbit of 3600 pairs (60 in E1): |K| = 17414258688000000000000
+   luks (plain):     [21.178s] refine: 27 -> 30 colours, |K| = 290237644800000000000
+   luks (plain):     [21.219s] orbit of 225 pairs (15 in E1): |K| = 2418647040000000000
+   luks (plain):     [24.115s] orbit of 3600 pairs (60 in E1): |K| = 335923200000000
+   luks (plain):     [26.614s] orbit of 3600 pairs (60 in E1): |K| = 93312000000
+   luks (plain):     [29.249s] orbit of 3600 pairs (60 in E1): |K| = 25920000
+   luks (plain):     [29.253s] refine: 33 -> 36 colours, |K| = 432000
+   luks (plain):     [29.269s] orbit of 225 pairs (15 in E1): |K| = 7200
+   luks (plain):     [29.453s] orbit of 1200 pairs (60 in E1): |K| = 360
+   luks (plain):     [29.455s] |K| = 360 on U; lifting
+   luks (plain): a generator of Q does not lift -> coset enumeration
+   luks (plain):     [34.128s] U = 1440 points, |P^U| = 2037417244146278626404335616000000000000000000000000
+   luks (plain):     [34.254s] refine: 8 -> 24 colours, |K| = 1213025622610333925376000000000000000000000000
+   luks (plain):     [36.375s] orbit of 3600 pairs (60 in E1): |K| = 168475780918101934080000000000000000000000
+   luks (plain):     [39.225s] orbit of 3600 pairs (60 in E1): |K| = 23399414016403046400000000000000000000
+   luks (plain):     [42.198s] orbit of 3600 pairs (60 in E1): |K| = 3249918613389312000000000000000000
+   luks (plain):     [46.116s] orbit of 3600 pairs (60 in E1): |K| = 451377585192960000000000000000
+   luks (plain):     [49.89s] orbit of 3600 pairs (60 in E1): |K| = 62691331276800000000000000
+   luks (plain):     [52.451s] orbit of 3600 pairs (60 in E1): |K| = 17414258688000000000000
+   luks (plain):     [52.464s] refine: 27 -> 30 colours, |K| = 290237644800000000000
+   luks (plain):     [52.518s] orbit of 225 pairs (15 in E1): |K| = 2418647040000000000
+   luks (plain):     [55.4s] orbit of 3600 pairs (60 in E1): |K| = 335923200000000
+   luks (plain):     [57.88s] orbit of 3600 pairs (60 in E1): |K| = 93312000000
+   luks (plain):     [60.508s] orbit of 3600 pairs (60 in E1): |K| = 25920000
+   luks (plain):     [60.512s] refine: 33 -> 36 colours, |K| = 432000
+   luks (plain):     [60.526s] orbit of 225 pairs (15 in E1): |K| = 7200
+   luks (plain):     [60.715s] orbit of 1200 pairs (60 in E1): |K| = 360
+   luks (plain):     [60.716s] |K| = 360 on U; lifting
+   luks (plain): GIANTS giants=17736 maxGiantDeg=5 maxQuotDeg=60
+   luks (plain): |Aut(G)| = 1440 (|Stab_P(E)| = 360, image in Q of order 4 of 48; 17 iso tests) calls=25957900 maxBranch=60 (156.993s)
+-> EXACT by Luks (157.05s): |Aut| = 1440
+ONE /home/linux/xeon_oct17/g2_instances/gcfi-A5-cube-tw original=true -> EXACT |Aut|=1440.00 vars=0 luks: 8 pieces, 1 types, |Q| = 48, |image| = 4, 17 iso tests, 156.995s; |Aut| = 1440 (after series STOP_TIME: time budget exceeded while building candidates for a class of size 1440 (base length 7)) (607.364s)
+DONE rc=0 seconds=608

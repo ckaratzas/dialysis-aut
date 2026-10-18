@@ -1,0 +1,43 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+LUKSAUT gcfi-F5_2-heawood n=9800: cut 525 edges, 14 pieces, 1 isomorphism types 0.225s
+AUTPRUNE class=75 base=4 nodes=25 dead=0 leaves=9 gens=8 skipped=461 domDiscrete=true
+AUTPRUNE   per depth (1..4): nodes=[3, 5, 7, 9] dead=[0, 0, 0, 0]
+GENAUT class=75 base=4 explored leaves=9 generators=8
+GENAUT |Aut| = 1.80000e+06 from 8 generators
+LUKSAUT gcfi-F5_2-heawood   |Aut(rep)| per type = [1800000]; |P| = 3748133675820810240000000000000000000000000000000000000000000000000000000000000000000000 0.406s
+AUTPRUNE class=14 base=5 nodes=21 dead=0 leaves=6 gens=5 skipped=485 domDiscrete=true
+AUTPRUNE   per depth (1..5): nodes=[2, 3, 4, 5, 6] dead=[0, 0, 0, 0, 0]
+GENAUT class=14 base=5 explored leaves=6 generators=5
+GENAUT |Aut| = 336.000 from 5 generators
+LUKSAUT gcfi-F5_2-heawood   |Q| = 336; |A| = |Q| |P| 0.924s
+LUKSAUT gcfi-F5_2-heawood     [1.566s] U = 1050 points, |P^U| = 3748133675820810240000000000000000000000000000000000000000000000000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [2.186s] refine: 14 -> 42 colours, |K| = 47829690000000000000000000000000000000000000000000000000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [16.781s] orbit of 625 pairs (25 in E1): |K| = 3985807500000000000000000000000000000000000000000000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [28.837s] orbit of 625 pairs (25 in E1): |K| = 332150625000000000000000000000000000000000000000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [37.297s] orbit of 625 pairs (25 in E1): |K| = 27679218750000000000000000000000000000000000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [46.05s] orbit of 625 pairs (25 in E1): |K| = 2306601562500000000000000000000000000000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [56.805s] orbit of 625 pairs (25 in E1): |K| = 192216796875000000000000000000000000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [69.413s] orbit of 625 pairs (25 in E1): |K| = 16018066406250000000000000000000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [82.022s] orbit of 625 pairs (25 in E1): |K| = 1334838867187500000000000000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [93.166s] orbit of 625 pairs (25 in E1): |K| = 111236572265625000000000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [104.215s] orbit of 625 pairs (25 in E1): |K| = 9269714355468750000000000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [117.071s] orbit of 625 pairs (25 in E1): |K| = 772476196289062500000000000000000000
+LUKSAUT gcfi-F5_2-heawood     [129.602s] orbit of 625 pairs (25 in E1): |K| = 64373016357421875000000000000000
+LUKSAUT gcfi-F5_2-heawood     [141.273s] orbit of 625 pairs (25 in E1): |K| = 5364418029785156250000000000
+LUKSAUT gcfi-F5_2-heawood     [154.144s] orbit of 625 pairs (25 in E1): |K| = 447034835815429687500000
+LUKSAUT gcfi-F5_2-heawood     [154.195s] orbit of 625 pairs (25 in E1): |K| = 17881393432617187500000
+LUKSAUT gcfi-F5_2-heawood     [154.237s] orbit of 625 pairs (25 in E1): |K| = 715255737304687500000
+LUKSAUT gcfi-F5_2-heawood     [154.291s] orbit of 625 pairs (25 in E1): |K| = 28610229492187500000
+LUKSAUT gcfi-F5_2-heawood     [154.33s] orbit of 625 pairs (25 in E1): |K| = 1144409179687500000
+LUKSAUT gcfi-F5_2-heawood     [154.368s] orbit of 625 pairs (25 in E1): |K| = 45776367187500000
+LUKSAUT gcfi-F5_2-heawood     [154.408s] orbit of 625 pairs (25 in E1): |K| = 1831054687500000
+LUKSAUT gcfi-F5_2-heawood     [154.42s] orbit of 625 pairs (25 in E1): |K| = 73242187500000
+LUKSAUT gcfi-F5_2-heawood     [154.421s] |K| = 73242187500000 on U; lifting
+LUKSAUT gcfi-F5_2-heawood |Aut(G)| = 24609375000000000 (|Stab_P(E)| = 73242187500000, every generator of Q lifts: image = Q of order 336; 6 iso tests) calls=103489778 maxBranch=25 (902.018s)
+LUKSAUT gcfi-F5_2-heawood GIANTS giants=0 maxGiantDeg=0 maxQuotDeg=25
+LUKSAUT gcfi-F5_2-heawood |Aut(G)| = 24609375000000000 | luks: 14 pieces, 1 types, |Q| = 336 (all generators lift), 6 iso tests, 902.022s
+DONE rc=0 seconds=902

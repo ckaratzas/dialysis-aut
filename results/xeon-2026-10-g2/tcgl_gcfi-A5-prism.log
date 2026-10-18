@@ -1,0 +1,17 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+==== /home/linux/xeon_oct17/g2_instances/gcfi-A5-prism -- SERIES PARITY EQUATIONS (n=22680 m=65340, base partition canonical hash-1-WL) ====
+[0.248s] PI: 2 classes, non-singleton 2, sizes {1080=1, 21600=1}
+AUTPRUNE class=1080 base=7 nodes=2633 dead=2401 leaves=9 gens=8 skipped=11368 domDiscrete=true
+AUTPRUNE   per depth (1..7): nodes=[11, 19, 26, 281, 1206, 657, 432] dead=[5, 0, 0, 184, 1141, 648, 423]
+TCPRUNE (unconditional: admissibility on V, Theorem T) class=1080 leafGens=8 |<leaves>|=1728000 stabiliserComputations=236 cells=[1080, 60, 60, 60, 59, 57, 48] prodCells=37656990720000
+TCCERTK class=1080 leaf generators used for pruning 8 of 8, |<K|_C>| = 1728000: all in <K|_C> -> class result UNCONDITIONAL
+TCGROUP early stop (unconditional, TCCERTK): |<K|_C>| = |<T_C>| = 1728000, leaves discrete on V
+TCGROUP class=1080 base=7 nodes=2633 leaves=9 stored=9 |<T_C>|=1728000 gens=8
+   class of size 1080: default base too long, largest-cell base used
+TCGROUP |Aut| = 1728000 (early stop) EXACT
+ONE /home/linux/xeon_oct17/g2_instances/gcfi-A5-prism original=true -> EXACT |Aut|=1.72800e+06 vars=0 TCGROUP early stop: Aut = <8 verified automorphisms>, |<K|_C>| = |<T_C>| on a class of size 1080 with leaves discrete on V (unconditional: every pruning element is the restriction of a verified automorphism, TCCERTK) (10.775s)
+DONE rc=0 seconds=11

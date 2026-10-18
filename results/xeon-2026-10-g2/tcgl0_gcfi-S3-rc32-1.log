@@ -1,0 +1,547 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by dialysis.cl.TracesJni in an unnamed module (file:/home/linux/xeon_oct17/dialysis-paper3.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+==== /home/linux/xeon_oct17/g2_instances/gcfi-S3-rc32-1 -- SERIES PARITY EQUATIONS (n=1728 m=3744, base partition PI) ====
+[3.687s] PI: 128 classes, non-singleton 128, sizes {6=96, 36=32}
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=6 base=5 nodes=1237 dead=0 leaves=6 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..5): nodes=[6, 30, 120, 360, 720] dead=[0, 0, 0, 0, 0]
+TCGROUP class=6 base=5 nodes=1237 leaves=720 stored=6 |<T_C>|=720 gens=5
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+AUTPRUNE class=36 base=3 nodes=649 dead=288 leaves=5 gens=0 skipped=0 domDiscrete=false
+AUTPRUNE   per depth (1..3): nodes=[36, 180, 432] dead=[0, 72, 216]
+TCGROUP class=36 base=3 nodes=649 leaves=216 stored=5 |<T_C>|=216 gens=4
+[11.068s] TCGROUP: |P| = prod |<T_C>| = 10149384232868943646896928218906413708638662467003326484654489796388359760979200645525450064865869751323964181777909715588185070615644678163861042648185076217683225787881513892227403618795314930234145219947898979077264367533466964603208151726242844901376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 over 128 classes
+    [14.261s] U = 1728 points, |P^U| = 10149384232868943646896928218906413708638662467003326484654489796388359760979200645525450064865869751323964181777909715588185070615644678163861042648185076217683225787881513892227403618795314930234145219947898979077264367533466964603208151726242844901376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [19.601s] orbit of 36 pairs (6 in E1): |K| = 14096366990095755065134622526258907928664808981949064562020124717206055223582223118785347312313707987949950252469319049428034820299506497449807003678034828080115591372057658183649171692771270736436312805483193026496200510463148561948900210730892840140800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [24.092s] orbit of 36 pairs (6 in E1): |K| = 19578287486244104257131420175359594345367790252707034113916839885008410032753087664979649044880149983263819795096276457538937250415981246458065282886159483444604988016746747477290516239960098245050434452059990314578056264532150780484583626015128944640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [28.731s] orbit of 36 pairs (6 in E1): |K| = 27192065953116811468238083576888325479677486462093102935995610951400569489934843979138401451222430532310860826522606191026301736688862842302868448452999282561951372245481593718459050333277914229236714516749986548025078145183542750673032813909901312000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [33.392s] orbit of 36 pairs (6 in E1): |K| = 37766758268217793705886227190122674277329842308462642966660570765834124291576172193247779793364486850431751147948064154203196856512309503198428400629165670224932461452057769053415347685108214207273214606597203538923719646088253820379212241541529600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [37.182s] orbit of 36 pairs (6 in E1): |K| = 52453830928080269035953093319614825385180336539531448564806348285880728182744683601733027490784009514488543261038977991948884522933763198886706111984952319756850640905635790351965760673761408621212798064718338248505166175122574750526683668807680000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [41.459s] orbit of 36 pairs (6 in E1): |K| = 72852542955667040327712629610576146368306022971571456340008817063723233587145393891295871514977790992345198973665247211040117392963559998453758488867989332995625890146716375488841334269113067529462219534331025345146064132114687153509282873344000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [44.762s] orbit of 36 pairs (6 in E1): |K| = 101184087438426444899600874459133536622647254127182578250012245921837824426590824849022043770802487489368331907868398904222385268004944442296886790094429629160591514092661632623390742040434816013141971575459757423813977961270398824318448435200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [47.411s] orbit of 36 pairs (6 in E1): |K| = 140533454775592284582778992304352134198121186287753580902794786002552533925820590068086171903892343735233794316483887366975535094451311725412342764020041151611932658462030045310264919500603911129363849410360774199741636057319998367108956160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [49.965s] orbit of 36 pairs (6 in E1): |K| = 195185353854989284142748600422711297497390536510768862364992758336878519341417486205675238755406032965602492106227621343021576520071266285294920505583390488349906470086152840708701277084172098790783124181056630832974494524055553287651328000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [52.622s] orbit of 36 pairs (6 in E1): |K| = 271090769243040672420484167253765690968597967376067864395823275467886832418635397507882276049175045785559016814205029643085522944543425396242945146643597900485981208452990056539862884839127914987198783584800876156909020172299379566182400000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [55.092s] orbit of 36 pairs (6 in E1): |K| = 376514957282000933917339121185785681900830510244538700549754549260953933914771385427614272290520896924387523353062541170952115200754757494781868259227219306230529456184708411860920673387677659704442754978890105773484750239304693841920000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [57.609s] orbit of 36 pairs (6 in E1): |K| = 522937440669445741551859890535813447084486819784081528541325762862436019326071368649464267070167912394982671323697973848544604445492718742752594804482249036431290911367650572029056490816218971811726048581791813574284375332367630336000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [60.124s] orbit of 36 pairs (6 in E1): |K| = 726302000929785752155360959077518676506231694144557678529619115086716693508432456457589259819677656104142599060691630345200839507628776031600826117336456995043459599121736905595911792800304127516286178585821963297617187961621708800000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [62.609s] orbit of 36 pairs (6 in E1): |K| = 1008752779069146877993556887607664828480877352978552331291137659842662074317267300635540638638441189033531387584293931035001165982817744488334480718522856937560360554335745702216544156667089065994841914702530504580023872168919040000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [64.963s] orbit of 36 pairs (6 in E1): |K| = 1401045526484926219435495677232867817334551879136878237904357860892586214329537917549361998108946095879904704978186015326390508309469089567131223220170634635500500769910757919745200217593179258326169325975736811916699822456832000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [67.292s] orbit of 36 pairs (6 in E1): |K| = 1945896564562397526993743996156760857409099832134553108200497029017480853235469329929669441817980688722089868025258354619986817096484846621015587805792548104861806624876052666312778079990526747675235174966301127662083086745600000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [69.623s] orbit of 36 pairs (6 in E1): |K| = 2702634117447774343046866661328834524179305322409101539167356984746501185049262958235652002524973178780680372257303270305537245967340064751410538619156316812308064756772295369878858444431287149548937743008751566197337620480000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [72.715s] orbit of 36 pairs (6 in E1): |K| = 3753658496455242143120648140734492394693479614457085471065773589925696090346198553105072225729129414973167183690698986535468397176861201043625748082161551128205645495517076902609525617265676596595746865289932730829635584000000000000000000000000000000000000000000000000000000000000000000000000000000
+    [75.303s] orbit of 36 pairs (6 in E1): |K| = 5213414578410058532112011306575683881518721686745952043146907763785689014369720212645933646846013076351621088459304147965928329412307223671702427891891043233618952077107051253624341135091217495271870646236017681707827200000000000000000000000000000000000000000000000000000000000000000000000000000
+    [78.181s] orbit of 36 pairs (6 in E1): |K| = 7240853581125081294600015703577338724331557898258266726592927449702345853291278073119352287286129272710584845082366872174900457517093366210697816516515337824470766773759793407811584909848913187877598119772246780149760000000000000000000000000000000000000000000000000000000000000000000000000000
+    [80.758s] orbit of 36 pairs (6 in E1): |K| = 10056741084895946242500021810524081561571608192025370453601288124586591462904552879332433732341846212098034507058842878020695079884851897514858078495160191422876064963555268621960534597012379427607775166350342750208000000000000000000000000000000000000000000000000000000000000000000000000000
+    [84.364s] orbit of 36 pairs (6 in E1): |K| = 13967695951244369781250030292394557724405011377813014518890677950814710365145212332406157961585897516802825704248392886139854277617849857659525109021055821420661201338271206419389631384739415871677465508819920486400000000000000000000000000000000000000000000000000000000000000000000000000
+    [86.332s] orbit of 36 pairs (6 in E1): |K| = 19399577710061624696180597628325774617229182469184742387348163820575986618257239350564108279980413217781702367011656786305353163358124802304895984751466418639807224080932231138041154701026966488440924317805445120000000000000000000000000000000000000000000000000000000000000000000000000
+    [88.223s] orbit of 36 pairs (6 in E1): |K| = 26943857930641145411361941150452464746151642318312142204650227528577759192023943542450150388861685024696808843071745536535212726886284447645688867710370025888621144556850321025057159306981897900612394885840896000000000000000000000000000000000000000000000000000000000000000000000000
+    [90.124s] orbit of 36 pairs (6 in E1): |K| = 37422024903668257515780473820072867702988392108766864173125316011913554433366588253402986651196784756523345615377424356298906565119839510619012316264402813734196034106736556979246054593030413750850548452556800000000000000000000000000000000000000000000000000000000000000000000000
+    [92.106s] orbit of 36 pairs (6 in E1): |K| = 51975034588428135438583991416767871809706100151065089129340716683213270046342483685281925904439978828504646688024200494859592451555332653637517105922781685741938936259356329137841742490320019098403539517440000000000000000000000000000000000000000000000000000000000000000000000
+    [94.301s] orbit of 36 pairs (6 in E1): |K| = 72187548039483521442477765856622044180147361320923734901862106504462875064364560674002674867277748372923120400033611798416100627160184241163218202670530119086026300360217123802557975681000026525560471552000000000000000000000000000000000000000000000000000000000000000000000
+    [96.018s] orbit of 36 pairs (6 in E1): |K| = 100260483388171557558996897023086172472426890723505187363697370145087326478284112047225937315663539406837667222268905275577917537722478112726691948153514054286147639389190449725774966223611147952167321600000000000000000000000000000000000000000000000000000000000000000000
+    [97.671s] orbit of 36 pairs (6 in E1): |K| = 139250671372460496609717912532064128433926237115979426894024125201510175664283488954480468493977138065052315586484590660524885469058997378787072150213213964286316165818320069063576341977237705489121280000000000000000000000000000000000000000000000000000000000000000000
+    [99.323s] orbit of 36 pairs (6 in E1): |K| = 193403710239528467513497100738977956158230884883304759575033507224319688422615956881222872908301580645905993870117487028506785373693051914982044653073908283730994674747666762588300474968385702068224000000000000000000000000000000000000000000000000000000000000000000
+    [100.921s] orbit of 36 pairs (6 in E1): |K| = 268616264221567315990968195470802716886431784560145499409768760033777345031411051223920656817085528674869435930718731984037201907907016548586173129269317060737492603816203836928195104122757919539200000000000000000000000000000000000000000000000000000000000000000
+    [102.453s] orbit of 36 pairs (6 in E1): |K| = 373078144752176827765233604820559329008933034111313193624678833380246312543626460033223134468174345381763105459331572200051669316537522984147462679540718139913184171966949773511382089059385999360000000000000000000000000000000000000000000000000000000000000000
+    [104.456s] orbit of 36 pairs (6 in E1): |K| = 518164089933578927451713340028554623623518102932379435589831713028119878532814527823921020094686590808004313137960516944516207384079893033538142610473219638768311349954096907654697345915813888000000000000000000000000000000000000000000000000000000000000000
+    [106.155s] orbit of 36 pairs (6 in E1): |K| = 719672347129970732571824083372992532810441809628304771652544045872388720184464621977668083464842487233339323802722940200716954700110962546580753625657249498289321319380690149520412980438630400000000000000000000000000000000000000000000000000000000000000
+    [107.587s] orbit of 36 pairs (6 in E1): |K| = 999544926569403795238644560240267406681169180039312182850755619267206555811756419413427893701170121157415727503781861389884659305709670203584380035635068747624057388028736318778351361720320000000000000000000000000000000000000000000000000000000000000
+    [108.964s] orbit of 36 pairs (6 in E1): |K| = 1388256842457505271164784111444815842612734972276822476181605026760009105294106138074205407918291834940855177088585918597062026813485653060533861160604262149477857483373244887192154669056000000000000000000000000000000000000000000000000000000000000
+    [111.15s] orbit of 36 pairs (6 in E1): |K| = 1928134503413201765506644599228910892517687461495586772474451426055568201797369636214174177664294215195632190400813775829252815018730073695185918278617030763163690949129506787766881484800000000000000000000000000000000000000000000000000000000000
+    [112.78s] orbit of 36 pairs (6 in E1): |K| = 2677964588073891340981450832262376239607899252077203850658960313966066946940791161408575246755964187771711375556685799762851131970458435687758219831412542726616237429346537205231779840000000000000000000000000000000000000000000000000000000000
+    [114.239s] orbit of 36 pairs (6 in E1): |K| = 3719395261213737973585348378142189221677637850107227570359667102730648537417765501956354509383283594127376910495396944115071016625636716232997527543628531564744774207425746118377472000000000000000000000000000000000000000000000000000000000
+    [115.541s] orbit of 36 pairs (6 in E1): |K| = 5165826751685747185535206080753040585663385902926704958832870976014789635302452086050492374143449436288023486799162422382043078646717661434718788255039627173256630843646869608857600000000000000000000000000000000000000000000000000000000
+    [116.832s] orbit of 36 pairs (6 in E1): |K| = 7174759377341315535465564001045889702310258198509312442823431911131652271253405675070128297421457550400032620554392253308393164787107863103776094798666148851745320616176207790080000000000000000000000000000000000000000000000000000000
+    [118.011s] orbit of 36 pairs (6 in E1): |K| = 9964943579640716021479950001452624586542025275707378392810322098793961487851952326486289301974246597777823084103322574039434951093205365421911242775925206738535167522466955264000000000000000000000000000000000000000000000000000000
+    [119.096s] orbit of 36 pairs (6 in E1): |K| = 13840199416167661140944375002017534147975035105149136656681002914991613177572156009008735141630898052469198727921281352832548543185007451974876726077673898247965510447870771200000000000000000000000000000000000000000000000000000
+    [120.195s] orbit of 36 pairs (6 in E1): |K| = 19222499189121751584644965280579908538854215423818245356501392937488351635516883345845465474487358406207220455446224101156317421090288127742884341774547080899952097844264960000000000000000000000000000000000000000000000000000
+    [121.27s] orbit of 36 pairs (6 in E1): |K| = 26697915540446877200895785111916539637297521421969785217363045746511599493773449091452035381232442230843361743675311251605996418180955732976228252464648723472155691450368000000000000000000000000000000000000000000000000000
+    [122.282s] orbit of 36 pairs (6 in E1): |K| = 37080438250620662779021923766550749496246557530513590579670896870154999296907568182572271362822836431726891310660154516119439469695771851355872572867567671489105127014400000000000000000000000000000000000000000000000000
+    [123.389s] orbit of 36 pairs (6 in E1): |K| = 51500608681417587193086005231320485411453552125713320249542912319659721245704955809128154670587272821842904598139103494610332596799683126883156351204955099290423787520000000000000000000000000000000000000000000000000
+    [124.475s] orbit of 36 pairs (6 in E1): |K| = 71528623168635537768175007265722896404796600174601833679920711555082946174590216401566881486926767808115145275193199298069906384444004342893272710006882082347810816000000000000000000000000000000000000000000000000
+    [125.666s] orbit of 216 pairs (36 in E1): |K| = 99345309956438246900243065646837356117773055798058102333223210493170758575819745002176224287398288622382146215546110136208203311727783809573989875009558447705292800000000000000000000000000000000000000000000000
+    [126.888s] orbit of 216 pairs (36 in E1): |K| = 137979597161719787361448702287274105719129244163969586573921125684959386910860756947466978176942067531086314188258486300289171266288588624408319270846608955146240000000000000000000000000000000000000000000000
+    [127.956s] orbit of 216 pairs (36 in E1): |K| = 191638329391277482446456530954547369054346172449957759130446007895776926265084384649259691912419538237619880817025675417068293425400817533900443431731401326592000000000000000000000000000000000000000000000
+    [128.941s] orbit of 216 pairs (36 in E1): |K| = 266164346376774281175634070770204679242147461736052443236730566521912397590394978679527349878360469774472056690313438079261518646390024352639504766293612953600000000000000000000000000000000000000000000
+    [129.948s] orbit of 216 pairs (36 in E1): |K| = 369672703301075390521713987180839832280760363522295060051014675724878329986659692610454652608833985797877856514324219554529887008875033823110423286518906880000000000000000000000000000000000000000000
+    [130.932s] orbit of 216 pairs (36 in E1): |K| = 10268686202807649736714277421689995341132232320063751668083740992357731388518324794734851461356499605496607125397894987625830194690973161753067313514414080000000000000000000000000000000000000000000
+    [131.927s] orbit of 216 pairs (36 in E1): |K| = 14262064170566180189880940863458326862683656000088543983449640267163515817386562214909515918550693896523065451941520816146986381515240502434815713214464000000000000000000000000000000000000000000
+    [132.894s] orbit of 216 pairs (36 in E1): |K| = 19808422459119694708167973421469898420393966666789644421457833704393771968592447520707660997987074856282035349918778911315258863215611808937244046131200000000000000000000000000000000000000000
+    [133.792s] orbit of 216 pairs (36 in E1): |K| = 27511697859888464872455518640930414472769398148318950585358102367213572178600621556538418052759826189280604652664970710160081754466127512412838952960000000000000000000000000000000000000000
+    [134.663s] orbit of 216 pairs (36 in E1): |K| = 38210691472067312322854887001292242323290830761554098035219586621129961359167529939636691739944203040667506462034681541889002436758510433906720768000000000000000000000000000000000000000
+    [135.469s] orbit of 216 pairs (36 in E1): |K| = 53070404822315711559520676390683669893459487168825136160027203640458279665510458249495405194366948667593758975048168808179170051053486713759334400000000000000000000000000000000000000
+    [136.245s] orbit of 216 pairs (36 in E1): |K| = 73708895586549599388223161653727319296471509956701578000037782833969832868764525346521396103287428704991331909789123344693291737574287102443520000000000000000000000000000000000000
+    [137.026s] orbit of 216 pairs (36 in E1): |K| = 102373466092429999150309946741287943467321541606529969444496920602735878984395174092390827921232539868043516541373782423185127413297620975616000000000000000000000000000000000000
+    [137.742s] orbit of 216 pairs (36 in E1): |K| = 142185369572819443264319370474011032593502141120180513117356834170466498589437741794987261001711860927838217418574697809979343629580029132800000000000000000000000000000000000
+    [138.433s] orbit of 216 pairs (36 in E1): |K| = 197479679962249226755999125658348656379864084889139601551884491903425692485330196937482306946822029066441968636909302513860199485527818240000000000000000000000000000000000
+    [139.155s] orbit of 216 pairs (36 in E1): |K| = 274277333280901703827776563414373133860922340123805002155395127643646795118514162413169870759475040370058289773485142380361388174344192000000000000000000000000000000000
+    [139.786s] orbit of 216 pairs (36 in E1): |K| = 380940740667919033094134115853296019251281027949729169660271010616176104331269670018291487165937556069525402463173808861613039131033600000000000000000000000000000000
+    [140.438s] orbit of 216 pairs (36 in E1): |K| = 529084362038776434852964049796244471182334761041290513417043070300244589348985652803182621063802161207674170087741401196684776570880000000000000000000000000000000
+    [141.051s] orbit of 216 pairs (36 in E1): |K| = 734839391720522826184672291383672876642131612557347935301448708750339707429146740004420307033058557232880791788529723884284411904000000000000000000000000000000
+    [141.635s] orbit of 216 pairs (36 in E1): |K| = 1020610266278503925256489293588434550891849461885205465696456539931027371429370472228361537545914662823445544150735727617061683200000000000000000000000000000
+    [142.2s] orbit of 216 pairs (36 in E1): |K| = 28350285174402886812680258155234293080329151719033485158234903886972982539704735339676709376275407300651265115298214656029491200000000000000000000000000000
+    [142.781s] orbit of 216 pairs (36 in E1): |K| = 787507921511191300352229393200952585564698658862041254395413996860360626102909314991019704896539091684757364313839296000819200000000000000000000000000000
+    [143.309s] orbit of 216 pairs (36 in E1): |K| = 1093761002098876806044763046112434146617637026197279519993630551194945314031818493043082923467415405117718561546999022223360000000000000000000000000000
+    [143.808s] orbit of 216 pairs (36 in E1): |K| = 1519112502915106675062170897378380759191162536385110444435597987770757380599747907004281838149188062663498002148609753088000000000000000000000000000
+    [144.349s] orbit of 216 pairs (36 in E1): |K| = 2109878476270981493141904024136639943321059078312653395049441649681607473055205426394835886318316753699302780761957990400000000000000000000000000
+    [144.877s] orbit of 216 pairs (36 in E1): |K| = 58607735451971708142830667337128887314473863286462594306928934713377985362644595177634330175508798713869521687832166400000000000000000000000000
+    [145.368s] orbit of 216 pairs (36 in E1): |K| = 81399632572182927976153704634901232381213699008975825426290187101913868559228604413381014132651109324818780121989120000000000000000000000000
+    [145.845s] orbit of 216 pairs (36 in E1): |K| = 113055045239142955522435700881807267196130137512466424203180815419324817443373061685251408517570985173359416836096000000000000000000000000
+    [146.286s] orbit of 216 pairs (36 in E1): |K| = 157020896165476327114494029002510093327958524322870033615528910304617802004684807896182511829959701629665856716800000000000000000000000
+    [146.708s] orbit of 216 pairs (36 in E1): |K| = 4361691560152120197624834138958613703554403453413056489320247508461605611241244663782847550832213934157384908800000000000000000000000
+    [147.102s] orbit of 216 pairs (36 in E1): |K| = 6057904944655722496701158526331407921603338129740356235167010428418896682279506477476177153933630464107479040000000000000000000000
+    [147.474s] orbit of 216 pairs (36 in E1): |K| = 8413756867577392356529386842126955446671302957972716993287514483915134280943758996494690491574486755704832000000000000000000000
+    [147.828s] orbit of 216 pairs (36 in E1): |K| = 233715468543816454348038523392415429074202859943686583146875402330975952248437749902630291432624632102912000000000000000000000
+    [148.185s] orbit of 216 pairs (36 in E1): |K| = 324604817421967297705609060267243651491948416588453587703993614348577711456163541531430960323089766809600000000000000000000
+    [148.555s] orbit of 216 pairs (36 in E1): |K| = 9016800483943536047378029451867879208109678238568155213999822620793825318226765042539748897863604633600000000000000000000
+    [148.895s] orbit of 216 pairs (36 in E1): |K| = 250466680109542667982723040329663311336379951071337644833328406133161814395187917848326358273989017600000000000000000000
+    [149.223s] orbit of 216 pairs (36 in E1): |K| = 6957407780820629666186751120268425314899443085314934578703566837032272622088553273564621063166361600000000000000000000
+    [149.529s] orbit of 216 pairs (36 in E1): |K| = 193261327245017490727409753340789592080540085703192627186210189917563128391348702043461696199065600000000000000000000
+    [149.841s] orbit of 216 pairs (36 in E1): |K| = 5368370201250485853539159815021933113348335713977572977394727497710086899759686167873936005529600000000000000000000
+    [150.153s] orbit of 216 pairs (36 in E1): |K| = 149121394479180162598309994861720364259675992054932582705409097158613524993324615774276000153600000000000000000000
+    [150.423s] orbit of 216 pairs (36 in E1): |K| = 207113047887750225830986103974611617027327766742961920424179301609185451379617521908716666880000000000000000000
+    [150.688s] orbit of 216 pairs (36 in E1): |K| = 287657010955208646987480699964738356982399676031891556144693474457202015805024335984328704000000000000000000
+    [150.986s] orbit of 216 pairs (36 in E1): |K| = 7990472526533573527430019443464954360622213223108098781797040957144500439028453777342464000000000000000000
+    [151.232s] orbit of 216 pairs (36 in E1): |K| = 11097878509074407676986138115923547723086407254316803863607001329367361720872852468531200000000000000000
+    [151.486s] orbit of 216 pairs (36 in E1): |K| = 308274403029844657694059392108987436752400201508800107322416703593537825579801457459200000000000000000
+    [151.719s] orbit of 216 pairs (36 in E1): |K| = 8563177861940129380390538669694095465344450041911114092289352877598272932772262707200000000000000000
+    [151.94s] orbit of 216 pairs (36 in E1): |K| = 11893302586027957472764637041241799257422847280432102905957434552219823517739253760000000000000000
+    [152.199s] orbit of 216 pairs (36 in E1): |K| = 16518475813927718712173107001724721190865065667266809591607547989194199330193408000000000000000
+    [152.403s] orbit of 216 pairs (36 in E1): |K| = 22942327519344053766907093057951001653979257871203902210566038873880832403046400000000000000
+    [152.592s] orbit of 216 pairs (36 in E1): |K| = 637286875537334826858530362720861157054979385311219505849056635385578677862400000000000000
+    [152.787s] orbit of 216 pairs (36 in E1): |K| = 885120660468520592859069948223418273687471368487804869234800882479970385920000000000000
+    [152.979s] orbit of 216 pairs (36 in E1): |K| = 24586685013014460912751943006206063157985315791327913034300024513332510720000000000000
+    [153.174s] orbit of 216 pairs (36 in E1): |K| = 34148173629186751267711031953063976608312938599066545880972256268517376000000000000
+    [153.338s] orbit of 216 pairs (36 in E1): |K| = 948560378588520868547528665362888239119803849974070718915896007458816000000000000
+    [153.497s] orbit of 216 pairs (36 in E1): |K| = 1317444970261834539649345368559566998777505347186209331827633343692800000000000
+    [153.662s] orbit of 216 pairs (36 in E1): |K| = 1829784680919214638401868567443843053857646315536401849760601866240000000000
+    [153.805s] orbit of 216 pairs (36 in E1): |K| = 50827352247755962177829682428995640384934619876011162493350051840000000000
+    [153.955s] orbit of 216 pairs (36 in E1): |K| = 70593544788549947469207892262493944979075860938904392351875072000000000
+    [154.086s] orbit of 216 pairs (36 in E1): |K| = 98046589984097149262788739253463812470938695748478322710937600000000
+    [154.201s] orbit of 216 pairs (36 in E1): |K| = 2723516388447143035077464979262883679748297104124397853081600000000
+    [154.318s] orbit of 216 pairs (36 in E1): |K| = 75653233012420639863262916090635657770786030670122162585600000000
+    [154.46s] orbit of 216 pairs (36 in E1): |K| = 105073934739473110921198494570327302459425042597391892480000000
+    [154.576s] orbit of 216 pairs (36 in E1): |K| = 145936020471490431834997909125454586749201448051933184000000
+    [154.704s] orbit of 216 pairs (36 in E1): |K| = 4053778346430289773194386364595960743033373556998144000000
+    [154.8s] orbit of 216 pairs (36 in E1): |K| = 112604954067508049255399621238776687306482598805504000000
+    [154.892s] orbit of 216 pairs (36 in E1): |K| = 3127915390764112479316656145521574647402294411264000000
+    [154.985s] orbit of 216 pairs (36 in E1): |K| = 86886538632336457758796004042265962427841511424000000
+    [155.074s] orbit of 216 pairs (36 in E1): |K| = 2413514962009346048855444556729610067440041984000000
+    [155.154s] orbit of 216 pairs (36 in E1): |K| = 67042082278037390245984571020266946317778944000000
+    [155.242s] orbit of 216 pairs (36 in E1): |K| = 1862280063278816395721793639451859619938304000000
+    [155.316s] orbit of 216 pairs (36 in E1): |K| = 2586500087887244994058046721460916138803200000
+    [155.377s] orbit of 216 pairs (36 in E1): |K| = 71847224663534583168279075596136559411200000
+    [155.455s] orbit of 216 pairs (36 in E1): |K| = 1995756240653738421341085433226015539200000
+    [155.543s] orbit of 216 pairs (36 in E1): |K| = 2771883667574636696307063101702799360000
+    [155.598s] orbit of 216 pairs (36 in E1): |K| = 76996768543739908230751752825077760000
+    [155.661s] orbit of 216 pairs (36 in E1): |K| = 2138799126214997450854215356252160000
+    [155.706s] orbit of 216 pairs (36 in E1): |K| = 59411086839305484745950426562560000
+    [155.713s] refine: 130 -> 132 colours, |K| = 9901847806550914124325071093760000
+    [155.738s] orbit of 24 pairs (12 in E1): |K| = 4950923903275457062162535546880000
+    [155.759s] orbit of 36 pairs (6 in E1): |K| = 137525663979873807282292654080000
+    [155.78s] orbit of 54 pairs (18 in E1): |K| = 45841887993291269094097551360000
+    [155.822s] orbit of 216 pairs (36 in E1): |K| = 1273385777591424141502709760000
+    [155.866s] orbit of 216 pairs (36 in E1): |K| = 35371827155317337263964160000
+    [155.907s] orbit of 216 pairs (36 in E1): |K| = 982550754314370479554560000
+    [155.913s] refine: 138 -> 140 colours, |K| = 16375845905239507992576000
+    [155.92s] refine: 142 -> 144 colours, |K| = 2729307650873251332096000
+    [155.934s] orbit of 24 pairs (12 in E1): |K| = 1364653825436625666048000
+    [155.949s] orbit of 24 pairs (12 in E1): |K| = 682326912718312833024000
+    [155.966s] orbit of 54 pairs (18 in E1): |K| = 113721152119718805504000
+    [155.981s] orbit of 54 pairs (18 in E1): |K| = 37907050706572935168000
+    [156.02s] orbit of 216 pairs (36 in E1): |K| = 52648681536906854400
+    [156.053s] orbit of 216 pairs (36 in E1): |K| = 1462463376025190400
+    [156.08s] orbit of 216 pairs (36 in E1): |K| = 40623982667366400
+    [156.114s] orbit of 216 pairs (36 in E1): |K| = 1128443962982400
+    [156.137s] orbit of 216 pairs (36 in E1): |K| = 31345665638400
+    [156.163s] orbit of 216 pairs (36 in E1): |K| = 870712934400
+    [156.194s] orbit of 216 pairs (36 in E1): |K| = 1209323520
+    [156.22s] orbit of 216 pairs (36 in E1): |K| = 33592320
+    [156.256s] orbit of 216 pairs (36 in E1): |K| = 46656
+    [156.277s] orbit of 216 pairs (36 in E1): |K| = 1296
+    [156.281s] orbit of 36 pairs (6 in E1): |K| = 36
+    [156.283s] |K| = 36 on U; lifting
+TCGROUP Luks calls=2464360 maxBranch=24 giants=2395 maxGiantDeg=6
+TCGROUP |Aut| = 36 |P| = 10149384232868943646896928218906413708638662467003326484654489796388359760979200645525450064865869751323964181777909715588185070615644678163861042648185076217683225787881513892227403618795314930234145219947898979077264367533466964603208151726242844901376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ONE /home/linux/xeon_oct17/g2_instances/gcfi-S3-rc32-1 original=true -> EXACT |Aut|=36.0000 vars=0 TCGROUP: Aut = Stab_P(E), |P| = 10149384232868943646896928218906413708638662467003326484654489796388359760979200645525450064865869751323964181777909715588185070615644678163861042648185076217683225787881513892227403618795314930234145219947898979077264367533466964603208151726242844901376000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 (156.332s)
+DONE rc=0 seconds=156

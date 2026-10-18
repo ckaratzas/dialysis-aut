@@ -1,0 +1,464 @@
+14:28:12 START gcfi-A5-K33 traces (n=22680, colouring 1-WL)
+14:28:15 END gcfi-A5-K33 traces rc=0 3s
+14:28:15 START gcfi-A5-K33 tcg (n=22680, colouring 1-WL)
+14:28:45 END gcfi-A5-K33 tcg rc=0 30s
+14:28:45 START gcfi-A5-K33-tw traces (n=22680, colouring 1-WL)
+14:28:58 END gcfi-A5-K33-tw traces rc=0 13s
+14:28:58 START gcfi-A5-K33-tw tcg (n=22680, colouring 1-WL)
+14:29:58 END gcfi-A5-K33-tw tcg rc=0 60s
+14:29:58 START gcfi-A5-K4 traces (n=15120, colouring 1-WL)
+14:30:00 END gcfi-A5-K4 traces rc=0 2s
+14:30:00 START gcfi-A5-K4 tcg (n=15120, colouring 1-WL)
+14:30:06 END gcfi-A5-K4 tcg rc=0 6s
+14:30:06 START gcfi-A5-K4-tw traces (n=15120, colouring 1-WL)
+14:30:07 END gcfi-A5-K4-tw traces rc=0 1s
+14:30:07 START gcfi-A5-K4-tw tcg (n=15120, colouring 1-WL)
+14:30:21 END gcfi-A5-K4-tw tcg rc=0 14s
+14:30:21 START gcfi-A5-cube traces (n=30240, colouring 1-WL)
+14:30:35 END gcfi-A5-cube traces rc=0 14s
+14:30:35 START gcfi-A5-cube tcg (n=30240, colouring 1-WL)
+16:30:35 END gcfi-A5-cube tcg rc=124 7200s
+16:30:35 START gcfi-A5-cube-tw traces (n=30240, colouring 1-WL)
+16:33:05 END gcfi-A5-cube-tw traces rc=137 150s
+16:33:05 START gcfi-A5-cube-tw tcg (n=30240, colouring 1-WL)
+17:14:01 skip gcfi-A5-K33 traces
+17:14:01 skip gcfi-A5-K33-tw traces
+17:14:01 skip gcfi-A5-K4 traces
+17:14:01 skip gcfi-A5-K4-tw traces
+17:14:01 skip gcfi-A5-cube traces
+17:14:01 START gcfi-A5-cube-tw traces (n=30240, colouring 1-WL)
+17:16:32 END gcfi-A5-cube-tw traces rc=137 151s
+17:16:32 START gcfi-A5-prism traces (n=22680, colouring 1-WL)
+17:16:33 END gcfi-A5-prism traces rc=0 1s
+17:16:33 START gcfi-A5-prism-tw traces (n=22680, colouring 1-WL)
+17:16:33 END gcfi-A5-prism-tw traces rc=0 0s
+17:16:33 START gcfi-F2_3-tutte8 traces (n=2640, colouring PI)
+17:16:34 END gcfi-F2_3-tutte8 traces rc=0 1s
+17:16:34 START gcfi-F2_3-tutte8-tw traces (n=2640, colouring PI)
+17:16:34 END gcfi-F2_3-tutte8-tw traces rc=0 0s
+17:16:34 START gcfi-F3_2-mcgee traces (n=2592, colouring PI)
+17:16:40 END gcfi-F3_2-mcgee traces rc=0 6s
+17:16:40 START gcfi-F3_2-mcgee-tw traces (n=2592, colouring PI)
+17:22:34 END gcfi-F3_2-mcgee-tw traces rc=0 354s
+17:22:34 START gcfi-F3_2-tutte8 traces (n=3240, colouring PI)
+17:22:34 END gcfi-F3_2-tutte8 traces rc=0 0s
+17:22:34 START gcfi-F3_2-tutte8-tw traces (n=3240, colouring PI)
+17:22:35 END gcfi-F3_2-tutte8-tw traces rc=0 1s
+17:22:35 START gcfi-F5_2-heawood traces (n=9800, colouring 1-WL)
+17:22:35 END gcfi-F5_2-heawood traces rc=0 0s
+17:22:35 START gcfi-F5_2-heawood-tw traces (n=9800, colouring 1-WL)
+17:22:35 END gcfi-F5_2-heawood-tw traces rc=0 0s
+17:22:36 START gcfi-S3-rc12-1 traces (n=648, colouring PI)
+17:22:36 END gcfi-S3-rc12-1 traces rc=0 0s
+17:22:36 START gcfi-S3-rc12-1-tw traces (n=648, colouring PI)
+17:22:39 END gcfi-S3-rc12-1-tw traces rc=0 3s
+17:22:40 START gcfi-S3-rc20-1 traces (n=1080, colouring PI)
+17:30:42 END gcfi-S3-rc20-1 traces rc=0 482s
+17:30:42 START gcfi-S3-rc20-1-tw traces (n=1080, colouring PI)
+19:14:44 skip gcfi-A5-K33 traces
+19:14:44 skip gcfi-A5-K33-tw traces
+19:14:44 skip gcfi-A5-K4 traces
+19:14:44 skip gcfi-A5-K4-tw traces
+19:14:44 skip gcfi-A5-cube traces
+19:14:44 skip gcfi-A5-cube-tw traces
+19:14:44 skip gcfi-A5-prism traces
+19:14:44 skip gcfi-A5-prism-tw traces
+19:14:44 skip gcfi-F2_3-tutte8 traces
+19:14:44 skip gcfi-F2_3-tutte8-tw traces
+19:14:44 skip gcfi-F3_2-mcgee traces
+19:14:44 skip gcfi-F3_2-mcgee-tw traces
+19:14:44 skip gcfi-F3_2-tutte8 traces
+19:14:44 skip gcfi-F3_2-tutte8-tw traces
+19:14:44 skip gcfi-F5_2-heawood traces
+19:14:44 skip gcfi-F5_2-heawood-tw traces
+19:14:44 skip gcfi-S3-rc12-1 traces
+19:14:44 skip gcfi-S3-rc12-1-tw traces
+19:14:44 skip gcfi-S3-rc20-1 traces
+19:14:44 skip gcfi-S3-rc20-1-tw traces
+19:14:44 START gcfi-S3-rc24-1 traces (n=1296, colouring PI)
+19:17:16 skip gcfi-A5-K33 traces
+19:17:16 skip gcfi-A5-K33-tw traces
+19:17:16 skip gcfi-A5-K4 traces
+19:17:16 skip gcfi-A5-K4-tw traces
+19:17:16 skip gcfi-A5-cube traces
+19:17:16 skip gcfi-A5-cube-tw traces
+19:17:16 skip gcfi-A5-prism traces
+19:17:16 skip gcfi-A5-prism-tw traces
+19:17:16 skip gcfi-F2_3-tutte8 traces
+19:17:16 skip gcfi-F2_3-tutte8-tw traces
+19:17:16 skip gcfi-F3_2-mcgee traces
+19:17:16 skip gcfi-F3_2-mcgee-tw traces
+19:17:16 skip gcfi-F3_2-tutte8 traces
+19:17:16 skip gcfi-F3_2-tutte8-tw traces
+19:17:16 skip gcfi-F5_2-heawood traces
+19:17:16 skip gcfi-F5_2-heawood-tw traces
+19:17:16 skip gcfi-S3-rc12-1 traces
+19:17:16 skip gcfi-S3-rc12-1-tw traces
+19:17:16 skip gcfi-S3-rc20-1 traces
+19:17:16 skip gcfi-S3-rc20-1-tw traces
+19:17:16 skip gcfi-S3-rc24-1 traces
+19:17:16 skip gcfi-S3-rc24-1-tw traces
+19:17:16 skip gcfi-S3-rc32-1 traces
+19:17:16 skip gcfi-S3-rc32-1-tw traces
+19:17:16 skip gcfi-S3-rc48-1 traces
+19:17:16 skip gcfi-S3-rc48-1-tw traces
+19:17:16 skip gcfi-S3-rc64-1 traces
+19:17:16 skip gcfi-S3-rc64-1-tw traces
+19:17:16 START gcfi-S3-tutte8 traces (n=1620, colouring PI)
+19:30:31 START gcfi-A5-K33 tcgl (n=22680, colouring 1-WL)
+19:30:31 END gcfi-A5-K33 tcgl rc=0 0s
+19:30:31 START gcfi-A5-K33 luks (n=22680, colouring 1-WL)
+19:32:23 END gcfi-A5-K33 luks rc=0 112s
+19:32:23 START gcfi-A5-K33-tw tcgl (n=22680, colouring 1-WL)
+19:32:23 END gcfi-A5-K33-tw tcgl rc=0 0s
+19:32:23 START gcfi-A5-K33-tw luks (n=22680, colouring 1-WL)
+19:36:18 END gcfi-A5-K33-tw luks rc=0 235s
+19:36:18 START gcfi-A5-K4 tcgl (n=15120, colouring 1-WL)
+19:36:18 END gcfi-A5-K4 tcgl rc=0 0s
+19:36:18 START gcfi-A5-K4 luks (n=15120, colouring 1-WL)
+19:37:36 END gcfi-A5-K4 luks rc=0 78s
+19:37:36 START gcfi-A5-K4-tw tcgl (n=15120, colouring 1-WL)
+19:37:36 END gcfi-A5-K4-tw tcgl rc=0 0s
+19:37:36 START gcfi-A5-K4-tw luks (n=15120, colouring 1-WL)
+19:38:50 END gcfi-A5-K4-tw luks rc=0 74s
+19:38:50 START gcfi-A5-cube tcgl (n=30240, colouring 1-WL)
+19:38:50 END gcfi-A5-cube tcgl rc=0 0s
+19:38:50 START gcfi-A5-cube luks (n=30240, colouring 1-WL)
+19:41:41 END gcfi-A5-cube luks rc=0 171s
+19:41:41 START gcfi-A5-cube-tw tcgl (n=30240, colouring 1-WL)
+19:41:41 END gcfi-A5-cube-tw tcgl rc=0 0s
+19:41:41 START gcfi-A5-cube-tw luks (n=30240, colouring 1-WL)
+19:44:17 END gcfi-A5-cube-tw luks rc=0 156s
+19:44:17 START gcfi-A5-prism tcgl (n=22680, colouring 1-WL)
+19:44:17 END gcfi-A5-prism tcgl rc=0 0s
+19:44:17 START gcfi-A5-prism luks (n=22680, colouring 1-WL)
+19:46:34 END gcfi-A5-prism luks rc=0 137s
+19:46:34 START gcfi-A5-prism-tw tcgl (n=22680, colouring 1-WL)
+19:46:34 END gcfi-A5-prism-tw tcgl rc=0 0s
+19:46:34 START gcfi-A5-prism-tw luks (n=22680, colouring 1-WL)
+19:49:07 END gcfi-A5-prism-tw luks rc=0 153s
+19:49:07 START gcfi-F2_3-tutte8 tcgl (n=2640, colouring PI)
+19:49:07 END gcfi-F2_3-tutte8 tcgl rc=0 0s
+19:49:07 START gcfi-F2_3-tutte8 luks (n=2640, colouring PI)
+19:49:54 END gcfi-F2_3-tutte8 luks rc=0 47s
+19:49:54 START gcfi-F2_3-tutte8-tw tcgl (n=2640, colouring PI)
+19:49:54 END gcfi-F2_3-tutte8-tw tcgl rc=0 0s
+19:49:55 START gcfi-F2_3-tutte8-tw luks (n=2640, colouring PI)
+19:50:42 END gcfi-F2_3-tutte8-tw luks rc=0 47s
+19:50:42 START gcfi-F3_2-mcgee tcgl (n=2592, colouring PI)
+19:50:42 END gcfi-F3_2-mcgee tcgl rc=0 0s
+19:50:42 START gcfi-F3_2-mcgee luks (n=2592, colouring PI)
+19:51:04 END gcfi-F3_2-mcgee luks rc=0 22s
+19:51:04 START gcfi-F3_2-mcgee-tw tcgl (n=2592, colouring PI)
+19:51:04 END gcfi-F3_2-mcgee-tw tcgl rc=0 0s
+19:51:04 START gcfi-F3_2-mcgee-tw luks (n=2592, colouring PI)
+19:51:22 END gcfi-F3_2-mcgee-tw luks rc=0 18s
+19:51:22 START gcfi-F3_2-tutte8 tcgl (n=3240, colouring PI)
+19:51:22 END gcfi-F3_2-tutte8 tcgl rc=0 0s
+19:51:22 START gcfi-F3_2-tutte8 luks (n=3240, colouring PI)
+19:52:22 END gcfi-F3_2-tutte8 luks rc=0 60s
+19:52:22 START gcfi-F3_2-tutte8-tw tcgl (n=3240, colouring PI)
+19:52:22 END gcfi-F3_2-tutte8-tw tcgl rc=0 0s
+19:52:22 START gcfi-F3_2-tutte8-tw luks (n=3240, colouring PI)
+19:53:20 END gcfi-F3_2-tutte8-tw luks rc=0 58s
+19:53:20 START gcfi-F5_2-heawood tcgl (n=9800, colouring 1-WL)
+19:53:20 END gcfi-F5_2-heawood tcgl rc=0 0s
+19:53:20 START gcfi-F5_2-heawood luks (n=9800, colouring 1-WL)
+20:08:22 END gcfi-F5_2-heawood luks rc=0 902s
+20:08:22 START gcfi-F5_2-heawood-tw tcgl (n=9800, colouring 1-WL)
+20:08:22 END gcfi-F5_2-heawood-tw tcgl rc=0 0s
+20:08:22 START gcfi-F5_2-heawood-tw luks (n=9800, colouring 1-WL)
+20:23:27 END gcfi-F5_2-heawood-tw luks rc=0 905s
+20:23:27 START gcfi-S3-rc12-1 tcgl (n=648, colouring PI)
+20:23:27 END gcfi-S3-rc12-1 tcgl rc=0 0s
+20:23:27 START gcfi-S3-rc12-1 luks (n=648, colouring PI)
+20:23:29 END gcfi-S3-rc12-1 luks rc=0 2s
+20:23:29 START gcfi-S3-rc12-1-tw tcgl (n=648, colouring PI)
+20:23:29 END gcfi-S3-rc12-1-tw tcgl rc=0 0s
+20:23:29 START gcfi-S3-rc12-1-tw luks (n=648, colouring PI)
+20:23:30 END gcfi-S3-rc12-1-tw luks rc=0 1s
+20:23:30 START gcfi-S3-rc20-1 tcgl (n=1080, colouring PI)
+20:23:30 END gcfi-S3-rc20-1 tcgl rc=0 0s
+20:23:30 START gcfi-S3-rc20-1 luks (n=1080, colouring PI)
+20:23:31 END gcfi-S3-rc20-1 luks rc=0 1s
+20:23:31 START gcfi-S3-rc20-1-tw tcgl (n=1080, colouring PI)
+20:23:31 END gcfi-S3-rc20-1-tw tcgl rc=0 0s
+20:23:31 START gcfi-S3-rc20-1-tw luks (n=1080, colouring PI)
+20:23:32 END gcfi-S3-rc20-1-tw luks rc=0 1s
+20:23:32 START gcfi-S3-rc24-1 tcgl (n=1296, colouring PI)
+20:23:32 END gcfi-S3-rc24-1 tcgl rc=0 0s
+20:23:32 START gcfi-S3-rc24-1 luks (n=1296, colouring PI)
+20:23:36 END gcfi-S3-rc24-1 luks rc=0 4s
+20:23:36 START gcfi-S3-rc24-1-tw tcgl (n=1296, colouring PI)
+20:23:36 END gcfi-S3-rc24-1-tw tcgl rc=0 0s
+20:23:36 START gcfi-S3-rc24-1-tw luks (n=1296, colouring PI)
+20:23:40 END gcfi-S3-rc24-1-tw luks rc=0 4s
+20:23:40 START gcfi-S3-rc32-1 tcgl (n=1728, colouring PI)
+20:23:40 END gcfi-S3-rc32-1 tcgl rc=0 0s
+20:23:40 START gcfi-S3-rc32-1 luks (n=1728, colouring PI)
+20:23:43 END gcfi-S3-rc32-1 luks rc=0 3s
+20:23:43 START gcfi-S3-rc32-1-tw tcgl (n=1728, colouring PI)
+20:23:43 END gcfi-S3-rc32-1-tw tcgl rc=0 0s
+20:23:43 START gcfi-S3-rc32-1-tw luks (n=1728, colouring PI)
+20:23:46 END gcfi-S3-rc32-1-tw luks rc=0 3s
+20:23:46 START gcfi-S3-rc48-1 tcgl (n=2592, colouring PI)
+20:23:46 END gcfi-S3-rc48-1 tcgl rc=0 0s
+20:23:46 START gcfi-S3-rc48-1 luks (n=2592, colouring PI)
+20:23:56 END gcfi-S3-rc48-1 luks rc=0 10s
+20:23:56 START gcfi-S3-rc48-1-tw tcgl (n=2592, colouring PI)
+20:23:56 END gcfi-S3-rc48-1-tw tcgl rc=0 0s
+20:23:56 START gcfi-S3-rc48-1-tw luks (n=2592, colouring PI)
+20:24:07 END gcfi-S3-rc48-1-tw luks rc=0 11s
+20:24:07 START gcfi-S3-rc64-1 tcgl (n=3456, colouring PI)
+20:24:07 END gcfi-S3-rc64-1 tcgl rc=0 0s
+20:24:07 START gcfi-S3-rc64-1 luks (n=3456, colouring PI)
+20:24:31 END gcfi-S3-rc64-1 luks rc=0 24s
+20:24:31 START gcfi-S3-rc64-1-tw tcgl (n=3456, colouring PI)
+20:24:31 END gcfi-S3-rc64-1-tw tcgl rc=0 0s
+20:24:31 START gcfi-S3-rc64-1-tw luks (n=3456, colouring PI)
+20:24:56 END gcfi-S3-rc64-1-tw luks rc=0 25s
+20:24:56 START gcfi-S3-tutte8 tcgl (n=1620, colouring PI)
+20:24:56 END gcfi-S3-tutte8 tcgl rc=0 0s
+20:24:56 START gcfi-S3-tutte8 luks (n=1620, colouring PI)
+20:27:12 END gcfi-S3-tutte8 luks rc=0 136s
+20:27:12 START gcfi-S3-tutte8-tw tcgl (n=1620, colouring PI)
+20:27:12 END gcfi-S3-tutte8-tw tcgl rc=0 0s
+20:27:12 START gcfi-S3-tutte8-tw luks (n=1620, colouring PI)
+20:29:24 END gcfi-S3-tutte8-tw luks rc=0 132s
+21:14:57 START gcfi-A5-K33 tcgl (n=22680, colouring 1-WL)
+21:15:18 END gcfi-A5-K33 tcgl rc=0 21s
+21:15:18 skip gcfi-A5-K33 luks
+21:15:18 START gcfi-A5-K33-tw tcgl (n=22680, colouring 1-WL)
+21:16:16 END gcfi-A5-K33-tw tcgl rc=0 58s
+21:16:16 skip gcfi-A5-K33-tw luks
+21:16:16 START gcfi-A5-K4 tcgl (n=15120, colouring 1-WL)
+21:16:22 END gcfi-A5-K4 tcgl rc=0 6s
+21:16:22 skip gcfi-A5-K4 luks
+21:16:22 START gcfi-A5-K4-tw tcgl (n=15120, colouring 1-WL)
+21:16:35 END gcfi-A5-K4-tw tcgl rc=0 13s
+21:16:35 skip gcfi-A5-K4-tw luks
+21:16:35 START gcfi-A5-cube tcgl (n=30240, colouring 1-WL)
+21:26:47 END gcfi-A5-cube tcgl rc=0 612s
+21:26:47 skip gcfi-A5-cube luks
+21:26:47 START gcfi-A5-cube-tw tcgl (n=30240, colouring 1-WL)
+21:37:00 END gcfi-A5-cube-tw tcgl rc=0 613s
+21:37:01 skip gcfi-A5-cube-tw luks
+21:37:01 START gcfi-A5-prism tcgl (n=22680, colouring 1-WL)
+21:37:10 END gcfi-A5-prism tcgl rc=0 9s
+21:37:10 skip gcfi-A5-prism luks
+21:37:10 START gcfi-A5-prism-tw tcgl (n=22680, colouring 1-WL)
+21:37:30 END gcfi-A5-prism-tw tcgl rc=0 20s
+21:37:30 skip gcfi-A5-prism-tw luks
+21:37:30 START gcfi-F2_3-tutte8 tcgl (n=2640, colouring PI)
+21:39:31 END gcfi-F2_3-tutte8 tcgl rc=0 121s
+21:39:31 skip gcfi-F2_3-tutte8 luks
+21:39:31 START gcfi-F2_3-tutte8-tw tcgl (n=2640, colouring PI)
+21:47:58 END gcfi-F2_3-tutte8-tw tcgl rc=0 507s
+21:47:58 skip gcfi-F2_3-tutte8-tw luks
+21:47:58 START gcfi-F3_2-mcgee tcgl (n=2592, colouring PI)
+21:55:19 END gcfi-F3_2-mcgee tcgl rc=0 441s
+21:55:19 skip gcfi-F3_2-mcgee luks
+21:55:19 START gcfi-F3_2-mcgee-tw tcgl (n=2592, colouring PI)
+22:02:44 END gcfi-F3_2-mcgee-tw tcgl rc=0 445s
+22:02:44 skip gcfi-F3_2-mcgee-tw luks
+22:02:44 START gcfi-F3_2-tutte8 tcgl (n=3240, colouring PI)
+22:10:56 END gcfi-F3_2-tutte8 tcgl rc=0 492s
+22:10:56 skip gcfi-F3_2-tutte8 luks
+22:10:56 START gcfi-F3_2-tutte8-tw tcgl (n=3240, colouring PI)
+22:19:08 END gcfi-F3_2-tutte8-tw tcgl rc=0 492s
+22:19:08 skip gcfi-F3_2-tutte8-tw luks
+22:19:08 START gcfi-F5_2-heawood tcgl (n=9800, colouring 1-WL)
+22:19:20 END gcfi-F5_2-heawood tcgl rc=0 12s
+22:19:20 skip gcfi-F5_2-heawood luks
+22:19:21 START gcfi-F5_2-heawood-tw tcgl (n=9800, colouring 1-WL)
+22:19:33 END gcfi-F5_2-heawood-tw tcgl rc=0 13s
+22:19:33 skip gcfi-F5_2-heawood-tw luks
+22:19:33 START gcfi-S3-rc12-1 tcgl (n=648, colouring PI)
+22:29:08 END gcfi-S3-rc12-1 tcgl rc=0 575s
+22:29:08 skip gcfi-S3-rc12-1 luks
+22:29:08 START gcfi-S3-rc12-1-tw tcgl (n=648, colouring PI)
+22:38:46 END gcfi-S3-rc12-1-tw tcgl rc=0 578s
+22:38:46 skip gcfi-S3-rc12-1-tw luks
+22:38:46 START gcfi-S3-rc20-1 tcgl (n=1080, colouring PI)
+22:39:12 END gcfi-S3-rc20-1 tcgl rc=0 26s
+22:39:12 skip gcfi-S3-rc20-1 luks
+22:39:12 START gcfi-S3-rc20-1-tw tcgl (n=1080, colouring PI)
+22:39:40 END gcfi-S3-rc20-1-tw tcgl rc=0 28s
+22:39:40 skip gcfi-S3-rc20-1-tw luks
+22:39:40 START gcfi-S3-rc24-1 tcgl (n=1296, colouring PI)
+22:40:29 END gcfi-S3-rc24-1 tcgl rc=0 49s
+22:40:29 skip gcfi-S3-rc24-1 luks
+22:40:29 START gcfi-S3-rc24-1-tw tcgl (n=1296, colouring PI)
+22:41:16 END gcfi-S3-rc24-1-tw tcgl rc=0 47s
+22:41:16 skip gcfi-S3-rc24-1-tw luks
+22:41:16 START gcfi-S3-rc32-1 tcgl (n=1728, colouring PI)
+22:44:00 END gcfi-S3-rc32-1 tcgl rc=0 164s
+22:44:00 skip gcfi-S3-rc32-1 luks
+22:44:00 START gcfi-S3-rc32-1-tw tcgl (n=1728, colouring PI)
+22:46:40 END gcfi-S3-rc32-1-tw tcgl rc=0 160s
+22:46:40 skip gcfi-S3-rc32-1-tw luks
+22:46:40 START gcfi-S3-rc48-1 tcgl (n=2592, colouring PI)
+22:57:49 END gcfi-S3-rc48-1 tcgl rc=0 669s
+22:57:49 skip gcfi-S3-rc48-1 luks
+22:57:49 START gcfi-S3-rc48-1-tw tcgl (n=2592, colouring PI)
+23:08:59 END gcfi-S3-rc48-1-tw tcgl rc=0 670s
+23:08:59 skip gcfi-S3-rc48-1-tw luks
+23:08:59 START gcfi-S3-rc64-1 tcgl (n=3456, colouring PI)
+23:38:59 END gcfi-S3-rc64-1 tcgl rc=124 1800s
+23:38:59 skip gcfi-S3-rc64-1 luks
+23:38:59 START gcfi-S3-rc64-1-tw tcgl (n=3456, colouring PI)
+00:08:59 END gcfi-S3-rc64-1-tw tcgl rc=124 1800s
+00:08:59 skip gcfi-S3-rc64-1-tw luks
+00:08:59 START gcfi-S3-tutte8 tcgl (n=1620, colouring PI)
+00:19:11 END gcfi-S3-tutte8 tcgl rc=0 612s
+00:19:11 START gcfi-S3-tutte8 luks (n=1620, colouring PI)
+00:21:48 END gcfi-S3-tutte8 luks rc=0 157s
+00:21:48 START gcfi-S3-tutte8-tw tcgl (n=1620, colouring PI)
+00:31:59 END gcfi-S3-tutte8-tw tcgl rc=0 611s
+00:31:59 START gcfi-S3-tutte8-tw luks (n=1620, colouring PI)
+00:34:34 END gcfi-S3-tutte8-tw luks rc=0 155s
+05:38:11 START gcfi-A5-K33 tcgl (n=22680, colouring 1-WL)
+05:38:42 END gcfi-A5-K33 tcgl rc=0 31s
+05:38:42 START gcfi-A5-K33-tw tcgl (n=22680, colouring 1-WL)
+05:39:36 END gcfi-A5-K33-tw tcgl rc=0 54s
+05:39:36 START gcfi-A5-K4 tcgl (n=15120, colouring 1-WL)
+05:39:45 END gcfi-A5-K4 tcgl rc=0 9s
+05:39:45 START gcfi-A5-K4-tw tcgl (n=15120, colouring 1-WL)
+05:40:00 END gcfi-A5-K4-tw tcgl rc=0 15s
+05:40:00 START gcfi-A5-cube tcgl (n=30240, colouring 1-WL)
+05:50:16 END gcfi-A5-cube tcgl rc=0 616s
+05:50:16 START gcfi-A5-cube-tw tcgl (n=30240, colouring 1-WL)
+06:00:24 END gcfi-A5-cube-tw tcgl rc=0 608s
+06:00:24 START gcfi-A5-prism tcgl (n=22680, colouring 1-WL)
+06:00:35 END gcfi-A5-prism tcgl rc=0 11s
+06:00:35 START gcfi-A5-prism-tw tcgl (n=22680, colouring 1-WL)
+06:00:53 END gcfi-A5-prism-tw tcgl rc=0 18s
+06:00:53 START gcfi-F2_3-tutte8 tcgl (n=2640, colouring PI)
+06:04:35 END gcfi-F2_3-tutte8 tcgl rc=0 222s
+06:04:35 START gcfi-F2_3-tutte8-tw tcgl (n=2640, colouring PI)
+06:13:01 END gcfi-F2_3-tutte8-tw tcgl rc=0 506s
+06:13:01 START gcfi-F3_2-mcgee tcgl (n=2592, colouring PI)
+06:13:19 END gcfi-F3_2-mcgee tcgl rc=0 18s
+06:13:19 START gcfi-F3_2-mcgee-tw tcgl (n=2592, colouring PI)
+06:13:37 END gcfi-F3_2-mcgee-tw tcgl rc=0 18s
+06:13:37 START gcfi-F3_2-tutte8 tcgl (n=3240, colouring PI)
+06:21:53 END gcfi-F3_2-tutte8 tcgl rc=0 496s
+06:21:53 START gcfi-F3_2-tutte8-tw tcgl (n=3240, colouring PI)
+06:30:09 END gcfi-F3_2-tutte8-tw tcgl rc=0 496s
+06:30:09 START gcfi-F5_2-heawood tcgl (n=9800, colouring 1-WL)
+06:30:23 END gcfi-F5_2-heawood tcgl rc=0 14s
+06:30:23 START gcfi-F5_2-heawood-tw tcgl (n=9800, colouring 1-WL)
+06:30:39 END gcfi-F5_2-heawood-tw tcgl rc=0 16s
+06:30:39 START gcfi-S3-rc12-1 tcgl (n=648, colouring PI)
+06:30:46 END gcfi-S3-rc12-1 tcgl rc=0 7s
+06:30:46 START gcfi-S3-rc12-1-tw tcgl (n=648, colouring PI)
+06:30:53 END gcfi-S3-rc12-1-tw tcgl rc=0 7s
+06:30:53 START gcfi-S3-rc20-1 tcgl (n=1080, colouring PI)
+06:31:28 END gcfi-S3-rc20-1 tcgl rc=0 35s
+06:31:28 START gcfi-S3-rc20-1-tw tcgl (n=1080, colouring PI)
+06:32:04 END gcfi-S3-rc20-1-tw tcgl rc=0 36s
+06:32:04 START gcfi-S3-rc24-1 tcgl (n=1296, colouring PI)
+06:33:11 END gcfi-S3-rc24-1 tcgl rc=0 67s
+06:33:11 START gcfi-S3-rc24-1-tw tcgl (n=1296, colouring PI)
+06:34:17 END gcfi-S3-rc24-1-tw tcgl rc=0 66s
+06:34:17 START gcfi-S3-rc32-1 tcgl (n=1728, colouring PI)
+06:36:55 END gcfi-S3-rc32-1 tcgl rc=0 158s
+06:36:55 START gcfi-S3-rc32-1-tw tcgl (n=1728, colouring PI)
+06:39:29 END gcfi-S3-rc32-1-tw tcgl rc=0 154s
+06:39:29 START gcfi-S3-rc48-1 tcgl (n=2592, colouring PI)
+06:50:35 END gcfi-S3-rc48-1 tcgl rc=0 666s
+06:50:35 START gcfi-S3-rc48-1-tw tcgl (n=2592, colouring PI)
+07:01:39 END gcfi-S3-rc48-1-tw tcgl rc=0 664s
+07:01:39 START gcfi-S3-rc64-1 tcgl (n=3456, colouring PI)
+07:31:39 END gcfi-S3-rc64-1 tcgl rc=124 1800s
+07:31:39 START gcfi-S3-rc64-1-tw tcgl (n=3456, colouring PI)
+08:01:39 END gcfi-S3-rc64-1-tw tcgl rc=124 1800s
+08:01:39 START gcfi-S3-tutte8 tcgl (n=1620, colouring PI)
+08:13:40 END gcfi-S3-tutte8 tcgl rc=0 721s
+08:13:40 START gcfi-S3-tutte8-tw tcgl (n=1620, colouring PI)
+08:25:30 END gcfi-S3-tutte8-tw tcgl rc=0 710s
+13:47:15 skip gcfi-A5-K33 tcgl
+13:47:15 START gcfi-A5-K33 tcgl0 (n=22680, colouring 1-WL)
+13:47:41 END gcfi-A5-K33 tcgl0 rc=0 26s
+13:47:41 skip gcfi-A5-K33-tw tcgl
+13:47:41 START gcfi-A5-K33-tw tcgl0 (n=22680, colouring 1-WL)
+13:48:32 END gcfi-A5-K33-tw tcgl0 rc=0 51s
+13:48:32 skip gcfi-A5-K4 tcgl
+13:48:32 START gcfi-A5-K4 tcgl0 (n=15120, colouring 1-WL)
+13:48:39 END gcfi-A5-K4 tcgl0 rc=0 7s
+13:48:39 skip gcfi-A5-K4-tw tcgl
+13:48:39 START gcfi-A5-K4-tw tcgl0 (n=15120, colouring 1-WL)
+13:48:51 END gcfi-A5-K4-tw tcgl0 rc=0 12s
+13:48:51 skip gcfi-A5-cube tcgl
+13:48:51 START gcfi-A5-cube tcgl0 (n=30240, colouring 1-WL)
+14:21:42 END gcfi-A5-cube tcgl0 rc=0 1971s
+14:21:42 skip gcfi-A5-cube-tw tcgl
+14:21:42 START gcfi-A5-cube-tw tcgl0 (n=30240, colouring 1-WL)
+14:54:21 END gcfi-A5-cube-tw tcgl0 rc=0 1959s
+14:54:21 skip gcfi-A5-prism tcgl
+14:54:21 START gcfi-A5-prism tcgl0 (n=22680, colouring 1-WL)
+14:54:32 END gcfi-A5-prism tcgl0 rc=0 11s
+14:54:32 skip gcfi-A5-prism-tw tcgl
+14:54:32 START gcfi-A5-prism-tw tcgl0 (n=22680, colouring 1-WL)
+14:54:51 END gcfi-A5-prism-tw tcgl0 rc=0 19s
+14:54:51 skip gcfi-F2_3-tutte8 tcgl
+14:54:51 START gcfi-F2_3-tutte8 tcgl0 (n=2640, colouring PI)
+14:56:44 END gcfi-F2_3-tutte8 tcgl0 rc=0 113s
+14:56:44 skip gcfi-F2_3-tutte8-tw tcgl
+14:56:44 START gcfi-F2_3-tutte8-tw tcgl0 (n=2640, colouring PI)
+15:06:13 END gcfi-F2_3-tutte8-tw tcgl0 rc=0 569s
+15:06:13 skip gcfi-F3_2-mcgee tcgl
+15:06:13 START gcfi-F3_2-mcgee tcgl0 (n=2592, colouring PI)
+15:06:37 END gcfi-F3_2-mcgee tcgl0 rc=0 24s
+15:06:37 skip gcfi-F3_2-mcgee-tw tcgl
+15:06:37 START gcfi-F3_2-mcgee-tw tcgl0 (n=2592, colouring PI)
+15:06:57 END gcfi-F3_2-mcgee-tw tcgl0 rc=0 20s
+15:06:57 skip gcfi-F3_2-tutte8 tcgl
+15:06:57 START gcfi-F3_2-tutte8 tcgl0 (n=3240, colouring PI)
+15:37:40 END gcfi-F3_2-tutte8 tcgl0 rc=0 1843s
+15:37:40 skip gcfi-F3_2-tutte8-tw tcgl
+15:37:40 START gcfi-F3_2-tutte8-tw tcgl0 (n=3240, colouring PI)
+16:08:22 END gcfi-F3_2-tutte8-tw tcgl0 rc=0 1842s
+16:08:22 skip gcfi-F5_2-heawood tcgl
+16:08:22 START gcfi-F5_2-heawood tcgl0 (n=9800, colouring 1-WL)
+16:08:34 END gcfi-F5_2-heawood tcgl0 rc=0 12s
+16:08:34 skip gcfi-F5_2-heawood-tw tcgl
+16:08:34 START gcfi-F5_2-heawood-tw tcgl0 (n=9800, colouring 1-WL)
+16:08:47 END gcfi-F5_2-heawood-tw tcgl0 rc=0 13s
+16:08:47 skip gcfi-S3-rc12-1 tcgl
+16:08:47 START gcfi-S3-rc12-1 tcgl0 (n=648, colouring PI)
+16:38:48 END gcfi-S3-rc12-1 tcgl0 rc=0 1801s
+16:38:48 skip gcfi-S3-rc12-1-tw tcgl
+16:38:48 START gcfi-S3-rc12-1-tw tcgl0 (n=648, colouring PI)
+17:08:50 END gcfi-S3-rc12-1-tw tcgl0 rc=0 1802s
+17:08:50 skip gcfi-S3-rc20-1 tcgl
+17:08:50 START gcfi-S3-rc20-1 tcgl0 (n=1080, colouring PI)
+17:09:17 END gcfi-S3-rc20-1 tcgl0 rc=0 27s
+17:09:17 skip gcfi-S3-rc20-1-tw tcgl
+17:09:17 START gcfi-S3-rc20-1-tw tcgl0 (n=1080, colouring PI)
+17:09:48 END gcfi-S3-rc20-1-tw tcgl0 rc=0 31s
+17:09:48 skip gcfi-S3-rc24-1 tcgl
+17:09:48 START gcfi-S3-rc24-1 tcgl0 (n=1296, colouring PI)
+17:10:36 END gcfi-S3-rc24-1 tcgl0 rc=0 48s
+17:10:36 skip gcfi-S3-rc24-1-tw tcgl
+17:10:36 START gcfi-S3-rc24-1-tw tcgl0 (n=1296, colouring PI)
+17:11:28 END gcfi-S3-rc24-1-tw tcgl0 rc=0 52s
+17:11:28 skip gcfi-S3-rc32-1 tcgl
+17:11:28 START gcfi-S3-rc32-1 tcgl0 (n=1728, colouring PI)
+17:14:04 END gcfi-S3-rc32-1 tcgl0 rc=0 156s
+17:14:04 skip gcfi-S3-rc32-1-tw tcgl
+17:14:04 START gcfi-S3-rc32-1-tw tcgl0 (n=1728, colouring PI)
+17:16:43 END gcfi-S3-rc32-1-tw tcgl0 rc=0 159s
+17:16:43 skip gcfi-S3-rc48-1 tcgl
+17:16:43 START gcfi-S3-rc48-1 tcgl0 (n=2592, colouring PI)
+17:27:47 END gcfi-S3-rc48-1 tcgl0 rc=0 664s
+17:27:47 skip gcfi-S3-rc48-1-tw tcgl
+17:27:47 START gcfi-S3-rc48-1-tw tcgl0 (n=2592, colouring PI)
+17:38:56 END gcfi-S3-rc48-1-tw tcgl0 rc=0 669s
+17:38:56 START gcfi-S3-rc64-1 tcgl (n=3456, colouring PI)
+18:09:50 END gcfi-S3-rc64-1 tcgl rc=0 1854s
+18:09:50 START gcfi-S3-rc64-1 tcgl0 (n=3456, colouring PI)
+18:40:46 END gcfi-S3-rc64-1 tcgl0 rc=0 1856s
+18:40:46 START gcfi-S3-rc64-1-tw tcgl (n=3456, colouring PI)
+19:11:36 END gcfi-S3-rc64-1-tw tcgl rc=0 1850s
+19:11:36 START gcfi-S3-rc64-1-tw tcgl0 (n=3456, colouring PI)
