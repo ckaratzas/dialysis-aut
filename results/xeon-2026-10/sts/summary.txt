@@ -1,4 +1,5 @@
 family: sts
+colour: wl1
 instances: 25
 solved: 25
 by_series: 24
@@ -11,7 +12,7 @@ traces_fail_we_solve: 0
 largest_n: 1027
 largest_aut: 31104.0
 ours_max_s: 37.32
-ours_total_s: 194.084
+ours_total_s: 194.08400000000003
 traces_total_s: 1.419
 median_ratio: 0.02473886750962067
 max_ratio: 1.8235294117647058

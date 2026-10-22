@@ -1,4 +1,5 @@
 family: paley
+colour: wl1
 instances: 53
 solved: 53
 by_series: 26
@@ -11,8 +12,8 @@ traces_fail_we_solve: 0
 largest_n: 461
 largest_aut: 129960.0
 ours_max_s: 11.616
-ours_total_s: 196.358
-traces_total_s: 1.825
+ours_total_s: 196.3580000000001
+traces_total_s: 1.8250000000000002
 median_ratio: 0.009787472035794184
 max_ratio: 1.380952380952381
 pi_traces_run: 0

@@ -1,4 +1,5 @@
 family: latin-sw
+colour: wl1
 instances: 231
 solved: 231
 by_series: 231
@@ -11,7 +12,7 @@ traces_fail_we_solve: 0
 largest_n: 900
 largest_aut: 1.0
 ours_max_s: 24.434
-ours_total_s: 1308.478
+ours_total_s: 1308.4779999999998
 traces_total_s: 16.916
 median_ratio: 0.020480854853072127
 max_ratio: 0.6071428571428572

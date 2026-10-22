@@ -10,11 +10,14 @@ def num(x):
     try: return float(x)
     except: return None
 def ours(fam):
-    d = os.path.join(R2, fam); o = {}
+    # End to end (2026-10-22, paper-4 audit): an instance solved by the chain is charged the time of the stage-1 series run
+    # that stopped before it, plus the chain's own time. (Before, only the chain's time was counted.)
+    d = os.path.join(R2, fam); o = {}; stage1 = {}
     p = os.path.join(d, 'series.csv')
     if os.path.exists(p):
         for r in csv.DictReader(open(p)):
             if r['status'] == 'EXACT': o[r['instance']] = (num(r['seconds']), int(r['n_orig'] or 0))
+            else: stage1[r['instance']] = num(r['seconds']) or 0.0
     cd = os.path.join(d, 'chain')
     if os.path.isdir(cd):
         for f in sorted(os.listdir(cd)):
@@ -24,7 +27,7 @@ def ours(fam):
                 m = re.match(r'== (\S+) n=(\d+)', line)
                 if m: n = int(m.group(2))
                 m = re.search(r'\|Aut\| = (\S+)( \(incomplete\))?\s+ours ([\d.]+)s', line)
-                if m and not m.group(2) and name not in o: o[name] = (num(m.group(3)), n or 0)
+                if m and not m.group(2) and name not in o: o[name] = (num(m.group(3)) + stage1.get(name, 0.0), n or 0)
     return o
 def traces(fam):
     t = {}

@@ -1,4 +1,5 @@
 family: quartic-hat
+colour: wl1
 instances: 3246
 solved: 3246
 by_series: 3246
@@ -11,8 +12,8 @@ traces_fail_we_solve: 0
 largest_n: 1000
 largest_aut: 7168.0
 ours_max_s: 27.307
-ours_total_s: 3280.269
-traces_total_s: 95.702
+ours_total_s: 3280.2689999999993
+traces_total_s: 95.70200000000172
 median_ratio: 0.03154790495601338
 max_ratio: 2.2142857142857144
 pi_traces_run: 0

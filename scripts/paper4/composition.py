@@ -102,10 +102,12 @@ if __name__ == '__main__':
     print(f"{'v':>8} {'Q_soj':>6} {'Q_agg':>6} {'S_soj':>6} {'S_agg':>6} {'giant':>6} {'chain':>6} {'TOTAL':>6} {'/L_Om^3':>8}")
     for e in (6, 12, 30, 60, 200):
         v = 10 ** e; L = math.log2(v); U = 2 * L
-        q1 = sum(kx(x, U) + f(2.0 ** x) for x in spaced(L, 1.0))
+        # 2026-10-22 (paper-4 audit): the tower potential on pairs is log2|Omega| ~ 2 L_v while x <= L_v, so two quotient
+        # chains of full degree can occur (Sym(C1) x Sym(C2) on C1 x C2): Q_soj is charged twice (split-tree bound + convexity)
+        q1 = 2 * sum(kx(x, U) + f(2.0 ** x) for x in spaced(L, 1.0))
         q2 = sum(kx(x, U) for x in spaced(L, math.log2(5 / 4)))
         s1 = sum(kx(min(L, u), u) + f(2.0 ** min(L, u)) + min(L, u) for u in spaced(U, math.log2(3 / 2)))
         s2 = sum(kx(min(L, u), u) for u in spaced(U, math.log2(5 / 4)))
-        comb = shrink_c(v); g = q1 + q2 + s1 + s2
+        comb = shrink_c(v); g = q1 + s1 + s2          # Q_agg (q2) printed but not charged (Table master)
         print(f"{'1e' + str(e):>8} " + " ".join(f"{t / L**3:6.2f}" for t in (q1, q2, s1, s2, g, comb, g + comb))
               + f" {(g + comb) / U**3:8.2f}")

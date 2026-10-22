@@ -1,4 +1,5 @@
 family: cfi-rigid-t2
+colour: wl1
 instances: 524
 solved: 524
 by_series: 524
@@ -11,7 +12,7 @@ traces_fail_we_solve: 0
 largest_n: 3648
 largest_aut: 8.0
 ours_max_s: 2.732
-ours_total_s: 374.403
+ours_total_s: 374.4030000000001
 traces_total_s: 0
 median_ratio: 0
 max_ratio: 0

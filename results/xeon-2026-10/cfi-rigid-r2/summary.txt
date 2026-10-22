@@ -1,4 +1,5 @@
 family: cfi-rigid-r2
+colour: wl1
 instances: 398
 solved: 398
 by_series: 398

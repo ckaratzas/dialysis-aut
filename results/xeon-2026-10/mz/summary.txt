@@ -1,4 +1,5 @@
 family: mz
+colour: pi
 instances: 25
 solved: 25
 by_series: 25
@@ -12,7 +13,7 @@ largest_n: 1000
 largest_aut: 1.0141204801825835e+31
 ours_max_s: 13.578
 ours_total_s: 107.709
-traces_total_s: 0.746
+traces_total_s: 0.7460000000000004
 median_ratio: 0.011567164179104477
 max_ratio: 0.14354066985645933
 pi_traces_run: 0

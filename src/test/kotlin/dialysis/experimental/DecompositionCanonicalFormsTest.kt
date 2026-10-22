@@ -4473,7 +4473,7 @@ class DecompositionCanonicalFormsTest {
         val (a, why) = try { luksAutOf(g, col, deadline, rec = depth + 1, log = log) } catch (e: Throwable) { null to "${e.javaClass.simpleName}" }
         if (a != null) return a
         log("  ${"  ".repeat(depth)}(D) on n=${g.n} failed: ${why.take(120)}")
-        return try { luksStarAutOf(g, col, deadline, log).first } catch (e: Throwable) { null }
+        return try { luksStarAutOf(g, col, deadline, rec = depth + 1, log = log).first } catch (e: Throwable) { null }
     }
 
     /** Isomorphism of two coloured pieces (union [uni], a = 0..s-1, b = s..2s-1, no edges between them): the capped IR search
@@ -4571,6 +4571,11 @@ class DecompositionCanonicalFormsTest {
             val byPair = HashMap<Long, MutableList<IntArray>>()
             for (e in cut) { val a = pieceOf[e[0]]; val b = pieceOf[e[1]]; val (u, w) = if (a <= b) e[0] to e[1] else e[1] to e[0]
                 byPair.getOrPut(minOf(a, b).toLong() * k + maxOf(a, b)) { mutableListOf() }.add(intArrayOf(loc[u], loc[w])) }
+            // soundness (2026-10-22, paper-4 audit): keys go into a local map and are published only when EVERY pair got one
+            // (an abort half-way used to leave some pairs keyed and others not, separating equivalent pairs), and for
+            // pieces of different types the key is read in the order (smaller type, larger type), not by piece number
+            // (an automorphism can reverse the piece order of two pairs; the numbering-dependent key then split them).
+            val keys = HashMap<Long, String>()
             for ((kk, ms) in byPair) {
                 val a = (kk / k).toInt(); val b = (kk % k).toInt(); val ra = restricted[typeOf[a]] ?: return@run; val rb = restricted[typeOf[b]] ?: return@run
                 if (ra.size.toLong() * rb.size > maxPairs) return@run
@@ -4579,10 +4584,15 @@ class DecompositionCanonicalFormsTest {
                     for (x in r1) for (y in r2) { val sKey = m.map { (x[it[0]].toLong() shl 20) or y[it[1]].toLong() }.sorted().joinToString(","); if (best == null || sKey < best) best = sKey }
                     return best!!
                 }
-                val c1 = canon(ms, ra, rb)
-                val key = if (typeOf[a] == typeOf[b]) minOf(c1, canon(ms.map { intArrayOf(it[1], it[0]) }, rb, ra)) else c1
-                glueKey[kk] = key
+                val swapped = ms.map { intArrayOf(it[1], it[0]) }
+                val key = when {
+                    typeOf[a] == typeOf[b] -> minOf(canon(ms, ra, rb), canon(swapped, rb, ra))
+                    typeOf[a] < typeOf[b] -> canon(ms, ra, rb)
+                    else -> canon(swapped, rb, ra)
+                }
+                keys[kk] = key
             }
+            glueKey.putAll(keys)
             log("  glue types: ${glueKey.values.toSet().size} distinct over ${glueKey.size} adjacent piece pairs")
         }
         val glueId = glueKey.values.toSortedSet().withIndex().associate { (i, v) -> v to i.toLong() }
@@ -4676,7 +4686,8 @@ class DecompositionCanonicalFormsTest {
      * [luksAutOf]. Precondition of the bound (majority dichotomy): no class larger than n/2 (else the star of that class
      * is G-sized and the chain should take a (M) step instead); returns (null, reason) then.
      */
-    internal fun luksStarAutOf(g: Graph, seed: LongArray, deadline: Long, log: (String) -> Unit = {}): Pair<PermGroup?, String> {
+    internal fun luksStarAutOf(g: Graph, seed: LongArray, deadline: Long,
+                               rec: Int = if (System.getenv("LUKS_RECURSE") == "1") 0 else -1, log: (String) -> Unit = {}): Pair<PermGroup?, String> {
         val t0 = System.currentTimeMillis()
         fun el() = "${(System.currentTimeMillis() - t0) / 1000.0}s"
         val col = hashWlRounds(g, seed, hashWlStableRound(g, seed, g.n + 2))
@@ -4710,7 +4721,9 @@ class DecompositionCanonicalFormsTest {
             // G-sized stars (e.g. the END class of a CFI-type graph: G[C] holds the wires, the traces are the gadgets) are
             // as hard as G for the series solver: try our (D) route (invariant cut -> pieces -> Luks) on the star instead
             if (sAut == null) {
-                val (d, whyD) = try { luksAutOf(star, scol, deadline) } catch (e: Throwable) { null to "luks: ${e.javaClass.simpleName}" }
+                // the recursion depth is passed on (2026-10-22, paper-4 audit): before, the star route restarted it at 0,
+                // so LUKS_RECURSE_DEPTH did not bound a recursion that went through stars
+                val (d, whyD) = try { luksAutOf(star, scol, deadline, rec = rec) } catch (e: Throwable) { null to "luks: ${e.javaClass.simpleName}" }
                 if (d != null) { sAut = d; log("  class $ci: star solved by the (D) route ($whyD)") } else why = "$why; (D) route: $whyD"
             }
             if (sAut == null) return null to "star of class ${ci} (|C| = ${c.size}, ${traces.size} traces) not solved ($why)"
@@ -4754,7 +4767,10 @@ class DecompositionCanonicalFormsTest {
             for ((t, r) in reps.withIndex()) {
                 if (keyOf[r] != keyOf[i]) continue
                 val (uni0, _) = g.induced(comps[r] + comps[i]); val sr = comps[r].size
-                val m = try { pieceIso(uni0, sr, LongArray(uni0.n) { rc[(comps[r] + comps[i])[it]] }) } catch (e: StopReason) { null }
+                // soundness (2026-10-22, paper-4 audit): an UNDECIDED isomorphism must not type the components apart (the
+                // swaps between them would be lost and |Aut| would come out too small); fail instead, as luksAutOf does.
+                val m = try { pieceIso(uni0, sr, LongArray(uni0.n) { rc[(comps[r] + comps[i])[it]] }) }
+                        catch (e: StopReason) { return null to "component isomorphism undecided (IR node cap)" }
                 if (m != null) { typeOf[i] = t; phi[i] = IntArray(m.size) { comps[i][m[it]] }; break }
             }
             if (typeOf[i] < 0) { typeOf[i] = reps.size; reps.add(i); phi[i] = comps[i] }
@@ -4809,7 +4825,7 @@ class DecompositionCanonicalFormsTest {
                 var (aut, detail) = try { luksAutOf(g, seed, deadline, log = logf) } catch (e: Throwable) { System.gc(); null to "D: ${e.javaClass.simpleName} ${e.message ?: ""}" }
                 if (aut == null && detail.startsWith("no edge class")) {
                     route = "star"
-                    val r2 = try { luksStarAutOf(g, seed, deadline, logf) } catch (e: Throwable) { System.gc(); null to "star: ${e.javaClass.simpleName} ${e.message ?: ""}" }
+                    val r2 = try { luksStarAutOf(g, seed, deadline, log = logf) } catch (e: Throwable) { System.gc(); null to "star: ${e.javaClass.simpleName} ${e.message ?: ""}" }
                     aut = r2.first; detail = r2.second
                 }
                 val secs = (System.currentTimeMillis() - t0) / 1000.0
@@ -4856,7 +4872,9 @@ class DecompositionCanonicalFormsTest {
             val (aut, detail) = try { luksAutOf(g, LongArray(g.n) { 0x1234567L }, deadline) { println("LUKSAUT $name ${if (memLog) "[heap ${memMb()}M] " else ""}$it") } }
                 catch (e: Exception) { null to "exception: ${e.javaClass.simpleName} ${e.message}" }
             val tr = if (System.getenv("LUKS_TRACES") == "1") " | Traces ${"%.6g".format(traces.stats(g, listOf(IntArray(g.n) { it })).autOrder)}" else ""
-            println("LUKSAUT $name ${if (aut == null) "FAILED: $detail" else "|Aut(G)| = ${aut.order} | $detail"}$tr")
+            // every generator checked edge by edge before the order is reported (2026-10-22, paper-4 audit)
+            val bad = aut?.generators?.count { p -> !(0 until g.n).all { u -> g.adj[u].all { x -> g.adj[p[u]].contains(p[x]) } } } ?: 0
+            println("LUKSAUT $name ${if (aut == null) "FAILED: $detail" else if (bad > 0) "FAILED: $bad generators are not automorphisms" else "|Aut(G)| = ${aut.order} (generators verified) | $detail"}$tr")
         }
     }
 

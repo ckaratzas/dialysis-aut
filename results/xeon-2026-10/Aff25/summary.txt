@@ -1,4 +1,5 @@
 family: Aff25
+colour: wl1
 instances: 1
 solved: 1
 by_series: 0

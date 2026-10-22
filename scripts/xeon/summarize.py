@@ -18,7 +18,9 @@ def num(x):
 
 
 def same(a, b):
-    return a is not None and b is not None and abs(a - b) <= 1e-9 * max(1.0, abs(b))
+    # 2026-10-12: chain logs print |Aut| with 6 significant digits ("1.69217e+12"), so a 1e-9 tolerance flagged 712
+    # instances in 13 families as "disagree" that agree to the printed precision (max relative diff 4.2e-6); compare at 1e-5.
+    return a is not None and b is not None and abs(a - b) <= 1e-5 * max(1.0, abs(b))
 
 
 def family_row(fam):

@@ -1,4 +1,5 @@
 family: cfi
+colour: pi
 instances: 91
 solved: 91
 by_series: 91
@@ -12,7 +13,7 @@ largest_n: 2000
 largest_aut: 2.535301200456459e+30
 ours_max_s: 15.21
 ours_total_s: 514.197
-traces_total_s: 3.1390000000000002
+traces_total_s: 3.138999999999998
 median_ratio: 0.009305654974946313
 max_ratio: 0.06666666666666667
 pi_traces_run: 0

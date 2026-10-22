@@ -1,4 +1,5 @@
 family: mz-aug2
+colour: wl1
 instances: 24
 solved: 24
 by_series: 24
@@ -12,7 +13,7 @@ largest_n: 1200
 largest_aut: 5.070602400912918e+30
 ours_max_s: 0.517
 ours_total_s: 5.33
-traces_total_s: 0.873
+traces_total_s: 0.8730000000000002
 median_ratio: 0.20451977401129942
 max_ratio: 0.7551020408163265
 pi_traces_run: 0

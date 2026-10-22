@@ -1,4 +1,5 @@
 family: had-sw
+colour: wl1
 instances: 51
 solved: 51
 by_series: 51
@@ -12,7 +13,7 @@ largest_n: 448
 largest_aut: 7680.0
 ours_max_s: 3027.237
 ours_total_s: 7318.168
-traces_total_s: 4.509
+traces_total_s: 4.5089999999999995
 median_ratio: 0.00204194495256732
 max_ratio: 0.006588498045784478
 pi_traces_run: 0

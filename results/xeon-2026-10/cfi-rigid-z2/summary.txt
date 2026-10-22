@@ -1,4 +1,5 @@
 family: cfi-rigid-z2
+colour: pi
 instances: 376
 solved: 376
 by_series: 376
@@ -11,7 +12,7 @@ traces_fail_we_solve: 0
 largest_n: 4136
 largest_aut: 16.0
 ours_max_s: 14.619
-ours_total_s: 1632.676
+ours_total_s: 1632.6760000000004
 traces_total_s: 0
 median_ratio: 0
 max_ratio: 0
