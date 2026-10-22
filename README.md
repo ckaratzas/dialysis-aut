@@ -426,7 +426,7 @@ If you use this code or the results, please cite the preprint:
   title     = {Refinement-Derived Algebraic Computation of Graph Automorphism Groups},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23146211},
+  doi       = {10.5281/zenodo.23552976},
   url       = {https://doi.org/10.5281/zenodo.23146211},
   note      = {Preprint}
 }
