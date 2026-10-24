@@ -3100,6 +3100,14 @@ class DecompositionCanonicalFormsTest {
                 catch (e: Throwable) { System.gc(); null to "star failed: ${e.javaClass.simpleName} ${e.message ?: ""}".trim() }
             if (sa != null) { aut = sa; detail = sd } else detail = "$detail | $sd"
         }
+        // SERIES_MUZ=1 (2026-10-24, paper 4 Theorem M): the affine-fibre route for Muzychuk-CFI graphs, detected from the
+        // graph alone; "not applicable" on any other graph. It returns Aut(G); every invariant baseline colouring is
+        // preserved by Aut(G), and the check below verifies it anyway.
+        if (aut == null && System.getenv("SERIES_MUZ") == "1") {
+            val (ma, md) = try { MuzychukRoute.autOf(g, deadline) { say("   muzychuk: $it") } }
+                catch (e: Throwable) { System.gc(); null to "muzychuk failed: ${e.javaClass.simpleName} ${e.message ?: ""}".trim() }
+            if (ma != null) { aut = ma; detail = md } else detail = "$detail | $md"
+        }
         val secs = (System.currentTimeMillis() - tl) / 1000.0
         if (aut == null) { r.stopDetail = "$detail (${secs}s) | ${r.stopDetail}"; r.seconds += secs; return r }
         // the generators preserve G's edges and the baseline: verify before reporting EXACT
